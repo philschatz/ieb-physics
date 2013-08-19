@@ -1,0 +1,2214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">Physics (col11406@1.7)</dc:title>
+    <meta refines="#title" property="title-type">main</meta>
+    <dc:creator id="creator">Connexions</dc:creator>
+    <meta refines="#creator" property="file-as">Connexions</meta>
+    <dc:identifier id="pub-id">org.cnx.col11406@1.7</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2013-06-23T12:47:00Z</meta>
+    <dc:publisher>Connexions</dc:publisher>
+    <dc:rights>This work is shared with the public using the Attribution 3.0 Unported (CC BY 3.0) license.</dc:rights>
+    <link rel="cc:license" href="http://creativecommons.org/licenses/by/3.0/"/>
+    <meta property="cc:attributionURL">http://cnx.org/content</meta>
+  </metadata>
+  <manifest>
+    <item id="toc" properties="nav" href="xhtml/physics-cnx/col11406@1.7-toc.xhtml" media-type="application/xhtml+xml"/>
+    <item media-type="application/xhtml+xml" id="m42033" href="xhtml/physics-cnx/m42033.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_01_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_01_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_01_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_01Sol_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42042" href="xhtml/physics-cnx/m42042.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_04_06a.jpg"/>
+      <item media-type="image/png" href="resources/projectile-motion_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42045" href="xhtml/physics-cnx/m42045.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_03_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_06a.jpg"/>
+      <item media-type="image/png" href="resources/motion-2d_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_05_07.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_05_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42069" href="xhtml/physics-cnx/m42069.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="04_01_01.jpg" href="resources/04_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_01_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42073" href="xhtml/physics-cnx/m42073.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="04_03_01.jpg" href="resources/04_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="04_03_02.jpg" href="resources/04_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="04_03_03.jpg" href="resources/04_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_03_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_03_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_03_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_03_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_03_07.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42074" href="xhtml/physics-cnx/m42074.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_04_02.jpg"/>
+      <item media-type="image/png" href="resources/gravity-force-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42075" href="xhtml/physics-cnx/m42075.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_04_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_08.jpg"/>
+      <item media-type="image/png" href="resources/Figure_04_05_09.jpg"/>
+      <item media-type="image/png" href="resources/forces-1d_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_10.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_05_14.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42076" href="xhtml/physics-cnx/m42076.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="04_06_01.jpg" href="resources/04_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_09.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_06_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42080" href="xhtml/physics-cnx/m42080.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_06_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_06_02_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_06_02_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_06_02_06a.jpg"/>
+      <item media-type="image/png" href="resources/mass-spring-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42081" href="xhtml/physics-cnx/m42081.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_06_03_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_06_03_05_xa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_03_10a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42083" href="xhtml/physics-cnx/m42083.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_01_01aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_07_01_01ab.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_01_04a.jpg"/>
+      <item media-type="image/png" href="resources/rotation_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42084" href="xhtml/physics-cnx/m42084.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/ladybug-motion-2d_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_02_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42086" href="xhtml/physics-cnx/m42086.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_03a.jpg"/>
+      <item media-type="image/png" href="resources/gravity-and-orbits_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_03_10a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42091" href="xhtml/physics-cnx/m42091.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_01_02_01b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_02_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42092" href="xhtml/physics-cnx/m42092.xhtml"/>
+      <item media-type="image/wmf" href="resources/Figure_01_01_01_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_02_aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_01_01_03_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_04_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_05_aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_01_01_06_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_07_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_08_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_09_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_10_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_11_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_12_aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_01_13_aa.jpg"/>
+      <item media-type="image/png" href="resources/equation-grapher_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42096" href="xhtml/physics-cnx/m42096.xhtml"/>
+      <item media-type="image/png" href="resources/Picture"/>
+      <item media-type="6.png" href="resources/6.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_02_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42099" href="xhtml/physics-cnx/m42099.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_05_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_05_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_05_00b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_05_00c.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_02b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_02c.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/unnumbered_art_p44.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42100" href="xhtml/physics-cnx/m42100.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_04_00b.jpg"/>
+      <item media-type="image/jpeg" href="resources/graphics4.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_03c.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_03d.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_03_04b.jpg"/>
+      <item media-type="image/png" href="resources/moving-man_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42102" href="xhtml/physics-cnx/m42102.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_00b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_06_00b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_06_02b.jpg"/>
+      <item media-type="image/png" href="resources/equation-grapher_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42103" href="xhtml/physics-cnx/m42103.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_02_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/graphics4.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_07_04b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_08Sol_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_08Sol_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_08Sol_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_08Sol_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_08Sol_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_11.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_12.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_13.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_14.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_15.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_16.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_17.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_18.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_20.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_08Sol_21.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42104" href="xhtml/physics-cnx/m42104.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_01_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_01_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_01_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_01_04a.jpg"/>
+      <item media-type="image/png" href="resources/ladybug-motion-2d_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42119" href="xhtml/physics-cnx/m42119.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_00_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42120" href="xhtml/physics-cnx/m42120.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_03_04.jpg"/>
+      <item media-type="image/png" href="resources/estimation_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42121" href="xhtml/physics-cnx/m42121.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_01_04_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42122" href="xhtml/physics-cnx/m42122.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_00_01_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42124" href="xhtml/physics-cnx/m42124.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_02_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_02_00b.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42125" href="xhtml/physics-cnx/m42125.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_02_06_00.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42126" href="xhtml/physics-cnx/m42126.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_00_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42127" href="xhtml/physics-cnx/m42127.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_03_02_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_09.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_10.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_11a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_12.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_13a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_14.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_15a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_16a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_02_17a.jpg"/>
+      <item media-type="image/png" href="resources/maze-game_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_18a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_19a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_20a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_21a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_22a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_23a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42128" href="xhtml/physics-cnx/m42128.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_03_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_03_03_10a.jpg"/>
+      <item media-type="image/png" href="resources/vector-addition_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_20a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_19a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_02_21a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_03_11a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_03_12a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_03_03_13a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42129" href="xhtml/physics-cnx/m42129.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_04_00_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_00_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42130" href="xhtml/physics-cnx/m42130.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42132" href="xhtml/physics-cnx/m42132.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_07_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_07_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_07_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_07_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_07_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_07_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42137" href="xhtml/physics-cnx/m42137.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_08_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_08_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_08_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_04_08_04.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42138" href="xhtml/physics-cnx/m42138.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_06_00_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42139" href="xhtml/physics-cnx/m42139.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_01_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_06_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_01_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_01_05a.jpg"/>
+      <item media-type="image/png" href="resources/forces-and-motion_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="04_01_01a.jpg" href="resources/04_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_01_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_06_01_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42140" href="xhtml/physics-cnx/m42140.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_00_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42142" href="xhtml/physics-cnx/m42142.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_04_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42143" href="xhtml/physics-cnx/m42143.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_07aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_07ab.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_05_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42144" href="xhtml/physics-cnx/m42144.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_07_06_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42145" href="xhtml/physics-cnx/m42145.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42146" href="xhtml/physics-cnx/m42146.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_01_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42147" href="xhtml/physics-cnx/m42147.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_02_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42148" href="xhtml/physics-cnx/m42148.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_03_06a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_08_03_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42149" href="xhtml/physics-cnx/m42149.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_04_03a.jpg"/>
+      <item media-type="image/png" href="resources/energy-skate-park_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42150" href="xhtml/physics-cnx/m42150.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_01ab1.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_06a.jpg"/>
+      <item media-type="image/png" href="resources/the-ramp_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_05_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42151" href="xhtml/physics-cnx/m42151.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_06_01a.jpg"/>
+      <item media-type="image/png" href="resources/mass-spring-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_06_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42152" href="xhtml/physics-cnx/m42152.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_08_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/graphics4.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42153" href="xhtml/physics-cnx/m42153.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_08_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_08_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_08_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_08_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_08_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_08_06a.jpg"/>
+      <item media-type="image/png" href="resources/graphics7.png"/>
+    <item media-type="application/xhtml+xml" id="m42154" href="xhtml/physics-cnx/m42154.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_08_09_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_09_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_09_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_08_09_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_08_09_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42155" href="xhtml/physics-cnx/m42155.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_09_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42156" href="xhtml/physics-cnx/m42156.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42159" href="xhtml/physics-cnx/m42159.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_02_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42162" href="xhtml/physics-cnx/m42162.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_03_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42163" href="xhtml/physics-cnx/m42163.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_04_01a.jpg"/>
+      <item media-type="image/png" href="resources/collision-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42164" href="xhtml/physics-cnx/m42164.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_05_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42165" href="xhtml/physics-cnx/m42165.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_06_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42166" href="xhtml/physics-cnx/m42166.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_09_07_02a.jpg"/>
+      <item media-type="image/png" href="resources/lunar-lander_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42167" href="xhtml/physics-cnx/m42167.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_00_01_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42170" href="xhtml/physics-cnx/m42170.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_01_04a.jpg"/>
+      <item media-type="image/png" href="resources/torque_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42171" href="xhtml/physics-cnx/m42171.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_02_02abc.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_02_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42172" href="xhtml/physics-cnx/m42172.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_02aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_02bb.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_02cc.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_03aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_03bb.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_10a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_03_11a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_10_03_12a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42173" href="xhtml/physics-cnx/m42173.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_04_01b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_04_01c.jpg"/>
+      <item media-type="image/png" href="resources/balancing-act_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42174" href="xhtml/physics-cnx/m42174.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_05_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42175" href="xhtml/physics-cnx/m42175.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_10a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_11a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_12a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_10_06_13a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42176" href="xhtml/physics-cnx/m42176.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_11_00_01a_D.jpg"/>
+      <item media-type="image/png" href="resources/Figure_11_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42177" href="xhtml/physics-cnx/m42177.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_01_04a.jpg"/>
+      <item media-type="image/png" href="resources/rotation_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42178" href="xhtml/physics-cnx/m42178.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_11_02_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42179" href="xhtml/physics-cnx/m42179.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_03_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_03_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42180" href="xhtml/physics-cnx/m42180.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_11_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_04_06a.jpg"/>
+      <item media-type="image/png" href="resources/my-solar-system_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/png" href="resources/Figure_11_04_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42182" href="xhtml/physics-cnx/m42182.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_05_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_11_05_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_05_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42183" href="xhtml/physics-cnx/m42183.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_11_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_06_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_06_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42184" href="xhtml/physics-cnx/m42184.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_11_07_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_11_07_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42185" href="xhtml/physics-cnx/m42185.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42186" href="xhtml/physics-cnx/m42186.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_01_01a.jpg"/>
+      <item media-type="image/png" href="resources/states-of-matter-basics_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42187" href="xhtml/physics-cnx/m42187.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_02_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_12_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_02_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42189" href="xhtml/physics-cnx/m42189.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_03_03a.jpg"/>
+      <item media-type="image/png" href="resources/gas-properties_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42192" href="xhtml/physics-cnx/m42192.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_04_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42193" href="xhtml/physics-cnx/m42193.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_05_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42195" href="xhtml/physics-cnx/m42195.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_06_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42196" href="xhtml/physics-cnx/m42196.xhtml"/>
+      <item media-type="image/png" href="resources/FIgure_12_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_07_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_07_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_07_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_07_07a.jpg"/>
+      <item media-type="image/png" href="resources/buoyancy_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42197" href="xhtml/physics-cnx/m42197.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_12_08_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_12_08_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_06a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_12_08_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_10a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_11a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42199" href="xhtml/physics-cnx/m42199.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_09_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_12_09_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_09_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_09_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_08_11a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_12_09_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42204" href="xhtml/physics-cnx/m42204.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42205" href="xhtml/physics-cnx/m42205.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_01_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_13_01_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42206" href="xhtml/physics-cnx/m42206.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_02_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_13_02_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42208" href="xhtml/physics-cnx/m42208.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_13_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_03_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42209" href="xhtml/physics-cnx/m42209.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_13_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_04_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42210" href="xhtml/physics-cnx/m42210.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_05_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42211" href="xhtml/physics-cnx/m42211.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_06_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42212" href="xhtml/physics-cnx/m42212.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_13_07_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42213" href="xhtml/physics-cnx/m42213.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_00_01_D.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_00_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42214" href="xhtml/physics-cnx/m42214.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_01_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_01_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_01_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Picture"/>
+      <item media-type="3.jpg" href="resources/3.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_01_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_01_04.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42215" href="xhtml/physics-cnx/m42215.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_02_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_02_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_02_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42216" href="xhtml/physics-cnx/m42216.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_03_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_03_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42217" href="xhtml/physics-cnx/m42217.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_04_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_04_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_04_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_04_06.jpg"/>
+      <item media-type="image/png" href="resources/gas-properties_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42218" href="xhtml/physics-cnx/m42218.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_05_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_05_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_05_06.jpg"/>
+      <item media-type="image/png" href="resources/states-of-matter-basics_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_05_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42219" href="xhtml/physics-cnx/m42219.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_06_00.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_14_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/graphics4.jpg"/>
+      <item media-type="image/png" href="resources/states-of-matter-basics_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42221" href="xhtml/physics-cnx/m42221.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_00_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42223" href="xhtml/physics-cnx/m42223.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_01_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42224" href="xhtml/physics-cnx/m42224.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_02_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42225" href="xhtml/physics-cnx/m42225.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_03_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_03_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_03_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_03_06aa.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42226" href="xhtml/physics-cnx/m42226.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_04_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42228" href="xhtml/physics-cnx/m42228.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_05_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_05_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_05_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42229" href="xhtml/physics-cnx/m42229.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_06_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42230" href="xhtml/physics-cnx/m42230.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_07_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_07_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_07_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_07_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_15_07_08a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_15_07_09a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42231" href="xhtml/physics-cnx/m42231.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42232" href="xhtml/physics-cnx/m42232.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_01_01b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_01_02b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_01_03b.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_01_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42233" href="xhtml/physics-cnx/m42233.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_16_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_06abc.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_08a.jpg"/>
+      <item media-type="image/png" href="resources/states-of-matter_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_10a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_02_11a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42234" href="xhtml/physics-cnx/m42234.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_03_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_03_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_03_06.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42235" href="xhtml/physics-cnx/m42235.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_04_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_16_04_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure_16_04_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42236" href="xhtml/physics-cnx/m42236.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_05_00.jpg"/>
+      <item media-type="image/png" href="resources/Figure_16_05_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_16_05_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_05_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure_16_05_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42237" href="xhtml/physics-cnx/m42237.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_06_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_06_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_06_07.jpg"/>
+      <item media-type="image/png" href="resources/reversible-reactions_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42238" href="xhtml/physics-cnx/m42238.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_16_07_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_16_07_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42239" href="xhtml/physics-cnx/m42239.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_00_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42240" href="xhtml/physics-cnx/m42240.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_01_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_17_01_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_01_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_01_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42241" href="xhtml/physics-cnx/m42241.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_02_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42242" href="xhtml/physics-cnx/m42242.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/mass-spring-lab_en.jar"/>
+      <item media-type="image/jpeg" href="resources/PhET_Icon.png"/>
+      <item media-type="image/png" href="resources/Figure_17_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_17_02_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42243" href="xhtml/physics-cnx/m42243.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_04_01a.jpg"/>
+      <item media-type="image/png" href="resources/pendulum-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42244" href="xhtml/physics-cnx/m42244.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_05_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42245" href="xhtml/physics-cnx/m42245.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_17_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_06_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42246" href="xhtml/physics-cnx/m42246.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_17_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_07_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42247" href="xhtml/physics-cnx/m42247.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_17_08_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_08_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_08_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_17_08_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42248" href="xhtml/physics-cnx/m42248.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_17_09_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_09_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_09_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_09_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_09_05a.jpg"/>
+      <item media-type="image/png" href="resources/wave-on-a-string_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/png" href="resources/Figure_17_09_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42249" href="xhtml/physics-cnx/m42249.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_17_10_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_10_08a.jpg"/>
+      <item media-type="image/png" href="resources/wave-interference_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42250" href="xhtml/physics-cnx/m42250.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_17_11_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_17_11_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42254" href="xhtml/physics-cnx/m42254.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42255" href="xhtml/physics-cnx/m42255.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_01_02aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_01_02ba.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_01_02ca.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_01_03a.jpg"/>
+      <item media-type="image/png" href="resources/wave-interference_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42256" href="xhtml/physics-cnx/m42256.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_02_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42257" href="xhtml/physics-cnx/m42257.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_03_01aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_03_01ab.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42290" href="xhtml/physics-cnx/m42290.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_09_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_09_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_09_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_09_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42292" href="xhtml/physics-cnx/m42292.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_06_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_27_06_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_27_06_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42296" href="xhtml/physics-cnx/m42296.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_03aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_03ab.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_03ac.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_03ac.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_04ab.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_05aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_05_08a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_18_05_09a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_18_05_10a.jpg"/>
+      <item media-type="image/png" href="resources/sound_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42297" href="xhtml/physics-cnx/m42297.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_06_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_06_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_06_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_06_07.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42298" href="xhtml/physics-cnx/m42298.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_18_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_07_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_18_07_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_18_07_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_07_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42299" href="xhtml/physics-cnx/m42299.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_00_01a_D.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42300" href="xhtml/physics-cnx/m42300.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_19_01_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_01_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_01_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_01_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_01_07a.jpg"/>
+      <item media-type="image/png" href="resources/balloons_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42306" href="xhtml/physics-cnx/m42306.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_19_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_02_06a.jpg"/>
+      <item media-type="image/png" href="resources/travoltage_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42308" href="xhtml/physics-cnx/m42308.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_19_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_03_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42310" href="xhtml/physics-cnx/m42310.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_04_02a.jpg"/>
+      <item media-type="image/png" href="resources/efield_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42312" href="xhtml/physics-cnx/m42312.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_05_06a.jpg"/>
+      <item media-type="image/png" href="resources/charges-and-fields_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_05_07a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_05_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42315" href="xhtml/physics-cnx/m42315.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_19_06_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_06_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42317" href="xhtml/physics-cnx/m42317.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_07_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_08a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_07_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_11a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_07_12a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_13a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_14a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_15a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_07_16a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_07_17a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_07_12a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_19_07_18a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42320" href="xhtml/physics-cnx/m42320.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_20_00_00a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42324" href="xhtml/physics-cnx/m42324.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_01_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42326" href="xhtml/physics-cnx/m42326.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_02_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_20_02_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42328" href="xhtml/physics-cnx/m42328.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_03_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42329" href="xhtml/physics-cnx/m42329.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_10a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_11a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_19_08_12a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42331" href="xhtml/physics-cnx/m42331.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_04a.jpg"/>
+      <item media-type="image/png" href="resources/charges-and-fields_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_04_09a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_20_04_10a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42333" href="xhtml/physics-cnx/m42333.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_20_05_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_20_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_06(a)a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_06(b)a.jpg"/>
+      <item media-type="image/png" href="resources/capacitor-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42336" href="xhtml/physics-cnx/m42336.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_05_10a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42339" href="xhtml/physics-cnx/m42339.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_00_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42341" href="xhtml/physics-cnx/m42341.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_01_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42344" href="xhtml/physics-cnx/m42344.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/ohms-law_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42346" href="xhtml/physics-cnx/m42346.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/resistance-in-a-wire_en.jar"/>
+      <item media-type="image/jpeg" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_03_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42348" href="xhtml/physics-cnx/m42348.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_05_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_05_05.jpg"/>
+      <item media-type="image/png" href="resources/generator_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42350" href="xhtml/physics-cnx/m42350.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_06_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_06_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_06_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42352" href="xhtml/physics-cnx/m42352.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_07_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/neuron_en.jar"/>
+      <item media-type="image/jpeg" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42354" href="xhtml/physics-cnx/m42354.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_22_00_01_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42356" href="xhtml/physics-cnx/m42356.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_09.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_01_10.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42357" href="xhtml/physics-cnx/m42357.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_22_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_05.jpg"/>
+      <item media-type="image/png" href="resources/Figure_22_02_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_09.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_10.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_11.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_12.jpg"/>
+      <item media-type="image/png" href="resources/Figure_22_02_13.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_02_14.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42359" href="xhtml/physics-cnx/m42359.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_03_09.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42360" href="xhtml/physics-cnx/m42360.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_22_04_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_22_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_07.jpg"/>
+      <item media-type="image/png" href="resources/circuit-construction-kit-dc-virtual-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_04_09.jpg"/>
+      <item media-type="image/png" href="resources/Figure_22_04_10.jpg"/>
+      <item media-type="image/png" href="resources/Figure_22_04_11.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42362" href="xhtml/physics-cnx/m42362.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_05_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_05_04.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42363" href="xhtml/physics-cnx/m42363.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_06_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_22_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_06_04.jpg"/>
+      <item media-type="image/png" href="resources/circuit-construction-kit-dc_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_06_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_22_06_07.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42365" href="xhtml/physics-cnx/m42365.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_23_00_01a_D.jpg"/>
+      <item media-type="image/png" href="resources/Figure_23_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42366" href="xhtml/physics-cnx/m42366.xhtml"/>
+      <item media-type="image/wmf" href="resources/FIgure_23_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_01_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42368" href="xhtml/physics-cnx/m42368.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_23_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_02_04a1.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_02_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_02_07a.jpg"/>
+      <item media-type="image/png" href="resources/magnets-and-electromagnets_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42370" href="xhtml/physics-cnx/m42370.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_03_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42372" href="xhtml/physics-cnx/m42372.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/FIgure_23_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_04_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42375" href="xhtml/physics-cnx/m42375.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_05_02a.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_23_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_05_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_05_06a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_23_05_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_05_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_99_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_99_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42377" href="xhtml/physics-cnx/m42377.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_06_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42380" href="xhtml/physics-cnx/m42380.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_08_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_08_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_08_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_08_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42382" href="xhtml/physics-cnx/m42382.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_09_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_09_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_09_03a.jpg"/>
+      <item media-type="image/png" href="resources/generator_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42386" href="xhtml/physics-cnx/m42386.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_10_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_99_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_99_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_10_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_10a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42388" href="xhtml/physics-cnx/m42388.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_02a.jpg"/>
+      <item media-type="image/png" href="resources/magnet-and-compass_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_11a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_11_14a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42389" href="xhtml/physics-cnx/m42389.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_24_00_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_00_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42390" href="xhtml/physics-cnx/m42390.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_01_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_01_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_01_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_01_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_01_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_01_06.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42392" href="xhtml/physics-cnx/m42392.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_02_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_02_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_02_03.jpg"/>
+      <item media-type="image/png" href="resources/faraday_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_02_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_02_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42395" href="xhtml/physics-cnx/m42395.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_20_07_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42398" href="xhtml/physics-cnx/m42398.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_23_07_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42400" href="xhtml/physics-cnx/m42400.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_03_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42404" href="xhtml/physics-cnx/m42404.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_04_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_04_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_04_05.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_04_06.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_04_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_04_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42408" href="xhtml/physics-cnx/m42408.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_05_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_05_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_05_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42411" href="xhtml/physics-cnx/m42411.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_06_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42414" href="xhtml/physics-cnx/m42414.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_24_07_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_07_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_07_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_07_04.jpg"/>
+      <item media-type="image/png" href="resources/generator_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42416" href="xhtml/physics-cnx/m42416.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_08_09.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42420" href="xhtml/physics-cnx/m42420.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_24_09_01.jpg"/>
+      <item media-type="image/wmf" href="resources/Figure_24_09_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_09_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_09_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_24_09_04.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42425" href="xhtml/physics-cnx/m42425.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_10_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42427" href="xhtml/physics-cnx/m42427.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_11_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_11_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_11_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_11_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42431" href="xhtml/physics-cnx/m42431.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_12_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_12_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_12_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_12_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_24_12_05a.jpg"/>
+      <item media-type="image/png" href="resources/circuit-construction-kit-ac-virtual-lab_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42434" href="xhtml/physics-cnx/m42434.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_00_01a.jpg" href="resources/25_00_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_00_02a.jpg" href="resources/25_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42437" href="xhtml/physics-cnx/m42437.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_01_01a.jpg" href="resources/25_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_01_02a.jpg" href="resources/25_01_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42440" href="xhtml/physics-cnx/m42440.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_02_01a.jpg" href="resources/25_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_02_02a.jpg" href="resources/25_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_02_03a.jpg" href="resources/25_02_03a.jpg"/>
+      <item media-type="image/png" href="resources/radio-waves_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_02_04a.jpg" href="resources/25_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_02_05a.jpg" href="resources/25_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_02_06a.jpg" href="resources/25_02_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42444" href="xhtml/physics-cnx/m42444.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_01a.jpg" href="resources/25_03_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="25_03_03a.jpg" href="resources/25_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_04a.jpg" href="resources/25_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_05a.jpg" href="resources/25_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_06a.jpg" href="resources/25_03_06a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="25_03_07a.jpg" href="resources/25_03_07a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="25_03_08a.jpg" href="resources/25_03_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_10a.jpg" href="resources/25_03_10a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="25_03_12a.jpg" href="resources/25_03_12a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_13a.jpg" href="resources/25_03_13a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_14a.jpg" href="resources/25_03_14a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_15a.jpg" href="resources/25_03_15a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_16a.jpg" href="resources/25_03_16a.jpg"/>
+      <item media-type="image/jpeg" href="resources/color-vision_en.jar"/>
+      <item media-type="image/jpeg" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_03_17a.jpg" href="resources/25_03_17a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42446" href="xhtml/physics-cnx/m42446.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_04_01a.jpg" href="resources/25_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="25_04_02a.jpg" href="resources/25_04_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42449" href="xhtml/physics-cnx/m42449.xhtml"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_00_00.jpg" href="resources/26_00_00.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_00_01.jpg" href="resources/26_00_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42452" href="xhtml/physics-cnx/m42452.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_01_01.jpg" href="resources/26_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_07.jpg" href="resources/26_02_07.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42456" href="xhtml/physics-cnx/m42456.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_01.jpg" href="resources/26_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_02.jpg" href="resources/26_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_03.jpg" href="resources/26_02_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_04.jpg" href="resources/26_02_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_02_05.jpg" href="resources/26_02_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_06.jpg" href="resources/26_02_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_08.jpg" href="resources/26_02_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_02_09.jpg" href="resources/26_02_09.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42459" href="xhtml/physics-cnx/m42459.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_03_01.jpg" href="resources/26_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_03_02.jpg" href="resources/26_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_03_03.jpg" href="resources/26_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_14.jpg" href="resources/26_06_14.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_03_04.jpg" href="resources/26_03_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_03_05.jpg" href="resources/26_03_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42462" href="xhtml/physics-cnx/m42462.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_01.jpg" href="resources/26_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_02.jpg" href="resources/26_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_03.jpg" href="resources/26_04_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_04.jpg" href="resources/26_04_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_04_05.jpg" href="resources/26_04_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_06.jpg" href="resources/26_04_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_07.jpg" href="resources/26_04_07.jpg"/>
+      <item media-type="image/png" href="resources/bending-light_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_04_08.jpg" href="resources/26_04_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_09.jpg" href="resources/26_04_09.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_04_10.jpg" href="resources/26_04_10.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42466" href="xhtml/physics-cnx/m42466.xhtml"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_05_01.jpg" href="resources/26_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_05_02.jpg" href="resources/26_05_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_05_03.jpg" href="resources/26_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_05_04.jpg" href="resources/26_05_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_05_05.jpg" href="resources/26_05_05.jpg"/>
+      <item media-type="image/png" href="resources/geometric-optics_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_05_06.jpg" href="resources/26_05_06.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42470" href="xhtml/physics-cnx/m42470.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_01.jpg" href="resources/26_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_02.jpg" href="resources/26_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_03.jpg" href="resources/26_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_04.jpg" href="resources/26_06_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_05.jpg" href="resources/26_06_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_06.jpg" href="resources/26_06_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_07.jpg" href="resources/26_06_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_08.jpg" href="resources/26_06_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_09.jpg" href="resources/26_06_09.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_06_10.jpg" href="resources/26_06_10.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_11.jpg" href="resources/26_06_11.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_06_12.jpg" href="resources/26_06_12.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_06_13.jpg" href="resources/26_06_13.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42474" href="xhtml/physics-cnx/m42474.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_07_01.jpg" href="resources/26_07_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_07_02.jpg" href="resources/26_07_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_07_03.jpg" href="resources/26_07_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_07_04.jpg" href="resources/26_07_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_07_05.jpg" href="resources/26_07_05.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="26_07_06.jpg" href="resources/26_07_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_07_07.jpg" href="resources/26_07_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="26_07_08.jpg" href="resources/26_07_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42478" href="xhtml/physics-cnx/m42478.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_27_00_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42482" href="xhtml/physics-cnx/m42482.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_01_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_01_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42484" href="xhtml/physics-cnx/m42484.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_02_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_02_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_02_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42487" href="xhtml/physics-cnx/m42487.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_03_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_03_04.jpg"/>
+      <item media-type="image/png" href="resources/color-vision_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42491" href="xhtml/physics-cnx/m42491.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_27_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_04_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_04_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_27_04_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_04_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_04_06.jpg"/>
+      <item media-type="image/png" href="resources/Figure_27_04_07.jpg"/>
+      <item media-type="image/png" href="resources/Figure_27_04_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42493" href="xhtml/physics-cnx/m42493.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_05_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_05_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_05_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_27_05_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_27_05_05.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42496" href="xhtml/physics-cnx/m42496.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_28_00_01a_D.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42501" href="xhtml/physics-cnx/m42501.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_01_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42505" href="xhtml/physics-cnx/m42505.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_02_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42508" href="xhtml/physics-cnx/m42508.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_03_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42512" href="xhtml/physics-cnx/m42512.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_04_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42515" href="xhtml/physics-cnx/m42515.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_28_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_05_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_05_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42517" href="xhtml/physics-cnx/m42517.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_06_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_06_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_28_06_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_06_07a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42519" href="xhtml/physics-cnx/m42519.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_00_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_07_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42522" href="xhtml/physics-cnx/m42522.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_09a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_10a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_11a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_12a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_13a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_28_08_14a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_28_08_15a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42525" href="xhtml/physics-cnx/m42525.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_29_00_01a_D.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42528" href="xhtml/physics-cnx/m42528.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_01_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42531" href="xhtml/physics-cnx/m42531.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_02_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_02_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42535" href="xhtml/physics-cnx/m42535.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_03_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42540" href="xhtml/physics-cnx/m42540.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_04_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42542" href="xhtml/physics-cnx/m42542.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_05_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42546" href="xhtml/physics-cnx/m42546.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_29_06_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42550" href="xhtml/physics-cnx/m42550.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_30_00_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_30_00_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42554" href="xhtml/physics-cnx/m42554.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_01_01a.jpg" href="resources/30_01_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="30_01_02a.jpg" href="resources/30_01_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="30_01_03a.jpg" href="resources/30_01_03a.jpg"/>
+      <item media-type="image/png" href="resources/hydrogen-atom_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42558" href="xhtml/physics-cnx/m42558.xhtml"/>
+      <item media-type="image/wmf" href="resources/Figure"/>
+      <item media-type="30_02_01a.jpg" href="resources/30_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_02_02a.jpg" href="resources/30_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_02_03a.jpg" href="resources/30_02_03a.jpg"/>
+      <item media-type="image/png" href="resources/photoelectric_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42563" href="xhtml/physics-cnx/m42563.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_03_01a.jpg" href="resources/30_03_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="30_03_02a.jpg" href="resources/30_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_03_03a.jpg" href="resources/30_03_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_03_04a.jpg" href="resources/30_03_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="30_03_05a.jpg" href="resources/30_03_05a.jpg"/>
+      <item media-type="image/png" href="resources/color-vision_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42568" href="xhtml/physics-cnx/m42568.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_04_01a.jpg" href="resources/30_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_04_02a.jpg" href="resources/30_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_04_03a.jpg" href="resources/30_04_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42573" href="xhtml/physics-cnx/m42573.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_05_01a.jpg" href="resources/30_05_01a.jpg"/>
+      <item media-type="image/png" href="resources/quantum-wave-interference_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42576" href="xhtml/physics-cnx/m42576.xhtml"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="30_06_01a.jpg" href="resources/30_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_06_02a.jpg" href="resources/30_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_06_03a.jpg" href="resources/30_06_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42579" href="xhtml/physics-cnx/m42579.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_07_01a.jpg" href="resources/30_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_07_02a.jpg" href="resources/30_07_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure"/>
+      <item media-type="30_07_04a.jpg" href="resources/30_07_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42581" href="xhtml/physics-cnx/m42581.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_08_01a.jpg" href="resources/30_08_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure"/>
+      <item media-type="30_08_02a.jpg" href="resources/30_08_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42585" href="xhtml/physics-cnx/m42585.xhtml"/>
+      <item media-type="image/jpeg" href="resources/FIgure_31_00_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42589" href="xhtml/physics-cnx/m42589.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_01_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42592" href="xhtml/physics-cnx/m42592.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_31_02_01a1.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_02_01b1.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_02_02a1.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_02_02b1.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_02_03a1.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_02_03b1.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_02_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_02_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_02_06a.jpg"/>
+      <item media-type="image/png" href="resources/rutherford-scattering_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42596" href="xhtml/physics-cnx/m42596.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_31_03_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_03_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_03_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_03_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_03_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_03_07a.jpg"/>
+      <item media-type="image/png" href="resources/hydrogen-atom_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42599" href="xhtml/physics-cnx/m42599.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_04_01aa.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_04_02aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_04_04aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_04_05aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_04_03aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_04_06aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_04_07aa.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_04_08aa.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42602" href="xhtml/physics-cnx/m42602.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_31_05_00.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_05_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_05_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_05_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_05_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_05_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_08.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_09.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_10.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_05_11.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_12.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_13.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_14.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_15.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_16.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_05_18.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42606" href="xhtml/physics-cnx/m42606.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_06_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_06_02a.jpg"/>
+      <item media-type="image/png" href="resources/quantum-wave-interference_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42609" href="xhtml/physics-cnx/m42609.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_07_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_07_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_07_03a1.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_07_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42614" href="xhtml/physics-cnx/m42614.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_08_00a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_08_01a.jpg"/>
+      <item media-type="image/png" href="resources/stern-gerlach_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42618" href="xhtml/physics-cnx/m42618.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_09_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_09_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_31_09_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_09_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_31_09_03a.jpg"/>
+      <item media-type="image/png" href="resources/build-an-atom_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42620" href="xhtml/physics-cnx/m42620.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_32_00_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42623" href="xhtml/physics-cnx/m42623.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_32_01_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_01_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_01_04a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_01_05a.jpg"/>
+      <item media-type="image/png" href="resources/beta-decay_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42627" href="xhtml/physics-cnx/m42627.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_32_02_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_02_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_02_04a.jpg"/>
+      <item media-type="image/png" href="resources/radioactive-dating-game_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42631" href="xhtml/physics-cnx/m42631.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_32_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_03_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_03_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_03_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42633" href="xhtml/physics-cnx/m42633.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_04_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_04_05a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42636" href="xhtml/physics-cnx/m42636.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_05_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_05_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_05_03a.jpg"/>
+      <item media-type="image/png" href="resources/alpha-decay_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42640" href="xhtml/physics-cnx/m42640.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_06_04a.jpg"/>
+      <item media-type="image/png" href="resources/nuclear-fission_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42644" href="xhtml/physics-cnx/m42644.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_07_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_07_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_32_07_03.jpg"/>
+      <item media-type="image/png" href="resources/Figure_32_07_04.jpg"/>
+      <item media-type="image/png" href="resources/quantum-tunneling_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42646" href="xhtml/physics-cnx/m42646.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_33_00_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_00_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_00_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42649" href="xhtml/physics-cnx/m42649.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_33_01_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_01_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_01_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_01_05.jpg"/>
+      <item media-type="image/png" href="resources/mri_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42652" href="xhtml/physics-cnx/m42652.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_02_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_02_02a.jpg"/>
+      <item media-type="image/png" href="resources/alpha-decay_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+      <item media-type="image/png" href="resources/Figure_33_02_03a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42654" href="xhtml/physics-cnx/m42654.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_33_03_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_03_02a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42656" href="xhtml/physics-cnx/m42656.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_04_01a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42659" href="xhtml/physics-cnx/m42659.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_33_05_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_05_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_05_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_05_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_05_05a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_05_06a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_05_07a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_05_08a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_05_09a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42662" href="xhtml/physics-cnx/m42662.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_06_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_06_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_06_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_06_04a.jpg"/>
+      <item media-type="image/png" href="resources/nuclear-fission_en.jar"/>
+      <item media-type="image/png" href="resources/PhET_Icon.png"/>
+    <item media-type="application/xhtml+xml" id="m42665" href="xhtml/physics-cnx/m42665.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_07_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_07_02a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_07_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_33_07_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_07_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_33_07_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42667" href="xhtml/physics-cnx/m42667.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_34_00_01_D.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_00_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42669" href="xhtml/physics-cnx/m42669.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_01_01.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42671" href="xhtml/physics-cnx/m42671.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_02_04.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42674" href="xhtml/physics-cnx/m42674.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_34_04_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_04_02.jpg"/>
+      <item media-type="image/png" href="resources/Figure_34_04_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42678" href="xhtml/physics-cnx/m42678.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_05_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_34_05_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_05_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_05_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_05_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_05_06.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_05_07.jpg"/>
+      <item media-type="image/wmf" href="resources/graphics1.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42680" href="xhtml/physics-cnx/m42680.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_06_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_06_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_06_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_06_06.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42683" href="xhtml/physics-cnx/m42683.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_35_00_01a_D.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42686" href="xhtml/physics-cnx/m42686.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_35_01_01a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_01_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_06a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_07a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_08a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_01_09a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42689" href="xhtml/physics-cnx/m42689.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_02_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_02_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_02_03.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_02_04.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_02_05.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_02_06.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_02_07.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_02_08.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42691" href="xhtml/physics-cnx/m42691.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42692" href="xhtml/physics-cnx/m42692.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_04_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_04_03a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_04_04a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42694" href="xhtml/physics-cnx/m42694.xhtml"/>
+      <item media-type="image/png" href="resources/Figure_35_05_01.jpg"/>
+      <item media-type="image/png" href="resources/Figure_35_05_02.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42696" href="xhtml/physics-cnx/m42696.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_06_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_06_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_35_06_03.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42699" href="xhtml/physics-cnx/m42699.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42702" href="xhtml/physics-cnx/m42702.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42704" href="xhtml/physics-cnx/m42704.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42709" href="xhtml/physics-cnx/m42709.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42712" href="xhtml/physics-cnx/m42712.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_18_04_06a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_18_04_07a.jpg"/>
+      <item media-type="image/png" href="resources/Figure_18_04_08a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42714" href="xhtml/physics-cnx/m42714.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_04_01a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_04_02a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_04_03a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_04_04a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_04_05a.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_21_04_06a.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42718" href="xhtml/physics-cnx/m42718.xhtml"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_03_01.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_03_02.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_03_04.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_03_05.jpg"/>
+      <item media-type="image/jpeg" href="resources/Figure_34_03_06.jpg"/>
+    <item media-type="application/xhtml+xml" id="m42720" href="xhtml/physics-cnx/m42720.xhtml"/>
+    <item media-type="application/xhtml+xml" id="m42955" href="xhtml/physics-cnx/m42955.xhtml"/>
+  </manifest>
+  <spine>
+    <itemref linear="no" idref="toc"/>
+    <itemref linear="yes" idref="m42033"/>
+    <itemref linear="yes" idref="m42042"/>
+    <itemref linear="yes" idref="m42045"/>
+    <itemref linear="yes" idref="m42069"/>
+    <itemref linear="yes" idref="m42073"/>
+    <itemref linear="yes" idref="m42074"/>
+    <itemref linear="yes" idref="m42075"/>
+    <itemref linear="yes" idref="m42076"/>
+    <itemref linear="yes" idref="m42080"/>
+    <itemref linear="yes" idref="m42081"/>
+    <itemref linear="yes" idref="m42083"/>
+    <itemref linear="yes" idref="m42084"/>
+    <itemref linear="yes" idref="m42086"/>
+    <itemref linear="yes" idref="m42091"/>
+    <itemref linear="yes" idref="m42092"/>
+    <itemref linear="yes" idref="m42096"/>
+    <itemref linear="yes" idref="m42099"/>
+    <itemref linear="yes" idref="m42100"/>
+    <itemref linear="yes" idref="m42102"/>
+    <itemref linear="yes" idref="m42103"/>
+    <itemref linear="yes" idref="m42104"/>
+    <itemref linear="yes" idref="m42119"/>
+    <itemref linear="yes" idref="m42120"/>
+    <itemref linear="yes" idref="m42121"/>
+    <itemref linear="yes" idref="m42122"/>
+    <itemref linear="yes" idref="m42124"/>
+    <itemref linear="yes" idref="m42125"/>
+    <itemref linear="yes" idref="m42126"/>
+    <itemref linear="yes" idref="m42127"/>
+    <itemref linear="yes" idref="m42128"/>
+    <itemref linear="yes" idref="m42129"/>
+    <itemref linear="yes" idref="m42130"/>
+    <itemref linear="yes" idref="m42132"/>
+    <itemref linear="yes" idref="m42137"/>
+    <itemref linear="yes" idref="m42138"/>
+    <itemref linear="yes" idref="m42139"/>
+    <itemref linear="yes" idref="m42140"/>
+    <itemref linear="yes" idref="m42142"/>
+    <itemref linear="yes" idref="m42143"/>
+    <itemref linear="yes" idref="m42144"/>
+    <itemref linear="yes" idref="m42145"/>
+    <itemref linear="yes" idref="m42146"/>
+    <itemref linear="yes" idref="m42147"/>
+    <itemref linear="yes" idref="m42148"/>
+    <itemref linear="yes" idref="m42149"/>
+    <itemref linear="yes" idref="m42150"/>
+    <itemref linear="yes" idref="m42151"/>
+    <itemref linear="yes" idref="m42152"/>
+    <itemref linear="yes" idref="m42153"/>
+    <itemref linear="yes" idref="m42154"/>
+    <itemref linear="yes" idref="m42155"/>
+    <itemref linear="yes" idref="m42156"/>
+    <itemref linear="yes" idref="m42159"/>
+    <itemref linear="yes" idref="m42162"/>
+    <itemref linear="yes" idref="m42163"/>
+    <itemref linear="yes" idref="m42164"/>
+    <itemref linear="yes" idref="m42165"/>
+    <itemref linear="yes" idref="m42166"/>
+    <itemref linear="yes" idref="m42167"/>
+    <itemref linear="yes" idref="m42170"/>
+    <itemref linear="yes" idref="m42171"/>
+    <itemref linear="yes" idref="m42172"/>
+    <itemref linear="yes" idref="m42173"/>
+    <itemref linear="yes" idref="m42174"/>
+    <itemref linear="yes" idref="m42175"/>
+    <itemref linear="yes" idref="m42176"/>
+    <itemref linear="yes" idref="m42177"/>
+    <itemref linear="yes" idref="m42178"/>
+    <itemref linear="yes" idref="m42179"/>
+    <itemref linear="yes" idref="m42180"/>
+    <itemref linear="yes" idref="m42182"/>
+    <itemref linear="yes" idref="m42183"/>
+    <itemref linear="yes" idref="m42184"/>
+    <itemref linear="yes" idref="m42185"/>
+    <itemref linear="yes" idref="m42186"/>
+    <itemref linear="yes" idref="m42187"/>
+    <itemref linear="yes" idref="m42189"/>
+    <itemref linear="yes" idref="m42192"/>
+    <itemref linear="yes" idref="m42193"/>
+    <itemref linear="yes" idref="m42195"/>
+    <itemref linear="yes" idref="m42196"/>
+    <itemref linear="yes" idref="m42197"/>
+    <itemref linear="yes" idref="m42199"/>
+    <itemref linear="yes" idref="m42204"/>
+    <itemref linear="yes" idref="m42205"/>
+    <itemref linear="yes" idref="m42206"/>
+    <itemref linear="yes" idref="m42208"/>
+    <itemref linear="yes" idref="m42209"/>
+    <itemref linear="yes" idref="m42210"/>
+    <itemref linear="yes" idref="m42211"/>
+    <itemref linear="yes" idref="m42212"/>
+    <itemref linear="yes" idref="m42213"/>
+    <itemref linear="yes" idref="m42214"/>
+    <itemref linear="yes" idref="m42215"/>
+    <itemref linear="yes" idref="m42216"/>
+    <itemref linear="yes" idref="m42217"/>
+    <itemref linear="yes" idref="m42218"/>
+    <itemref linear="yes" idref="m42219"/>
+    <itemref linear="yes" idref="m42221"/>
+    <itemref linear="yes" idref="m42223"/>
+    <itemref linear="yes" idref="m42224"/>
+    <itemref linear="yes" idref="m42225"/>
+    <itemref linear="yes" idref="m42226"/>
+    <itemref linear="yes" idref="m42228"/>
+    <itemref linear="yes" idref="m42229"/>
+    <itemref linear="yes" idref="m42230"/>
+    <itemref linear="yes" idref="m42231"/>
+    <itemref linear="yes" idref="m42232"/>
+    <itemref linear="yes" idref="m42233"/>
+    <itemref linear="yes" idref="m42234"/>
+    <itemref linear="yes" idref="m42235"/>
+    <itemref linear="yes" idref="m42236"/>
+    <itemref linear="yes" idref="m42237"/>
+    <itemref linear="yes" idref="m42238"/>
+    <itemref linear="yes" idref="m42239"/>
+    <itemref linear="yes" idref="m42240"/>
+    <itemref linear="yes" idref="m42241"/>
+    <itemref linear="yes" idref="m42242"/>
+    <itemref linear="yes" idref="m42243"/>
+    <itemref linear="yes" idref="m42244"/>
+    <itemref linear="yes" idref="m42245"/>
+    <itemref linear="yes" idref="m42246"/>
+    <itemref linear="yes" idref="m42247"/>
+    <itemref linear="yes" idref="m42248"/>
+    <itemref linear="yes" idref="m42249"/>
+    <itemref linear="yes" idref="m42250"/>
+    <itemref linear="yes" idref="m42254"/>
+    <itemref linear="yes" idref="m42255"/>
+    <itemref linear="yes" idref="m42256"/>
+    <itemref linear="yes" idref="m42257"/>
+    <itemref linear="yes" idref="m42290"/>
+    <itemref linear="yes" idref="m42292"/>
+    <itemref linear="yes" idref="m42296"/>
+    <itemref linear="yes" idref="m42297"/>
+    <itemref linear="yes" idref="m42298"/>
+    <itemref linear="yes" idref="m42299"/>
+    <itemref linear="yes" idref="m42300"/>
+    <itemref linear="yes" idref="m42306"/>
+    <itemref linear="yes" idref="m42308"/>
+    <itemref linear="yes" idref="m42310"/>
+    <itemref linear="yes" idref="m42312"/>
+    <itemref linear="yes" idref="m42315"/>
+    <itemref linear="yes" idref="m42317"/>
+    <itemref linear="yes" idref="m42320"/>
+    <itemref linear="yes" idref="m42324"/>
+    <itemref linear="yes" idref="m42326"/>
+    <itemref linear="yes" idref="m42328"/>
+    <itemref linear="yes" idref="m42329"/>
+    <itemref linear="yes" idref="m42331"/>
+    <itemref linear="yes" idref="m42333"/>
+    <itemref linear="yes" idref="m42336"/>
+    <itemref linear="yes" idref="m42339"/>
+    <itemref linear="yes" idref="m42341"/>
+    <itemref linear="yes" idref="m42344"/>
+    <itemref linear="yes" idref="m42346"/>
+    <itemref linear="yes" idref="m42348"/>
+    <itemref linear="yes" idref="m42350"/>
+    <itemref linear="yes" idref="m42352"/>
+    <itemref linear="yes" idref="m42354"/>
+    <itemref linear="yes" idref="m42356"/>
+    <itemref linear="yes" idref="m42357"/>
+    <itemref linear="yes" idref="m42359"/>
+    <itemref linear="yes" idref="m42360"/>
+    <itemref linear="yes" idref="m42362"/>
+    <itemref linear="yes" idref="m42363"/>
+    <itemref linear="yes" idref="m42365"/>
+    <itemref linear="yes" idref="m42366"/>
+    <itemref linear="yes" idref="m42368"/>
+    <itemref linear="yes" idref="m42370"/>
+    <itemref linear="yes" idref="m42372"/>
+    <itemref linear="yes" idref="m42375"/>
+    <itemref linear="yes" idref="m42377"/>
+    <itemref linear="yes" idref="m42380"/>
+    <itemref linear="yes" idref="m42382"/>
+    <itemref linear="yes" idref="m42386"/>
+    <itemref linear="yes" idref="m42388"/>
+    <itemref linear="yes" idref="m42389"/>
+    <itemref linear="yes" idref="m42390"/>
+    <itemref linear="yes" idref="m42392"/>
+    <itemref linear="yes" idref="m42395"/>
+    <itemref linear="yes" idref="m42398"/>
+    <itemref linear="yes" idref="m42400"/>
+    <itemref linear="yes" idref="m42404"/>
+    <itemref linear="yes" idref="m42408"/>
+    <itemref linear="yes" idref="m42411"/>
+    <itemref linear="yes" idref="m42414"/>
+    <itemref linear="yes" idref="m42416"/>
+    <itemref linear="yes" idref="m42420"/>
+    <itemref linear="yes" idref="m42425"/>
+    <itemref linear="yes" idref="m42427"/>
+    <itemref linear="yes" idref="m42431"/>
+    <itemref linear="yes" idref="m42434"/>
+    <itemref linear="yes" idref="m42437"/>
+    <itemref linear="yes" idref="m42440"/>
+    <itemref linear="yes" idref="m42444"/>
+    <itemref linear="yes" idref="m42446"/>
+    <itemref linear="yes" idref="m42449"/>
+    <itemref linear="yes" idref="m42452"/>
+    <itemref linear="yes" idref="m42456"/>
+    <itemref linear="yes" idref="m42459"/>
+    <itemref linear="yes" idref="m42462"/>
+    <itemref linear="yes" idref="m42466"/>
+    <itemref linear="yes" idref="m42470"/>
+    <itemref linear="yes" idref="m42474"/>
+    <itemref linear="yes" idref="m42478"/>
+    <itemref linear="yes" idref="m42482"/>
+    <itemref linear="yes" idref="m42484"/>
+    <itemref linear="yes" idref="m42487"/>
+    <itemref linear="yes" idref="m42491"/>
+    <itemref linear="yes" idref="m42493"/>
+    <itemref linear="yes" idref="m42496"/>
+    <itemref linear="yes" idref="m42501"/>
+    <itemref linear="yes" idref="m42505"/>
+    <itemref linear="yes" idref="m42508"/>
+    <itemref linear="yes" idref="m42512"/>
+    <itemref linear="yes" idref="m42515"/>
+    <itemref linear="yes" idref="m42517"/>
+    <itemref linear="yes" idref="m42519"/>
+    <itemref linear="yes" idref="m42522"/>
+    <itemref linear="yes" idref="m42525"/>
+    <itemref linear="yes" idref="m42528"/>
+    <itemref linear="yes" idref="m42531"/>
+    <itemref linear="yes" idref="m42535"/>
+    <itemref linear="yes" idref="m42540"/>
+    <itemref linear="yes" idref="m42542"/>
+    <itemref linear="yes" idref="m42546"/>
+    <itemref linear="yes" idref="m42550"/>
+    <itemref linear="yes" idref="m42554"/>
+    <itemref linear="yes" idref="m42558"/>
+    <itemref linear="yes" idref="m42563"/>
+    <itemref linear="yes" idref="m42568"/>
+    <itemref linear="yes" idref="m42573"/>
+    <itemref linear="yes" idref="m42576"/>
+    <itemref linear="yes" idref="m42579"/>
+    <itemref linear="yes" idref="m42581"/>
+    <itemref linear="yes" idref="m42585"/>
+    <itemref linear="yes" idref="m42589"/>
+    <itemref linear="yes" idref="m42592"/>
+    <itemref linear="yes" idref="m42596"/>
+    <itemref linear="yes" idref="m42599"/>
+    <itemref linear="yes" idref="m42602"/>
+    <itemref linear="yes" idref="m42606"/>
+    <itemref linear="yes" idref="m42609"/>
+    <itemref linear="yes" idref="m42614"/>
+    <itemref linear="yes" idref="m42618"/>
+    <itemref linear="yes" idref="m42620"/>
+    <itemref linear="yes" idref="m42623"/>
+    <itemref linear="yes" idref="m42627"/>
+    <itemref linear="yes" idref="m42631"/>
+    <itemref linear="yes" idref="m42633"/>
+    <itemref linear="yes" idref="m42636"/>
+    <itemref linear="yes" idref="m42640"/>
+    <itemref linear="yes" idref="m42644"/>
+    <itemref linear="yes" idref="m42646"/>
+    <itemref linear="yes" idref="m42649"/>
+    <itemref linear="yes" idref="m42652"/>
+    <itemref linear="yes" idref="m42654"/>
+    <itemref linear="yes" idref="m42656"/>
+    <itemref linear="yes" idref="m42659"/>
+    <itemref linear="yes" idref="m42662"/>
+    <itemref linear="yes" idref="m42665"/>
+    <itemref linear="yes" idref="m42667"/>
+    <itemref linear="yes" idref="m42669"/>
+    <itemref linear="yes" idref="m42671"/>
+    <itemref linear="yes" idref="m42674"/>
+    <itemref linear="yes" idref="m42678"/>
+    <itemref linear="yes" idref="m42680"/>
+    <itemref linear="yes" idref="m42683"/>
+    <itemref linear="yes" idref="m42686"/>
+    <itemref linear="yes" idref="m42689"/>
+    <itemref linear="yes" idref="m42691"/>
+    <itemref linear="yes" idref="m42692"/>
+    <itemref linear="yes" idref="m42694"/>
+    <itemref linear="yes" idref="m42696"/>
+    <itemref linear="yes" idref="m42699"/>
+    <itemref linear="yes" idref="m42702"/>
+    <itemref linear="yes" idref="m42704"/>
+    <itemref linear="yes" idref="m42709"/>
+    <itemref linear="yes" idref="m42712"/>
+    <itemref linear="yes" idref="m42714"/>
+    <itemref linear="yes" idref="m42718"/>
+    <itemref linear="yes" idref="m42720"/>
+    <itemref linear="yes" idref="m42955"/>
+  </spine>
+</package>
