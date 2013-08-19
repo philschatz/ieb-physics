@@ -11,7 +11,10 @@
 <item id="chapter-2" href="xhtml/physics-11/01-Vectors-in-two-dimensions.section-03.html" media-type="application/xhtml+xml"/>
 <item id="chapter-3" href="xhtml/physics-11/01-Vectors-in-two-dimensions.section-04.html" media-type="application/xhtml+xml"/>
 <item id="chapter-4" href="xhtml/physics-11/02-Newton's-laws.section-01.html" media-type="application/xhtml+xml"/>
-<item id="chapter-5" href="xhtml/physics-11/02-Newton's-laws.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-5a" href="xhtml/physics-11/02-Newton's-laws.section-02-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-5b" href="xhtml/physics-11/02-Newton's-laws.section-02-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-5c" href="xhtml/physics-11/02-Newton's-laws.section-02-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-5d" href="xhtml/physics-11/02-Newton's-laws.section-02-04.html" media-type="application/xhtml+xml"/>
 <item id="chapter-6" href="xhtml/physics-11/02-Newton's-laws.section-03.html" media-type="application/xhtml+xml"/>
 <item id="chapter-7" href="xhtml/physics-11/02-Newton's-laws.section-04.html" media-type="application/xhtml+xml"/>
 <item id="chapter-8" href="xhtml/physics-11/02-Newton's-laws.section-05.html" media-type="application/xhtml+xml"/>
@@ -695,7 +698,10 @@
 <itemref idref="chapter-2"/>
 <itemref idref="chapter-3"/>
 <itemref idref="chapter-4"/>
-<itemref idref="chapter-5"/>
+<itemref idref="chapter-5a"/>
+<itemref idref="chapter-5b"/>
+<itemref idref="chapter-5c"/>
+<itemref idref="chapter-5d"/>
 <itemref idref="chapter-6"/>
 <itemref idref="chapter-7"/>
 <itemref idref="chapter-8"/>
