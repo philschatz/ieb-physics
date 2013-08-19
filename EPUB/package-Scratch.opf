@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifer="uid">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:identifier id="uid">siyavula.com.dummy-book-repo.1.0</dc:identifier>
+          <dc:title>Siyavula Education: Scratch</dc:title>
+          <dc:creator>Siyavula Education</dc:creator>
+          <dc:language>en</dc:language>
+          <meta property="dcterms:modified">Mon Aug 19 20:51:25 2013 GMT</meta>
+       </metadata><manifest>
+<item id="chapter-0" href="xhtml/Scratch/Kathis-file.html" media-type="application/xhtml+xml"/>
+<item id="chapter-1" href="xhtml/Scratch/kathi-file-2.html" media-type="application/xhtml+xml"/>
+<item id="nav" href="xhtml/Scratch/Scratch.nav.html" media-type="application/xhtml+xml" properties="nav"/>
+</manifest><spine>
+<itemref idref="chapter-0"/>
+<itemref idref="chapter-1"/>
+</spine></package>
