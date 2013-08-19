@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifer="uid">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
           <dc:identifier id="uid">siyavula.com.dummy-book-repo.1.0</dc:identifier>
-          <dc:title>Siyavula Education: Dummy Book</dc:title>
+          <dc:title>Scratch</dc:title>
           <dc:creator>Siyavula Education</dc:creator>
           <dc:language>en</dc:language>
           <meta property="dcterms:modified">Mon Aug 19 20:36:33 2013 GMT</meta>
