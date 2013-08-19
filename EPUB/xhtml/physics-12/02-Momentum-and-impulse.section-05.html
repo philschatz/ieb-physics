@@ -1,0 +1,999 @@
+<html>
+  <head/>
+  <body><h2>Impulse</h2>
+
+<p>When a net force acts on a body it will result in an acceleration which alters the
+          motion of the body. A large net force will cause a larger acceleration than a small net 
+          force. The total change in motion of the object can be the same if the large and small
+          forces act for different time intervals. The combination of the force and time that it
+          acts is a useful quantity which leads us to define impulse.</p>
+<dl class="definition"><dt>Impulse</dt><dd>
+          
+<p>Impulse is the product of the net force and the time interval for which the force acts.</p>
+
+          <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathrm{Impulse}=\vec{F}_{net}&#183;\Delta t</annotation></semantics></math></dd></dl><p>However, from Newton's Second Law, we know that</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \vec{F}_{net}&amp; = \frac{\Delta \vec{p}}{\Delta t} \\ 
+ \therefore \vec{F}_{net}&#183;\Delta t&amp; = \Delta \vec{p} \\ 
+&amp; = \text{Impulse} 
+\end{align*}</annotation></semantics></math><p>Therefore we can define the impulse-momentum theorem:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathrm{Impulse}=\Delta \vec{p}</annotation></semantics></math><p>Impulse is equal to the change in momentum of an object. From this equation we see, 
+          that for a given change in momentum, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{net}\Delta t</annotation></semantics></math> is fixed. 
+          Thus, if <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{net}</annotation></semantics></math> is reduced, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta t</annotation></semantics></math> must be 
+          increased (i.e. a smaller resultant force must be applied for longer to bring 
+          about the same change in momentum). Alternatively if <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta t</annotation></semantics></math> 
+          is reduced (i.e. the resultant force is applied for a shorter period) then the 
+          resultant force must be increased to bring about the same change in momentum.</p>
+
+<p>The graphs below show how the force acting on a body changes with time.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/b1536f4dc51363f7dacefafc209a8d5a.png"/><pre class="pspicture">&lt;code&gt;(-1.1,-0.75)(3.1,3.8) 
+                \psset{unit=0.75}
+                \psframe[linecolor=gray!40!white,fillstyle=solid,fillcolor=gray!40!white](0,0)(2.5,1.5)
+                \psaxes[labels=none,linecolor=gray]{-&amp;gt;}(3,3)
+                \psline[](0,1.5)(2.5,1.5)
+                \uput[u](0,3){$\vec{F}$ (N)}
+                \rput[t](2.5,-.3){$t$ (s)}
+                &lt;/code&gt;</pre></div></figure><figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/705ffad2b2d9afe6185a277110dcfc55.png"/><pre class="pspicture">&lt;code&gt;(-1.1,-0.75)(3.1,3.8) 
+                \psset{unit=0.75}
+                \pspolygon*[linecolor=gray!40!white,fillstyle=solid,fillcolor=gray!40!white](0,0)(1.6,1.6)(2.7,0)
+                \psaxes[labels=none,linecolor=gray]{-&amp;gt;}(3,3)
+                \psline[](0,0)(1.6,1.6)
+                \psline[](1.6,1.6)(2.7,0)
+                \uput[u](0,3){$\vec{F}$ (N)}
+                \rput[t](2.5,-.3){$t$ (s)}
+                &lt;/code&gt;</pre></div></figure><p>The area under the graph, shaded in, represents the impulse of the body.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Impulse and Change in momentum</div><div class="problem" data-class="question">
+              
+<p>A <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{150}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> resultant force 
+              acts on a <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{300}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> trailer. 
+              Calculate how long it takes this force to change the trailer's velocity 
+              from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> 
+              to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> in 
+              the same direction. Assume that the forces acts to the right which is the direction
+              of motion of the trailer.</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Identify what information is given and what is asked for</div>
+
+<p>The question explicitly gives</p>
+<ul data-class="ListBulleted"><li>
+                    
+<p>the trailer's mass as <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{300}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>,</p>
+
+                  </li>
+<li>
+                    
+<p>the trailer's initial velocity as <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right,</p>
+
+                  </li>
+<li>
+                    
+<p>the trailer's final velocity as <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right, and</p>
+
+                  </li>
+<li>
+                    
+<p>the resultant force acting on the object.</p>
+
+                  </li>
+</ul><p>We are asked to calculate the time taken <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta t</annotation></semantics></math> to accelerate the trailer from the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math> to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. From the Law of Momentum,</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\vec{F}_{net}\Delta t&amp; = \Delta \vec{p} \\ 
+&amp; = m\vec{v}_{f}-m\vec{v}_{i} \\ 
+&amp; = m\left(\vec{v}_{f}-\vec{v}_{i}\right). 
+\end{align*}</annotation></semantics></math><p>Thus we have everything we need to find <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta t</annotation></semantics></math>!</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Choose a frame of reference</div>
+
+<p>Choose right as the positive direction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Do the calculation and quote the final answer</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \vec{F}_{net}\Delta t&amp; = m\left(\vec{v}_{f}-\vec{v}_{i}\right) \\ 
+ \left(+150\right)\Delta \mathrm{t}&amp; = \left(300\right)\left(\left(+6&#160;\right)-\left(+2&#160;\right)\right) \\ 
+ \left(+150\right)\Delta \mathrm{t}&amp; = \left(300\right)\left(+4&#160;\right) \\ 
+ \Delta t&amp; = \frac{\left(300\right)\left(+4&#160;\right)}{+150} \\ 
+ \Delta t&amp; = \text{8}\text{ s} 
+\end{align*}</annotation></semantics></math><p>It takes <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> for the force to change the object's velocity from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Impulsive cricketers</div><div class="problem" data-class="question">
+              
+<p>A cricket ball weighing <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{156}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> 
+              is moving at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{54}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math> 
+              towards a batsman. It is hit by the batsman back towards the bowler 
+              at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{36}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math>. 
+              Calculate</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p>the ball's impulse, and</p>
+
+                </li>
+<li>
+                  
+<p>the average force exerted by the bat if the ball is in contact with the bat for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,13}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>.</p>
+
+                </li>
+</ol></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Identify what information is given and what is asked for</div>
+
+<p>The question explicitly gives</p>
+<ul data-class="ListBulleted"><li>
+                    
+<p>the ball's mass,</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's initial velocity,</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's final velocity, and</p>
+
+                  </li>
+<li>
+                    
+<p>the time of contact between bat and ball</p>
+
+                  </li>
+</ul><p>We are asked to calculate the impulse:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathrm{Impulse}=\Delta \vec{p}=\vec{F}_{\mathrm{net}}\Delta t</annotation></semantics></math><p>Since we do not have the force exerted by the bat on the ball ( <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{\mathrm{net}}</annotation></semantics></math>), we have to calculate the impulse from the change in momentum of the ball. Now, since</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \Delta \vec{p}&amp; = \vec{p}_{f}-\vec{p}_{i} \\ 
+&amp; = m\vec{v}_{f}-m\vec{v}_{i}, 
+\end{align*}</annotation></semantics></math><p>we need the ball's mass, initial velocity and final velocity, which we are given.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Convert to S.I. units</div>
+
+<p>Firstly let us change units for the mass</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \text{1000}&#160;\mathrm{g}&amp; = 1&#160;\text{kg} \\ 
+ \text{So,}&#160;1&#160;\mathrm{g}&amp; = \frac{1}{\text{1000}}&#160;\mathrm{kg} \\ 
+ \therefore 156\times 1&#160;\mathrm{g}&amp; = 156\times \frac{1}{\text{1000}}&#160;\mathrm{kg} \\ 
+&amp; = \text{0,156}&#160;\text{kg} 
+\end{align*}</annotation></semantics></math><p>Next we change units for the velocity</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ 1&#160;\mathrm{km}&#183;{\mathrm{h}}^{-1}&amp; = \frac{\text{1000}&#160;\mathrm{m}}{\text{3600}&#160;\text{s}} \\ 
+ \therefore 54\times 1&#160;\mathrm{km}&#183;{\mathrm{h}}^{-1}&amp; = 54\times \frac{\text{1000}&#160;\mathrm{m}}{\text{3600}&#160;\text{s}} \\ 
+&amp; = 15&#160;\text{m&#183;s^{-1}} 
+\end{align*}</annotation></semantics></math><p>Similarly, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{36}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math> = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Choose a frame of reference</div>
+
+<p>Let us choose the direction from the batsman to the bowler as the 
+                positive direction. Then the initial velocity of the ball is 
+                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i}=-\text{15}\text{ m&#183;s^{-1}}</annotation></semantics></math>, while the final 
+                velocity of the ball is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f}=\text{10}\text{ m&#183;s^{-1}}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the momentum</div>
+
+<p>Now we calculate the change in momentum,</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \Delta \vec{p}&amp; = \vec{p}_{f}-\vec{p}_{i} \\ 
+&amp; = m\vec{v}_{f}-m\vec{v}_{i} \\ 
+&amp; = m\left(\vec{v}_{f}-\vec{v}_{i}\right) \\ 
+&amp; = \left(\text{0,156}\right)\left(\left(+10&#160;\right)-\left(-15&#160;\right)\right) \\ 
+&amp; = \text{+3,9}&#160; \\ 
+&amp; = \text{3,9}\text{ kg&#183;m&#183;s^{-1}}~\text{in the direction from the batsman to the bowler} 
+\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the impulse</div>
+
+<p>Finally since impulse is just the change in momentum of the ball,</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \mathrm{Impulse}&amp; = \Delta \vec{p} \\ 
+&amp; =\text{3,9}\text{ kg&#183;m&#183;s^{-1}}~\text{in the direction from the batsman to the bowler} 
+\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the average force exerted by the bat</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathrm{Impulse}=\vec{F}_{net}\Delta t=\Delta \vec{p}</annotation></semantics></math><p>We are given <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta t</annotation></semantics></math> and we have calculated the impulse of the ball.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \vec{F}_{net}\Delta t&amp; = \mathrm{Impulse} \\ 
+ \vec{F}_{net}\left(\text{0,13}\right)&amp; = \text{+3,9} \\ 
+ \vec{F}_{net}&amp; = \frac{\text{+3,9}}{\text{0,13}} \\ 
+&amp; = +30 \\ 
+&amp; = \text{30}\text{ N}~\text{in the direction from the batsman to the bowler} 
+\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Analysing a force graph</div><div class="problem" data-class="question">
+
+<p>Analyse the Force vs. time graph provided and answer the following questions:</p>
+
+<ul data-class="ListBulleted"><li>What is the impulse for the interval 
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>?
+    </li>
+<li>What is the impulse for the interval 
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>?
+    </li>
+<li>What is the change in momentum for the interval 
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>?
+    </li>
+<li>What is the impulse for the interval 
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>?
+    </li>
+<li>What is the impulse for the interval 
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>?
+    </li>
+</ul><div class="alternates"><img src="_plone_ignore_/cache/pspictures/1a1d3dffee732f4a9b4dbbd1d14c6765.png"/><pre class="pspicture">&lt;code&gt;(-1.5,-4)(8,4.3)
+                    \psset{ axesstyle=axes, llx=-1cm,lly=-1cm, xunit=.3 }
+
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(0,0)(0,3) % first triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(6,0)(6,-3) % second triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](6,0)(6,-3)(12,-3)(12,0) % negative rect
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](12,0)(12,2)(20,2)(20,0) % positive rect
+                    \psaxes[labels=none,linecolor=gray,subgriddiv=1,griddots=10,tickcolor=gray,ticklinestyle=dotted,xticksize=0cm,yticksize=.0cm,Dx=3,Dy=4]{-&amp;gt;}(0,0)(0,-3.5)(23,4)%[$x$,-90][$y$,180]
+                    \rput[b]{0}(22,.1){$t~\text{(s)}$}
+                    \rput[b]{90}(-2,0){Force (N)}
+                    \rput[ur]{0}(-.1,-.1){0}
+                    \rput[r]{0}(-0.3,3){\footnotesize{3}}
+                    \rput[r]{0}(-0.3,2){\footnotesize{2}}
+                    \rput[r]{0}(-0.3,-3){\footnotesize{-3}}
+
+                    \psline[linecolor=purple]{-}(0,3)(6,-3)
+                    \psline[linecolor=purple]{-}(6,-3)(12,-3)\psdot[linecolor=purple](12,-3)
+                    \psline[linecolor=purple]{-}(12,-3)(12,2)\psdot[linecolor=purple](12,2)
+                    \psline[linecolor=purple]{-}(12,2)(20,2)\psdot[linecolor=purple](20,2)
+
+                    \psline[linecolor=gray,linestyle=dotted]{-}(6,-3)(6,0)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,-3)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,2)(12,2)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(12,0)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(20,0)(20,2)
+                    \uput[d](2.2,0.1){\scriptsize{3}}
+                    \uput[d](6,0.1){\scriptsize{6}}
+                    \uput[d](12,0.1){\scriptsize{12}}
+                    \uput[d](20,0.1){\scriptsize{20}}
+                    \psdot[linecolor=purple](0,3) \psdot[linecolor=purple](0,-3)
+                    \psdot[linecolor=purple](0,2)
+                    \psdot[linecolor=purple](12,0)
+                    \psdot[linecolor=purple](20,0)
+                    \psdot[linecolor=purple](6,-3)
+                    \psdot[linecolor=purple](12,-3)
+                    \psdot[linecolor=purple](6,0) \psdot[linecolor=purple](3,0) 
+
+&lt;/code&gt;</pre></div>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Identify what information is given and what is being asked for</div>
+
+<p>A graph of force versus time is provided. We are asked to determine both impulse
+and change in momentum from it.</p>
+
+<p>We know that the area under the graph is the impulse and we can relate impulse to 
+change in momentum with the impule-momentum theorem.</p>
+
+<p>We need to calculate the area under the graph for the various intervals to determine impulse 
+and then work from there.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Impulse for interval <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/94f714b8f6759e1c9cd19bbdbe3f56fb.png"/><pre class="pspicture">&lt;code&gt;(-1.5,-4)(8,4.3)
+                    \psset{ axesstyle=axes, llx=-1cm,lly=-1cm, xunit=.3 }
+
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(0,0)(0,3) % first triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(6,0)(6,-3) % second triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](6,0)(6,-3)(12,-3)(12,0) % negative rect
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](12,0)(12,2)(20,2)(20,0) % positive rect
+                    \psaxes[labels=none,linecolor=gray,subgriddiv=1,griddots=10,tickcolor=gray,ticklinestyle=dotted,xticksize=0cm,yticksize=.0cm,Dx=3,Dy=4]{-&amp;gt;}(0,0)(0,-3.5)(23,4)%[$x$,-90][$y$,180]
+                    \rput[b]{0}(22,.1){$t~\text{(s)}$}
+                    \rput[b]{90}(-2,0){Force (N)}
+                    \rput[ur]{0}(-.1,-.1){0}
+                    \rput[r]{0}(-0.3,3){\footnotesize{3}}
+                    \rput[r]{0}(-0.3,2){\footnotesize{2}}
+                    \rput[r]{0}(-0.3,-3){\footnotesize{-3}}
+
+                    \psline[linecolor=purple]{-}(0,3)(6,-3)
+                    \psline[linecolor=purple]{-}(6,-3)(12,-3)\psdot[linecolor=purple](12,-3)
+                    \psline[linecolor=purple]{-}(12,-3)(12,2)\psdot[linecolor=purple](12,2)
+                    \psline[linecolor=purple]{-}(12,2)(20,2)\psdot[linecolor=purple](20,2)
+
+                    \psline[linecolor=gray,linestyle=dotted]{-}(6,-3)(6,0)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,-3)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,2)(12,2)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(12,0)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(20,0)(20,2)
+                    \uput[d](2.2,0.1){\scriptsize{3}}
+                    \uput[d](6,0.1){\scriptsize{6}}
+                    \uput[d](12,0.1){\scriptsize{12}}
+                    \uput[d](20,0.1){\scriptsize{20}}
+                    \psdot[linecolor=purple](0,3) \psdot[linecolor=purple](0,-3)
+                    \psdot[linecolor=purple](0,2)
+                    \psdot[linecolor=purple](12,0)
+                    \psdot[linecolor=purple](20,0)
+                    \psdot[linecolor=purple](6,-3)
+                    \psdot[linecolor=purple](12,-3)
+                    \psdot[linecolor=purple](6,0) \psdot[linecolor=purple](3,0) 
+
+&lt;/code&gt;</pre></div></figure><p>We need to calculate the area of the shaded portion under the graph. This is a triangle with
+a base of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> and a height of 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> therefore:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{Impulse} &amp;= \frac{1}{2}bh \\
+&amp; = \frac{1}{2}(3)(3) \\
+&amp; = \text{4,5}\text{ N&#183;s}
+\end{align*}</annotation></semantics></math><p>The impulse is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N&#183;s}</annotation></semantics></math> in the positive direction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Impulse for interval <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/dae8b9a69dfd546ce1713a4bc983d7b9.png"/><pre class="pspicture">&lt;code&gt;(-1.5,-4)(8,4.3)
+                    \psset{ axesstyle=axes, llx=-1cm,lly=-1cm, xunit=.3 }
+
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(0,0)(0,3) % first triangle
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(6,0)(6,-3) % second triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](6,0)(6,-3)(12,-3)(12,0) % negative rect
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](12,0)(12,2)(20,2)(20,0) % positive rect
+                    \psaxes[labels=none,linecolor=gray,subgriddiv=1,griddots=10,tickcolor=gray,ticklinestyle=dotted,xticksize=0cm,yticksize=.0cm,Dx=3,Dy=4]{-&amp;gt;}(0,0)(0,-3.5)(23,4)%[$x$,-90][$y$,180]
+                    \rput[b]{0}(22,.1){$t~\text{(s)}$}
+                    \rput[b]{90}(-2,0){Force (N)}
+                    \rput[ur]{0}(-.1,-.1){0}
+                    \rput[r]{0}(-0.3,3){\footnotesize{3}}
+                    \rput[r]{0}(-0.3,2){\footnotesize{2}}
+                    \rput[r]{0}(-0.3,-3){\footnotesize{-3}}
+
+                    \psline[linecolor=purple]{-}(0,3)(6,-3)
+                    \psline[linecolor=purple]{-}(6,-3)(12,-3)\psdot[linecolor=purple](12,-3)
+                    \psline[linecolor=purple]{-}(12,-3)(12,2)\psdot[linecolor=purple](12,2)
+                    \psline[linecolor=purple]{-}(12,2)(20,2)\psdot[linecolor=purple](20,2)
+
+                    \psline[linecolor=gray,linestyle=dotted]{-}(6,-3)(6,0)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,-3)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,2)(12,2)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(12,0)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(20,0)(20,2)
+                    \uput[d](2.2,0.1){\scriptsize{3}}
+                    \uput[d](6,0.1){\scriptsize{6}}
+                    \uput[d](12,0.1){\scriptsize{12}}
+                    \uput[d](20,0.1){\scriptsize{20}}
+                    \psdot[linecolor=purple](0,3) \psdot[linecolor=purple](0,-3)
+                    \psdot[linecolor=purple](0,2)
+                    \psdot[linecolor=purple](12,0)
+                    \psdot[linecolor=purple](20,0)
+                    \psdot[linecolor=purple](6,-3)
+                    \psdot[linecolor=purple](12,-3)
+                    \psdot[linecolor=purple](6,0) \psdot[linecolor=purple](3,0) 
+
+&lt;/code&gt;</pre></div></figure><p>We need to calculate the area of the shaded portion under the graph. This is a triangle with
+a base of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> and a height of 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. Note that the force has a
+negative value so is pointing in the negative direction.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{Impulse} &amp;= \frac{1}{2}bh \\
+&amp; = \frac{1}{2}(3)(-3) \\
+&amp; = -\text{4,5}\text{ N&#183;s}
+\end{align*}</annotation></semantics></math><p>The impulse is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N&#183;s}</annotation></semantics></math> in the negative direction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">What is the change in momentum for the interval <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a24b1eb137530a0528b12235a69ca9c7.png"/><pre class="pspicture">&lt;code&gt;(-1.5,-4)(8,4.3)
+                    \psset{ axesstyle=axes, llx=-1cm,lly=-1cm, xunit=.3 }
+
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(0,0)(0,3) % first triangle
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(6,0)(6,-3) % second triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](6,0)(6,-3)(12,-3)(12,0) % negative rect
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](12,0)(12,2)(20,2)(20,0) % positive rect
+                    \psaxes[labels=none,linecolor=gray,subgriddiv=1,griddots=10,tickcolor=gray,ticklinestyle=dotted,xticksize=0cm,yticksize=.0cm,Dx=3,Dy=4]{-&amp;gt;}(0,0)(0,-3.5)(23,4)%[$x$,-90][$y$,180]
+                    \rput[b]{0}(22,.1){$t~\text{(s)}$}
+                    \rput[b]{90}(-2,0){Force (N)}
+                    \rput[ur]{0}(-.1,-.1){0}
+                    \rput[r]{0}(-0.3,3){\footnotesize{3}}
+                    \rput[r]{0}(-0.3,2){\footnotesize{2}}
+                    \rput[r]{0}(-0.3,-3){\footnotesize{-3}}
+
+                    \psline[linecolor=purple]{-}(0,3)(6,-3)
+                    \psline[linecolor=purple]{-}(6,-3)(12,-3)\psdot[linecolor=purple](12,-3)
+                    \psline[linecolor=purple]{-}(12,-3)(12,2)\psdot[linecolor=purple](12,2)
+                    \psline[linecolor=purple]{-}(12,2)(20,2)\psdot[linecolor=purple](20,2)
+
+                    \psline[linecolor=gray,linestyle=dotted]{-}(6,-3)(6,0)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,-3)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,2)(12,2)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(12,0)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(20,0)(20,2)
+                    \uput[d](2.2,0.1){\scriptsize{3}}
+                    \uput[d](6,0.1){\scriptsize{6}}
+                    \uput[d](12,0.1){\scriptsize{12}}
+                    \uput[d](20,0.1){\scriptsize{20}}
+                    \psdot[linecolor=purple](0,3) \psdot[linecolor=purple](0,-3)
+                    \psdot[linecolor=purple](0,2)
+                    \psdot[linecolor=purple](12,0)
+                    \psdot[linecolor=purple](20,0)
+                    \psdot[linecolor=purple](6,-3)
+                    \psdot[linecolor=purple](12,-3)
+                    \psdot[linecolor=purple](6,0) \psdot[linecolor=purple](3,0) 
+
+&lt;/code&gt;</pre></div></figure><p>From the impulse-momentum theorem we know that that impulse is equal to the change in
+momentum. We have worked out the impulse for the two sub-intervals making up 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>. We can sum them to find the
+impulse for the total interval:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{impulse}_{0-6} &amp; = \text{impulse}_{0-3} + \text{impulse}_{3-6} \\
+&amp;= (\text{4,5})+(-\text{4,5}) \\
+&amp;= 0
+\end{align*}</annotation></semantics></math><p>The positive impulse in the first 3 seconds is exactly opposite to the impulse in the second
+3 second interval making the total impulse for the first 6 seconds zero:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{impulse}_{0-6} = 0</annotation></semantics></math><p>From the impulse momentum theorem we know that:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta \vec{p} = \text{impulse} = 0</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">What is the impulse for the interval <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/4af647f869afce5d55b3b65298f6a635.png"/><pre class="pspicture">&lt;code&gt;(-1.5,-4)(8,4.3)
+                    \psset{ axesstyle=axes, llx=-1cm,lly=-1cm, xunit=.3 }
+
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(0,0)(0,3) % first triangle
+                    %\pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(6,0)(6,-3) % second triangle
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](6,0)(6,-3)(12,-3)(12,0) % negative rect
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](12,0)(12,2)(20,2)(20,0) % positive rect
+                    \psaxes[labels=none,linecolor=gray,subgriddiv=1,griddots=10,tickcolor=gray,ticklinestyle=dotted,xticksize=0cm,yticksize=.0cm,Dx=3,Dy=4]{-&amp;gt;}(0,0)(0,-3.5)(23,4)%[$x$,-90][$y$,180]
+                    \rput[b]{0}(22,.1){$t~\text{(s)}$}
+                    \rput[b]{90}(-2,0){Force (N)}
+                    \rput[ur]{0}(-.1,-.1){0}
+                    \rput[r]{0}(-0.3,3){\footnotesize{3}}
+                    \rput[r]{0}(-0.3,2){\footnotesize{2}}
+                    \rput[r]{0}(-0.3,-3){\footnotesize{-3}}
+
+                    \psline[linecolor=purple]{-}(0,3)(6,-3)
+                    \psline[linecolor=purple]{-}(6,-3)(12,-3)\psdot[linecolor=purple](12,-3)
+                    \psline[linecolor=purple]{-}(12,-3)(12,2)\psdot[linecolor=purple](12,2)
+                    \psline[linecolor=purple]{-}(12,2)(20,2)\psdot[linecolor=purple](20,2)
+
+                    \psline[linecolor=gray,linestyle=dotted]{-}(6,-3)(6,0)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,-3)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,2)(12,2)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(12,0)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(20,0)(20,2)
+                    \uput[d](2.2,0.1){\scriptsize{3}}
+                    \uput[d](6,0.1){\scriptsize{6}}
+                    \uput[d](12,0.1){\scriptsize{12}}
+                    \uput[d](20,0.1){\scriptsize{20}}
+                    \psdot[linecolor=purple](0,3) \psdot[linecolor=purple](0,-3)
+                    \psdot[linecolor=purple](0,2)
+                    \psdot[linecolor=purple](12,0)
+                    \psdot[linecolor=purple](20,0)
+                    \psdot[linecolor=purple](6,-3)
+                    \psdot[linecolor=purple](12,-3)
+                    \psdot[linecolor=purple](6,0) \psdot[linecolor=purple](3,0) 
+
+&lt;/code&gt;</pre></div></figure><p>We need to calculate the area of the shaded portion under the graph. 
+This is divided into two areas, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>, which we need to sum to get the 
+total impulse.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{Impulse}_{6-12} &amp;= (6)(-3) \\
+&amp; = -\text{18}\text{ N&#183;s}
+\end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{Impulse}_{12-20} &amp;= (8)(2) \\
+&amp; = \text{16}\text{ N&#183;s}
+\end{align*}</annotation></semantics></math><p>The total impulse is the sum of the two:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{Impulse}_{6-20} &amp;= \text{Impulse}_{6-12} + \text{Impulse}_{12-20} \\
+&amp;= (-18) + (16) \\
+&amp;= -\text{2}\text{ N&#183;s} \\
+\end{align*}</annotation></semantics></math><p>The impulse is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N&#183;s}</annotation></semantics></math> in the negative direction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">What is the impulse of the entire period</div>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/9c953f95950526052f53f35f25fafb99.png"/><pre class="pspicture">&lt;code&gt;(-1.5,-4)(8,4.3)
+                    \psset{ axesstyle=axes, llx=-1cm,lly=-1cm, xunit=.3 }
+
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(0,0)(0,3) % first triangle
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](3,0)(6,0)(6,-3) % second triangle
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](6,0)(6,-3)(12,-3)(12,0) % negative rect
+                    \pspolygon*[fillstyle=solid,linecolor=orange!70!white](12,0)(12,2)(20,2)(20,0) % positive rect
+                    \psaxes[labels=none,linecolor=gray,subgriddiv=1,griddots=10,tickcolor=gray,ticklinestyle=dotted,xticksize=0cm,yticksize=.0cm,Dx=3,Dy=4]{-&amp;gt;}(0,0)(0,-3.5)(23,4)%[$x$,-90][$y$,180]
+                    \rput[b]{0}(22,.1){$t~\text{(s)}$}
+                    \rput[b]{90}(-2,0){Force (N)}
+                    \rput[ur]{0}(-.1,-.1){0}
+                    \rput[r]{0}(-0.3,3){\footnotesize{3}}
+                    \rput[r]{0}(-0.3,2){\footnotesize{2}}
+                    \rput[r]{0}(-0.3,-3){\footnotesize{-3}}
+
+                    \psline[linecolor=purple]{-}(0,3)(6,-3)
+                    \psline[linecolor=purple]{-}(6,-3)(12,-3)\psdot[linecolor=purple](12,-3)
+                    \psline[linecolor=purple]{-}(12,-3)(12,2)\psdot[linecolor=purple](12,2)
+                    \psline[linecolor=purple]{-}(12,2)(20,2)\psdot[linecolor=purple](20,2)
+
+                    \psline[linecolor=gray,linestyle=dotted]{-}(6,-3)(6,0)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,-3)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(0,2)(12,2)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(12,0)(12,-3)
+                    \psline[linecolor=gray,linestyle=dotted]{-}(20,0)(20,2)
+                    \uput[d](2.2,0.1){\scriptsize{3}}
+                    \uput[d](6,0.1){\scriptsize{6}}
+                    \uput[d](12,0.1){\scriptsize{12}}
+                    \uput[d](20,0.1){\scriptsize{20}}
+                    \psdot[linecolor=purple](0,3) \psdot[linecolor=purple](0,-3)
+                    \psdot[linecolor=purple](0,2)
+                    \psdot[linecolor=purple](12,0)
+                    \psdot[linecolor=purple](20,0)
+                    \psdot[linecolor=purple](6,-3)
+                    \psdot[linecolor=purple](12,-3)
+                    \psdot[linecolor=purple](6,0) \psdot[linecolor=purple](3,0) 
+
+&lt;/code&gt;</pre></div></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Car chase [NSC 2011 Paper1]</div><div class="problem" data-class="question">
+  
+<p>A patrol car is moving on a straight horizontal road at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> east. At the same time a thief in a car ahead of him is driving at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{40}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> in the same direction.</p>
+
+  <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/5cd3aaad759023e96e61fe7e98f52319.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.286)(14.241,1.295)
+\definecolor{color4351}{rgb}{0.9764705882352941,0.023529411764705882,0.023529411764705882}
+\psline[linewidth=0.042cm](0.0,-1.245)(14.22,-1.265)
+\pscircle[linewidth=0.172,dimen=outer](2.561,-0.915){0.34}
+\pscircle[linewidth=0.172,dimen=outer](4.841,-0.915){0.34}
+\psbezier[linewidth=0.092,fillstyle=solid,fillcolor=black](1.581,-0.655)(1.581,-0.915)(2.041,-1.015)(2.021,-1.015)(2.001,-1.015)(2.101,-0.475)(2.561,-0.475)(3.021,-0.475)(3.061,-1.035)(3.061,-1.015)(3.061,-0.995)(4.312527,-1.0129433)(4.321,-1.015)(4.329473,-1.0170567)(4.361,-0.435)(4.881,-0.495)(5.401,-0.555)(5.301,-1.015)(5.301,-1.015)(5.301,-1.015)(6.261,-0.975)(6.281,-0.775)(6.301,-0.575)(6.261,-0.275)(6.221,-0.375)(6.181,-0.475)(5.720036,-0.41889748)(4.921,-0.455)(4.121964,-0.49110252)(3.921,-0.495)(3.361,-0.515)(2.801,-0.535)(1.701,-0.355)(1.641,-0.315)(1.581,-0.275)(1.581,-0.395)(1.581,-0.655)
+\psbezier[linewidth=0.16399999](1.621,-0.315)(1.701,-0.095)(1.621,-0.095)(1.781,-0.095)(1.941,-0.095)(2.361,-0.155)(2.961,-0.155)(3.561,-0.155)(4.141,-0.175)(4.501,-0.175)(4.861,-0.175)(5.641,-0.155)(6.241,-0.355)
+\psbezier[linewidth=0.092](2.001,-0.11121621)(2.481,0.12662162)(2.661,0.1860811)(2.961,0.24554053)(3.261,0.30499998)(4.301,0.305)(4.341,0.26932433)(4.381,0.23364867)(4.621,0.1504054)(5.041,-0.135)
+\psline[linewidth=0.092cm](3.421,0.265)(3.421,-0.095)
+\psline[linewidth=0.092cm](4.281,0.245)(4.521,-0.095)
+\psellipse[linewidth=0.092,dimen=outer,fillstyle=solid,fillcolor=black](3.511,0.405)(0.21,0.12)
+\psellipse[linewidth=0.038,dimen=outer](3.821,0.015)(0.14,0.15)
+\psline[linewidth=0.06cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(2.781,1.265)(4.881,1.265)
+\pscircle[linewidth=0.162,dimen=outer](9.781,-0.895){0.34}
+\psbezier[linewidth=0.076,linecolor=color4351,fillcolor=black](8.342865,-0.76513994)(8.321,-0.7801805)(9.342633,-0.9558348)(9.341,-0.90400535)(9.339367,-0.8521759)(9.37079,-0.42326936)(9.821,-0.44408453)(10.27121,-0.4648997)(10.240891,-0.90276706)(10.261,-0.9216946)(10.281109,-0.94062215)(11.633906,-0.97294325)(11.641,-0.88631606)(11.648094,-0.7996889)(11.681,-0.4971523)(12.041,-0.4617738)(12.401,-0.4263953)(12.541,-0.88631606)(12.541,-0.88631606)(12.541,-0.88631606)(13.813837,-0.8986264)(13.83742,-0.70793146)(13.861003,-0.5172365)(13.738335,-0.36468068)(13.227001,-0.30747223)(12.715667,-0.25026378)(12.061,0.051214777)(11.841,0.22810738)(11.621,0.40499997)(10.526638,0.3408904)(10.150935,0.35995987)(9.775232,0.37902936)(8.901831,-0.19167505)(8.601161,-0.1739858)(8.300491,-0.15629654)(8.36473,-0.75009936)(8.342865,-0.76513994)
+\psline[linewidth=0.076cm,linecolor=color4351](10.901,0.345)(10.901,-0.915)
+\psellipse[linewidth=0.034,dimen=outer](11.121,0.035)(0.14,0.15)
+\psline[linewidth=0.06cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(9.981,1.245)(12.061,1.245)
+\psline[linewidth=0.076cm,linecolor=color4351](11.721,-0.135)(9.861,-0.135)
+\pscircle[linewidth=0.162,dimen=outer](12.081,-0.895){0.34}
+\psbezier[linewidth=0.076,linecolor=color4351](11.621,0.305)(11.641,0.205)(11.728245,-0.10972338)(11.728245,-0.10972338)(11.728245,-0.10972338)(11.801,-0.655)(11.481,-0.918337)
+\psbezier[linewidth=0.076,linecolor=color4351](10.294334,0.365)(10.081,0.06499496)(9.874334,-0.14375786)(9.841,-0.135)(9.807666,-0.12624213)(10.221,-0.515)(10.341,-0.935)
+\psline[linewidth=0.076cm,linecolor=color4351](11.721,-0.135)(12.561,-0.135)
+\psline[linewidth=0.076,linecolor=color4351](9.041,-0.255)(9.221,-0.235)(9.221,-0.375)(9.041,-0.355)(9.041,-0.255)
+\psline[linewidth=0.076,linecolor=color4351](8.661,-0.235)(8.621,-0.475)(8.401,-0.455)(8.661,-0.495)(9.361,-0.675)
+\psline[linewidth=0.076,linecolor=color4351](10.101,-0.115)(10.101,0.125)(10.081,-0.135)
+\psline[linewidth=0.076,linecolor=color4351](10.281,0.345)(11.621,0.285)(10.821,0.345)(11.521,0.305)(11.601,0.285)
+\psline[linewidth=0.076,linecolor=color4351](13.261,-0.335)(13.301,-0.495)(13.421,-0.575)(13.801,-0.535)
+\psline[linewidth=0.048cm](8.181,-0.715)(7.141,-0.715)
+\psline[linewidth=0.048cm](8.061,-0.555)(7.661,-0.555)
+\psline[linewidth=0.048cm](8.101,-0.835)(7.521,-0.855)
+\psline[linewidth=0.048cm](10.981,-0.555)(10.321,-0.555)
+\psline[linewidth=0.048cm](8.781,-0.615)(8.201,-0.615)
+\psline[linewidth=0.048cm](8.661,-0.475)(8.161,-0.475)
+\psline[linewidth=0.048cm](10.361,-0.255)(9.701,-0.255)
+\psline[linewidth=0.048cm](10.781,-0.335)(10.121,-0.335)
+\rput(4.139375,0.865){\LARGE $v_{PG}$ = 10 m$\cdot$s$^{-1}$}
+\rput(11.269375,0.825){\LARGE $v_{TG}$ = 40 m$\cdot$s$^{-1}$}
+&lt;/code&gt;</pre></div></figure><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v_{PG}</annotation></semantics></math>: velocity of the <strong>p</strong>atrol car relative to the <strong>g</strong>round 
+
+    <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v_{TG}</annotation></semantics></math>: velocity of the <strong>t</strong>hief's car relative to the <strong>g</strong>round</p>
+
+  <ol data-class="ListEnumerated"><li> 
+      
+<p>Write down the velocity of the thief's car relative to the patrol car.</p>
+
+      
+<p>(2 marks)</p>
+
+    </li>
+<li> 
+      
+<p>A person in the patrol car fires a bullet at the thief's car. The bullet leaves the gun with an initial horizontal velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> relative to the patrol car. Ignore the effects of friction.</p>
+
+      
+<p>Write down the initial velocity of the <strong>b</strong>ullet relative to the <strong>t</strong>hief's car.</p>
+
+      
+<p>(2 marks)</p>
+
+    </li>
+<li> 
+      
+<p>While travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{40}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>, the thief's car of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>, collides head-on with a truck of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> moving at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. After the collision, the car and the truck move together. Ignore the effects of friction.</p>
+
+      <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/5c4d3a7c8f04461c8c9689d6c21c39c2.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.821)(16.181,1.84)
+\definecolor{color4351}{rgb}{0.9764705882352941,0.023529411764705882,0.023529411764705882}
+\definecolor{color6332b}{rgb}{0.996078431372549,0.996078431372549,0.996078431372549}
+\psline[linewidth=0.042cm](0.0,-1.76)(16.16,-1.8)
+\pscircle[linewidth=0.22600001,dimen=outer,fillstyle=crosshatch*,hatchwidth=0.04,hatchangle=0.0](9.251,-1.34){0.47}
+\pscircle[linewidth=0.22600001,dimen=outer,fillstyle=crosshatch,hatchwidth=0.04,hatchangle=0.0](13.013958,-1.34){0.47}
+\psline[linewidth=0.06cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(12.721,1.81)(10.301,1.77)
+\pscircle[linewidth=0.162,dimen=outer](3.141,-1.39){0.34}
+\psbezier[linewidth=0.076,linecolor=color4351,fillcolor=black](1.7028656,-1.26014)(1.681,-1.2751805)(2.7026339,-1.4508349)(2.701,-1.3990053)(2.699366,-1.3471757)(2.7307897,-0.9182694)(3.181,-0.9390845)(3.6312103,-0.9598996)(3.6008909,-1.397767)(3.621,-1.4166946)(3.641109,-1.4356222)(4.993906,-1.4679432)(5.001,-1.381316)(5.008094,-1.2946888)(5.041,-0.9921523)(5.401,-0.9567738)(5.761,-0.9213953)(5.901,-1.381316)(5.901,-1.381316)(5.901,-1.381316)(7.1738386,-1.3936263)(7.197419,-1.2029315)(7.2209997,-1.0122367)(7.0983343,-0.8596807)(6.5870013,-0.8024722)(6.0756683,-0.7452637)(5.421,-0.4437852)(5.201,-0.2668926)(4.981,-0.09)(3.886638,-0.1541096)(3.510935,-0.1350401)(3.135232,-0.11597062)(2.261831,-0.6866751)(1.9611611,-0.6689858)(1.6604912,-0.65129656)(1.7247312,-1.2450994)(1.7028656,-1.26014)
+\psline[linewidth=0.076cm,linecolor=color4351](4.261,-0.15)(4.261,-1.41)
+\psellipse[linewidth=0.034,dimen=outer](4.481,-0.46)(0.14,0.15)
+\psline[linewidth=0.06cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.341,0.75)(5.421,0.75)
+\psline[linewidth=0.076cm,linecolor=color4351](5.081,-0.63)(3.221,-0.63)
+\pscircle[linewidth=0.162,dimen=outer](5.441,-1.39){0.34}
+\psbezier[linewidth=0.076,linecolor=color4351](4.981,-0.19)(5.001,-0.29)(5.0882454,-0.6047234)(5.0882454,-0.6047234)(5.0882454,-0.6047234)(5.161,-1.15)(4.841,-1.413337)
+\psbezier[linewidth=0.076,linecolor=color4351](3.6543334,-0.13)(3.441,-0.43000504)(3.2343333,-0.6387579)(3.201,-0.63)(3.1676667,-0.6212421)(3.581,-1.01)(3.701,-1.43)
+\psline[linewidth=0.076cm,linecolor=color4351](5.081,-0.63)(5.921,-0.63)
+\psline[linewidth=0.076,linecolor=color4351](2.401,-0.75)(2.581,-0.73)(2.581,-0.87)(2.401,-0.85)(2.401,-0.75)
+\psline[linewidth=0.076,linecolor=color4351](2.021,-0.73)(1.981,-0.97)(1.761,-0.95)(2.021,-0.99)(2.721,-1.17)
+\psline[linewidth=0.076,linecolor=color4351](3.461,-0.61)(3.461,-0.37)(3.441,-0.63)
+\psline[linewidth=0.076,linecolor=color4351](3.641,-0.15)(4.981,-0.21)(4.181,-0.15)(4.881,-0.19)(4.961,-0.21)
+\psline[linewidth=0.076,linecolor=color4351](6.621,-0.77)(6.661,-0.93)(6.781,-1.01)(7.161,-0.97)
+\psline[linewidth=0.048cm](1.541,-1.21)(0.501,-1.21)
+\psline[linewidth=0.048cm](1.421,-1.05)(1.021,-1.05)
+\psline[linewidth=0.048cm](1.461,-1.33)(0.881,-1.35)
+\psline[linewidth=0.048cm](4.341,-1.05)(3.681,-1.05)
+\psline[linewidth=0.048cm](2.141,-1.11)(1.561,-1.11)
+\psline[linewidth=0.048cm](2.021,-0.97)(1.521,-0.97)
+\psline[linewidth=0.048cm](3.721,-0.75)(3.061,-0.75)
+\psline[linewidth=0.048cm](4.141,-0.83)(3.481,-0.83)
+\psdots[dotsize=0.222](9.261,-1.35)
+\psdots[dotsize=0.222](13.021,-1.35)\psline[linewidth=0.04](8.821,-1.19)(8.461,-1.19)(8.581,-0.65)(9.821,-0.65)(10.081,-1.27)(9.681,-1.25)(9.701,-1.41)(10.021,-1.43)(10.061,-1.27)(10.641,-1.33)(10.621,-0.81)(9.921,-0.81)(10.181,-0.81)(10.181,-1.03)(10.461,-1.03)(10.481,-0.81)(10.781,-0.81)(10.821,0.79)(9.941,0.81)(9.721,0.17)(8.481,0.15)(8.461,-1.13)(8.241,-1.09)(8.321,-0.01)(8.481,0.15)
+\psline[linewidth=0.04](10.133727,0.63)(10.641,0.63)(10.601,0.19)(10.021,0.19666667)(10.133727,0.63)
+\psline[linewidth=0.04](10.001,0.83)(9.841,0.75)(9.641,0.17)
+\psline[linewidth=0.04](10.021,0.13)(10.581,0.10823529)(10.561,-0.61)(9.941,-0.61)(10.001,0.13)
+\psline[linewidth=0.04](10.861,-0.71)(14.021,-0.71)(13.981,0.51)(10.821,0.47)(10.861,0.63)(14.001,0.65)(14.021,0.49)(13.961,0.27)(13.441,0.23)(13.421,-0.43)(13.981,-0.41)(13.981,0.21)
+\psline[linewidth=0.04](10.961,0.23)(11.541,0.23)(11.521,-0.47)(10.941,-0.47)(10.961,0.23)
+\psline[linewidth=0.04](11.781,0.25)(11.781,-0.47)(12.361,-0.47)(12.361,0.25)(11.821,0.23)
+\psline[linewidth=0.04](12.601,0.27)(12.601,-0.47)(13.221,-0.47)(13.201,0.25)(12.621,0.25)
+\psline[linewidth=0.04cm](9.361,0.15)(9.361,-0.61)
+\psline[linewidth=0.04cm](8.961,0.01)(9.621,0.03)
+\psline[linewidth=0.04cm](9.101,-0.09)(9.501,-0.09)
+\psline[linewidth=0.04](10.701,-1.21)(11.361,-1.21)(11.301,-0.73)(11.381,-1.17)(12.501,-1.17)
+\psline[linewidth=0.04](14.001,-0.73)(14.001,-1.09)(13.441,-1.11)
+\psline[linewidth=0.04cm](10.721,-0.89)(10.721,-1.19)
+\psline[linewidth=0.04cm](10.781,-0.89)(10.801,-1.17)
+\psline[linewidth=0.04cm](10.881,-0.79)(10.881,-1.17)
+\psline[linewidth=0.04cm](10.961,-0.77)(10.961,-1.19)
+\psline[linewidth=0.04cm](11.021,-0.79)(11.041,-1.13)
+\psline[linewidth=0.04cm](11.101,-0.73)(11.121,-1.17)
+\psline[linewidth=0.04cm](11.181,-0.81)(11.201,-1.17)
+\psline[linewidth=0.04cm](11.281,-0.93)(11.281,-1.19)
+\psline[linewidth=0.04cm](11.441,-0.79)(11.441,-1.05)
+\psline[linewidth=0.04cm](11.501,-0.81)(11.521,-1.13)
+\psline[linewidth=0.04cm](11.581,-0.77)(11.581,-1.13)
+\psline[linewidth=0.04cm](11.661,-0.79)(11.661,-1.11)
+\psline[linewidth=0.04cm](11.741,-0.79)(11.741,-1.11)
+\psline[linewidth=0.04cm](11.821,-0.71)(11.821,-1.05)
+\psline[linewidth=0.04cm](11.921,-0.77)(11.921,-1.09)
+\psline[linewidth=0.04cm](11.981,-0.77)(12.021,-1.13)
+\psline[linewidth=0.04cm](12.101,-0.73)(12.101,-1.09)
+\psline[linewidth=0.04cm](12.161,-0.79)(12.161,-1.13)
+\psline[linewidth=0.04cm](12.241,-0.79)(12.241,-1.13)
+\psline[linewidth=0.04cm](12.321,-0.79)(12.321,-1.17)
+\psline[linewidth=0.04cm](12.401,-0.77)(12.381,-1.17)
+\psline[linewidth=0.04cm](12.481,-0.73)(12.481,-1.11)
+\psline[linewidth=0.04cm](12.541,-0.73)(12.541,-1.11)
+\psline[linewidth=0.04cm](12.641,-0.81)(12.641,-1.03)
+\psline[linewidth=0.04cm](12.721,-0.77)(12.721,-0.97)
+\psline[linewidth=0.04cm](12.801,-0.79)(12.801,-0.97)
+\psline[linewidth=0.04cm](13.261,-0.79)(13.281,-0.95)
+\psline[linewidth=0.04cm](12.881,-0.79)(12.901,-0.87)
+\psline[linewidth=0.04cm](12.981,-0.73)(12.981,-0.89)
+\psline[linewidth=0.04cm](13.101,-0.79)(13.101,-0.89)
+\psline[linewidth=0.04cm](13.181,-0.77)(13.181,-0.89)
+\psline[linewidth=0.04cm](13.021,-0.77)(13.021,-0.87)
+\psline[linewidth=0.04cm](12.861,-0.79)(12.861,-0.89)
+\psline[linewidth=0.04cm](13.341,-0.77)(13.341,-1.01)
+\psline[linewidth=0.04cm](13.421,-0.77)(13.421,-1.11)
+\psline[linewidth=0.04cm](13.501,-0.77)(13.521,-1.03)
+\psline[linewidth=0.04cm](13.541,-0.73)(13.521,-1.09)
+\psline[linewidth=0.04cm](13.621,-0.79)(13.621,-1.09)
+\psline[linewidth=0.04cm](13.661,-0.71)(13.661,-1.09)
+\psline[linewidth=0.04cm](13.741,-0.79)(13.761,-1.09)
+\psline[linewidth=0.04cm](13.781,-0.79)(13.781,-1.03)
+\psline[linewidth=0.04cm](13.841,-0.73)(13.841,-1.03)
+\psline[linewidth=0.04cm](13.901,-0.77)(13.901,-1.09)
+\psline[linewidth=0.04](10.941,0.61)(10.941,0.91)(11.081,0.91)(11.081,0.61)
+\psellipse[linewidth=0.034,dimen=outer](10.361,0.4)(0.14,0.15)
+\psframe[linewidth=0.04,dimen=outer](10.501,-0.09)(10.301,-0.21)
+\psframe[linewidth=0.04,dimen=outer](10.541,0.95)(10.141,0.79)
+\psframe[linewidth=0.04,dimen=outer](10.461,1.05)(10.241,0.97)
+\psarc[linewidth=0.04](11.551,0.64){0.17}{55.619656}{180.0}
+\psarc[linewidth=0.04](11.831,0.82){0.19}{68.19859}{195.94539}
+\psarc[linewidth=0.04](12.101,0.91){0.12}{54.462322}{195.25511}
+\psarc[linewidth=0.04](12.101,0.99){0.2}{49.398705}{180.0}
+\psarc[linewidth=0.04](12.821,0.75){0.26}{20.556046}{71.56505}
+\psarc[linewidth=0.04](12.691,0.96){0.23}{6.340192}{93.36646}
+\psarc[linewidth=0.04](12.481,1.01){0.3}{36.869896}{155.55605}
+\psarc[linewidth=0.04](13.411,0.6){0.19}{18.434948}{140.71059}
+\psarc[linewidth=0.04](13.141,0.71){0.16}{14.036243}{123.69007}
+\psellipse[linewidth=0.04,dimen=outer,fillstyle=solid,fillcolor=color6332b](8.471,0.13)(0.11,0.14)
+\psframe[linewidth=0.04,dimen=outer,fillstyle=solid,fillcolor=color6332b](8.473331,0.27)(8.349271,-0.01)
+\psarc[linewidth=0.04](12.181,0.83){0.12}{56.309933}{165.96376}
+\rput(4.218125,0.35){\LARGE 40 m$\cdot$s$^{-1}$}
+\rput(11.497031,1.45){\LARGE 20 m$\cdot$s$^{-1}$}
+&lt;/code&gt;</pre></div></figure><p>State the <em>law of conservation of linear momentum</em> in words.</p>
+
+      
+<p>(2 marks)</p>
+
+    </li>
+<li> 
+      
+<p>Calculate the velocity of the thief's car immediately after the collision.</p>
+
+      
+<p>(6 marks)</p>
+
+    </li>
+<li> 
+      
+<p>Research has shown that forces greater than 85 000 N during collisions may cause fatal injuries. The collision described above lasts for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>.</p>
+
+      
+<p>Determine, by means of a calculation, whether the collision above could result in a fatal injury.</p>
+
+      
+<p>(5 marks)</p>
+
+    </li>
+</ol><p><strong>[TOTAL: 17 marks]</strong></p>
+
+</div>
+<p><strong>Question 4.1</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{TP} &amp; = v_{TG} - v_{PG} \\
+                 &amp; =  \text{40}-\text{10} \\
+                 &amp; =  \text{30 m}\cdot\text{s}^{-1} \quad \text{east}
+        \end{align*}</annotation></semantics></math><p><strong>OR</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{TP} &amp; = v_{TG} + v_{PG} \\
+                 &amp; =  \text{40}+(-\text{10}) \\
+                 &amp; =  \text{30 m}\cdot\text{s}^{-1} \quad \text{east} \\
+        \end{align*}</annotation></semantics></math><p>(2 marks)</p>
+
+<p><strong>Question 4.2</strong></p>
+
+<p><strong>Option 1:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{BT} &amp; = v_{BP} - v_{TP} \\
+                 &amp; =  \text{100}-\text{30} \\
+                 &amp; =  \text{70 m}\cdot\text{s}^{-1} \quad \text{east} \\
+        \end{align*}</annotation></semantics></math><p><strong>Option 2:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{BT} &amp; = v_{BP} + v_{PT} \\
+                 &amp; =  \text{100}+(-\text{30}) \\
+                 &amp; =  \text{70 m}\cdot\text{s}^{-1} \quad \text{east} \\
+        \end{align*}</annotation></semantics></math><p><strong>OR</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{BT} &amp; = v_{BP} + v_{PG} + v_{GT} \\
+                 &amp; =  \text{100}+\text{10}+(-\text{40}) \\
+                 &amp; =  \text{70 m}\cdot\text{s}^{-1} \quad \text{east} \\
+        \end{align*}</annotation></semantics></math><p><strong>Option 3:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{BT} &amp; = v_{BP} + v_{PG} + v_{GT} \\
+                 &amp; =  \text{100}+\text{10}+(-\text{40}) \\
+                 &amp; =  \text{70 m}\cdot\text{s}^{-1} \quad \text{east} \\
+        \end{align*}</annotation></semantics></math><p><strong>Option 4:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_{BG} &amp; = v_{BP} + v_{PG} \\
+                 &amp; =  \text{100}+\text{10} \\
+                 &amp; =  \text{110 m}\cdot\text{s}^{-1} \\
+          v_{BT} &amp; = v_{BG} + v_{GT} \\
+                 &amp; =  \text{110}+(-\text{40}) \\
+                 &amp; =  \text{70 m}\cdot\text{s}^{-1} \quad \text{east} \\
+        \end{align*}</annotation></semantics></math><p>(2 marks)</p>
+
+<p><strong>Question 4.3</strong></p>
+
+<p>The total (linear) momentum remains constant (<strong>OR</strong> is conserved <strong>OR</strong> does not change) in an isolated (<strong>OR</strong> in a closed system <strong>OR</strong> in the absence of external forces).</p>
+
+<p>(2 marks)</p>
+
+<p><strong>Question 4.4</strong></p>
+
+<p><strong>Option 1:</strong></p>
+
+<p>Taking to the right as positive</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          \sum p_{\text{before}} &amp; = \sum p_{\text{after}} \\
+          (\text{1000})(\text{40})+(\text{5000})(-\text{20}) &amp; = (\text{1000}+\text{5000})v_f \\
+          v_f &amp; =  -\text{10 m}\cdot\text{s}^{-1}\\
+          &amp; =  \text{10 m}\cdot\text{s}^{-1} \quad \text{left OR west}
+        \end{align*}</annotation></semantics></math><p><strong>Option 2:</strong></p>
+
+<p>Taking to the right as positive</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          \Delta p_{\text{car}}&amp; = - \Delta p_{\text{truck}} \\
+          m_{\text{car}}(v_f -v_{i,\text{car}}) &amp; = - m_{\text{truck}}(v_f -v_{i,\text{truck}}) \\
+              (\text{1000})(v_f-(\text{40})) &amp; = -(\text{5000})(v_f -(-\text{20})) \\
+          \text{6000}v_f &amp; = -\text{60 000} \\
+          \therefore v_f &amp; = -\text{10 m}\cdot\text{s}^{-1} \\
+          \therefore v_f &amp; =  \text{10 m}\cdot\text{s}^{-1} \quad \text{left OR west}
+        \end{align*}</annotation></semantics></math><p>(6 marks)</p>
+
+<p><strong>Question 4.5</strong></p>
+
+<p><strong>Option 1:</strong></p>
+
+<p>Force on the car: (Taking to the right as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          F_{\text{net}} \Delta t &amp; = \Delta p = mv_f - mv_i \\
+          F_{\text{net}} (\text{0,5}) &amp; = (\text{1000})(-\text{10}-\text{40}) \\
+          \therefore F_{\text{net}} &amp; = -10^5\text{ N} \\
+          &amp; \text{OR} \\
+          \therefore F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>OR</strong></p>
+
+<p>Force on the car: (Taking to the left as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          F_{\text{net}} \Delta t &amp; = \Delta p  = mv_f - mv_i \\
+          F_{\text{net}} (\text{0,5}) &amp; = (\text{1000})(\text{10}-(-40)) \\
+          \therefore F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>Option 2:</strong></p>
+
+<p>Force on the truck: (Taking to the right as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          F_{\text{net}} \Delta t &amp; = \Delta p = mv_f - mv_i \\
+          F_{\text{net}} (\text{0,5}) &amp; = (\text{5000})(-10-(-20)) \\
+          \therefore F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>OR</strong></p>
+
+<p>Force on the truck: (Taking to the left as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          F_{\text{net}} \Delta t &amp; = \Delta p  = mv_f - mv_i \\
+          F_{\text{net}} (\text{0,5}) &amp; = (\text{1000})(\text{10}-\text{20}) \\
+          \therefore F_{\text{net}} &amp; = -10^5\text{ N} \\
+          &amp; \text{OR} \\
+          \therefore F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>Option 3:</strong></p>
+
+<p>Force on the car: (Taking to the right as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_f &amp; = v_i + a \Delta t \\
+          -10 &amp; = \text{40} + a (\text{0,5})\\
+          \therefore a &amp; = -\text{100 m}\cdot\text{s}^{-2}\\
+          F_{\text{net}} &amp; = ma \\
+        &amp; = (\text{1000})(-100) \\
+          F_{\text{net}} &amp; = -10^5\text{ N} \quad (-\text{100 000 N})\\
+          F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>OR</strong></p>
+
+<p>Force on the car: (Taking to the left as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_f &amp; = v_i + a \Delta t \\
+          \text{10} &amp; = -40 + a (\text{0,5})\\
+          \therefore a &amp; = \text{100 m}\cdot\text{s}^{-2}\\
+          F_{\text{net}} &amp; = ma \\
+          &amp; = (\text{1000})(\text{100}) \\
+          F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>Option 4:</strong></p>
+
+<p>Force on the truck: (Taking to the right as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_f &amp; = v_i + a \Delta t \\
+          -10 &amp; = -20 + a (\text{0,5})\\
+          \therefore a &amp; = \text{20 m}\cdot\text{s}^{-2}\\
+          F_{\text{net}} &amp; = ma \\
+          &amp; = (\text{5000})(\text{20}) \\
+          F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p><strong>OR</strong></p>
+
+<p>Force on the truck: (Taking to the left as positive)</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          v_f &amp; = v_i + a \Delta t \\
+          \text{10} &amp; = \text{20} + a (\text{0,5})\\
+          \therefore a &amp; = -\text{20 m}\cdot\text{s}^{-2}\\
+          F_{\text{net}} &amp; = ma \\
+          &amp; = (\text{5000})(-20) \\
+          F_{\text{net}} &amp; = -10^5\text{ N} \quad (-\text{100 000 N})\\
+          F_{\text{net}} &amp; = 10^5\text{ N} \quad (\text{100 000 N})\\
+          \therefore F_{\text{net}} &amp; &gt;  \text{85 000 N}
+        \end{align*}</annotation></semantics></math><p>Yes, the collision is fatal.</p>
+
+<p>(5 marks)</p>
+
+<p><strong>[TOTAL: 17 marks]</strong></p>
+</div><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>Which one of the following is <strong>not</strong> a unit of impulse?</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N&#183;s}</annotation></semantics></math></p>
+
+                </li>
+<li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg&#183;m&#183;s^{-1}}</annotation></semantics></math></p>
+
+                </li>
+<li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{J&#183;m&#183;s^{-1}}</annotation></semantics></math></p>
+
+                </li>
+<li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{J&#183;m^{-1}&#183;s}</annotation></semantics></math></p>
+
+                </li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>A toy car of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> moves eastwards with a speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. It collides head-on with a toy train. The train has a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> and is moving at a speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> westwards. The car rebounds (bounces back) at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and the train rebounds at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p>Calculate the change in momentum for each toy.</p>
+
+                </li>
+<li>
+                  
+<p>Determine the impulse for each toy.</p>
+
+                </li>
+<li>
+                  
+<p>Determine the duration of the collision if the magnitude of the force exerted by each toy is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+
+                </li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>A bullet of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> strikes a target at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{300}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and exits at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. The tip of the bullet takes <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,0001}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> to pass through the target. Determine:</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p>the change of momentum of the bullet.</p>
+
+                </li>
+<li>
+                  
+<p>the impulse of the bullet.</p>
+
+                </li>
+<li>
+                  
+<p>the magnitude of the force experienced by the bullet.</p>
+
+                </li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>A bullet of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> strikes a target at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{300}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. Determine under which circumstances the bullet experiences the greatest change in momentum, and hence impulse:</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p>When the bullet exits the target at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+
+                </li>
+<li>
+                  
+<p>When the bullet stops in the target.</p>
+
+                </li>
+<li>
+                  
+<p>When the bullet rebounds at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+
+                </li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>A ball with a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> strikes a wall at right angles at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and rebounds at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{9}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p>Calculate the change in the momentum of the ball.</p>
+
+                </li>
+<li>
+                  
+<p>What is the impulse of the wall on the ball?</p>
+
+                </li>
+<li>
+                  
+<p>Calculate the magnitude of the force exerted by the wall on the ball if the collision takes <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,02}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math>.</p>
+
+                </li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>If the ball in the previous problem is replaced with a piece of clay of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> which is thrown against the wall with the same velocity, but then sticks to the wall, calculate:</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p>The impulse of the clay on the wall.</p>
+
+                </li>
+<li>
+                  
+<p>The force exerted by the clay on the wall if it is in contact with the wall for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{s}</annotation></semantics></math> before it comes to rest.</p>
+
+                </li>
+</ol></div><div class="solution"/></div></div></body>
+</html>

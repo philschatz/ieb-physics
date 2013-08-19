@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifer="uid">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:identifier id="uid">siyavula.com.dummy-book-repo.1.0</dc:identifier>
+          <dc:title>Siyavula Education: Dummy Book</dc:title>
+          <dc:creator>Siyavula Education</dc:creator>
+          <dc:language>en</dc:language>
+          <meta property="dcterms:modified">Mon Aug 19 16:15:42 2013 GMT</meta>
+       </metadata><manifest>
+<item id="chapter-0" href="xhtml/physics-12/01-Skills-for-science.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-1" href="xhtml/physics-12/01-Skills-for-science.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-2" href="xhtml/physics-12/01-Skills-for-science.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-3" href="xhtml/physics-12/01-Skills-for-science.section-04.html" media-type="application/xhtml+xml"/>
+<item id="chapter-4" href="xhtml/physics-12/01-Skills-for-science.section-05.html" media-type="application/xhtml+xml"/>
+<item id="chapter-5" href="xhtml/physics-12/01-Skills-for-science.section-06.html" media-type="application/xhtml+xml"/>
+<item id="chapter-6" href="xhtml/physics-12/01-Skills-for-science.section-07.html" media-type="application/xhtml+xml"/>
+<item id="chapter-7" href="xhtml/physics-12/01-Skills-for-science.section-08.html" media-type="application/xhtml+xml"/>
+<item id="chapter-8" href="xhtml/physics-12/01-Skills-for-science.section-09.html" media-type="application/xhtml+xml"/>
+<item id="chapter-9" href="xhtml/physics-12/01-Skills-for-science.section-10.html" media-type="application/xhtml+xml"/>
+<item id="chapter-10" href="xhtml/physics-12/02-Momentum-and-impulse.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-11" href="xhtml/physics-12/02-Momentum-and-impulse.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-12" href="xhtml/physics-12/02-Momentum-and-impulse.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-13" href="xhtml/physics-12/02-Momentum-and-impulse.section-04.html" media-type="application/xhtml+xml"/>
+<item id="chapter-14" href="xhtml/physics-12/02-Momentum-and-impulse.section-05.html" media-type="application/xhtml+xml"/>
+<item id="chapter-15" href="xhtml/physics-12/02-Momentum-and-impulse.section-06.html" media-type="application/xhtml+xml"/>
+<item id="chapter-16" href="xhtml/physics-12/03-Vertical-projectile-motion-in-one-dimension.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-17" href="xhtml/physics-12/03-Vertical-projectile-motion-in-one-dimension.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-18" href="xhtml/physics-12/03-Vertical-projectile-motion-in-one-dimension.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-19" href="xhtml/physics-12/05-Work-energy-and-power.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-20" href="xhtml/physics-12/05-Work-energy-and-power.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-21" href="xhtml/physics-12/05-Work-energy-and-power.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-22" href="xhtml/physics-12/05-Work-energy-and-power.section-04.html" media-type="application/xhtml+xml"/>
+<item id="chapter-23" href="xhtml/physics-12/05-Work-energy-and-power.section-05.html" media-type="application/xhtml+xml"/>
+<item id="chapter-24" href="xhtml/physics-12/06-Doppler-effect.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-25" href="xhtml/physics-12/06-Doppler-effect.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-26" href="xhtml/physics-12/06-Doppler-effect.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-27" href="xhtml/physics-12/06-Doppler-effect.section-04.html" media-type="application/xhtml+xml"/>
+<item id="chapter-28" href="xhtml/physics-12/10-Electric-circuits.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-29" href="xhtml/physics-12/10-Electric-circuits.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-30" href="xhtml/physics-12/10-Electric-circuits.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-31" href="xhtml/physics-12/10-Electric-circuits.section-04.html" media-type="application/xhtml+xml"/>
+<item id="chapter-32" href="xhtml/physics-12/10-Electric-circuits.section-05.html" media-type="application/xhtml+xml"/>
+<item id="chapter-33" href="xhtml/physics-12/10-Electric-circuits.section-06.html" media-type="application/xhtml+xml"/>
+<item id="chapter-34" href="xhtml/physics-12/11-Electrodynamics.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-35" href="xhtml/physics-12/11-Electrodynamics.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-36" href="xhtml/physics-12/11-Electrodynamics.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-37" href="xhtml/physics-12/11-Electrodynamics.section-04.html" media-type="application/xhtml+xml"/>
+<item id="chapter-38" href="xhtml/physics-12/12-Optical-phenomena-and-properties-of-matter.section-01.html" media-type="application/xhtml+xml"/>
+<item id="chapter-39" href="xhtml/physics-12/12-Optical-phenomena-and-properties-of-matter.section-02.html" media-type="application/xhtml+xml"/>
+<item id="chapter-40" href="xhtml/physics-12/12-Optical-phenomena-and-properties-of-matter.section-03.html" media-type="application/xhtml+xml"/>
+<item id="chapter-41" href="xhtml/physics-12/12-Optical-phenomena-and-properties-of-matter.section-04.html" media-type="application/xhtml+xml"/>
+<item id="nav" href="xhtml/physics-12/physics-12.nav.html" media-type="application/xhtml+xml" properties="nav"/>
+<item id="0b28140325e552ebdf7c1ad582ffd956.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/0b28140325e552ebdf7c1ad582ffd956.png" media-type="image/png"/>
+<item id="6099f06cdf0211eaacedf01eda227963.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/6099f06cdf0211eaacedf01eda227963.png" media-type="image/png"/>
+<item id="5c29d9b13d49acc01b6e4229bd6814a1.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5c29d9b13d49acc01b6e4229bd6814a1.png" media-type="image/png"/>
+<item id="Mosquito-by-John-Tran-on-Flickr-8143929538_b7d3e4406c_o-cropped.jpg" href="xhtml/physics-12/photos/Mosquito-by-John-Tran-on-Flickr-8143929538_b7d3e4406c_o-cropped.jpg" media-type="image/jpeg"/>
+<item id="Falconry-by-foxypar4-on-Flickr-414755713_4f260ee365_o.jpg" href="xhtml/physics-12/photos/Falconry-by-foxypar4-on-Flickr-414755713_4f260ee365_o.jpg" media-type="image/jpeg"/>
+<item id="Motorbike-by-Natesh-Ramasamy-on-Flickr-7346123072_85a510e237_k.jpg" href="xhtml/physics-12/photos/Motorbike-by-Natesh-Ramasamy-on-Flickr-7346123072_85a510e237_k.jpg" media-type="image/jpeg"/>
+<item id="Car-by-Moyan-Brenn-on-Flickr-5952275132_9c214f99ec_o.jpg" href="xhtml/physics-12/photos/Car-by-Moyan-Brenn-on-Flickr-5952275132_9c214f99ec_o.jpg" media-type="image/jpeg"/>
+<item id="Truck-by-David-Guos-Master-on-Flickr-7553870574_1fbf12ca69_o.jpg" href="xhtml/physics-12/photos/Truck-by-David-Guos-Master-on-Flickr-7553870574_1fbf12ca69_o.jpg" media-type="image/jpeg"/>
+<item id="Moon-by-Mark-Winterbourne-on-Flickr-6066305557_780128a95d_o-cropped.jpg" href="xhtml/physics-12/photos/Moon-by-Mark-Winterbourne-on-Flickr-6066305557_780128a95d_o-cropped.jpg" media-type="image/jpeg"/>
+<item id="SoccerLadyKicking-by-KM_Klemencic-on-Flickr-7892058384_0892ae36c9_k.jpg" href="xhtml/physics-12/photos/SoccerLadyKicking-by-KM_Klemencic-on-Flickr-7892058384_0892ae36c9_k.jpg" media-type="image/jpeg"/>
+<item id="Bowler-by-gareth1953-on-Flickr-5858562848_02ab046a55_o.jpg" href="xhtml/physics-12/photos/Bowler-by-gareth1953-on-Flickr-5858562848_02ab046a55_o.jpg" media-type="image/jpeg"/>
+<item id="Moon-by-Mark-Winterbourne-on-Flickr-6066305557_780128a95d_o-cropped.jpg" href="xhtml/physics-12/photos/Moon-by-Mark-Winterbourne-on-Flickr-6066305557_780128a95d_o-cropped.jpg" media-type="image/jpeg"/>
+<item id="b504e4a4ed5420695c6441541861201c.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/b504e4a4ed5420695c6441541861201c.png" media-type="image/png"/>
+<item id="19cc582fb956834eadc115fe1cf26918.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/19cc582fb956834eadc115fe1cf26918.png" media-type="image/png"/>
+<item id="2b0728bc035f67f3634899b159799752.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/2b0728bc035f67f3634899b159799752.png" media-type="image/png"/>
+<item id="1dd3fae5d29c818fc885e0299f9637da.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/1dd3fae5d29c818fc885e0299f9637da.png" media-type="image/png"/>
+<item id="TennisBallNet-by-swampa-on-Flickr-4308348195_ab53ed1b31_o.jpg" href="xhtml/physics-12/photos/TennisBallNet-by-swampa-on-Flickr-4308348195_ab53ed1b31_o.jpg" media-type="image/jpeg"/>
+<item id="362fbcf1648bd3cc66773901cb9f62d3.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/362fbcf1648bd3cc66773901cb9f62d3.png" media-type="image/png"/>
+<item id="e38c3a5b5489f93b037672ffadc49461.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/e38c3a5b5489f93b037672ffadc49461.png" media-type="image/png"/>
+<item id="SquashCourt-by-MisterIan-on-Flickr-4084230081_700410d2e9_o.jpg" href="xhtml/physics-12/photos/SquashCourt-by-MisterIan-on-Flickr-4084230081_700410d2e9_o.jpg" media-type="image/jpeg"/>
+<item id="65f7cbda23a453426307f90d895d0d22.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/65f7cbda23a453426307f90d895d0d22.png" media-type="image/png"/>
+<item id="BasketBall-by-SauMag-on-Flickr-8270038026_c0b9f653d5_o.jpg" href="xhtml/physics-12/photos/BasketBall-by-SauMag-on-Flickr-8270038026_c0b9f653d5_o.jpg" media-type="image/jpeg"/>
+<item id="964cd8d9a2a7a6d0729c182f25c3dab2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/964cd8d9a2a7a6d0729c182f25c3dab2.png" media-type="image/png"/>
+<item id="964cd8d9a2a7a6d0729c182f25c3dab2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/964cd8d9a2a7a6d0729c182f25c3dab2.png" media-type="image/png"/>
+<item id="1dd3fae5d29c818fc885e0299f9637da.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/1dd3fae5d29c818fc885e0299f9637da.png" media-type="image/png"/>
+<item id="29f94b440b48153a41ac971c5755099d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/29f94b440b48153a41ac971c5755099d.png" media-type="image/png"/>
+<item id="65f7cbda23a453426307f90d895d0d22.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/65f7cbda23a453426307f90d895d0d22.png" media-type="image/png"/>
+<item id="086cc2e0143a81fc3a5047313a78fd9d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/086cc2e0143a81fc3a5047313a78fd9d.png" media-type="image/png"/>
+<item id="NewtonsCrade-by-StockMonkeys.com-on-Flickr-7984171587_8a534f9581_k2.eps" href="xhtml/physics-12/photos/NewtonsCrade-by-StockMonkeys.com-on-Flickr-7984171587_8a534f9581_k2.eps" media-type="application/postscript"/>
+<item id="conservationofmomentumaparatus.JPG" href="xhtml/physics-12/photos/conservationofmomentumaparatus.JPG" media-type="image/jpeg"/>
+<item id="080a804f9175a954105f351c68a8a2b3.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/080a804f9175a954105f351c68a8a2b3.png" media-type="image/png"/>
+<item id="PoolBalls-by-WillFolsom-on-Flickr-5127727938_6bbfb8bb8f_b.jpg" href="xhtml/physics-12/photos/PoolBalls-by-WillFolsom-on-Flickr-5127727938_6bbfb8bb8f_b.jpg" media-type="image/jpeg"/>
+<item id="50cf32cd5fdd5dcc1ee8b6c63cea462d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/50cf32cd5fdd5dcc1ee8b6c63cea462d.png" media-type="image/png"/>
+<item id="e27e690a356001cd4f99609fde1b799c.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/e27e690a356001cd4f99609fde1b799c.png" media-type="image/png"/>
+<item id="331e1f16a76c7f7e74adb981dfbeae6e.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/331e1f16a76c7f7e74adb981dfbeae6e.png" media-type="image/png"/>
+<item id="1280px-F-20_firing_a_missile.jpg" href="xhtml/physics-12/photos/1280px-F-20_firing_a_missile.jpg" media-type="image/jpeg"/>
+<item id="22ba26d6e34951c2847de1178b9ad31b.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/22ba26d6e34951c2847de1178b9ad31b.png" media-type="image/png"/>
+<item id="ed69a846f92bb5252a59c892126480df.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/ed69a846f92bb5252a59c892126480df.png" media-type="image/png"/>
+<item id="4b88314c2b8e318f8b595e51952afc40.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4b88314c2b8e318f8b595e51952afc40.png" media-type="image/png"/>
+<item id="61cb03be2e4894f45ee987b3e533de6a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/61cb03be2e4894f45ee987b3e533de6a.png" media-type="image/png"/>
+<item id="6fffb3d757ffb17cf60bbee924b9c3b7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/6fffb3d757ffb17cf60bbee924b9c3b7.png" media-type="image/png"/>
+<item id="a0ea65a8a25124fa509ba31490ca96c7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a0ea65a8a25124fa509ba31490ca96c7.png" media-type="image/png"/>
+<item id="feb58a5fcd4f22280190772e8d78f088.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/feb58a5fcd4f22280190772e8d78f088.png" media-type="image/png"/>
+<item id="46f2585a2f04093ca2c34e24cd805447.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/46f2585a2f04093ca2c34e24cd805447.png" media-type="image/png"/>
+<item id="fda90569ed182816176e7b6c9bf42c3e.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/fda90569ed182816176e7b6c9bf42c3e.png" media-type="image/png"/>
+<item id="92bf8248f4f6547723f67491b7929868.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/92bf8248f4f6547723f67491b7929868.png" media-type="image/png"/>
+<item id="69553dcb0e3f5f4ab7d3ca5ffed25b10.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/69553dcb0e3f5f4ab7d3ca5ffed25b10.png" media-type="image/png"/>
+<item id="car_accident.png" href="xhtml/physics-12/photos/car_accident.png" media-type="image/png"/>
+<item id="daa176bb3ee6fa9809f369509cec52f4.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/daa176bb3ee6fa9809f369509cec52f4.png" media-type="image/png"/>
+<item id="b1536f4dc51363f7dacefafc209a8d5a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/b1536f4dc51363f7dacefafc209a8d5a.png" media-type="image/png"/>
+<item id="705ffad2b2d9afe6185a277110dcfc55.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/705ffad2b2d9afe6185a277110dcfc55.png" media-type="image/png"/>
+<item id="1a1d3dffee732f4a9b4dbbd1d14c6765.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/1a1d3dffee732f4a9b4dbbd1d14c6765.png" media-type="image/png"/>
+<item id="94f714b8f6759e1c9cd19bbdbe3f56fb.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/94f714b8f6759e1c9cd19bbdbe3f56fb.png" media-type="image/png"/>
+<item id="dae8b9a69dfd546ce1713a4bc983d7b9.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/dae8b9a69dfd546ce1713a4bc983d7b9.png" media-type="image/png"/>
+<item id="a24b1eb137530a0528b12235a69ca9c7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a24b1eb137530a0528b12235a69ca9c7.png" media-type="image/png"/>
+<item id="4af647f869afce5d55b3b65298f6a635.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4af647f869afce5d55b3b65298f6a635.png" media-type="image/png"/>
+<item id="9c953f95950526052f53f35f25fafb99.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/9c953f95950526052f53f35f25fafb99.png" media-type="image/png"/>
+<item id="5cd3aaad759023e96e61fe7e98f52319.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5cd3aaad759023e96e61fe7e98f52319.png" media-type="image/png"/>
+<item id="5c4d3a7c8f04461c8c9689d6c21c39c2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5c4d3a7c8f04461c8c9689d6c21c39c2.png" media-type="image/png"/>
+<item id="feb8cb9147be71cac58ba1cff2358462.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/feb8cb9147be71cac58ba1cff2358462.png" media-type="image/png"/>
+<item id="abddaa81cb2e00a52b744b9af47e2999.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/abddaa81cb2e00a52b744b9af47e2999.png" media-type="image/png"/>
+<item id="ec39198ec45235eda4c3309ba8e37a38.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/ec39198ec45235eda4c3309ba8e37a38.png" media-type="image/png"/>
+<item id="4f3f9933ee9ccf5c35fd84a627841a5b.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4f3f9933ee9ccf5c35fd84a627841a5b.png" media-type="image/png"/>
+<item id="b0d2bfc67921c2c3928e06666edf5da6.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/b0d2bfc67921c2c3928e06666edf5da6.png" media-type="image/png"/>
+<item id="4ad783048d24db59454977467e7f72ef.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4ad783048d24db59454977467e7f72ef.png" media-type="image/png"/>
+<item id="398bdc6304608cd248bbba7e34c22ce2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/398bdc6304608cd248bbba7e34c22ce2.png" media-type="image/png"/>
+<item id="fd03f209f775665a520acd80b70434c4.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/fd03f209f775665a520acd80b70434c4.png" media-type="image/png"/>
+<item id="VertMot-AReynolds-1.jpg" href="xhtml/physics-12/photos/VertMot-AReynolds-1.jpg" media-type="image/jpeg"/>
+<item id="VertMot-AReynolds-2.jpg" href="xhtml/physics-12/photos/VertMot-AReynolds-2.jpg" media-type="image/jpeg"/>
+<item id="8d0da332acc95a3d2b58c319b64a417d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/8d0da332acc95a3d2b58c319b64a417d.png" media-type="image/png"/>
+<item id="1dbcfc9f32051e403c97f4e6bc60a8eb.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/1dbcfc9f32051e403c97f4e6bc60a8eb.png" media-type="image/png"/>
+<item id="RedBall-by-chubstock-on-Flickr-3066889476_c9ae0edd33_o.jpg" href="xhtml/physics-12/photos/RedBall-by-chubstock-on-Flickr-3066889476_c9ae0edd33_o.jpg" media-type="image/jpeg"/>
+<item id="e4a67b9bcfa2e3cac4387253e526f85d.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/e4a67b9bcfa2e3cac4387253e526f85d.png" media-type="image/png"/>
+<item id="Cricketer-by-TTGE-on-Flickr-4758998578_20584b5685_o.jpg" href="xhtml/physics-12/photos/Cricketer-by-TTGE-on-Flickr-4758998578_20584b5685_o.jpg" media-type="image/jpeg"/>
+<item id="25a22e88787791b5722af7afebea5059.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/25a22e88787791b5722af7afebea5059.png" media-type="image/png"/>
+<item id="c8c87f7ae38916076011bdafd7a6c319.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/c8c87f7ae38916076011bdafd7a6c319.png" media-type="image/png"/>
+<item id="HotAirBalloon-by-CarolynConner-on-Flickr-4267826080_5a0d73b3b7_o-cropped.jpg" href="xhtml/physics-12/photos/HotAirBalloon-by-CarolynConner-on-Flickr-4267826080_5a0d73b3b7_o-cropped.jpg" media-type="image/jpeg"/>
+<item id="34478fddad45eb7ecbb39f40d16b6c52.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/34478fddad45eb7ecbb39f40d16b6c52.png" media-type="image/png"/>
+<item id="21f15cc08fc563e6b3ce8c4c2a3bec2b.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/21f15cc08fc563e6b3ce8c4c2a3bec2b.png" media-type="image/png"/>
+<item id="d6883c4d0cfb037fb6865effa158f2fa.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/d6883c4d0cfb037fb6865effa158f2fa.png" media-type="image/png"/>
+<item id="6566347340946376b4e9e72c2c16c75d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/6566347340946376b4e9e72c2c16c75d.png" media-type="image/png"/>
+<item id="87ecc6383176fefbb932da955ddf1d3f.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/87ecc6383176fefbb932da955ddf1d3f.png" media-type="image/png"/>
+<item id="842e3a7f2979431e0c5adc079af24799.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/842e3a7f2979431e0c5adc079af24799.png" media-type="image/png"/>
+<item id="6566347340946376b4e9e72c2c16c75d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/6566347340946376b4e9e72c2c16c75d.png" media-type="image/png"/>
+<item id="37cc4169e8b693515769e9966f146752.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/37cc4169e8b693515769e9966f146752.png" media-type="image/png"/>
+<item id="d7fea4fbf78d68c0fd88019e479ac3c9.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/d7fea4fbf78d68c0fd88019e479ac3c9.png" media-type="image/png"/>
+<item id="94885f8ec88a6f6122cf96d396e39301.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/94885f8ec88a6f6122cf96d396e39301.png" media-type="image/png"/>
+<item id="aa72dd58cdebb1ef851333c3b14c674b.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/aa72dd58cdebb1ef851333c3b14c674b.png" media-type="image/png"/>
+<item id="79b3cf3386903b750540011e5df06bb9.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/79b3cf3386903b750540011e5df06bb9.png" media-type="image/png"/>
+<item id="4e01b6a2b3d6d1f51de984a7b8fe817a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4e01b6a2b3d6d1f51de984a7b8fe817a.png" media-type="image/png"/>
+<item id="c017488af93b287ff16dcbc3adfd2358.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/c017488af93b287ff16dcbc3adfd2358.png" media-type="image/png"/>
+<item id="5a414b83854988a5aab2172000c65b68.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5a414b83854988a5aab2172000c65b68.png" media-type="image/png"/>
+<item id="4ab0560f4cb96d09a1d9bc3381ab2633.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4ab0560f4cb96d09a1d9bc3381ab2633.png" media-type="image/png"/>
+<item id="721138e472d2d0f90f6751312ec28d01.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/721138e472d2d0f90f6751312ec28d01.png" media-type="image/png"/>
+<item id="2dda43fb7223b8159a282dbbf924a63b.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/2dda43fb7223b8159a282dbbf924a63b.png" media-type="image/png"/>
+<item id="26d324416270e69f68dbded7afbbb505.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/26d324416270e69f68dbded7afbbb505.png" media-type="image/png"/>
+<item id="2083fb554156a4658bb2835f560e7a24.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/2083fb554156a4658bb2835f560e7a24.png" media-type="image/png"/>
+<item id="5e891ab534cd49a67adeb428c4d719ff.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5e891ab534cd49a67adeb428c4d719ff.png" media-type="image/png"/>
+<item id="b6f3dc7b1ff72ec51846e407ad531250.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/b6f3dc7b1ff72ec51846e407ad531250.png" media-type="image/png"/>
+<item id="da270bfb7da2872420ac1bbdca614c69.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/da270bfb7da2872420ac1bbdca614c69.png" media-type="image/png"/>
+<item id="d152c7385aa4b4bff57dd21e702258df.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/d152c7385aa4b4bff57dd21e702258df.png" media-type="image/png"/>
+<item id="564e3eb6aabc292f3a1c2399651f7a0a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/564e3eb6aabc292f3a1c2399651f7a0a.png" media-type="image/png"/>
+<item id="3d80e1000391e36aa4bf19ebae99f693.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/3d80e1000391e36aa4bf19ebae99f693.png" media-type="image/png"/>
+<item id="29155da30cd21c2f5c4f449bb8f5a8b2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/29155da30cd21c2f5c4f449bb8f5a8b2.png" media-type="image/png"/>
+<item id="db657874c0107eaf7627f528e45a6d49.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/db657874c0107eaf7627f528e45a6d49.png" media-type="image/png"/>
+<item id="23c40668c98b794a8294a11cee2f3493.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/23c40668c98b794a8294a11cee2f3493.png" media-type="image/png"/>
+<item id="402747f6e6b2308a6de85d4a0419a239.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/402747f6e6b2308a6de85d4a0419a239.png" media-type="image/png"/>
+<item id="fba66049d8ab488fdebb327945baf523.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/fba66049d8ab488fdebb327945baf523.png" media-type="image/png"/>
+<item id="a216069105b38910eda9c7a2f25cb953.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a216069105b38910eda9c7a2f25cb953.png" media-type="image/png"/>
+<item id="fe02283838e562f284c9b47aee99ada8.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/fe02283838e562f284c9b47aee99ada8.png" media-type="image/png"/>
+<item id="5945568862b1281326156cd09c7976ba.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5945568862b1281326156cd09c7976ba.png" media-type="image/png"/>
+<item id="035d42000edd2b1f81126d9a03d0d992.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/035d42000edd2b1f81126d9a03d0d992.png" media-type="image/png"/>
+<item id="5abbd81605d45f2e81be81fe5049a086.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5abbd81605d45f2e81be81fe5049a086.png" media-type="image/png"/>
+<item id="0ae046ec701be47ab2d8c15ac91b9548.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/0ae046ec701be47ab2d8c15ac91b9548.png" media-type="image/png"/>
+<item id="02a15ba4712290dfce203490528ba9e0.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/02a15ba4712290dfce203490528ba9e0.png" media-type="image/png"/>
+<item id="ad3283d5be696c8dd87d8fd7cf7d043f.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/ad3283d5be696c8dd87d8fd7cf7d043f.png" media-type="image/png"/>
+<item id="78c8c3f69c7d4e8c4608c373403197e6.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/78c8c3f69c7d4e8c4608c373403197e6.png" media-type="image/png"/>
+<item id="02402f112e69c380c60f142dc7b20694.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/02402f112e69c380c60f142dc7b20694.png" media-type="image/png"/>
+<item id="84d7da79716bb7152c6d91b77b4e3faa.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/84d7da79716bb7152c6d91b77b4e3faa.png" media-type="image/png"/>
+<item id="72f0b828e16d7aa73df3c17530a592d1.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/72f0b828e16d7aa73df3c17530a592d1.png" media-type="image/png"/>
+<item id="1f147b9e7468507629eafcb59a5aeafb.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/1f147b9e7468507629eafcb59a5aeafb.png" media-type="image/png"/>
+<item id="167690bde73afa994683dc34be9633c2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/167690bde73afa994683dc34be9633c2.png" media-type="image/png"/>
+<item id="dc413a69b3459cd1d6a7840d87d8a3db.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/dc413a69b3459cd1d6a7840d87d8a3db.png" media-type="image/png"/>
+<item id="14b7d07c84c2d4a8ca8dbb3a88f278b4.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/14b7d07c84c2d4a8ca8dbb3a88f278b4.png" media-type="image/png"/>
+<item id="d0ff6921b62d078b1f07465f007b3261.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/d0ff6921b62d078b1f07465f007b3261.png" media-type="image/png"/>
+<item id="c4c3f7b3d5cd08071605f3f7adcc79d7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/c4c3f7b3d5cd08071605f3f7adcc79d7.png" media-type="image/png"/>
+<item id="d2c6793dd74838048611d1c3760f47d2.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/d2c6793dd74838048611d1c3760f47d2.png" media-type="image/png"/>
+<item id="082845a68fa7d2171dcf4b97fd51a3aa.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/082845a68fa7d2171dcf4b97fd51a3aa.png" media-type="image/png"/>
+<item id="bf280ec094ddc5b041723938324abf31.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/bf280ec094ddc5b041723938324abf31.png" media-type="image/png"/>
+<item id="7d40d5d76ddc045b1b64987c1df94514.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/7d40d5d76ddc045b1b64987c1df94514.png" media-type="image/png"/>
+<item id="a700162837640e8767b9b4499f1830c8.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a700162837640e8767b9b4499f1830c8.png" media-type="image/png"/>
+<item id="7de9070513dd7394a8596a1883775caf.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/7de9070513dd7394a8596a1883775caf.png" media-type="image/png"/>
+<item id="9b0f3b5befcee8c0cf247b968d93a3fb.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/9b0f3b5befcee8c0cf247b968d93a3fb.png" media-type="image/png"/>
+<item id="Deadlift-by-IsafMedia-on-Flickr-6910861361_1cef287167_o.jpg" href="xhtml/physics-12/photos/Deadlift-by-IsafMedia-on-Flickr-6910861361_1cef287167_o.jpg" media-type="image/jpeg"/>
+<item id="BenchPress-by-ABlight-on-Flickr-4411752843_007003fbb7_o.jpg" href="xhtml/physics-12/photos/BenchPress-by-ABlight-on-Flickr-4411752843_007003fbb7_o.jpg" media-type="image/jpeg"/>
+<item id="CarryWeight-by-Greencolander-on-Flickr-2542090538_1a327e305b_o.jpg" href="xhtml/physics-12/photos/CarryWeight-by-Greencolander-on-Flickr-2542090538_1a327e305b_o.jpg" media-type="image/jpeg"/>
+<item id="ec0d16699ed6e43568fcbff64b26a788.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/ec0d16699ed6e43568fcbff64b26a788.png" media-type="image/png"/>
+<item id="WEPThebusybraincar500Nforceforward.jpg" href="xhtml/physics-12/photos/WEPThebusybraincar500Nforceforward.jpg" media-type="image/jpeg"/>
+<item id="WEPThebusybraincar300Nforcebackward.jpg" href="xhtml/physics-12/photos/WEPThebusybraincar300Nforcebackward.jpg" media-type="image/jpeg"/>
+<item id="e799e43735e5fd9f1a1d33f13d3da65f.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/e799e43735e5fd9f1a1d33f13d3da65f.png" media-type="image/png"/>
+<item id="e43532225c055647f8eb1a039f4e0749.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/e43532225c055647f8eb1a039f4e0749.png" media-type="image/png"/>
+<item id="79d6be3f79639e2e3dd069176ce1b0eb.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/79d6be3f79639e2e3dd069176ce1b0eb.png" media-type="image/png"/>
+<item id="022709acdb3b678b11b449ac7e151e66.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/022709acdb3b678b11b449ac7e151e66.png" media-type="image/png"/>
+<item id="31cf7c0ded1407c7c0caa01d9d0b66c7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/31cf7c0ded1407c7c0caa01d9d0b66c7.png" media-type="image/png"/>
+<item id="fa797a5043bcf5dfe6db377856e64378.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/fa797a5043bcf5dfe6db377856e64378.png" media-type="image/png"/>
+<item id="9ccc5674a84f77ad1439d6e2bc9e85b7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/9ccc5674a84f77ad1439d6e2bc9e85b7.png" media-type="image/png"/>
+<item id="WEPThebusybraincarfrictionandapplied.jpg" href="xhtml/physics-12/photos/WEPThebusybraincarfrictionandapplied.jpg" media-type="image/jpeg"/>
+<item id="WEPCarwithfriction.jpg" href="xhtml/physics-12/photos/WEPCarwithfriction.jpg" media-type="image/jpeg"/>
+<item id="f70fc7e8583786ef8c496e4861d8f2b7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/f70fc7e8583786ef8c496e4861d8f2b7.png" media-type="image/png"/>
+<item id="24707967fddfb273f965a0cf7224ac0a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/24707967fddfb273f965a0cf7224ac0a.png" media-type="image/png"/>
+<item id="22fc66e880fffb15853e6873faa1aa2b.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/22fc66e880fffb15853e6873faa1aa2b.png" media-type="image/png"/>
+<item id="2e7392b422e61c64ac0a3fde93576e7a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/2e7392b422e61c64ac0a3fde93576e7a.png" media-type="image/png"/>
+<item id="4b3527afb63105de67999ab557becafe.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/4b3527afb63105de67999ab557becafe.png" media-type="image/png"/>
+<item id="a88c7073c8014613d795dcc8e615ba93.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a88c7073c8014613d795dcc8e615ba93.png" media-type="image/png"/>
+<item id="Gr12_Doppler_01.jpg" href="xhtml/physics-12/photos/Gr12_Doppler_01.jpg" media-type="image/jpeg"/>
+<item id="3baa317628ab24cb1fbfd314ad073a9f.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/3baa317628ab24cb1fbfd314ad073a9f.png" media-type="image/png"/>
+<item id="2dd73056307a3a6b79364ca25e2b6f78.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/2dd73056307a3a6b79364ca25e2b6f78.png" media-type="image/png"/>
+<item id="f4b8cc7d117a707f00773d044401413c.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/f4b8cc7d117a707f00773d044401413c.png" media-type="image/png"/>
+<item id="Gr12_Doppler_02.jpg" href="xhtml/physics-12/photos/Gr12_Doppler_02.jpg" media-type="image/jpeg"/>
+<item id="Gr12_Doppler_03-A.jpg" href="xhtml/physics-12/photos/Gr12_Doppler_03-A.jpg" media-type="image/jpeg"/>
+<item id="Gr12_Doppler_03-B.jpg" href="xhtml/physics-12/photos/Gr12_Doppler_03-B.jpg" media-type="image/jpeg"/>
+<item id="Gr12_Doppler_03.jpg" href="xhtml/physics-12/photos/Gr12_Doppler_03.jpg" media-type="image/jpeg"/>
+<item id="ambulance_extranoise_flickr.jpg" href="xhtml/physics-12/photos/ambulance_extranoise_flickr.jpg" media-type="image/jpeg"/>
+<item id="5ICA.jpg" href="xhtml/physics-12/photos/5ICA.jpg" media-type="image/jpeg"/>
+<item id="cbaf6c63356efa6b90f189ee84c26ea1.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/cbaf6c63356efa6b90f189ee84c26ea1.png" media-type="image/png"/>
+<item id="HydrogenEmission.png" href="xhtml/physics-12/photos/HydrogenEmission.png" media-type="image/png"/>
+<item id="6c8bf4fcfdea98454beb605e53f50f05.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/6c8bf4fcfdea98454beb605e53f50f05.png" media-type="image/png"/>
+<item id="galactic_expansion.jpg" href="xhtml/physics-12/photos/galactic_expansion.jpg" media-type="image/jpeg"/>
+<item id="44bf6ffc6083e31a674da07bd87768f6.png" href="xhtml/physics-12/_plone_ignore_/cache/tikzpictures/44bf6ffc6083e31a674da07bd87768f6.png" media-type="image/png"/>
+<item id="3e379f073507b6fbdbb2ec2a004f2efe.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/3e379f073507b6fbdbb2ec2a004f2efe.png" media-type="image/png"/>
+<item id="c8e2c60022099a87002d7eafa78c8c75.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/c8e2c60022099a87002d7eafa78c8c75.png" media-type="image/png"/>
+<item id="638d057f4eecc3180b3368c71a228213.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/638d057f4eecc3180b3368c71a228213.png" media-type="image/png"/>
+<item id="bd8d14b7bf8b263c9989ff5c7394422d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/bd8d14b7bf8b263c9989ff5c7394422d.png" media-type="image/png"/>
+<item id="43d6b50dc13412bd8c4d532bd0b4a646.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/43d6b50dc13412bd8c4d532bd0b4a646.png" media-type="image/png"/>
+<item id="f9d9337068c6bc0fb7627ea9a03ee8d0.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/f9d9337068c6bc0fb7627ea9a03ee8d0.png" media-type="image/png"/>
+<item id="ParOrSer1-AReynolds.jpg" href="xhtml/physics-12/photos/ParOrSer1-AReynolds.jpg" media-type="image/jpeg"/>
+<item id="ParOrSer2-AReynolds.jpg" href="xhtml/physics-12/photos/ParOrSer2-AReynolds.jpg" media-type="image/jpeg"/>
+<item id="ParOrSer3-AReynolds.jpg" href="xhtml/physics-12/photos/ParOrSer3-AReynolds.jpg" media-type="image/jpeg"/>
+<item id="ParOrSer4-AReynolds.jpg" href="xhtml/physics-12/photos/ParOrSer4-AReynolds.jpg" media-type="image/jpeg"/>
+<item id="236f70e6a54430697b7da2256316aee5.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/236f70e6a54430697b7da2256316aee5.png" media-type="image/png"/>
+<item id="199a0e77abd21fd83192b2967179b27a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/199a0e77abd21fd83192b2967179b27a.png" media-type="image/png"/>
+<item id="91231b8ea9aa419c14499697f4e5bef6.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/91231b8ea9aa419c14499697f4e5bef6.png" media-type="image/png"/>
+<item id="a9a2c68d89a2e2ea1e5d6eba23a50044.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a9a2c68d89a2e2ea1e5d6eba23a50044.png" media-type="image/png"/>
+<item id="b06407ea77b5de393b25185ed9df1760.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/b06407ea77b5de393b25185ed9df1760.png" media-type="image/png"/>
+<item id="a67774b6ce610791a186990ef04b9d0b.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a67774b6ce610791a186990ef04b9d0b.png" media-type="image/png"/>
+<item id="ecbfb1ad1dfb98f2c380ff8cf8fcf2ee.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/ecbfb1ad1dfb98f2c380ff8cf8fcf2ee.png" media-type="image/png"/>
+<item id="InternalResistance-AReynolds.jpg" href="xhtml/physics-12/photos/InternalResistance-AReynolds.jpg" media-type="image/jpeg"/>
+<item id="21d3e72be8d5b621db9983ea50af776d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/21d3e72be8d5b621db9983ea50af776d.png" media-type="image/png"/>
+<item id="33d597f8141c9674bd6d7345ad0df432.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/33d597f8141c9674bd6d7345ad0df432.png" media-type="image/png"/>
+<item id="f10e4533bb1466f0dcb99921905dc083.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/f10e4533bb1466f0dcb99921905dc083.png" media-type="image/png"/>
+<item id="f00895461b7b2160c63710fe4e1037d1.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/f00895461b7b2160c63710fe4e1037d1.png" media-type="image/png"/>
+<item id="3cf73fa457c76fee244a0763d54aa836.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/3cf73fa457c76fee244a0763d54aa836.png" media-type="image/png"/>
+<item id="7f1cd632ddbeda1991b193817ff23107.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/7f1cd632ddbeda1991b193817ff23107.png" media-type="image/png"/>
+<item id="cb21345660271a0c1e021ac0d782e770.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/cb21345660271a0c1e021ac0d782e770.png" media-type="image/png"/>
+<item id="216741ae41ea2df9ff85962ce86ad779.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/216741ae41ea2df9ff85962ce86ad779.png" media-type="image/png"/>
+<item id="c7607025daaf74730204e9c0b57668ae.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/c7607025daaf74730204e9c0b57668ae.png" media-type="image/png"/>
+<item id="a5a1b6cab0f18b1e36a3e0cbfd0dc8e8.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a5a1b6cab0f18b1e36a3e0cbfd0dc8e8.png" media-type="image/png"/>
+<item id="c0c74c273842fa84ccffc21a009f3ebe.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/c0c74c273842fa84ccffc21a009f3ebe.png" media-type="image/png"/>
+<item id="f3f2c5cab3666d0bb0fec5d0667ccdcc.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/f3f2c5cab3666d0bb0fec5d0667ccdcc.png" media-type="image/png"/>
+<item id="97a27cb9d41c277ac8c19a1d9e37bbbb.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/97a27cb9d41c277ac8c19a1d9e37bbbb.png" media-type="image/png"/>
+<item id="91a8eccc1a9b9c98cd36561afeb3e758.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/91a8eccc1a9b9c98cd36561afeb3e758.png" media-type="image/png"/>
+<item id="a9925f85320ad892fab3666849e1bbcf.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a9925f85320ad892fab3666849e1bbcf.png" media-type="image/png"/>
+<item id="6d6966ee2051eb17d46aa6e398eef957.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/6d6966ee2051eb17d46aa6e398eef957.png" media-type="image/png"/>
+<item id="86b1a1874e0b175bfcb8230ff06f6f59.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/86b1a1874e0b175bfcb8230ff06f6f59.png" media-type="image/png"/>
+<item id="ce4456cb0bf83f3f83a70fd83d5ed90a.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/ce4456cb0bf83f3f83a70fd83d5ed90a.png" media-type="image/png"/>
+<item id="358fcec33f69bdd14ab0f424d4d5557f.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/358fcec33f69bdd14ab0f424d4d5557f.png" media-type="image/png"/>
+<item id="8be7c70fa82711a5146e9082c5975c9e.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/8be7c70fa82711a5146e9082c5975c9e.png" media-type="image/png"/>
+<item id="ed96c380b5a5c372061981f45d07dac9.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/ed96c380b5a5c372061981f45d07dac9.png" media-type="image/png"/>
+<item id="60e50655fb416d8835dadccdd40366bf.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/60e50655fb416d8835dadccdd40366bf.png" media-type="image/png"/>
+<item id="a58898e3c9d64d4d321a4df778202d3c.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a58898e3c9d64d4d321a4df778202d3c.png" media-type="image/png"/>
+<item id="db9f42ac5be7f3fb88ebe9b2c7b5df23.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/db9f42ac5be7f3fb88ebe9b2c7b5df23.png" media-type="image/png"/>
+<item id="69a0e89e71d8e5a148eb04bb5700bd21.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/69a0e89e71d8e5a148eb04bb5700bd21.png" media-type="image/png"/>
+<item id="c8f79c7b6dff39a37d49f43717dc5bd4.pdf" href="xhtml/physics-12/templates/Electrodynamics/generators1-1/media/c8f79c7b6dff39a37d49f43717dc5bd4.pdf" media-type="application/pdf"/>
+<item id="0922dbab371e6ce18c76237a9ca1c934.pdf" href="xhtml/physics-12/templates/Electrodynamics/generators1-1/media/0922dbab371e6ce18c76237a9ca1c934.pdf" media-type="application/pdf"/>
+<item id="f8a5cb9557516a7fdeaefb5cbdcab961.pdf" href="xhtml/physics-12/templates/Electrodynamics/generators1-1/media/f8a5cb9557516a7fdeaefb5cbdcab961.pdf" media-type="application/pdf"/>
+<item id="4831c4f45703fca98c1223b4ed6f08a0.pdf" href="xhtml/physics-12/templates/Electrodynamics/generators1-1/media/4831c4f45703fca98c1223b4ed6f08a0.pdf" media-type="application/pdf"/>
+<item id="d09422645edbc9c752a2b9ba141a9aae.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/d09422645edbc9c752a2b9ba141a9aae.png" media-type="image/png"/>
+<item id="solar-panels-ell-r-brown-flickr.jpg" href="xhtml/physics-12/photos/solar-panels-ell-r-brown-flickr.jpg" media-type="image/jpeg"/>
+<item id="Photoelectric_effect.eps" href="xhtml/physics-12/images/Photoelectric_effect.eps" media-type="application/postscript"/>
+<item id="e502da98d2f27127812ed8008cacdefa.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/e502da98d2f27127812ed8008cacdefa.png" media-type="image/png"/>
+<item id="e3494e091080ac0dfc1aab8088fc9284.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/e3494e091080ac0dfc1aab8088fc9284.png" media-type="image/png"/>
+<item id="photo_electric_apparatus.png" href="xhtml/physics-12/images/photo_electric_apparatus.png" media-type="image/png"/>
+<item id="65348fa1f78f477ba49e6da9a3ca6799.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/65348fa1f78f477ba49e6da9a3ca6799.png" media-type="image/png"/>
+<item id="0d40ecb55c218b075b09191110366ef6.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/0d40ecb55c218b075b09191110366ef6.png" media-type="image/png"/>
+<item id="5ca5b5ae18b419dda4c18889cb8a2486.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/5ca5b5ae18b419dda4c18889cb8a2486.png" media-type="image/png"/>
+<item id="7e16cf380e9414b75e83754a440a463d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/7e16cf380e9414b75e83754a440a463d.png" media-type="image/png"/>
+<item id="discharge_tube.eps" href="xhtml/physics-12/images/discharge_tube.eps" media-type="application/postscript"/>
+<item id="2d26919d2e3d1ffecefcd255882ef91c.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/2d26919d2e3d1ffecefcd255882ef91c.png" media-type="image/png"/>
+<item id="19bc54b8c1683dcad52cbf8e1216816c.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/19bc54b8c1683dcad52cbf8e1216816c.png" media-type="image/png"/>
+<item id="Hydrogen_transitions.png" href="xhtml/physics-12/photos/Hydrogen_transitions.png" media-type="image/png"/>
+<item id="7324a0ef20fa64869d07266ae41ba515.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/7324a0ef20fa64869d07266ae41ba515.png" media-type="image/png"/>
+<item id="46d3db3c826cbc48fae65b33906eca6d.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/46d3db3c826cbc48fae65b33906eca6d.png" media-type="image/png"/>
+<item id="a1cb9e8b3745e5e6a69f0fe365ae80e7.png" href="xhtml/physics-12/_plone_ignore_/cache/pspictures/a1cb9e8b3745e5e6a69f0fe365ae80e7.png" media-type="image/png"/>
+</manifest><spine>
+<itemref idref="chapter-0"/>
+<itemref idref="chapter-1"/>
+<itemref idref="chapter-2"/>
+<itemref idref="chapter-3"/>
+<itemref idref="chapter-4"/>
+<itemref idref="chapter-5"/>
+<itemref idref="chapter-6"/>
+<itemref idref="chapter-7"/>
+<itemref idref="chapter-8"/>
+<itemref idref="chapter-9"/>
+<itemref idref="chapter-10"/>
+<itemref idref="chapter-11"/>
+<itemref idref="chapter-12"/>
+<itemref idref="chapter-13"/>
+<itemref idref="chapter-14"/>
+<itemref idref="chapter-15"/>
+<itemref idref="chapter-16"/>
+<itemref idref="chapter-17"/>
+<itemref idref="chapter-18"/>
+<itemref idref="chapter-19"/>
+<itemref idref="chapter-20"/>
+<itemref idref="chapter-21"/>
+<itemref idref="chapter-22"/>
+<itemref idref="chapter-23"/>
+<itemref idref="chapter-24"/>
+<itemref idref="chapter-25"/>
+<itemref idref="chapter-26"/>
+<itemref idref="chapter-27"/>
+<itemref idref="chapter-28"/>
+<itemref idref="chapter-29"/>
+<itemref idref="chapter-30"/>
+<itemref idref="chapter-31"/>
+<itemref idref="chapter-32"/>
+<itemref idref="chapter-33"/>
+<itemref idref="chapter-34"/>
+<itemref idref="chapter-35"/>
+<itemref idref="chapter-36"/>
+<itemref idref="chapter-37"/>
+<itemref idref="chapter-38"/>
+<itemref idref="chapter-39"/>
+<itemref idref="chapter-40"/>
+<itemref idref="chapter-41"/>
+</spine></package>

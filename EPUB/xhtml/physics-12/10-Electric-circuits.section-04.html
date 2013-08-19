@@ -1,0 +1,722 @@
+<html>
+  <head/>
+  <body><h2>Internal resistance in circuits</h2>
+<h3>Approach</h3>
+
+<p>The approach to solving problems that involve the internal resistance of batteries is straightforward, you just need to understand that each battery in previous examples was a source of emf, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>, and a small resistor, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>, and then solve as before but include <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math> in your calculations.</p>
+
+<p>An important thing to realise is that the potential difference you calculated or were given in previous examples is not the emf, it is the emf less that potential difference across the internal resistance.</p>
+
+<p>To emphasise that internal resistance is an extension to what you have already done we are going to take previous worked examples and consider the internal resistance of the battery. If the internal resistance did not behave like an ohmic resistor this wouldn't be possible but we won't deal with cases like that.</p>
+<h3>Applications</h3>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Internal resistance in circuit with resistors in series</div><div class="problem" data-class="question">
+    
+<p>For the following circuit, calculate:</p>
+
+    <ol data-class="ListEnumerated"><li>
+<p>the potential differences <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{1}</annotation></semantics></math>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{2}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{3}</annotation></semantics></math> across the resistors <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{1}</annotation></semantics></math>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{2}</annotation></semantics></math>, and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math></p>
+.</li>
+<li>
+<p>the resistance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math>.</p>
+</li>
+<li>
+<p>the resistance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math>.</p>
+</li>
+</ol><p>If the internal resistance is  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math>, what is the emf of the battery and what power is dissipated by the internal resistance of the battery?</p>
+
+    <div class="alternates"><img src="_plone_ignore_/cache/pspictures/f10e4533bb1466f0dcb99921905dc083.png"/><pre class="pspicture">&lt;code&gt;
+        (-1.,-2)(5,5)
+        %\psgrid
+\pnode(1,1){A}
+\pnode(4,1){B}
+\pnode(4,4){C}
+\pnode(1,4){D}
+\pnode(4,-.5){E}
+\pnode(1,-.5){F}
+% this next bit draws a battery with the coloured box etc.
+{
+\pspolygon[fillcolor=yellow,fillstyle=solid,linecolor=orange](1.2,.4)(1.2,1.6)(3.9,1.6)(3.9,.4)
+\circledipole[labeloffset=0](E)(F){$V$}
+\circledipole[](E)(F){$V$=\text{23,0} V}
+\multidipole(A)(B)
+    \battery{}
+    \resistor[labeloffset=0]{$r$}.
+}
+
+\pcline{-&amp;gt;}(3,4.)(3.75,4.)
+\rput[b](3.8,4.1){$I$=\text{2,0}~A}
+\psline(E)(B)
+\psline(F)(A)
+\psdot(A)\psdot(B)
+%\battery(A)(B){$V$=18~V}
+\resistor[dipolestyle=rectangle](C)(D){$R_2$=\text{3,0}~\ensuremath{\Omega}}
+\resistor[labeloffset=-1.1cm](D)(A){$R_1$=\text{1,0}~\ensuremath{\Omega}}
+\resistor[](B)(C){$R_3$}
+      &lt;/code&gt;</pre></div>
+  </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Note</div>
+
+<p>This is a very similar question to what you have seen earlier. This is to highlight the
+  fact that the approach when dealing with internal resistance is built on all the same
+  principles you have already been working with.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+
+<p>We are given the potential difference across the cell and the current in the circuit, as well as the resistances of two of the three resistors. We can use Ohm's Law to calculate the potential difference across the known resistors. Since the resistors are in a series circuit the potential difference is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V = V_\text{1} + V_\text{2} + V_\text{3}</annotation></semantics></math>  and we can calculate <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{3}</annotation></semantics></math>. Now we can use this information to find the potential difference across the unknown resistor <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate potential difference across <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{1}</annotation></semantics></math></div>
+
+<p>Using Ohm's Law:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+  R_\text{1} &amp;= \frac{V_\text{1}}{I} \\
+  I \cdot R_\text{1} &amp;= I \cdot \frac{V_\text{1}}{I}  \\
+  V_\text{1} &amp;= {I}\cdot{R_\text{1}}\\
+  &amp;= 2 \cdot 1 \\
+  V_\text{1} &amp;= \text{2}\text{ V}
+  \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate potential difference across <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{2}</annotation></semantics></math></div>
+
+<p>Again using Ohm's Law:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+  R_\text{2} &amp;= \frac{V_\text{2}}{I} \\
+  I \cdot R_\text{2} &amp;= I \cdot \frac{V_\text{2}}{I}  \\
+  V_\text{2} &amp;= {I}\cdot{R_\text{2}}\\
+  &amp;= 2 \cdot 3 \\
+  V_\text{2} &amp;= \text{6}\text{ V}
+  \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate potential difference across <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math></div>
+
+<p>Since the potential difference across all the resistors combined must be the same as the potential difference across the cell in a series circuit, we can find <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{3}</annotation></semantics></math> using:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+  V &amp;= V_\text{1} + V_\text{2} + V_\text{3}\\
+  V_\text{3} &amp;= V - V_\text{1} - V_\text{2}  \\
+  &amp;= 23 - 2 - 6 \\
+  V_\text{3}&amp;= \text{15}\text{ V}
+  \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Find the resistance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math></div>
+
+<p>We know the potential difference across <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}</annotation></semantics></math> and the current through it, so we can use Ohm's Law to calculate the value for the resistance:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+  R_\text{3} &amp;= \frac{V_\text{3}}{I}\\
+  &amp;= \frac{\text{15}}{\text{2}}  \\
+R_\text{3}&amp;= \text{7,5}~\Omega
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Potential difference across the internal resistance of the battery</div>
+
+<p>The value of the emf can be calculated from the potential difference of the load and the potential difference across the internal resistance.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         \mathcal{E}&amp; = V+Ir\\
+         &amp; = \text{23}+(\text{2})(\text{0,1})\\
+         &amp; = \text{23,2}\text{ V}
+        \end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Power dissipated in the battery</div>
+
+<p>We know that the power dissipated in a resistor is given by <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">P=VI=I^2R=\dfrac{V^2}{R}</annotation></semantics></math> and we know the current in the circuit, the internal resistance and the potential difference across it so we can use any form of the equation for power:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         P_r &amp;= V_rI_r\\
+         &amp; = (\text{0,2})(\text{2})\\
+         &amp; = \text{0,4}\text{ W}
+        \end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Write the final answer</div>
+<ul data-class="ListBulleted"><li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{1} = \text{2,0}\text{ V}</annotation></semantics></math></li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{2} = \text{6,0}\text{ V}</annotation></semantics></math></li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_\text{3} = \text{10,0}\text{ V}</annotation></semantics></math></li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3} = \text{7,5} \Omega</annotation></semantics></math></li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E} = \text{23,2}\text{ V}</annotation></semantics></math></li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">P_r = \text{0,4}\text{ W}</annotation></semantics></math></li>
+</ul></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Internal resistance and resistors in parallel</div><div class="problem" data-class="question">
+<p>The potential difference across a battery measures 18 V when it is connected to two parallel resistors of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,00}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,00}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> respectively. Calculate the current through the cell and through each of the resistors. If the internal resistance of the battery is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,375}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Omega}</annotation></semantics></math> what is the emf of the battery?</p>
+
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">First draw the circuit before doing any calculations</div>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/f00895461b7b2160c63710fe4e1037d1.png"/><pre class="pspicture">&lt;code&gt;
+  (0,-2)(5,5)
+  %\psgrid
+\pnode(1,1){A}
+\pnode(4,1){B}
+\pnode(4,4){C}
+\pnode(1,4){D}
+\pnode(1,2.5){E}
+\pnode(4,2.5){F}
+\pnode(4,-.5){BE}
+\pnode(1,-.5){BF}
+
+% this next bit draws a battery with the coloured box etc.
+{
+\pspolygon[fillcolor=yellow,fillstyle=solid,linecolor=orange](1.2,.4)(1.2,1.6)(3.9,1.6)(3.9,.4)
+\circledipole[labeloffset=0](BE)(BF){$V$}
+\circledipole[](BE)(BF){$V$=18 V}
+\multidipole(A)(B)
+    \battery{}
+    \resistor[labeloffset=0]{$r$}.
+}
+%\battery[intensity,directconvention=false](A)(B){$V$=18~V}
+\psline(A)(BF)
+\psline(B)(BE)\psdot(A)\psdot(B)
+\psline(B)(C)
+\resistor[dipolestyle=rectangle,intensity,directconvention=false](D)(C){$R_1$=4~\ensuremath{\Omega}}
+\resistor[dipolestyle=rectangle,intensity,directconvention=false](E)(F){$R_2$=12~\ensuremath{\Omega}}
+\psline(D)(A)
+&lt;/code&gt;</pre></div></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+
+<p>We need to determine the current through the cell and each of the parallel resistors. We have been given the potential difference across the cell and the resistances of the resistors, so we can use Ohm's Law to calculate the current.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the current through the cell</div>
+
+<p>To calculate the current through the cell we first need to determine the equivalent resistance of the rest of the circuit. The resistors are in parallel and therefore:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\frac{\text{1}}{R} &amp;= \frac{\text{1}}{R_\text{1}} + \frac{\text{1}}{R_\text{2}} \\
+&amp;= \frac{\text{1}}{\text{4}} + \frac{\text{1}}{\text{12}} \\
+&amp;= \frac{3+1}{\text{12}} \\
+&amp;= \frac{\text{4}}{\text{12}} \\
+R &amp;= \frac{\text{12}}{\text{4}} = \text{3,00} \ \Omega
+\end{align*}</annotation></semantics></math>
+Now using Ohm's Law to find the current through the cell:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+R &amp;= \frac{V}{I} \\
+I &amp;= \frac{V}{R} \\
+&amp;= \frac{\text{18}}{\text{3}} \\
+I &amp;= \text{6,00}\text{ A}
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Now determine the current through one of the parallel resistors</div>
+
+<p>We know that for a purely parallel resistor configuration, the potential difference across the cell is the same as the potential difference across each of the parallel resistors. For this circuit:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+V &amp;= V_\text{1} = V_\text{2} = \text{18}\text{ V}
+\end{align*}</annotation></semantics></math>
+Let's start with calculating the current through <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{1}</annotation></semantics></math> using Ohm's Law:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+R_\text{1} &amp;= \frac{V_\text{1}}{I_\text{1}} \\
+I_\text{1} &amp;= \frac{V_\text{1}}{R_\text{1}} \\
+&amp;= \frac{\text{18}}{\text{4}} \\
+I_\text{1} &amp;= \text{4,50}\text{ A}
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the current through the other parallel resistor</div>
+
+<p>We can use Ohm's Law again to find the current in <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{2}</annotation></semantics></math>:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+R_\text{2} &amp;= \frac{V_\text{2}}{I_\text{2}} \\
+I_\text{2} &amp;= \frac{V_\text{2}}{R_\text{2}} \\
+&amp;= \frac{\text{18}}{\text{12}} \\
+I_\text{2} &amp;= \text{1,50}\text{ A}
+\end{align*}</annotation></semantics></math>
+
+An alternative method of calculating <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_\text{2}</annotation></semantics></math> would have been to use the fact that the currents through each of the parallel resistors must add up to the total current through the cell:
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+I &amp;= I_\text{1} + I_\text{2} \\
+I_\text{2} &amp;= I - I_\text{1} \\
+&amp;= 6 - 4.5 \\
+I_\text{2} &amp;= \text{1,5}\text{ A}
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the emf</div>
+
+<p>This total current through the battery is the current through the internal resistance of the battery. Knowing the current and resistance allows us to use Ohm's law to determine the potential difference across the internal resistance and therefore the emf of the battery.</p>
+
+<p>Using Ohm's law we can determine the potential difference across the internal resistance:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+V &amp;=I \cdot r \\
+ &amp;=\text{6} \cdot \text{0,375} \\
+ &amp;= \text{2,25}\text{ V}
+\end{align*}</annotation></semantics></math><p>We know that the emf of the battery is the potential difference across the terminal summed with the potential difference across the internal resistance so:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 \mathcal{E}&amp; = V+Ir \\
+		 &amp; = \text{18}+\text{2,25} \\ 
+		 &amp; = \text{20,25}\text{ V}
+		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Write the final answer</div>
+
+<p>The current through the cell is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>.</p>
+
+<p>The current through the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,00}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> resistor is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>.</p>
+
+<p>The current through the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,00}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> resistor is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>.</p>
+
+<p>The emf of the battery is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20,25}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Power in series and parallel networks of resistors</div><div class="problem" data-class="question">
+
+<p>Given the following circuit:</p>
+
+      <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/3cf73fa457c76fee244a0763d54aa836.png"/><pre class="pspicture">&lt;code&gt;
+          (-3.6,-1.2)(6.6,4.5)
+\psset{unit=0.75}
+          %\psgrid
+\pnode(0,0){A}
+\pnode(0,4){B}
+\pnode(2,4){C}
+\pnode(3,4.75){D}
+\pnode(3,3.25){E}
+\pnode(5,4.75){F}
+\pnode(6,4){G}
+\pnode(5,3.25){H}
+\pnode(8,4){I}
+\pnode(8,0){J}
+\pnode(5,0.75){K}
+\pnode(6,0){L}
+\pnode(5,-0.75){M}
+\pnode(2,0){O}
+\pnode(3,0.75){P}
+\pnode(3,-0.75){N}
+
+\pnode(0,1){BA}
+\pnode(0,3){BB}
+\pnode(-2,1){BE}
+\pnode(-2,3.3){BF}
+
+% this next bit draws a battery with the coloured box etc.
+{
+\pspolygon[fillcolor=yellow,fillstyle=solid,linecolor=orange](-.6,1.2)(.6,1.2)(.6,3.2)(-.6,3.2)
+\circledipole[labeloffset=0](BE)(BF){$V$}
+\circledipole[labelangle=:U,labeloffset=1](BE)(BF){$V$}
+\multidipole(BA)(BB)
+    \battery{}
+    \resistor[labeloffset=0]{$r$}.
+}
+\psline(BA)(BE)
+\psline(0,3.3)(BF)\psdot(0,3.3)\psdot(BA)
+
+\psline(A)(BA)
+\psline(B)(BB)
+
+\psline(B)(C)
+\psline(I)(J)
+\psline(C)(D)\resistor[unit=0.7,dipolestyle=rectangle](D)(F){$R_{\text{1}}$}\psline(F)(G)
+%\resistor[unit=0.5,dipolestyle=rectangle](C)(G){$R_{\text{2}}$}
+\psline(C)(E)\resistor[unit=0.7,dipolestyle=rectangle](E)(H){$R_{\text{2}}$}\psline(H)(G)
+\psline(G)(I)
+%\resistor[unit=0.5,dipolestyle=rectangle](I)(J){$R_4$}
+\psline(J)(L)
+\psline(L)(K)\resistor[unit=0.7,dipolestyle=rectangle](K)(P){$R_{\text{3}}$}\psline(P)(O)
+%\resistor[unit=0.5,dipolestyle=rectangle](L)(O){$R_{\text{6}}$}
+\psline(L)(M)\resistor[unit=0.7,dipolestyle=rectangle](M)(N){$R_{\text{4}}$}\psline(N)(O)
+\psline(O)(A)
+\psframe[linestyle=dashed,linecolor=gray](1.8,-1)(6.2,1)
+\uput[u](4,1){Parallel circuit 2 $R_{\text{P2}}$}
+\psframe[linestyle=dashed,linecolor=gray](1.8,3)(6.2,5)
+\uput[d](4,3){Parallel circuit 1 $R_{\text{P1}}$}
+
+        &lt;/code&gt;</pre></div></figure><p>The current leaving the battery is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,07}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>, the total power dissipated in the external circuit is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6,42}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{W}</annotation></semantics></math>, the ratio of the total resistances of the two parallel networks <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{1}} : R_{P\text{2}}</annotation></semantics></math> is 1:2, the ratio <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{1} : R_\text{2}</annotation></semantics></math> is 3:5 and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}=\text{7,00}\text{ &#937;}</annotation></semantics></math>.</p>
+
+
+<p>Determine the:
+</p><ol data-class="ListEnumerated"><li>potential difference of the battery,</li>
+<li>the power dissipated in <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{1}}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{2}}</annotation></semantics></math>, and</li>
+<li>if the battery is labelled as having an emf of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6,50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> what is the value of the resistance of each resistor and the power dissipated in each of them.</li>
+</ol></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">What is required</div>
+
+<p>In this question you are given various pieces of information and asked to determine the power dissipated in each resistor and each combination of resistors. Notice that the information given is mostly for the overall circuit. This is a clue that you should start with the overall circuit and work downwards to more specific circuit elements.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculating the potential difference of the battery</div>
+
+<p>Firstly we focus on the battery. We are given the power for the overall circuit as well as the current leaving the battery. We know that the potential difference across the terminals of the battery is the potential difference across the circuit as a whole.</p>
+
+<p>We can use the relationship <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">P=VI</annotation></semantics></math> for the entire circuit because the potential difference is the same as the potential difference across the terminals of the battery:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P &amp;=VI \\
+V &amp;= \frac{P}{I} \\
+&amp;=\frac{\text{6,42}}{\text{1,07}} \\
+&amp;= \text{6,00}\text{ V}
+\end{align*}</annotation></semantics></math></p>
+
+<p>The potential difference across the battery is  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Power dissipated in <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{1}}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{2}}</annotation></semantics></math></div>
+
+<p>Remember that we are working from the overall circuit details down towards those for individual elements, this is opposite to how you treated this circuit earlier.</p>
+
+<p>We can treat the parallel networks like the equivalent resistors so the circuit we are currently dealing with looks like:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/7f1cd632ddbeda1991b193817ff23107.png"/><pre class="pspicture">&lt;code&gt;
+  (-0.6,-0.8)(6.6,4)
+  %\psgrid
+  \psset{unit=0.75}
+  \pnode(0,0){A}
+  \pnode(0,4){B}
+  \pnode(2,4){C}
+  \pnode(3,4.75){D}
+  \pnode(3,3.25){E}
+  \pnode(5,4.75){F}
+  \pnode(6,4){G}
+  \pnode(5,3.25){H}
+  \pnode(8,4){I}
+  \pnode(8,0){J}
+  \pnode(5,0.75){K}
+  \pnode(6,0){L}
+  \pnode(5,-0.75){M}
+  \pnode(2,0){O}
+  \pnode(3,0.75){P}
+  \pnode(3,-0.75){N}
+  \battery(A)(B){}
+  \psline(B)(C)
+  \resistor[unit=0.7,dipolestyle=rectangle](C)(G){$R_{P1}$}
+  \psline(G)(I)
+  \psline(I)(J)
+  %\resistor[unit=0.5,dipolestyle=rectangle](I)(J){$R_4$}
+  \psline(J)(L)
+  \resistor[unit=0.7,dipolestyle=rectangle](L)(O){$R_{P2}$}
+  \psline(O)(A)
+    &lt;/code&gt;</pre></div></figure><p>We know that the current through the two circuit elements will be the same because it is a series circuit and that the resistance for the total circuit must be: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{Ext}=R_{P\text{1}}+R_{P\text{2}}</annotation></semantics></math>. We can determine the total resistance from Ohm's Law for the circuit as a whole:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+V_{battery}&amp;=IR_{Ext} \\
+R_{Ext} &amp;=\frac{V_{battery}}{I} \\
+&amp;=\frac{\text{6,00}}{\text{1,07}}\\
+&amp;=\text{5,61}\text{ &#937;}
+\end{align*}</annotation></semantics></math></p>
+
+<p>We know that the ratio between <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{1}} : R_{P\text{2}}</annotation></semantics></math> is 1:2 which means that we know:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+R_{P\text{1}} &amp;= \frac{\text{1}}{\text{2}}R_{P\text{2}} \ \ \text{and} \\
+R_T &amp;= R_{P\text{1}} + R_{P\text{2}} \\
+&amp; = \frac{\text{1}}{\text{2}}R_{P\text{2}} + R_{P\text{2}} \\
+&amp;=\frac{\text{3}}{\text{2}}R_{P\text{2}} \\
+(\text{5,61}) &amp;=\frac{\text{3}}{\text{2}}R_{P\text{2}} \\
+R_{P\text{2}} &amp;= \frac{\text{2}}{\text{3}}(\text{5,61}) \\
+R_{P\text{2}} &amp;= \text{3,74}\text{ &#937;}
+\end{align*}</annotation></semantics></math>
+and therefore:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+R_{P\text{1}} &amp;= \frac{\text{1}}{\text{2}}R_{P\text{2}} \\
+&amp;=\frac{\text{1}}{\text{2}}(3.74) \\
+&amp;= \text{1,87}\text{ &#937;}
+\end{align*}</annotation></semantics></math></p>
+
+<p>Now that we know the total resistance of each of the parallel networks we can calculate the power dissipated in each:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P_{P\text{1}} &amp;= I^2R_{P\text{1}} \\
+ &amp;= (\text{1,07})^2(\text{1,87}) \\
+ &amp;= \text{2,14}\text{ W}
+\end{align*}</annotation></semantics></math>
+and
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P_{P\text{2}} &amp;= I^2R_{P\text{2}} \\
+ &amp;= (\text{1,07})^2(\text{3,74}) \\
+  &amp;= \text{4,28}\text{ W}
+  \end{align*}</annotation></semantics></math>
+  These values will add up to the original power value we had for the external circuit. If they didn't
+  we would have made a calculation error.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Parallel network 1 calculations</div>
+
+<p>Now we can begin to do the detailed calculation for the first set of parallel resistors.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/cb21345660271a0c1e021ac0d782e770.png"/><pre class="pspicture">&lt;code&gt;
+          (-0.6,-1.2)(6.6,4.5)
+          %\psgrid
+\psset{unit=0.75}
+\pnode(0,0){A}
+\pnode(0,4){B}
+\pnode(2,4){C}
+\pnode(3,4.75){D}
+\pnode(3,3.25){E}
+\pnode(5,4.75){F}
+\pnode(6,4){G}
+\pnode(5,3.25){H}
+\pnode(8,4){I}
+\pnode(8,0){J}
+\pnode(5,0.75){K}
+\pnode(6,0){L}
+\pnode(5,-0.75){M}
+\pnode(2,0){O}
+\pnode(3,0.75){P}
+\pnode(3,-0.75){N}
+
+\battery(A)(B){}
+\psline(B)(C)
+\psline(I)(J)
+\psline(C)(D)\resistor[unit=0.7,dipolestyle=rectangle](D)(F){$R_1$}\psline(F)(G)
+%\resistor[unit=0.5,dipolestyle=rectangle](C)(G){$R_2$}
+\psline(C)(E)\resistor[unit=0.7,dipolestyle=rectangle](E)(H){$R_2$}\psline(H)(G)
+\psline(G)(I)
+%\resistor[unit=0.5,dipolestyle=rectangle](I)(J){$R_4$}
+\psline(J)(L)
+\psline(L)(K)\resistor[unit=0.7,dipolestyle=rectangle](K)(P){$R_3$}\psline(P)(O)
+%\resistor[unit=0.5,dipolestyle=rectangle](L)(O){$R_6$}
+\psline(L)(M)\resistor[unit=0.7,dipolestyle=rectangle](M)(N){$R_4$}\psline(N)(O)
+\psline(O)(A)
+\psframe[linestyle=dashed,linecolor=gray](1.8,-1)(6.2,1)
+\uput[u](4,1){Parallel circuit 2 $R_{P2}$}
+\psframe[linestyle=dashed,linecolor=gray](1.8,3)(6.2,5)
+\uput[d](4,3){Parallel circuit 1 $R_{P1}$}
+
+        &lt;/code&gt;</pre></div></figure><p>We know that the ratio between <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{\text{1}} : R_{\text{2}}</annotation></semantics></math> is 3:5 which means that we know <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{\text{1}}= \frac{\text{3}}{\text{5}}R_{\text{2}}</annotation></semantics></math>. 
+We also know the total resistance for the two parallel resistors in this network 
+is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,87}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math>. We can use the 
+relationship between the values of the two resistors as well as the formula for the total 
+resistance (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\text{1}}{R_PT}=\frac{\text{1}}{R_\text{1}}+\frac{\text{1}}{R_\text{2}}</annotation></semantics></math>) 
+to find the resistor values:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\frac{\text{1}}{R_{P\text{1}}}&amp;=\frac{\text{1}}{R_\text{1}}+\frac{\text{1}}{R_\text{2}} \\
+\frac{\text{1}}{R_{P\text{1}}}&amp;=\frac{\text{5}}{3R_\text{2}}+\frac{\text{1}}{R_\text{2}} \\
+\frac{\text{1}}{R_{P\text{1}}}&amp;=\frac{\text{1}}{R_\text{2}}(\frac{\text{5}}{\text{3}}+1) \\
+\frac{\text{1}}{R_{P\text{1}}}&amp;=\frac{\text{1}}{R_\text{2}}(\frac{\text{5}}{\text{3}}+\frac{\text{3}}{\text{3}}) \\
+\frac{\text{1}}{R_{P\text{1}}}&amp;=\frac{\text{1}}{R_\text{2}}\frac{\text{8}}{\text{3}} \\
+R_\text{2}&amp;=R_{P\text{1}}\frac{\text{8}}{\text{3}} \\
+&amp;=(\text{1,87})\frac{\text{8}}{\text{3}} \\
+&amp;=\text{4,99}\text{ &#937;}
+\end{align*}</annotation></semantics></math>
+We can also calculate <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{\text{1}}</annotation></semantics></math>:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+R_{\text{1}}&amp;= \frac{\text{3}}{\text{5}}R_{\text{2}} \\
+&amp;= \frac{\text{3}}{\text{5}}(\text{4,99}) \\
+&amp;= \text{2,99}\text{ &#937;}
+\end{align*}</annotation></semantics></math></p>
+
+<p>To determine the power we need the resistance which we have calculated and either the potential difference or current. The two resistors are in parallel so the potential difference across them is the same as well as the same as the potential difference across the parallel network. We can use Ohm's Law to determine the potential difference across the network of parallel resistors as we know the total resistance and we know the current:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+V &amp;= I R \\
+&amp;=(\text{1,07})(\text{1,87}) \\
+&amp;=\text{2,00}\text{ V}
+\end{align*}</annotation></semantics></math></p>
+
+<p>We now have the information we need to determine the power through each resistor:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P_\text{1}&amp;=\frac{V^2}{R_\text{1}} \\
+&amp;=\frac{(\text{2,00})^2}{\text{2,99}} \\
+&amp;=\text{1,34}\text{ W}
+\end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P_\text{2}&amp;=\frac{V^2}{R_\text{2}} \\
+&amp;=\frac{(\text{2,00})^2}{\text{4,99}} \\
+&amp;=\text{0,80}\text{ W}
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Parallel network 2 calculations</div>
+
+<p>Now we can begin to do the detailed calculation for the second set of parallel resistors.</p>
+
+<p>We are given <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{3}=\text{7,00}\text{ &#937;}</annotation></semantics></math> and we know <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_{P\text{2}}</annotation></semantics></math> so we can calculate <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R_\text{4}</annotation></semantics></math> from:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\frac{\text{1}}{R_{P\text{2}}} &amp;= \frac{\text{1}}{R_\text{3}}+\frac{\text{1}}{R_\text{4}} \\
+\frac{\text{1}}{\text{3,74}} &amp;= \frac{\text{1}}{\text{7,00}}+\frac{\text{1}}{R_\text{4}} \\
+R_\text{4}&amp;=\text{8,03}\text{ &#937;}
+\end{align*}</annotation></semantics></math></p>
+
+<p>We can calculate the potential difference across the second parallel network by subtracting the potential difference of the first parallel network from the battery potential difference, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{P\text{2}} = \text{6,00}-\text{2,00}=\text{4,00}\text{ V}</annotation></semantics></math>.</p>
+
+<p>We can now determine the power dissipated in each resistor:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P_\text{3}&amp;=\frac{V^2}{R_\text{3}} \\
+&amp;=\frac{(\text{4,00})^2}{\text{7,00}} \\
+&amp;=\text{2,29}\text{ W}
+\end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P_\text{4}&amp;=\frac{V^2}{R_\text{2}} \\
+&amp;=\frac{(\text{4,00})^2}{\text{8,03}} \\
+&amp;=\text{1,99}\text{ W}
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Internal resistance</div>
+
+<p>We know that the emf of the battery is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> but that the potential difference measured across the terminals is only <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>. The difference is the potential difference across the internal resistance of the battery and we can use the known current and Ohm's law to determine the internal resistance:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+V&amp;=I \cdot R \\
+R&amp;=\frac{V}{I} \\
+&amp; = \frac{\text{0,5}}{\text{1,07}} \\
+&amp; = \text{0,4672897}\\
+&amp; = \text{0,47}\text{ &#937;}\\
+\end{align*}</annotation></semantics></math><p>The power dissipated by the internal resistance of the battery is:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+P &amp;=VI \\
+  &amp; = \text{0,5}\cdot\text{1,07} \\
+  &amp;=\text{0,535}\text{ W}
+\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Internal resistance and headlamps [NSC 2011 Paper 1]</div><div class="problem" data-class="question">
+ 
+<p>The headlamp and two IDENTICAL tail lamps of a scooter are connected in parallel to a battery with unknown internal resistance as shown in the simplified circuit diagram below. The headlamp has a resistance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math> and is controlled by switch <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_1</annotation></semantics></math>. The tail lamps are controlled by switch <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_2</annotation></semantics></math>. The resistance of the connecting wires may be ignored.</p>
+
+  
+<p>The graph alongside shows the potential difference across the terminals of the battery before and after switch <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_1</annotation></semantics></math> is closed (whilst switch <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_2</annotation></semantics></math> is open). Switch <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_1</annotation></semantics></math> is closed at time <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{t}_1</annotation></semantics></math>.</p>
+
+  <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/216741ae41ea2df9ff85962ce86ad779.png"/><pre class="pspicture">&lt;code&gt;
+(-1,-2.5)(5,3.5)
+\psset{yunit=1.2}
+\pnode(0,2){A}
+\pnode(4,2){B}
+\pnode(4,0){C}
+\pnode(4,-1){D}
+\pnode(2.5,2){E}
+\pnode(0,-1){F}
+\pnode(0,0){G}
+\pnode(2,-1){H}
+\pnode(1.5,0){I}
+\pnode(2.5,0){J}
+\pnode(1,1){K}
+\pnode(3.5,1){L}
+\pnode(1,2){M}
+\pnode(3.5,2){N}
+\battery(M)(E){}
+\resistor[unit=0.5,dipolestyle=rectangle](E)(N){$r$}
+\scalebox{0.6}{\circledipole[labeloffset=0](K)(L){V}}
+\scalebox{0.6}{\lamp(F)(H){}}
+\scalebox{0.6}{\lamp(H)(D){}}
+\scalebox{0.6}{\lamp(J)(I){}}
+\scalebox{0.6}{\switch(J)(C){}}
+\scalebox{0.6}{\switch(C)(D){}}
+\psline(A)(F)
+\psline(C)(B)
+\psline(G)(I)
+\psline(K)(M)
+\psline(L)(N)
+\psline(A)(M)
+\psline(N)(B)
+\psframe[linestyle=dashed](0.8,1.3)(2.8,2.6)
+\rput(1.5,-0.5){\small{2,4 $\Omega$}}
+\rput(0.5,-1.6){\small{tail lamp 1}}
+\rput(2.5,-1.6){\small{tail lamp 2}}
+\rput(2.5,0.5){\small{S$_1$}}
+\rput(4,-0.5){\small{S$_2$}}
+&lt;/code&gt;</pre></div></figure><div class="alternates"><img src="_plone_ignore_/cache/pspictures/c7607025daaf74730204e9c0b57668ae.png"/><pre class="pspicture">&lt;code&gt;
+(-.3,-2.8429167)(10,3)
+\rput(1.7292187,-2.1570833){\psaxes[labels=none,ticks=none,ticksize=0.10583333cm]{-&amp;gt;}(0,0)(0,0)(8,5)}
+\rput{-270.0}(0.15291667,-0.17395833){\rput(0.1646875,0.0129166655){\Large potential difference}}
+\rput{-270.0}(0.8385417,-0.33958334){\rput(0.574375,0.27291667){(\Large volts)}}
+\rput(9.15,-2.4870834){\Large time (s)}
+\rput(4.8,-2.4670835){\Large $\textbf{t}_{1}$}
+\rput(1.50625,-2.3470833){\Large 0}
+\rput(1.2251563,0.31291667){\Large 9,6}
+\rput(1.300625,1.6929166){\Large 12}
+\psline[linewidth=0.04cm](1.7492187,1.7429167)(4.729219,1.7429167)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](4.749219,1.7429167)(4.749219,0.26291665)
+\psline[linewidth=0.04cm](4.749219,0.26291665)(7.749219,0.24291666)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](4.729219,0.26291665)(1.7092187,0.28291667)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](4.749219,0.28291667)(4.749219,-2.1570833)
+&lt;/code&gt;</pre></div>
+  <ol data-class="ListEnumerated"><li> 
+      
+<p>Use the graph to determine the emf of the battery.</p>
+
+      
+<p>(1 mark)</p>
+
+    </li>
+<li> 
+      
+<p>WITH ONLY SWITCH <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_1</annotation></semantics></math> CLOSED, calculate the following:</p>
+
+      <ol data-class="ListEnumerated"><li>
+          
+<p>Current through the headlamp</p>
+
+          
+<p>(3 marks)</p>
+
+        </li>
+<li>
+        
+<p>Internal resistance, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>, of the battery</p>
+
+          
+<p>(3 marks)</p>
+
+        </li>
+</ol></li>
+<li> 
+      
+<p>BOTH SWITCHES <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_1</annotation></semantics></math> AND <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_2</annotation></semantics></math> ARE NOW CLOSED. The battery delivers a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> during this period.</p>
+
+      
+<p>Calculate the resistance of each tail lamp.</p>
+
+      
+<p>(5 marks)</p>
+
+    </li>
+<li> 
+      
+<p>How will the reading on the voltmeter be affected if the headlamp burns out? (Both switches <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\textbf{S}_2</annotation></semantics></math> are still closed.)</p>
+
+      
+<p>Write down only INCREASES, DECREASES or REMAINS THE SAME.</p>
+
+      
+<p>Give an explanation.</p>
+
+      
+<p>(3 marks)</p>
+
+    </li>
+</ol></div>
+<p><strong>Question 1</strong></p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math></p>
+
+<p>(1 mark)</p>
+
+<p><strong>Question 2.1</strong></p>
+
+<p><strong>Option 1:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+              I &amp; = \frac{V}{R} \\
+                &amp; = \frac{\text{9,6}}{\text{2,4}} \\
+                &amp; = \text{4 A}
+            \end{align*}</annotation></semantics></math><p><strong>Option 2:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+      \text{emf} &amp; = IR + Ir \\
+      12 &amp; = I(\text{2,4}) + \text{2,4} \\
+      \therefore I &amp; = \text{4 A}
+    \end{align*}</annotation></semantics></math><p>(3 marks)</p>
+
+<p><strong>Question 2.2</strong></p>
+
+<p><strong>Option 1:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+    \text{emf} &amp; =  IR +Ir \\
+      12 &amp; = \text{9,4} + 4r \\
+      r &amp; = \text{0,6}\ \Omega
+    \end{align*}</annotation></semantics></math><p><strong>Option 2:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                          V_{lost} &amp; =  Ir \\
+              \text{2,4} &amp; = \text{4}r \\
+              \therefore         r &amp; = \text{0,6}\ \Omega
+            \end{align*}</annotation></semantics></math><p><strong>Option 3:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                       \text{emf} &amp; = I(R + r) \\
+                \text{12} &amp; = \text{4}(\text{2,4} + r)\\
+                       \therefore r &amp; = \text{0,6}\ \Omega
+            \end{align*}</annotation></semantics></math><p>(3 marks)</p>
+
+<p><strong>Question 3</strong></p>
+
+<p><strong>Option 1:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                     \text{emf} &amp; =  IR +Ir \\
+              \text{12} &amp; = \text{6}(R + \text{0,6}) \\
+                                R_{\text{ext}} &amp; = \text{1,4}\ \Omega
+            \end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                     \frac{1}{R} &amp; =  \frac{1}{R_{1}} + \frac{1}{R_{2}} \\
+              \frac{1}{\text{1,4}} &amp; = \frac{1}{\text{2,4}} + \frac{1}{R} \\
+                      R &amp; = \text{3,36}\ \Omega
+            \end{align*}</annotation></semantics></math><p>Each tail lamp: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R = \text{1,68}\ \Omega</annotation></semantics></math></p>
+
+<p><strong>Option 2:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+      \text{Emf} &amp; = V_{\text{terminal}} + Ir \\
+      12 &amp; = V_{\text{terminal}} + 6(\text{0,6}) \\
+      \therefore V_{\text{terminal}} &amp; = \text{8,4}\text{ V}
+    \end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+  I_{\text{2,4}\ \Omega} &amp;= \frac{V}{R} \\
+  &amp;= \frac{\text{8,4}}{\text{2,4}} \\
+  &amp;= \text{3,5 A}
+\end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+          I_{\text{tail lamps}} &amp; = 6 - \text{3,5} \\
+          &amp; = \text{2,5}\text{ A} \\
+          R_{\text{tail lamps}} &amp; = \frac{V}{I} \\
+          &amp; = \frac{\text{8,4}}{\text{2,5}} \\
+          &amp; = \text{3,36}\ \Omega \\
+          R_{\text{tail lamp}} &amp; = \text{1,68}\ \Omega
+            \end{align*}</annotation></semantics></math><p><strong>Option 3:</strong></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                      V &amp; = IR \\
+                \text{12} &amp; = \text{6}(R)\\
+                      R_{\text{ext}} &amp; = 2\ \Omega
+            \end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+        R_{\text{parallel}} &amp; = 2 - \text{0,6} \\
+        &amp; = \text{1,4}\ \Omega \\
+        \frac{1}{R} &amp; =  \frac{1}{R_{1}} + \frac{1}{R_{2}} \\
+        \frac{1}{\text{1,4}} &amp; = \frac{1}{\text{2,4}} + \frac{1}{R} \\
+        R &amp; = \text{3,36}\ \Omega
+            \end{align*}</annotation></semantics></math><p>Each tail lamp: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R = \text{1,68}\ \Omega</annotation></semantics></math></p>
+
+<p><strong>Option 4:</strong></p>
+
+<p>For parallel combination: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{1} + I_{2} = 6\text{ A}</annotation></semantics></math></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+        \therefore   \frac{V}{\text{2,4}} + \frac{V}{R_{\text{tail lamps}}} &amp; = \text{6} \\
+        \text{8,4}\left(\frac{1}{\text{2,4}} + \frac{1}{R_{\text{tail lamps}}} \right) &amp; = \text{6}\\
+        \therefore R_{\text{tail lamps}} &amp; = \text{3,36}\ \Omega \\
+        R_{\text{tail lamp}} &amp; = \text{1,68}\ \Omega
+            \end{align*}</annotation></semantics></math><p>(5 marks)</p>
+
+<p><strong>Question 4</strong></p>
+
+<p>Increases</p>
+
+<p>The resistance increases and the current decreases. So <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Ir</annotation></semantics></math> (lost volts) must decrease which leads to an increase in the voltage.</p>
+
+<p>(3 marks)</p>
+
+<p><strong>[TOTAL: 15 marks]</strong></p>
+</div></body>
+</html>

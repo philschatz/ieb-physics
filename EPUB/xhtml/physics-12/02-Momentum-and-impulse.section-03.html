@@ -1,0 +1,332 @@
+<html>
+  <head/>
+  <body><h2>Newton's Second Law revisited</h2>
+
+<p>In the previous section we considered a number of scenarios where the momentum
+          of an object changed but we didn't look at the details of what caused the momentum to change.
+          In each case it interacted with something which we know would have exerted a force
+          on the object and we've learnt a lot about forces in Grade 11 so now we can tie
+          the two together.</p>
+
+<p>You have learnt about Newton's Laws of motion in Grade 11. We know that an 
+          object will continue in its state of motion unless acted on by a force so unless a
+          force acts the velocity will not change and therefore the momentum will not change. If
+          a force is acting on an object then Newton's Second Law describes the relationship 
+          between the motion of an object and the 
+          net force on the object:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{\text{net}}=m\vec{a}_{\text{net}}</annotation></semantics></math><p>We can therefore say that because a net force causes an object
+          to change its motion, it also causes its momentum 
+          to change.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		   \vec{F}_{net}  &amp; =m\vec{a}_{\text{net}} \\
+			 \vec{F}_{net}  &amp; =m\frac{\Delta \vec{v}}{\Delta t} \\
+			 \vec{F}_{net}  &amp; =\frac{m\Delta \vec{v}}{\Delta t} \\
+			 \vec{F}_{net}  &amp; =\frac{\Delta \vec{p}}{\Delta t}
+		  \end{align*}</annotation></semantics></math><p>We can now define Newton's Second Law of motion in terms of momentum.</p>
+<dl class="definition"><dt>Newton's Second Law of Motion (N2)</dt><dd>
+              
+<p>The net or resultant force acting on an object is equal to the rate of 
+              change of momentum.</p>
+
+            </dd></dl><p>Mathematically, Newton's Second Law can be stated as:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{net}=\frac{\Delta \vec{p}}{\Delta t}</annotation></semantics></math><p>Let us apply this to the last case from the previous section, 
+            consider a tennis ball 
+          (mass = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>) 
+          that is dropped at an initial velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and bounces back at a final 
+          velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. 
+          As the ball approaches the floor it has an initial momentum <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{p}_i</annotation></semantics></math>
+          when it moves away from the floor it has a final momentum <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{p}_f</annotation></semantics></math>.
+          The bounce on the floor can 
+          be thought of as a collision taking place where the floor exerts a force on the 
+          tennis ball to change its momentum.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/964cd8d9a2a7a6d0729c182f25c3dab2.png"/><pre class="pspicture">&lt;code&gt;
+(0,-.5)(6.5,10)
+\psline[linecolor=orange]{-&amp;gt;}(1,8)(1,4)
+\uput[l](1,6){$\vec{p}_i$}
+\pscircle[fillcolor=yellow!80!black,fillstyle=solid,shadow=true](1,8){9pt}
+
+% Wall
+
+\psframe[fillcolor=gray,fillstyle=solid,linecolor=gray!40!black](0.5,.75)(1.5,1.25)
+\psframe[fillcolor=gray,fillstyle=solid,linecolor=gray!40!black](2.5,.75)(3.5,1.25)
+\psline[linestyle=dotted,linecolor=gray!30!black](2,9)(2,.5)
+\psline[linestyle=dotted,linecolor=gray!30!black](4,9)(4,.5)
+
+\psline[]{-&amp;gt;}(3,2)(3,4)
+\uput[l](3,3){$\vec{p}_f$}
+\pscircle[fillcolor=yellow!80!black,fillstyle=solid,shadow=true](3,2){9pt}
+
+\rput(0,1){
+\psline[linecolor=orange]{-&amp;gt;}(5,5)(5,1)
+\uput[l](5,3){$\vec{p}_i$}
+
+
+\psline[]{-&amp;gt;}(5,5)(5,7)
+\uput[l](5,6){$\vec{p}_f$}
+
+\psline[linecolor=blue]{-&amp;gt;}(5.5,1)(5.5,7)
+\psdot(5,5)
+\psline[linecolor=blue,linestyle=dotted]{-}(5,1)(5.5,1)
+\psline[linecolor=blue,linestyle=dotted]{-}(5,7)(5.5,7)
+\uput[r]{90}(5.5,4){$\Delta\vec{p}=\vec{p}_f-\vec{p}_i$}
+}
+
+&lt;/code&gt;</pre></div></figure><p><strong>Remember:</strong> momentum and velocity 
+          are vectors so we have to choose a 
+          direction as positive. For this example we choose the initial direction 
+          of motion as positive, in other words, downwards is positive.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \vec{p}_{i}&amp; = m\vec{v}_{i} \\ 
+&amp; = \left(\text{0,1}\right)\left(+5\right) \\ 
+&amp; = \text{0,5}\text{ kg&#183;m&#183;s^{-1}}~\text{downwards} 
+\end{align*}</annotation></semantics></math><p>When the tennis ball bounces back it changes direction. The final velocity will 
+          thus have a negative value because it is in the negative direction.
+            The momentum after the bounce can be calculated as follows:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \vec{p}_{f}&amp; = m\vec{v}_{f} \\ 
+&amp; = \left(\text{0,1}\right)\left(-3\right) \\ 
+&amp; = -\text{0,3} \\ 
+&amp; = \text{0,3}\text{ kg&#183;m&#183;s^{-1}}~\text{upwards} 
+\end{align*}</annotation></semantics></math><p>Now let us look at what happens to the momentum of the tennis ball. The momentum changes during this bounce.</p>
+
+<p>We keep our initial choice of downwards as positive. This means that the final 
+          momentum will have a negative number.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \Delta \vec{p}&amp; = \vec{p}_{f}-\vec{p}_{i} \\ 
+&amp; = m\vec{v}_{f}-m\vec{v}_{i} \\ 
+&amp; = \left(-\text{0,3}\right)-\left(\text{0,5}\right) \\ 
+&amp; = -\text{0,8} \\ 
+&amp; =\text{0,8}\text{ kg&#183;m&#183;s^{-1}}~\text{upwards} 
+\end{align*}</annotation></semantics></math><p>You will notice that this number is bigger than the previous momenta calculated. 
+          This should be the case as the change has to cancel out the initial momentum and then still
+          be as large as the final momentum over and above the initial momentum.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Change in Momentum</div><div class="problem" data-class="question">
+		  
+<p>A tennis ball of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{58}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> strikes a wall perpendicularly with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.  It rebounds at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. Calculate the change in the momentum of the tennis ball caused by the wall.</p>
+
+		</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Identify the information given and what is asked</div>
+
+<p>The question explicitly gives a number of values which we identify and 
+                convert into SI units:</p>
+<ul data-class="ListBulleted"><li>
+                    
+<p>the ball's mass (m = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{58}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,058}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>),</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's initial velocity (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i}=\text{10}\text{ m&#183;s^{-1}}</annotation></semantics></math>) towards the wall, and</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's final velocity (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f}=\text{8}\text{ m&#183;s^{-1}}</annotation></semantics></math>) away from the wall</p>
+
+                  </li>
+</ul><p>We are asked to calculate the change in momentum of the ball,</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta \vec{p}=m\vec{v}_{f}-m\vec{v}_{i}</annotation></semantics></math><div class="alternates"><img src="_plone_ignore_/cache/pspictures/1dd3fae5d29c818fc885e0299f9637da.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.5)(9,5)
+\psline[linecolor=orange]{-&amp;gt;}(2,4)(6,4)
+\uput[u](4,4){$\vec{p}_i$}
+\pscircle[fillcolor=yellow!80!black,fillstyle=solid,shadow=true](2,4){9pt}
+
+% Wall
+
+\psframe[fillcolor=gray,fillstyle=solid,linecolor=gray!40!black](7,4.75)(7.5,3.25)
+\psframe[fillcolor=gray,fillstyle=solid,linecolor=gray!40!black](7,2.75)(7.5,1.25)
+\psline[linestyle=dotted,linecolor=gray!30!black](1,3)(8,3)
+\psline[linestyle=dotted,linecolor=gray!30!black](1,1)(8,1)
+
+\psline[]{-&amp;gt;}(6,2)(4,2)
+\uput[u](5,2){$\vec{p}_f$}
+\pscircle[fillcolor=yellow!80!black,fillstyle=solid,shadow=true](6,2){9pt}
+
+\rput(.5,0){
+\psline[linecolor=orange]{-&amp;gt;}(3,0)(7,0)
+\psline[linecolor=blue]{-&amp;gt;}(7,-0.5)(1,-0.5)
+\psdot(3,0)
+\psline[linecolor=blue,linestyle=dotted]{-}(1,-0.5)(1,0)
+\psline[linecolor=blue,linestyle=dotted]{-}(7,-0.5)(7,0)
+\psline[]{&lt;/code&gt;</pre></div>
+<p>We have everything we need to find <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta \vec{p}</annotation></semantics></math>. Since the initial momentum is directed towards the wall and the final momentum is away from the wall, we can use the algebraic method of subtraction discussed in Vectors in Grade 10.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Choose a frame of reference</div>
+
+<p>Let us choose towards the wall as the positive direction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Do the calculation and quote the answer</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \Delta \vec{p}&amp; = m\vec{v}_{f}-m\vec{v}_{i} \\ 
+&amp; = \left(\text{0,058}\right)\left(-8\right)-\left(\text{0,058}\right)\left(+10\right) \\ 
+&amp; = \left(-\text{0,46}\right)-\left(\text{,58}\right) \\ 
+&amp; = -\text{1,04} \\ 
+&amp; = \text{1,04}\text{ kg&#183;m&#183;s^{-1}}~\text{away from the wall} 
+\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Change in momentum</div><div class="problem" data-class="question">
+	      
+<p>A rubber ball of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> is dropped and strikes the floor with an initial velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. It bounces back with a final velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. Calculate the change in the momentum of the rubber ball caused by the floor.</p>
+
+			  <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/29f94b440b48153a41ac971c5755099d.png"/><pre class="pspicture">&lt;code&gt;
+(-1,-.5)(4.5,10)
+\psline[linecolor=orange]{-&amp;gt;}(1,8)(1,4)
+\uput[l](1,6){\text{6}~$\text{m&amp;#183;s^{-1}}$}
+\pscircle[fillcolor=purple!80!black,fillstyle=solid,shadow=true](1,8){9pt}
+
+% Wall
+
+\psframe[fillcolor=gray,fillstyle=solid,linecolor=gray!40!black](0.5,.75)(1.5,1.25)
+\psframe[fillcolor=gray,fillstyle=solid,linecolor=gray!40!black](2.5,.75)(3.5,1.25)
+\psline[linestyle=dotted,linecolor=gray!30!black](2,9)(2,.5)
+%\psline[linestyle=dotted,linecolor=gray!30!black](4,9)(4,.5)
+
+\psline[]{-&amp;gt;}(3,2)(3,4)
+\uput[r](3,3){\text{4}~$\text{m&amp;#183;s^{-1}}$}
+\pscircle[fillcolor=purple!80!black,fillstyle=solid,shadow=true](3,2){9pt}
+
+%\rput(0,1){
+%\psline[linecolor=orange]{-&amp;gt;}(5,5)(5,1)
+%\uput[l](5,3){$\vec{p}_i$}
+
+
+%\psline[]{-&amp;gt;}(5,5)(5,7)
+%\uput[l](5,6){$\vec{p}_f$}
+
+%\psline[linecolor=blue]{-&amp;gt;}(5.5,1)(5.5,7)
+%\psdot(5,5)
+%\psline[linecolor=blue,linestyle=dotted]{-}(5,1)(5.5,1)
+%\psline[linecolor=blue,linestyle=dotted]{-}(5,7)(5.5,7)
+%\uput[r]{90}(5.5,4){$\Delta\vec{p}=\vec{p}_f-\vec{p}_i$}
+%}
+
+&lt;/code&gt;</pre></div></figure></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Identify the information given and what is asked</div>
+
+<p>The question explicitly gives a number of values which we identify and
+                convert into SI units:</p>
+<ul data-class="ListBulleted"><li>
+                    
+<p>the ball's mass (m = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>),</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's initial velocity (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i}=\text{6}\text{ m&#183;s^{-1}}</annotation></semantics></math>) downwards, and</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's final velocity (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f}=\text{4}\text{ m&#183;s^{-1}}</annotation></semantics></math>) upwards</p>
+
+                  </li>
+</ul><p>We are asked to calculate the change in momentum of the ball,</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta \vec{p}=m\vec{v}_{f}-m\vec{v}_{i}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Do the calculation and quote the answer</div>
+
+<p>Let us choose down as the positive direction.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \Delta \vec{p}&amp; = m\vec{v}_{f}-m\vec{v}_{i} \\ 
+&amp; = \left(\text{0,8}\right)\left(-4\right)-\left(\text{0,8}\right)\left(+6\right) \\ 
+&amp; = \left(-\text{3,2}\right)-\left(\text{4,8}\right) \\ 
+&amp; = -\text{8} \\ 
+&amp; = \text{8,0}\text{ kg&#183;m&#183;s^{-1}}~\text{upwards} 
+\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Change in momentum</div><div class="problem" data-class="question">
+		  
+<p>A regulation squash ball weighs 
+          <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{24}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math>. In a squash match
+          a ball bounces off the back wall in the direction of the front wall 
+          at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>
+          before a player hits it with a racquet. After being struck towards the front
+          wall the ball is moving at 
+          <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. What
+          is the change in momentum?</p>
+  
+		</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Identify the information given and what is asked</div>
+
+<p>The question explicitly gives a number of values which we identify and 
+                convert into SI units:</p>
+<ul data-class="ListBulleted"><li>
+                    
+<p>the ball's mass (m = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{24}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,024}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>),</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's initial velocity (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i}=\text{1}\text{ m&#183;s^{-1}}</annotation></semantics></math>) towards the front wall, and</p>
+
+                  </li>
+<li>
+                    
+<p>the ball's final velocity (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f}=\text{20}\text{ m&#183;s^{-1}}</annotation></semantics></math>) towards the front wall</p>
+
+                  </li>
+</ul><p>We are asked to calculate the change in momentum of the ball,</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta \vec{p}=m\vec{v}_{f}-m\vec{v}_{i}</annotation></semantics></math><div class="alternates"><img src="_plone_ignore_/cache/pspictures/65f7cbda23a453426307f90d895d0d22.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.5)(12,5)
+\psline[linecolor=orange]{-&amp;gt;}(2,4)(4,4)
+\uput[u](3,4){$\vec{p}_i$}
+\pscircle[fillcolor=yellow!80!black,fillstyle=solid,shadow=true](2,4){9pt}
+
+% Wall
+
+%\psframe[fillcolor=gray!50!white,fillstyle=solid,linecolor=gray!70!white](5,4.75)(5.15,3.25)
+\psframe[fillcolor=gray!50!white,fillstyle=solid,linecolor=gray!70!white](5,2.75)(5.15,1.25)
+\psline[linestyle=dotted,linecolor=gray!30!black](1,3)(11,3)
+\psline[linestyle=dotted,linecolor=gray!30!black](1,1)(11,1)
+
+\psline[]{-&amp;gt;}(6,2)(10,2)
+\uput[u](8,2){$\vec{p}_f$}
+\pscircle[fillcolor=yellow!80!black,fillstyle=solid,shadow=true](6,2){9pt}
+
+\rput(1,0){
+\psline[linecolor=orange,linewidth=1.5pt]{-&amp;gt;}(3,0)(5,0)
+\psline[linecolor=blue]{-&amp;gt;}(5,-0.5)(7,-0.5)
+\psdot(3,0)
+\psline[linecolor=blue,linestyle=dotted]{-}(5,-0.5)(5,0)
+\psline[linecolor=blue,linestyle=dotted]{-}(7,-0.5)(7,0)
+\psline[]{-&amp;gt;}(3,0)(7,0)
+\uput[u](5,0){$\vec{p}_f$}
+\uput[u](4,0){$\vec{p}_i$}
+\uput[d](6,-0.5){$\Delta\vec{p}=\vec{p}_f-\vec{p}_i$}
+}
+
+&lt;/code&gt;</pre></div>
+<p>We have everything we need to find <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta \vec{p}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Choose a frame of reference</div>
+
+<p>Let us choose towards the front wall as the positive direction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Do the calculation and quote the answer</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ \Delta \vec{p}&amp; = m\vec{v}_{f}-m\vec{v}_{i} \\ 
+&amp; = \left(\text{0,024}\right)\left(20\right)-\left(\text{0,024}\right)\left(+1\right) \\ 
+&amp; = \left(\text{0,48}\right)-\left(\text{0,024}\right) \\ 
+&amp; = \text{0,456} \\ 
+&amp; = \text{0,46}\text{ kg&#183;m&#183;s^{-1}}~\text{towards the front wall} 
+\end{align*}</annotation></semantics></math></div></div><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>Which expression accurately describes the change of momentum of an object?</p>
+
+              <ol data-class="ListEnumerated"><li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\vec{F}}{m}</annotation></semantics></math></p>
+
+                </li>
+<li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\vec{F}}{t}</annotation></semantics></math></p>
+
+                </li>
+<li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}&#183;m</annotation></semantics></math></p>
+
+                </li>
+<li>
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}&#183;t</annotation></semantics></math></p>
+
+                </li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>A child drops a ball of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math>. The ball strikes the ground with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and rebounds with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. Calculate the change of momentum of the ball.</p>
+
+            </div><div class="solution"/></div></div></body>
+</html>

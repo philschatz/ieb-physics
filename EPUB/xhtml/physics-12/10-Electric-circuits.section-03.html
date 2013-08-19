@@ -1,0 +1,306 @@
+<html>
+  <head/>
+  <body><h2>Batteries and internal resistance</h2>
+
+<p>Up until now we have been dealing with ideal batteries in that they aren't affected
+          by the circuit or current in any way and provide a precise voltage until they go flat.</p>
+
+<p>If you measure the potential difference across the terminals of a 
+          battery on its own you will 
+          get a different value to what you measure when it is in a complete circuit. The value
+          will be less when the battery is included in a complete circuit. Sometimes the difference
+          is called the <em>lost volts</em>. Nothing has 
+          actually been lost but energy has been transferred.</p>
+
+<p>Real batteries are made from materials which have resistance. This means that 
+          real batteries are not just sources of potential difference (voltage), but they 
+          also possess internal resistance. If the total potential difference source is 
+          referred to as the emf, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>, then a real battery can be 
+          represented as an emf connected in series with a resistor <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>. The internal 
+          resistance of the battery is represented by the symbol <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a67774b6ce610791a186990ef04b9d0b.png"/><pre class="pspicture">&lt;code&gt;
+              (0,0)(5,5)
+              %\psgrid
+\pnode(1,1){A}
+\pnode(4,1){B}
+\pnode(4,4){C}
+\pnode(1,4){D}
+\pnode(2.5,1){E}
+\battery(E)(B){$\mathcal{E}$}
+\resistor[unit=0.5,dipolestyle=rectangle](A)(E){$r$}
+\psline(B)(C)
+\resistor[dipolestyle=rectangle](C)(D){$R$}
+\psline(D)(A)
+\psframe[linestyle=dashed](1.4,0.4)(3.8,2)
+\uput[d](2.5,0.4){$V$}
+
+            &lt;/code&gt;</pre></div></figure><dl class="definition"><dt>Load</dt><dd>
+              
+<p>The external resistance in the circuit is referred to as the load.</p>
+
+            </dd></dl><p>Suppose that the battery with emf <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and internal resistance <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math> supplies a current <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> through an external load resistor <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R</annotation></semantics></math>. Then the potential difference across the load resistor is that supplied by the battery:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}=I\cdot R</annotation></semantics></math><p>Similarly, from Ohm's Law, the potential difference across the internal resistance is:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{V}_{\text{internal resistance}}=I\cdot r</annotation></semantics></math><p>The potential difference <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V</annotation></semantics></math> of the battery is related to its emf <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and internal resistance <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math> by:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 \mathcal{E}&amp; = V+Ir\\
+         &amp;\text{or}\\
+		  V&amp; = \mathcal{E}-Ir 
+		\end{align*}</annotation></semantics></math><p>The battery is the source of energy and the energy provided per unit charge (emf) passing
+         through the battery is equal to the total work done (potential difference) across the 
+         components in the circuit. This can be illustrated by showing the energy per unit charge
+         as as function of the position in the circuit. The charge gains energy when moving through
+         the battery and loses energy when moving through resistors.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ecbfb1ad1dfb98f2c380ff8cf8fcf2ee.png"/><pre class="pspicture">&lt;code&gt;
+              (0,-3.5)(7,3.5)
+       %       \psgrid
+\pnode(1,1){A}
+\pnode(4,1){B}
+\pnode(6,1){C}
+\pnode(6,2.8){F}
+\pnode(1,2.8){D}
+\pnode(2.5,1){E}
+
+\pnode(1,-3){GO}
+\pnode(1.6,-3){GBS}
+\pnode(1.9,0){GBE}
+\pnode(3,0){GIRS}
+\pnode(3.5,-.5){GIRE}
+\pnode(4.5,-.5){GRS}
+\pnode(5.5,-3){GRE}
+
+
+\psline[linecolor=gray]{-&amp;gt;}(GO)(1,.3)
+\psline[linecolor=gray]{-&amp;gt;}(GO)(6.5,-3)
+\psline[linestyle=dotted,linecolor=gray](1,0)(4.5,0)
+\psline{}(4,-.5)(4,0)\rput[l](4.1,-.25){$Ir$}
+\psline[linestyle=dotted,linecolor=gray](1,-.5)(GIRE)
+\psdot(1,0)\rput[r](.9,0){$\mathcal{E}$} % max value - emf
+
+\psdot(1,-.5)\rput[r](.9,-.5){$V$} % voltage
+\psdot(GO)\rput[r](.9,-3){0} 
+
+\psline[linestyle=dotted,linecolor=gray](GBS)(1.6,1)
+\psline[linestyle=dotted,linecolor=gray](GBE)(1.9,1)
+\psline[linestyle=dotted,linecolor=gray](GIRS)(3,1)
+\psline[linestyle=dotted,linecolor=gray](GIRE)(3.5,1)
+\psline[linestyle=dotted,linecolor=gray](GRS)(4.5,1)
+\psline[linestyle=dotted,linecolor=gray](GRE)(5.5,1)
+
+
+\psline(GO)(GBS)
+\psline(GBS)(GBE)
+\psline(GBE)(GIRS)
+\psline(GIRS)(GIRE)
+\psline(GIRE)(GRS)
+\psline(GRS)(GRE)
+\psline(GRE)(6.,-3)
+
+\battery[labeloffset=-.75](E)(A){$\mathcal{E}$}
+\resistor[unit=0.5,dipolestyle=rectangle](E)(B){$r$}
+%\psline(B)(C)
+\resistor[dipolestyle=rectangle](B)(C){$R$}
+\psline(D)(A)
+\psline(F)(D)
+\psline(F)(C)
+\psframe[linestyle=dashed](1.4,0.4)(3.8,2)
+\uput[u](2.5,2){$V$}
+
+\psline{-&amp;gt;}(6,2.8)(3,2.8)
+
+            &lt;/code&gt;</pre></div></figure><p>The emf of a battery is essentially constant because it only depends on the 
+          chemical reaction (that converts chemical energy into electrical energy) going on 
+          inside the battery. Therefore, we can see that the potential difference across 
+          the terminals of the battery is dependent on the current drawn by the load. The 
+          higher the current, the lower the potential difference across the terminals, 
+          because the emf is constant. For the same reason, the potential difference 
+          only equals the emf when the current is very small.</p>
+
+<p>The current that can be drawn from a battery is limited by a critical, maximum value <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. The more resistance in the circuit the less the current will be. Imagine that you have a wire with no resistance that you use to connect the terminals of the battery. The circuit is complete, current will flow and adding any resistance to the circuit would decrease the current. This will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. At a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V=\text{0}\text{ V}</annotation></semantics></math> because there is no load in the circuit. Then, the equation becomes:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 \text{0}&amp; = \mathcal{E}-{I}_{c}r\\
+		  {I}_{c}r&amp; = \mathcal{E}\\
+		  {I}_{c}&amp; = \frac{\mathcal{E}}{r} 
+		\end{align*}</annotation></semantics></math><p>The maximum current that can be drawn from a battery is less than <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\mathcal{E}}{r}</annotation></semantics></math>.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Internal resistance</div><div class="problem" data-class="question">
+              
+<p>Determine the internal resistance of a battery that has an emf of 
+              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and has a
+              potential difference across its terminals of 
+              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> when a 
+              current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> 
+              is flowing through the battery when connected in a circuit.</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+
+<p>It is an internal resistance problem. So we use the equation:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 \mathcal{E}&amp; = V+Ir 
+		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Solve the problem</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 \mathcal{E}&amp; = V+Ir\\
+		  \text{12}&amp; = \text{10}+\text{4}\left(r\right)\\
+		 r &amp; = \text{0,5}\text{ &#937;} 
+		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Write the final answer</div>
+
+<p>The internal resistance of the battery is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math>.</p>
+</div></div><div class="example" data-class="activity" data-type="formalexperiment"><div class="title">Finding the internal resistance of a battery</div><div class="section"><div class="title">Aim</div>
+<p>To determine the internal resistance of a battery.</p>
+</div>
+<div class="section"><div class="title">Apparatus</div>
+<p>You will need the following items for this experiment:</p>
+<ul data-class="ListBulleted"><li>
+                  
+<p>battery / cell to be studied</p>
+
+                </li>
+<li>
+                  
+<p>electric leads</p>
+
+                </li>
+<li>
+                  
+<p>a set of resistors or a rheostat</p>
+
+                </li>
+<li>
+                  
+<p>ammeter</p>
+
+                </li>
+<li>
+                  
+<p>voltmeter</p>
+
+                </li>
+</ul></div>
+<div class="section"><div class="title">Method</div>
+<p>We will set up a circuit that contains the battery we want to study in series 
+                with a resistor. Then we will measure the potential difference across the load 
+                as well as the current for a number of different resistors/rheostat in the 
+                circuit. It doesn't matter if it is a different resistor each time or more 
+                resistors in series or parallel. What matters is that the overall resistance of 
+                the circuit changes so that the current is different each time. The reason 
+                that doing this can tell us about the internal resistance of the battery 
+                is because the potential difference across the internal resistance is 
+                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I\cdot r</annotation></semantics></math> and we can vary I by changing the resistance of the 
+                circuit. If the potential difference across the internal resistance is 
+                changing and we add up all the potential differences, 
+                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E} = V_{\text{load}}+V_{\text{internal resistance}}</annotation></semantics></math> 
+                we can determine the internal resistance.</p>
+<figure class="figure"><img src="photos/InternalResistance-AReynolds.jpg" width="468" alt="Adam Reynolds (Pinelands High School)"/></figure><div class="alternates"><img src="_plone_ignore_/cache/pspictures/21d3e72be8d5b621db9983ea50af776d.png"/><pre class="pspicture">&lt;code&gt;
+              (0,0)(5,5)
+              %\psgrid
+\pnode(1,1){A}
+\pnode(4,1){B}
+\pnode(4,4){C}
+\pnode(1,4){D}
+\pnode(1,2.75){VA}
+\pnode(4,2.75){VB}
+\psdot(VA)
+\psdot(VB)
+\pnode(2.5,1){E}
+\battery(A)(E){$\mathcal{E}$}
+\resistor[unit=0.5,dipolestyle=rectangle](E)(B){$r$}
+\psline(B)(C)
+\resistor[dipolestyle=rectangle,labeloffset=0](C)(D){$R$}
+\psline(A)(VA)
+\circledipole[labeloffset=0](VA)(D){$A$}
+\psframe[linestyle=dashed](1.4,0.4)(3.8,2)
+\uput[d](2.5,0.4){$V_{\text{battery}}$}
+\circledipole[labeloffset=0](VA)(VB){$V_{\text{load}}$}
+            &lt;/code&gt;</pre></div>
+<p>To do this we will actually plot a graph of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}</annotation></semantics></math> versus <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> and then use the features of the graph to determine <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>. To understand why plotting the graph will help us we start with the equation for the magnitude of the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and substitute Ohm's Law and re-arrange as follows:
+                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                    \mathcal{E} &amp; = V_{\text{load}} + V_{\text{internal resistance}} \\
+                    \mathcal{E} &amp; = V_{\text{load}} + I\cdot r \\
+                     V_{\text{load}}&amp; = \mathcal{E} -I\cdot r \\
+                     V_{\text{load}}&amp; = -r\cdot I + \mathcal{E} \\
+                     \underbrace{V_{\text{load}}}_{y}&amp; = \underbrace{-r}_{m}\cdot\underbrace{I}_x +  \underbrace{\mathcal{E}}_{c}
+                    \end{align*}</annotation></semantics></math>
+                If we plot <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}</annotation></semantics></math> versus <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> we will be plotting data that are governed by this relationship. This allows us to conclude that the slope of the graph, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m</annotation></semantics></math>, will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-r</annotation></semantics></math> and the intercept vertical axis, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">c</annotation></semantics></math>, will be the emf <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>.</p>
+</div>
+<div class="section"><div class="title">Results</div>
+<p>Record your results in a table like the one below. You can take more readings if you like.</p>
+<table><tr><td><strong>Setup</strong></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}</annotation></semantics></math> (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>)</td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>)</td></tr><tr><td>Resistance 1</td><td/><td/></tr><tr><td>Resistance 2</td><td/><td/></tr><tr><td>Resistance 3</td><td/><td/></tr><tr><td>Resistance 4</td><td/><td/></tr><tr><td>Resistance 5</td><td/><td/></tr></table></div>
+<div class="section"><div class="title">Discussion and conclusion</div>
+<p>Plot your data on a set of axes similar to this example. The blue
+                crosses represent the measured data points, the gray, dashed line is the 
+                drawn straight line through the data 
+                points. The best fit line you draw doesn't need to go through all the data points, it
+                should, in general, have as many points above and below the line.
+                The slope of the line can be measured and equated to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-r</annotation></semantics></math> and the 
+                intercept with the vertical axis will give you <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>. The
+                intercept with the horizontal axis would give you the maximum possible current 
+                the battery could deliver.</p>
+
+<p/>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/33d597f8141c9674bd6d7345ad0df432.png"/><pre class="pspicture">&lt;code&gt;
+(-2,-2)(6,6)
+%\psgrid
+\def\mdata{
+0.5 1.455
+1   1.41
+2   1.32
+3   1.23
+4   1.14
+}
+%\pstScalePoints(1,1){}{}
+\psset{ axesstyle=frame,
+        xAxisLabel={$I~\text{(A)}$},
+        yAxisLabel={$V_{\text{load}}~\text{(V)}$},
+        xAxisLabelPos={c,-1cm},
+        yAxisLabelPos={-1cm,c}
+    }
+\begin{psgraph}[ticksize=5pt 0,Dx=1, Dy=.2, Ox=0, Oy=1.0](0,0.8)(5,1.7){5cm}{5cm}
+    \listplot[linewidth=2pt,showpoints=true,plotstyle=dots,dotstyle=x,linecolor=blue]{\mdata}
+    \psplot[xMaxValue=4,xMinValue=0,linestyle=dashed,linecolor=gray]{0}{4.5}{ -0.09 x mul 1.5 add }
+    \psdot[linecolor=purple](0,1.5)
+    \rput[r](-.05,1.5){\textcolor{purple}{$\mathcal{E}$}}
+\end{psgraph}
+&lt;/code&gt;</pre></div></figure><ul data-class="ListBulleted"><li>Do your data form a perfectly straight line? </li>
+<li>What errors were introduced?</li>
+</ul></div>
+</div>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>Describe what is meant by the <em>internal resistance</em> of a real battery.</p>
+
+            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>Explain why there is a difference between the emf and terminal voltage of a battery if the load (external resistance in the circuit) is comparable in size to the battery's internal resistance</p>
+
+            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+              
+<p>What is the internal resistance of a battery if its emf is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and the potential difference across its terminals is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> when a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> flows in the circuit when it is connected across a load?</p>
+
+            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+
+<p>A 12.0 V battery has an internal resistance of 7.0 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>.</p>
+
+<ol data-class="ListEnumerated"><li>What is the maximum current this battery could supply?</li>
+<li>What is the potential difference across its terminals when it is supplying a current of 150.0 mA?</li>
+<li>Draw a sketch graph to show how the terminal potential difference varies with the current supplied if the internal resistance remains constant. How could the internal resistance be obtained from the graph?</li>
+</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+
+<p>In a hearing aid a battery supplies a current of 25.0 mA through a resistance of 400 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>. When the volume is increased, the resistance is changed to 100 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>and the current rises to 60 mA. What is the emf and internal resistance of the cell?</p>
+
+</div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+
+<p>A battery is connected in series with a rheostat and an ammeter. When the resistance of the resistor is 10 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> the current is 2.0 A. When the resistance is 5 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> the current is 3.8 A. Find the emf and the internal resistance of the battery.</p>
+
+</div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+
+<p>When a cell is connected directly across a high resistance voltmeter the reading is 
+1.50 V. When the cell is shorted through a low resistance ammeter the current is 2.5 A. What is the emf and internal resistance of the cell?</p>
+
+</div><div class="solution"/></div></div></body>
+</html>

@@ -1,0 +1,6 @@
+<container xmlns="urn:oasis:names:tc:opendocument:xmlns:container" version="1.0">
+  <rootfiles>
+<rootfile media-type="application/oebps-package+xml" full-path="EPUB/package-physics-12.opf" version="1.0"/>
+<rootfile media-type="application/oebps-package+xml" full-path="EPUB/package-physics-11.opf" version="1.0"/>
+</rootfiles>
+</container>

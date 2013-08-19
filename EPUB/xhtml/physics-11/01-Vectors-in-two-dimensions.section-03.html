@@ -1,0 +1,846 @@
+<html>
+  <head/>
+  <body><h2>Components of vectors</h2>
+
+<p>In the discussion of vector addition we saw that a number of vectors acting
+together can be combined to give a single vector (the resultant). In
+much the same way a single vector can be broken down into a number of vectors which when added give that original vector. These vectors which sum to the original are called <strong>components</strong> of the original vector. The process of breaking a vector into its components is called <strong>resolving into components</strong>.</p>
+
+<p>In practise it is most useful to resolve a vector into components
+which are at right angles to one another, usually horizontal and vertical. Think about all the problems we've solved so far. If we have vectors parallel to the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-axes problems are straightforward to solve.</p>
+
+<p>Any vector can be resolved into a horizontal and a vertical component. If <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\stackrel{\to }{R}</annotation></semantics></math> is a vector, then the horizontal component of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\stackrel{\to }{R}</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\stackrel{\to }{R}}_{x}</annotation></semantics></math> and the vertical component is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\stackrel{\to }{R}}_{y}</annotation></semantics></math>.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/6f53fd6df983bd86925e844f2c9ef291.png"/><pre class="pspicture">&lt;code&gt;
+            (-1.5,-1.5)(3.5,3)\rput(2.45,-.95){$x$}\rput(-.55,2.45){$y$}
+\psaxes{-&amp;gt;}(-.75,-.75)(-.75,-.75)(2.5,2.6)
+\psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(2.5,2.5)
+\psline[linestyle=dashed]{-&amp;gt;}(2.5,0)(2.5,2.5)
+\psline[linestyle=dashed]{-&amp;gt;}(0,0)(2.5,0)
+\uput[ul](1,1){$\vec{R}$}
+\uput[r](2.5,1.25){$\vec{R}_y$}
+\uput[d](1.25,0){$\vec{R}_x$}
+\psarc{-&amp;gt;}(0,0){1.5}{0}{45}
+\rput(1.,.4){$\theta$}
+\psline(2.3,0)(2.3,.2)(2.5,.2)
+          &lt;/code&gt;</pre></div></figure><p>When resolving into components that are parallel to the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-axes we are always dealing with a right-angled triangle. This means that we can use trigonometric identities to determine the magnitudes of the components (we know the directions because they are aligned with the axes).</p>
+
+<p>From the triangle in the diagram above we know that 
+					<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        \cos(\theta) &amp;= \frac{R_x}{R}\\
+                        \frac{R_x}{R} &amp;= \cos(\theta)\\
+                        R_x &amp;=R\cos(\theta) 
+                        \end{align*}</annotation></semantics></math> and 
+					<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        \sin\theta &amp;= \frac{R_y}{R}\\
+                        \frac{R_y}{R} &amp;= \sin(\theta)\\
+                        R_y &amp;=R\sin(\theta) 
+                        \end{align*}</annotation></semantics></math></p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\boxed{R_x=R\cos(\theta)}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\boxed{R_y=R\sin(\theta)}</annotation></semantics></math></p>
+
+<p><strong>Note</strong> that the angle is measured counter-clockwise from the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Resolving a vector into components</div><div class="problem" data-class="question">
+            
+<p>A force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{250}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> acts at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{30}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis. Resolve this force into components parallel to the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-axes.</p>
+
+          </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Draw a rough sketch of the original vector</div>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/b9cf2abd659a6c45ab37aa8d7ee4784a.png"/><pre class="pspicture">&lt;code&gt;
+                  (-0.35,-0.3)(6.7,3.5)
+        \psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(6,3.46)
+    \pcline[offset=8pt,linestyle=none]{-}(0,0)(6,3.46)
+    \psarc{-&amp;gt;}(0,0){1.4}{0}{30}
+    \lput{:U}{250 N}
+    \rput(0.9,0.25){30$^\circ$}
+    \psline[linestyle=dashed]{-}(0,0)(2,0)
+  
+                &lt;/code&gt;</pre></div></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the vector components</div>
+
+<p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/5703c0ebd69449e8da137a9c5b2cc827.png"/><pre class="pspicture">&lt;code&gt;
+                  (-1,-0.65)(7,3.5)
+\psaxes[dx=2cm,dy=2cm,Dy=100,Dx=100]{-&amp;gt;}(0,0)(0,0)(7,3.5)\rput(.3,3){$y$}\rput(6.5,-.3){$x$}
+        \rput{30}(0,0){\psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(5,0)}
+    \pcline[offset=8pt,linestyle=none]{-}(0,0)(6,3.46)
+	\rput{-270}(4.33,0){\psline(.15,0)(.15,.15)(0,.15)}
+    \psarc{-&amp;gt;}(0,0){1.4}{0}{30}
+    \lput{:U}{250 N}
+    \rput(0.9,0.25){30$^\circ$}
+    \psline[linewidth=1.4pt,linestyle=dashed,linecolor=red]{-&amp;gt;}(0,0)(4.33,0)
+    \psline[linewidth=1.4pt,linestyle=dashed,linecolor=red]{-&amp;gt;}(0,2.5)(4.33,2.5)
+    \psline[linewidth=1.4pt,linestyle=dashed,linecolor=blue]{-&amp;gt;}(4.33,0)(4.33,2.5)
+    \psline[linewidth=1.4pt,linestyle=dashed,linecolor=blue]{-&amp;gt;}(0,0)(0,2.5)
+    \pcline[offset=10pt,linestyle=none]{-}(0,0)(4.33,0)
+    \lput{:U}{\color{red}$\vec{F}_x$}
+    \pcline[offset=-8pt,linestyle=none]{-}(4.33,0)(4.33,2.5)
+    \lput{:U}{\rotateright{\color{blue}$\vec{F}_y$}}
+                &lt;/code&gt;</pre></div>
+<p>Notice how the two components acting together give the original vector as
+their resultant.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the magnitudes of the component vectors</div>
+
+<p>Now we can use trigonometry to calculate the magnitudes of the
+components of the original displacement:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_y &amp;= \text{250} \sin(30&#176;)\\
+						&amp;=\text{125}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+<p>and</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{250} \cos(30&#176;)\\
+						&amp;=\text{216,5}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+<p>Remember <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{x}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{y}</annotation></semantics></math> are the magnitudes of the components. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_x</annotation></semantics></math> is in the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_y</annotation></semantics></math> is in the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Resolving a vector into components</div><div class="problem" data-class="question">
+            
+<p>A force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> acts at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{230}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis. Resolve this force into components parallel to the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-axes.</p>
+
+          </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Draw a rough sketch of the original vector</div>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/237558d0d2f3372af9e58f9a39d3e84e.png"/><pre class="pspicture">&lt;code&gt;
+(-4.,-4)(4,4)
+\psaxes[dy=1cm,dx=1cm,Dy=5,Dx=5]{}(0,0)(-4,-4)(4,4)\rput(3.5,-.3){$x$}\rput(.3,3.5){$y$}
+\rput(-1,-1.5){$\vec{F}$}
+\rput{230}{\psline[]{-&amp;gt;}(0,0)(2.5,0)}
+\psarc{-&amp;gt;}(0,0){1.5}{0}{230}
+&lt;/code&gt;</pre></div></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the vector components</div>
+
+<p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+<p>Now we can use trigonometry to calculate the magnitudes of the
+components of the original force:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_y &amp;= \text{12,5} \sin(\text{230}\text{&#176;})\\
+						&amp;=-\text{9,58}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+<p>and</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{12,5} \cos(\text{230}\text{&#176;})\\
+						&amp;=-\text{8,03}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+<p><strong>Notice</strong> that by using the full angle we actually get the correct signs for the components if we use the standard Cartesian coordinates. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_x</annotation></semantics></math> is in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_y</annotation></semantics></math> is in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction.</p>
+</div></div><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+              		
+<p>Resolve each of the following vectors into components:</p>
+
+					<ul data-class="ListBulleted"><li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{45}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{63}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_3</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{11,3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{127}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_4</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{125}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{245}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+</ul></div><div class="solution">
+				  <ul data-class="ListBulleted"><li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/9937709c2eccbcc735aabfc49c623d23.png"/><pre class="pspicture">&lt;code&gt;
+(0,-2.25)(5.5,2.75)
+\rput(1.5,-1.25){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm](0,0)(-1,-1)(4,4)}
+\rput(4.981406,-1.55){$x$}
+\rput(1.7814063,2.25){$y$}
+\rput(2.8814063,0.47){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(1.5,-1.25)(3.9,1.01)
+\psarc[linewidth=0.028222222](1.16,-1.59){1.16}{16.699244}{43.15239}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_y &amp;= 5 \sin(\text{45}\text{&#176;})\\
+						&amp;=\text{3,54}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= 5 \cos(\text{45}\text{&#176;})\\
+						&amp;=\text{3,54}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+<li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/9ce097b4fe748b338fc5cfce25f58de6.png"/><pre class="pspicture">&lt;code&gt;
+(0,-2.25)(5.5,2.75)
+\rput(1.5,-1.25){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=5,Dy=5](0,0)(-1,-1)(4,4)}
+\rput(4.981406,-1.55){$x$}
+\rput(1.7814063,2.25){$y$}
+\rput(2.8814063,0.47){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(1.5,-1.25)(3.04,1.41)
+\psarc[linewidth=0.028222222](1.16,-1.59){1.16}{16.699244}{53.130104}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_y &amp;= 15 \sin(\text{63}\text{&#176;})\\
+						&amp;=\text{13,37}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= 15 \cos(\text{63}\text{&#176;})\\
+						&amp;=\text{6,81}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+<li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/330325d9e3f89a8c0bbe81739bd771c6.png"/><pre class="pspicture">&lt;code&gt;
+(0,-2.25)(4.721875,2.75)
+\rput(3.0,-1.25){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=4,Dy=4](0,0)(-3,-1)(1,4)}
+\rput(4.4214063,-1.47){$x$}
+\rput(3.2814062,2.25){$y$}
+\rput(1.6214062,0.33){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(3.0,-1.25)(1.32,1.13)
+\psarc[linewidth=0.028222222](2.66,-1.59){1.16}{16.699244}{100.784294}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						  F_y &amp;= \text{11,3} \sin(\text{127}\text{&#176;})\\
+						&amp;=\text{9,02}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{11,3} \cos(\text{127}\text{&#176;})\\
+						&amp;=-\text{6,80}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+<li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math> = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/d9de7bb182c6af40ef80e7dc40cc2310.png"/><pre class="pspicture">&lt;code&gt;
+(0,-2.2242188)(4.701875,2.2642188)
+\rput(3.0,0.7757813){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=50,Dy=50](0,0)(-3,-3)(1,1)}
+\rput(4.4014063,0.7757813){$x$}
+\rput(3.1214063,2.0757813){$y$}
+\rput(1.3014063,-1.5042187){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(3.0,0.7757813)(1.56,-1.5042187)
+\psarc[linewidth=0.028222222](2.66,0.43578124){1.16}{16.699244}{243.43495}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						  F_y &amp;= \text{125} \sin(\text{245}\text{&#176;})\\
+						&amp;=-\text{113,29}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{125} \cos(\text{245}\text{&#176;})\\
+						&amp;=-\text{52,83}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+</ul></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+              		
+<p>Resolve each of the following vectors into components:</p>
+
+					<ul data-class="ListBulleted"><li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{11} \times \text{10}^{\text{4}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{33}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{GN}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{28}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_3</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{11,3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kN}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{193}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_4</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{125} \times \text{10}^{\text{5}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{317}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+</ul></div><div class="solution">
+				  <ul data-class="ListBulleted"><li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1} \times \text{10}^{\text{4}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/134345fa11f16826e4ef1d6646583cc2.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.9642187)(4.521875,2.4242187)
+\rput(1.24,-0.96421874){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=5,Dy=5](0,0)(-1,-1)(3,3)}
+\rput(4.2214065,-0.68421876){$x$}
+\rput(1.3014063,2.2357812){$y$}
+\rput(2.6214063,0.21578126){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(1.24,-0.96421874)(3.02,0.27578124)
+\psarc[linewidth=0.028222222](1.02,-1.3642187){1.02}{23.498566}{47.385944}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse. We do not need to convert to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> but we must remember to keep the same units throughout.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						  F_y &amp;= \text{11} \times \text{10}^{\text{4}} \sin(\text{33}\text{&#176;})\\
+							&amp;=\text{5,99} \times \text{10}^{\text{4}}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{11} \times \text{10}^{\text{4}} \cos(\text{33}\text{&#176;})\\
+						&amp;=\text{9,22} \times \text{10}^{\text{4}}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+<li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{GN}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/28bc9023f20073a949e5b0185cfc8111.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.9642187)(4.521875,2.4242187)
+\rput(1.24,-0.96421874){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=5,Dy=5](0,0)(-1,-1)(3,3)}
+\rput(4.2214065,-0.68421876){$x$}
+\rput(1.3014063,2.2357812){$y$}
+\rput(3.4214063,0.55578125){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(1.24,-0.96421874)(3.6,0.39578125)
+\psarc[linewidth=0.028222222](1.02,-1.3642187){1.02}{23.498566}{42.137596}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse. We do not need to convert to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> but we must remember to keep the same units throughout.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_y &amp;= 15 \sin(\text{28}\text{&#176;})\\
+						&amp;=\text{7,04}\text{ GN}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= 15 \cos(\text{28}\text{&#176;})\\
+						&amp;=\text{13,2}\text{ GN}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+<li>
+					  
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kN}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/c8a09bf545a2566caa7ce1aa0bf2386d.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.9642187)(3.741875,2.4242187)
+\rput(2.0,-0.96421874){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=5,Dy=5](0,0)(-2,-1)(1,3)}
+\rput(3.4414062,-1.1042187){$x$}
+\rput(2.0614061,2.2357812){$y$}
+\rput(1.1214062,0.61578125){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(2.0,-0.96421874)(1.18,1.2757813)
+\psarc[linewidth=0.028222222](1.78,-1.3642187){1.02}{23.498566}{90.0}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						  F_y &amp;= \text{11,3} \sin(\text{103}\text{&#176;})\\
+						&amp;=\text{11,01}\text{ kN}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{11,3} \cos(\text{103}\text{&#176;})\\
+						&amp;=-\text{2,54}\text{ kN}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+<li>
+						
+<p>Draw a rough sketch of the original vector (we use a scale of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50} \times \text{10}^{\text{5}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> : <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>)</p>
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/2b752f76e6e458846b6557fc0e649271.png"/><pre class="pspicture">&lt;code&gt;
+(0,-2.1842186)(4.581875,2.2242188)
+\rput(1.24,0.81578124){\psaxes[linewidth=0.028222222,ticksize=0.10583333cm,dx=1.0cm,dy=1.0cm,Dx=50,Dy=50](0,0)(-1,-3)(3,1)}
+\rput(4.2814064,1.0357813){$x$}
+\rput(1.4214063,2.0357811){$y$}
+\rput(2.6414063,-0.94421875){$\vec{F}$}
+\psline[linewidth=0.028222222cm]{-&amp;gt;}(1.24,0.81578124)(2.96,-0.88421875)
+\psarc[linewidth=0.028222222](1.02,0.41578126){1.02}{23.498566}{342.64597}
+&lt;/code&gt;</pre></div></figure><p>Next we resolve the force into components parallel to the axes. Since these directions are perpendicular to one another, the components form a right-angled triangle with the original force as its hypotenuse.</p>
+
+              
+<p>Now we can use trigonometry to calculate the magnitudes of the components of the original force:</p>
+            
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						  F_y &amp;= \text{125} \times \text{10}^{\text{5}} \sin(\text{317}\text{&#176;})\\
+						&amp;=-\text{8,52} \times \text{10}^{\text{6}}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+
+              
+<p>and</p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        F_x &amp;= \text{125} \times \text{10}^{\text{5}} \cos(\text{317}\text{&#176;})\\
+						&amp;=\text{9,14} \times \text{10}^{\text{6}}\text{ N}
+						\end{align*}</annotation></semantics></math></p>
+        
+					</li>
+</ul></div></div></div><h3>Vector addition using components</h3>
+
+<p>Components can also be used to find the resultant of vectors. This technique can be applied to both graphical and algebraic methods of finding the resultant. The method is straightforward:</p>
+<ol data-class="ListEnumerated"><li>make a rough sketch of the problem;</li>
+<li>find the horizontal and vertical components of each vector;</li>
+<li>find the sum of all horizontal components, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}_x</annotation></semantics></math>;</li>
+<li>find the sum of all the vertical components, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}_y</annotation></semantics></math>;</li>
+<li>then use them to find the resultant, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}</annotation></semantics></math>.</li>
+</ol><p>Consider the two vectors, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math>, in Figure <a href="#fig-p-v-components-addition-vectors" data-class="InternalLink">fig-p-v-components-addition-vectors</a>, together with their resultant, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\stackrel{\to }{R}</annotation></semantics></math>.</p>
+<figure class="figure" id="fig-p-v-components-addition-vectors"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/7a6d47d7e03cdb49ba29cd7455e02386.png"/><pre class="pspicture">&lt;code&gt;
+                (-1,-1)(8,6)
+\psaxes{-&amp;gt;}(0,0)(0,0)(8,6)\rput(7.5,-.3){$x$}\rput(.3,5.5){$y$}
+
+\psline[linewidth=1.4pt,linecolor=blue]{-&amp;gt;}(0,0)(5,2)
+\pcline[offset=-8pt,linestyle=none](0,0)(5,2)
+\lput{:U}{\color{blue}$\vec{F}_1$}
+\psline[linewidth=1.4pt,linecolor=purple]{-&amp;gt;}(5,2)(8,6)
+\pcline[offset=-8pt,linestyle=none](5,2)(8,6)
+\lput{:U}{\color{purple}$\vec{F}_2$}
+\psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(8,6)
+\pcline[offset=8pt,linestyle=none](0,0)(8,6)
+\lput{:U}{$\vec{R}$}
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              An example of two vectors being added to give a resultant.
+            </p></figcaption></figure><p>Each vector in Figure <a href="#fig-p-v-components-addition-vectors" data-class="InternalLink">fig-p-v-components-addition-vectors</a> can be broken down into one component in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction (horizontal) and one in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction (vertical). These components are two vectors which when added give you the original vector as the resultant. This is shown in Figure <a href="#fig-p-v-components-addition-vectors-components" data-class="InternalLink">fig-p-v-components-addition-vectors-components</a> below:</p>
+<figure class="figure" id="fig-p-v-components-addition-vectors-components"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/6578e1f4572539b72a487b82b9805200.png"/><pre class="pspicture">&lt;code&gt;
+                (-2,-.8)(8.6,7)
+\psaxes{-&amp;gt;}(0,0)(0,0)(8,6)\rput(7.5,-.3){$x$}\rput(.3,5.5){$y$}
+\psline[linewidth=1.4pt,linecolor=blue]{-&amp;gt;}(0,0)(5,2)
+\pcline[offset=-8pt,linestyle=none](0,0)(5,2)
+\lput{:U}{\color{blue}$\vec{F}_1$}
+\psline[linestyle=dashed,linecolor=blue]{-&amp;gt;}(0,0)(5,0)(5,2)	\pcline[offset=-8pt,linestyle=none](0,0)(5,0)
+\lput{:U}{\color{blue}$\vec{F}_{1x}$}
+\psline[linestyle=dashed,linecolor=blue]{-&amp;gt;}(0,6.5)(5,6.5)
+\pcline[offset=8pt,linestyle=none](0,6.5)(5,6.5)
+\lput{:U}{\color{blue}$\vec{F}_{1x}$}
+\pcline[offset=-8pt,linestyle=none](5,0)(5,2)
+\lput{:U}{\color{blue}$\vec{F}_{1y}$}
+\psline[linestyle=dashed,linecolor=blue]{-&amp;gt;}(-0.7,0)(-0.7,2)
+\pcline[offset=8pt,linestyle=none](-0.7,0)(-0.7,2)
+\lput{:U}{\color{blue}$\vec{F}_{1y}$}
+\psline[linestyle=dashed](4.7,0)(4.7,0.3)
+\psline[linestyle=dashed](4.7,0.3)(5.,0.3)
+\psline[linewidth=1.4pt,linecolor=purple]{-&amp;gt;}(5,2)(8,6)
+\pcline[offset=-8pt,linestyle=none](5,2)(8,6)
+\lput{:U}{\color{purple}$\vec{F}_2$}
+\psline[linestyle=dashed,linecolor=purple]{-&amp;gt;}(5,2)(8,2)(8,6)	\pcline[offset=-8pt,linestyle=none](5,2)(8,2)
+\lput{:U}{\color{purple}$\vec{F}_{2x}$}
+\psline[linestyle=dashed,linecolor=purple]{-&amp;gt;}(5,6.5)(8,6.5)
+\pcline[offset=8pt,linestyle=none](5,6.5)(8,6.5)
+\lput{:U}{\color{purple}$\vec{F}_{2x}$}
+\pcline[offset=-8pt,linestyle=none](8,2)(8,6)
+\lput{:U}{\color{purple}$\vec{F}_{2y}$}
+\psline[linestyle=dashed,linecolor=purple]{-&amp;gt;}(-0.7,2)(-0.7,6)
+\pcline[offset=8pt,linestyle=none](-0.7,2)(-0.7,6)
+\lput{:U}{\color{purple}$\vec{F}_{2y}$}
+\psline[linestyle=dashed](7.7,2)(7.7,2.3)
+\psline[linestyle=dashed](7.7,2.3)(8,2.3)
+\psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(8,6)
+\pcline[offset=8pt,linestyle=none](0,0)(8,6)
+\lput{:U}{$\vec{R}$}
+\psline[linestyle=dashed]{-&amp;gt;}(-1.3,0)(-1.3,6)
+\psline[linestyle=dashed]{-&amp;gt;}(0,6)(8,6)	\pcline[offset=-8pt,linestyle=none](0,6)(8,6)
+\lput{:U}{$\vec{R}_x$}
+\pcline[offset=8pt,linestyle=none](-1.3,0)(-1.3,6)
+\lput{:U}{$\vec{R}_y$}
+\psline[linestyle=dashed](0,5.7)(0.3,5.7)
+\psline[linestyle=dashed](0.3,5.7)(0.3,6)
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              Adding vectors using components.
+            </p></figcaption></figure><p>We can see that:
+          
+               <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			   	\vec{F}_1 &amp;= \vec{F}_{1x} + \vec{F}_{1y} \\
+			   	\vec{F}_2 &amp;= \vec{F}_{2x} + \vec{F}_{2y} \\
+			   	\vec{R} &amp;= \vec{R}_x + \vec{R}_y 
+			   \end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			   	\textrm{But,}\ \vec{R}_x &amp;= \vec{F}_{1x} + \vec{F}_{2x} \\
+			   	\textrm{and}\ \vec{R}_y &amp;= \vec{F}_{1y} + \vec{F}_{2y} 
+			   \end{align*}</annotation></semantics></math></p>
+
+<p>In summary, addition of the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-components of the two original
+vectors gives the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component of the resultant. The same applies to
+the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-components. So if we just added all the components
+together we would get the <strong>same answer!</strong> This is another important
+property of vectors.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Adding vectors using components</div><div class="problem" data-class="question">
+              
+<p>If in Figure <a href="#fig-p-v-components-addition-vectors-components" data-class="InternalLink">fig-p-v-components-addition-vectors-components</a>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,385}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{21,8}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the horizontal and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{53,13}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the horizontal, find the resultant force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}</annotation></semantics></math>.</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Decide how to tackle the problem</div>
+
+<p>The first thing we must realise is that the order that we add the vectors does not matter. Therefore, we can work through the vectors to be added in any order. We also draw up the following table to help us work through the problem:</p>
+<table><tr><td><p><strong>Vector</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component</strong></p></td><td><p><strong>Total</strong></p></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></td><td/><td/><td/></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></td><td/><td/><td/></tr><tr><td>Resultant</td><td/><td/><td/></tr></table></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Resolve <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math> into components</div>
+
+<p>We find the components of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math> by using known trigonometric ratios. First we find the magnitude of the vertical component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{1y}}</annotation></semantics></math>:
+               <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			   	\sin(\theta) &amp;= \frac{F_{1y}}{F_1} \\
+			   	\sin(\text{21,8}\text{&#176;}) &amp;= \frac{F_{1y}}{\text{5,385}} \\
+			   	F_{1y} &amp;= \left(\sin(\text{21,8}\text{&#176;})\right)\left( \text{5,385}\right) \\
+			   	 &amp;= \text{2,00}\text{ N}
+			   \end{align*}</annotation></semantics></math></p>
+
+<p>Secondly we find the magnitude of the horizontal component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{1x}}</annotation></semantics></math>:
+               <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			   	\cos(\theta) &amp;= \frac{F_{1x}}{F_1} \\
+			   	\cos(\text{21,8}\text{&#176;}) &amp;= \frac{F_{1x}}{\text{5,385}} \\
+			   	F_{1x} &amp;= \left(\cos(\text{21,8}\text{&#176;})\right)\left( \text{5,385} \right) \\
+			   	 &amp;= \text{5,00}\text{ N}
+			   \end{align*}</annotation></semantics></math></p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/bb17a82ebc3f17489474f9a7dc40c9a6.png"/><pre class="pspicture">&lt;code&gt;
+                    (-0.2,-0.6)(5.6,2.4)
+					
+					\psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(5,2)
+%\pcline[offset=8pt]{|-|}(0,0)(5,2)
+%\lput*{:U}{5,385 N}
+\rput{21.8}(2.3,1.1){5,385 N}
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(0,0)(5,0)
+%\pcline[offset=-8pt]{|-|}(0,0)(5,0)
+%\lput{:U}{5.00 N}
+\rput[t](2.5,-0.1){5.00 N}
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(5,0)(5,2)
+%\pcline[offset=-8pt]{|-|}(5,0)(5,2)
+%\lput*{:U}{2.00 N}
+\rput{270}(5.2,1){2.00 N}
+\psline[linestyle=dashed,linewidth=1.4pt](4.7,0)(4.7,0.3)
+\psline[linestyle=dashed,linewidth=1.4pt](4.7,0.3)(5.,0.3)
+\rput[b](1.5,.15){$\theta$}
+\psarc{-&amp;gt;}(0,0){2}{0}{21.8}
+                  &lt;/code&gt;</pre></div></figure><p>The components give the sides of the right angle triangle, for which the original vector, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math>, is the hypotenuse.</p>
+<table><tr><td><p><strong>Vector</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component</strong></p></td><td><p><strong>Resultant</strong></p></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,385}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></td><td/><td/><td/></tr><tr><td>Resultant</td><td/><td/><td/></tr></table></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Resolve <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math> into components</div>
+
+<p>We find the components of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math> by using known trigonometric ratios. First we find the magnitude of the vertical component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{2y}}</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			   	\sin(\theta) &amp;= \frac{F_{2y}}{F_2} \\
+			   	\sin( \text{53,13}\text{&#176;}) &amp;= \frac{F_{2y}}{5} \\
+			   	F_{2y} &amp;= \left(\sin( \text{53,13}\text{&#176;})\right)\left( 5\right) \\
+			   	 &amp;= \text{4,00}\text{ N}
+			   \end{align*}</annotation></semantics></math></p>
+
+<p>Secondly we find the magnitude of the horizontal component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{2x}}</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			   	\cos(\theta) &amp;= \frac{F_{2x}}{F_2} \\
+			   	\cos (\text{53,13}\text{&#176;}) &amp;= \frac{F_{2x}}{5} \\
+			   	F_{2x} &amp;= \left(\cos( \text{53,13}\text{&#176;})\right)\left( 5\right) \\
+			   	 &amp;= \text{3,00}\text{ N}
+			   \end{align*}</annotation></semantics></math></p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/4d0629dfa26b2a1c1a16c750f644b3cf.png"/><pre class="pspicture">&lt;code&gt;
+				                      (4.6,1.4)(8.6,6.4)
+									  \psline[linewidth=1.4pt]{-&amp;gt;}(5,2)(8,6)
+									  %\pcline[offset=8pt]{|-|}(5,2)(8,6)
+									  %\lput*{:U}{5,385 N}
+
+									  \rput{53.13}(6.3,4.1){5,00 N}
+
+									  \psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(5,2)(8,2)
+
+									  %\pcline[offset=-8pt]{|-|}(5,2)(8,2)
+									  %\lput*{:U}{3.23 N}
+									  \rput[t](6.5,1.8){3,23 N}
+
+									  \psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(8,2)(8,6)
+
+									  %\pcline[offset=-8pt]{|-|}(8,2)(8,6)
+									  %\lput*{:U}{4.31 N}
+
+									  \rput{270}(8.2,4){4,31 N}
+
+									  \psline[linestyle=dashed,linewidth=1.4pt](7.7,2)(7.7,2.3)
+									  \psline[linestyle=dashed,linewidth=1.4pt](7.7,2.3)(8,2.3)
+									  \rput[b](6.2,2.3){$\theta$}
+									  \psarc{-&amp;gt;}(5,2){2}{0}{53.13}
+
+									                    &lt;/code&gt;</pre></div><table><tr><td><p><strong>Vector</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component</strong></p></td><td><p><strong>Total</strong></p></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,385}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td>Resultant</td><td/><td/><td/></tr></table></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the components of the resultant vector</div>
+
+<p>Now we have all the components. If we add all the horizontal components then
+					we will have the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component of the resultant vector, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\stackrel{\to }{R}}_{x}</annotation></semantics></math>. Similarly, we add all the vertical components then we will have the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component of the resultant vector, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\stackrel{\to }{R}}_{y}</annotation></semantics></math>.</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+					R_x &amp;= F_{1x} + F_{2x} \\
+					&amp; = \text{5,00}\text{ N} + \text{3,00}\text{ N} \\
+					&amp;= \text{8,00}\text{ N} 
+				\end{align*}</annotation></semantics></math></p>
+
+<p>Therefore, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\stackrel{\to }{R}}_{x}</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> to the right.</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+					R_y &amp;= F_{1y} + F_{2y} \\
+					&amp; = \text{2,00}\text{ N} + \text{4,00}\text{ N} \\
+					&amp;= \text{6,00}\text{ N} 
+				\end{align*}</annotation></semantics></math></p>
+
+<p>Therefore, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\stackrel{\to }{R}}_{y}</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> up.</p>
+<table><tr><td><p><strong>Vector</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component</strong></p></td><td><p><strong>Total</strong></p></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,385}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td>Resultant</td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td/></tr></table></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the magnitude and direction of the resultant vector</div>
+
+<p>Now that we have the components of the resultant, we can use the Theorem of Pythagoras to determine the magnitude of the resultant, R.</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+					R^2 &amp;= (R_y)^2 + (R_x)^2 \\
+					&amp; = (\text{6,00})^2 + (\text{8,00})^2 \\
+					&amp;= \text{100,00}\\
+					R &amp;= \text{10,00}\text{ N}
+				\end{align*}</annotation></semantics></math></p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a7271ec3ecd5bf8312dd27860eb0160e.png"/><pre class="pspicture">&lt;code&gt;
+                    (-1,-0.4)(8.4,7)
+\psline[linewidth=1.4pt]{-&amp;gt;}(0,0)(8,6)
+%\pcline[offset=-8pt]{|-|}(0,0)(8,6)
+%\lput*{:U}{10 N}
+
+\rput{36.9}(4,2.5){10 N}
+
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(0,0)(0,6)
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(-.5,0)(-0.5,2)
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(-0.5,2)(-0.5,6)
+%\pcline[offset=8pt]{|-|}(-.5,0)(-0.5,6)
+%\lput*{:U}{6 N}
+
+\rput{90}(-1,3){6 N}
+
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(0,6)(8,6)
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(0,6.5)(5,6.5)
+\psline[linestyle=dashed,linewidth=1.4pt]{-&amp;gt;}(5,6.5)(8,6.5)
+%\pcline[offset=8pt]{|-|}(0,6.5)(8,6.5)
+%\lput*{:U}{8 N}
+
+\rput(4,7){8 N}
+
+\psline[linestyle=dashed,linewidth=1.4pt](0,5.7)(0.3,5.7)
+\psline[linestyle=dashed,linewidth=1.4pt](0.3,5.7)(0.3,6)
+\psline[linestyle=dashed,linewidth=1.4pt](0,0)(4,0)
+\rput(0.7,0.25){$\alpha$}
+\psarc{-&amp;gt;}(0,0){1}{0}{36.8}
+
+                  &lt;/code&gt;</pre></div></figure><p>The magnitude of the resultant, R is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. So all we have to do is calculate its direction. We can specify the direction as the angle the vectors makes with a known direction. To do this you only need to visualise the vector as starting at the origin of a coordinate system. We have drawn this explicitly below and the angle we will calculate is labelled &#945;.</p>
+
+<p>Using our known trigonometric ratios we can calculate the value of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\alpha</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			  \tan\alpha &amp;= \frac{\text{6,00}}{\text{8,00}}\\
+			  \alpha &amp;= \tan^{-1}\frac{\text{6,00}}{\text{8,00}}\\
+			  \alpha &amp;= \text{36,9}\text{&#176;}
+			  \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Quote the final answer</div>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\stackrel{\to }{R}</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">36,{9}^{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Resultant using components</div><div class="problem" data-class="question">
+
+<p>Determine, by resolving into components, the resultant of the following four forces acting at a point:</p>
+
+					<ul data-class="ListBulleted"><li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{45}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,7}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{63}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_3</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{127}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_4</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{245}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</li>
+</ul></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Sketch the problem</div>
+
+<p>Draw all of the vectors on the Cartesian plane. This does not have to be precisely accurate because we are solving algebraically but vectors need to be drawn in the correct quadrant and with the correct relative positioning to each other.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/c10050aed67b8530d005920997e1525e.png"/><pre class="pspicture">&lt;code&gt;
+(-4.,-4)(4,4)
+\psaxes{}(0,0)(-4,-4)(4,4)\rput(3.5,-.3){$x$}\rput(.3,3.5){$y$}
+\rput{45}{\psline[linewidth=1.4pt,linecolor=blue]{-&amp;gt;}(0,0)(3.5,0)}
+\rput(1.5,1){\color{blue}$\vec{F}_1$}
+
+\rput{63}{\psline[linewidth=1.4pt,linecolor=green!75!black]{-&amp;gt;}(0,0)(2.7,0)}
+\rput(0.5,2){\color{green!75!black}$\vec{F}_2$}
+
+\rput{127}{\psline[linewidth=1.4pt,linecolor=purple]{-&amp;gt;}(0,0)(1.3,0)}
+\rput(-1,.5){\color{purple}$\vec{F}_3$}
+
+\rput{245}{\psline[linewidth=1.4pt,linecolor=orange]{-&amp;gt;}(0,0)(2.5,0)}
+\rput(-1,-1.5){\color{orange}$\vec{F}_4$}
+&lt;/code&gt;</pre></div></figure><p>We are going to record the various components in a table to help us manage keep track of the calculation. For each vector we need to determine the components in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-directions.</p>
+<table><tr><td><p><strong>Vector</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component</strong></p></td><td><p><strong>Total</strong></p></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></td><td/><td/><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></td><td/><td/><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,7}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_3</annotation></semantics></math></td><td/><td/><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_4</annotation></semantics></math></td><td/><td/><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}</annotation></semantics></math></td><td/><td/><td/></tr></table></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine components of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/454deb9a81adcc7dfb4e305362a01124.png"/><pre class="pspicture">&lt;code&gt;
+(-4.,-4)(4,4)
+\psaxes{}(0,0)(-4,-4)(4,4)\rput(3.5,-.3){$x$}\rput(.3,3.5){$y$}
+\rput{45}{\psline[linewidth=1.4pt,linecolor=blue]{-&amp;gt;}(0,0)(3.5,0)}
+\rput(1.5,1){\color{blue}$\vec{F}_1$}
+\psarc{-&amp;gt;}(0,0){1.5}{0}{45}
+&lt;/code&gt;</pre></div></figure><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \sin(\theta) &amp;= \frac{F_{1y}}{F_1} \\
+                \sin( \text{45}\text{&#176;}) &amp;= \frac{F_{1y}}{\text{3,5}} \\
+                F_{1y} &amp;= \left(\sin (\text{45}\text{&#176;})\right)\left( \text{3,5}\right) \\
+                 &amp;= \text{2,47}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+
+<p>Secondly we find the magnitude of the horizontal component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{1x}}</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \cos(\theta) &amp;= \frac{F_{1x}}{F_1} \\
+                \cos( \text{45}\text{&#176;}) &amp;= \frac{F_{1x}}{\text{3,5}} \\
+                F_{1x} &amp;= \left(\cos (\text{45}\text{&#176;})\right)\left( \text{3,5}\right) \\
+                 &amp;= \text{2,47}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine components of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/8ea7c030db3d78d55e9222b3f42a5bad.png"/><pre class="pspicture">&lt;code&gt;
+(-4.,-4)(4,4)
+\psaxes{}(0,0)(-4,-4)(4,4)\rput(3.5,-.3){$x$}\rput(.3,3.5){$y$}
+\rput{63}{\psline[linewidth=1.4pt,linecolor=green!75!black]{-&amp;gt;}(0,0)(2.7,0)}
+\rput(0.5,2){\color{green!75!black}$\vec{F}_2$}
+\psarc{-&amp;gt;}(0,0){1.5}{0}{63}
+&lt;/code&gt;</pre></div></figure><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \sin(\theta) &amp;= \frac{F_{2y}}{F_2} \\
+                \sin(\text{63}\text{&#176;}) &amp;= \frac{F_{2y}}{\text{2,7}} \\
+                F_{2y} &amp;= \left(\sin(\text{63}\text{&#176;})\right)\left( \text{2,7}\right) \\
+                 &amp;= \text{2,41}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+
+<p>Secondly we find the magnitude of the horizontal component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{2x}}</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \cos\theta &amp;= \frac{F_{2x}}{F_2} \\
+                \cos( \text{63}\text{&#176;}) &amp;= \frac{F_{2x}}{\text{2,7}} \\
+                F_{2x} &amp;= \left(\cos(\text{63}\text{&#176;})\right)\left( \text{2,7}\right) \\
+                 &amp;= \text{1,23}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine components of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_3</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/1ff4cb9ae6b0872700422a8837f17018.png"/><pre class="pspicture">&lt;code&gt;
+(-4.,-4)(4,4)
+\psaxes{}(0,0)(-4,-4)(4,4)\rput(3.5,-.3){$x$}\rput(.3,3.5){$y$}
+\rput{127}{\psline[linewidth=1.4pt,linecolor=purple]{-&amp;gt;}(0,0)(1.3,0)}
+\rput(-1,.5){\color{purple}$\vec{F}_3$}
+\psarc{-&amp;gt;}(0,0){1.3}{0}{127}
+&lt;/code&gt;</pre></div></figure><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \sin(\theta) &amp;= \frac{F_{3y}}{F_3} \\
+                \sin( \text{127}\text{&#176;}) &amp;= \frac{F_{3y}}{\text{1,3}} \\
+                F_{3y} &amp;= \left(\sin \text{127}\text{&#176;}\right)\left( \text{1,3}\right) \\
+                 &amp;= \text{1,04}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+
+<p>Secondly we find the magnitude of the horizontal component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{3x}}</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \cos(\theta) &amp;= \frac{F_{3x}}{F_3} \\
+                \cos (\text{127}\text{&#176;}) &amp;= \frac{F_{3x}}{\text{1,3}} \\
+                F_{3x} &amp;= \left(\cos \text{127}\text{&#176;}\right)\left( \text{1,3}\right) \\
+                 &amp;= -\text{0,78}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine components of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_4</annotation></semantics></math></div>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/e5f45de8695584e1c883f5a5c97a34e9.png"/><pre class="pspicture">&lt;code&gt;
+(-4.,-4)(4,4)
+\psaxes{}(0,0)(-4,-4)(4,4)\rput(3.5,-.3){$x$}\rput(.3,3.5){$y$}
+\rput{245}{\psline[linewidth=1.4pt,linecolor=orange]{-&amp;gt;}(0,0)(2.5,0)}
+\rput(-1,-1.5){\color{orange}$\vec{F}_4$}
+\psarc{-&amp;gt;}(0,0){1.5}{0}{245}
+&lt;/code&gt;</pre></div></figure><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \sin(\theta) &amp;= \frac{F_{4y}}{F_4} \\
+                \sin( \text{245}\text{&#176;}) &amp;= \frac{F_{4y}}{\text{2,5}} \\
+                F_{4y} &amp;= \left(\sin( \text{245}\text{&#176;})\right)\left( \text{2,5}\right) \\
+                 &amp;= -\text{2,27}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+
+<p>Secondly we find the magnitude of the horizontal component, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{\mathrm{4x}}</annotation></semantics></math>:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                \cos(\theta) &amp;= \frac{F_{4x}}{F_4} \\
+                \cos( \text{245}\text{&#176;}) &amp;= \frac{F_{4x}}{\text{2,5}} \\
+                F_{4x} &amp;= \left(\cos( \text{245}\text{&#176;})\right)\left( \text{2,5}\right) \\
+                 &amp;= -\text{1,06}\text{ N}
+               \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine components of resultant</div>
+
+<p>Sum the various component columns to determine the components of the resultant. Remember that if the component was negative don't leave out the negative sign in the summation.</p>
+<table><tr><td><p><strong>Vector</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-component</strong></p></td><td><p><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-component</strong></p></td><td><p><strong>Total</strong></p></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_1</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,47}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,47}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_2</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,23}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,41}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,7}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_3</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-\text{0,78}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,04}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_4</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-\text{1,06}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-\text{2,27}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td></tr><tr><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,86}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,65}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math></td><td/></tr></table><p>Now that we have the components of the resultant, we can use the Theorem of Pythagoras to determine the magnitude of the resultant, R.</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                    R^2 &amp;= (R_y)^2 + (R_x)^2 \\
+                    &amp; = (\text{1,86})^2 + (\text{3,65})^2 \\
+                    &amp;= \text{16,78}\\
+                    R &amp;= \text{4,10}\text{ N}
+                \end{align*}</annotation></semantics></math></p>
+
+<p>We can also determine the angle with the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+              \tan(\alpha) &amp;= \frac{\text{1,86}}{\text{3,65}}\\
+              \alpha &amp;= \tan^{-1}(\frac{\text{3,65}}{\text{1,86}})\\
+              \alpha &amp;= \text{27,00}\text{&#176;}
+              \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Quote the final answer</div>
+
+<p>The resultant has a magnitude of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> at and angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{27,00}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction.</p>
+</div></div><div class="teachers-guide">
+<p>An experiment for informal assessment on using force boards to determine the resultant of vectors is included. In this experiment learners will use a force board to determine the resultant of three non-linear vectors. You will need blank paper, force board, 4 spring balances, an assortment of weights, gut or string and four pulleys per group. This experiment provides learners with the opportunity for them to see an abstract mathematical idea in action. Learners can use graphical techniques such as the tail-to-head method to find the resultant of three of the four measured forces. The questions at the end of the experiment guide learners in thinking about the results they have obtained.</p>
+</div><div class="example" data-class="activity" data-type="informalexperiment"><div class="title">Force board</div><div class="section"><div class="title">Aim</div>
+<p>Determine the resultant of three non-linear forces using a force board.</p>
+</div>
+<div class="section"><div class="title">Apparatus and materials</div>
+<p>You will need:</p>
+<ul data-class="ListBulleted"><li>blank paper</li>
+<li>force board</li>
+<li>4 spring balances</li>
+<li>assortment of weights</li>
+<li>gut or string</li>
+<li>four pulleys</li>
+</ul><figure class="figure"><img src="photos/force_board.JPG" width="312" alt="Photo by Heather Williams"/></figure></div>
+<div class="section"><div class="title">Method</div>
+<p>Before beginning the detailed method think about the strategy. By connecting a cord to the ring, running it over a pulley and hanging weights off it you can get a force exerted on the ring. The more weights or heavier the weight you hang the greater the force. The force is in the direction of the cord. If you run a number of cords over pulleys you are exerting more forces, all in different directions, on the ring. So we have a system where we can change the magnitude and direction of the forces acting on the ring. By putting a spring balance between the cord and the ring, we can measure the force. Putting a piece of paper under the ring allows us to draw the directions and the readings on the spring balances allows us to measure the magnitude.</p>
+
+<p>We are going to use this information to measure the forces acting on the rings and then we can determine the resultants graphically.</p>
+<ol data-class="ListEnumerated"><li>
+				
+<p>Set up the forceboard and place a piece of paper under the ring.</p>
+
+			</li>
+<li>
+				
+<p>Set up four different forces by connecting a spring balance to the ring on the one side and some cord on the other side. Run the cord over a pulley and attach some weights to it. Work in a group to do this effectively.</p>
+
+			</li>
+<li>Draw a line along each cord being careful not to move any of them.</li>
+<li>Make a note of the reading on each spring balance.</li>
+<li>Now remove the paper.</li>
+<li>Working on the paper, draw each line back towards the where the centre of the ring had been. The lines should all intersect at a point. Make this point the centre of your Cartesian coordinate system.</li>
+<li>Now choose an appropriate scale to relate the length of arrows to the readings on the spring balances. Using the appropriate spring balance and correct line on the paper, draw an arrow to represent each of the forces.</li>
+</ol></div>
+<div class="section"><div class="title">Results</div>
+<p>For two different choices of 3 of the force vectors we will determine the resultant. To determine the resultant we need to add the vectors together. The easiest way to do this is to replicate the vectors using a ruler and protractor and draw them tail-to-head.</p>
+</div>
+<div class="section"><div class="title">Conclusions and questions</div>
+<p>Note the direction and the magnitudes of the resultants of the various combinations.</p>
+<ol data-class="ListEnumerated"><li>How does the calculated resultant compare to the vector that wasn't used to calculate the resultant in each case?</li>
+<li>What general relationship should exist between the resultant and the fourth vector and why do you think this is the case?</li>
+<li>Would this be the same if we had more or less forces in the problem? Justify your answer.</li>
+</ol></div>
+</div>
+<p data-class="simulation" id="sc23FV"><a href="http://phet.colorado.edu/en/simulation/vector-addition">Simulation: 23FV</a></p><p data-class="video" id="sc23FW"><a href="http://www.youtube.com/embed/pXYlOC6u9w8">Video: 23FW</a></p></body>
+</html>

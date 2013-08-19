@@ -1,0 +1,781 @@
+<html>
+  <head/>
+  <body><h2>Diffraction through a single slit</h2>
+
+<p>Waves diffract when they encounter obstacles. Why does this happen? If we apply Huygens principle it becomes clear. Think about a wavefront impinging on a barrier with a slit in it, only the points on the wavefront that move into the slit can continue emitting forward moving waves - but because a lot of the wavefront has been blocked by the barrier, the points on the edges of the hole emit waves that bend round the edges. How to use this approach to understand what happens is sketched below:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/751aa8f2c0ba37b29db999e9394b23ad.png"/><pre class="pspicture">&lt;code&gt;
+              (-5,-2.2)(5,2.2)
+\psline(-3,-2)(-3,2)
+\rput(-3,0){{\psdot[dotsize=3pt](0cm,0cm)
+\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.25}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.5}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){0.75}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){1}}}
+\rput(-3,-.4){{\psdot[dotsize=3pt](0cm,0cm)
+\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.25}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.5}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){0.75}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){1}}}
+\rput(-3,-.8){{\psdot[dotsize=3pt](0cm,0cm)
+\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.25}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.5}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){0.75}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){1}}}
+\rput(-3,.4){{\psdot[dotsize=3pt](0cm,0cm)
+\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.25}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.5}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){0.75}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){1}}}
+\rput(-3,.8){{\psdot[dotsize=3pt](0cm,0cm)
+\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.25}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){.5}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){0.75}\pscircle[linewidth=.5pt,linecolor=gray](0cm,0cm){1}}}
+\psline[linewidth=2pt]{-&amp;gt;}(-1,0)(0,0)
+\psline[linewidth=2pt]{-}(0,2)(0,0.3)
+\psline[linewidth=2pt]{-}(0,-2)(0,-0.3)
+
+            &lt;/code&gt;</pre></div></figure><p>Before the the wavefront strikes the barrier the wavefront generates another forward moving wavefront (applying Huygens' principle). Once the barrier blocks most of the wavefront you can see that the forward moving wavefront bends around the slit because the secondary waves they would need to interfere with to create a straight wavefront have been blocked by the barrier.</p>
+
+<p>If you employ Huygens' principle you can see the effect is that the wavefronts are no longer straight lines.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ba842f1d0f8b23fa0daf816d6e31873c.png"/><pre class="pspicture">&lt;code&gt;
+              (-5,-2.2)(5,2.2)
+\psline(-0,-2)(-0,2)
+\rput(-0,0){\psdot[dotsize=3pt](0cm,0cm)\psarc[linecolor=gray](0,0){0.3}{271}{89}
+\psarc[linecolor=gray](0,0){0.5}{271}{89}
+\psarc[linecolor=gray](0,0){0.7}{271}{89}
+}
+\rput(-0,.2){\psdot[dotsize=3pt](0cm,0cm)\psarc[linecolor=gray](0,0){0.3}{271}{89}
+\psarc[linecolor=gray](0,0){0.5}{271}{89}
+\psarc[linecolor=gray](0,0){0.7}{271}{89}
+}
+\rput(-0,-.2){\psdot[dotsize=3pt](0cm,0cm)\psarc[linecolor=gray](0,0){0.3}{271}{89}
+\psarc[linecolor=gray](0,0){0.5}{271}{89}
+\psarc[linecolor=gray](0,0){0.7}{271}{89}
+}
+\psline[linewidth=2pt]{-&amp;gt;}(1,0)(2,0)
+\psline[linewidth=2pt]{-}(0,2)(0,0.3)
+\psline[linewidth=2pt]{-}(0,-2)(0,-0.3)
+
+            &lt;/code&gt;</pre></div></figure><h3>Diffraction patterns</h3>
+
+<p>We can learn even more about what happens after the wavefront strikes the barrier by applying Huygens' principle further.</p>
+
+<p>Each point on the wavefront moving through the slit acts like a point source. We can think about some of the effects of this if we analyse what happens when two point sources are close together and emit wavefronts with the same wavelength and frequency. These two point sources represent the point sources on the two edges of the slit and we can call the source A and source B.</p>
+
+<p>Each point source emits wavefronts from the edge of the slit. In the diagram we show a series of wavefronts emitted from each point source. The black lines show peaks in the waves emitted by the point sources and the gray lines represent troughs. We label the places where constructive interference (peak meets a peak or trough meets a trough) takes place with a solid diamond and places where destructive interference (trough meets a peak) takes place with a hollow diamond. When the wavefronts hit a barrier there will be places on the barrier where constructive interference takes place and places where destructive interference happens.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/36f2e1e330d061bcb848609c32c393e5.png"/><pre class="pspicture">&lt;code&gt;
+              (-2,-1.5)(10,3.5)
+			  %\psgrid(-1,-1)(9,3)
+\uput[r](3,0.0){A}
+\uput[l](5,0.0){B}
+\psdots[dotsize=0.2](3.0,0.0)
+\psdots[dotsize=0.2](5.0,0.0)
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](3.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](3.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](3.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](3.0,0.0){2.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](3.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](3.0,0.0){3.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){2.0}{0}{180}
+
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){3.0}{0}{180}
+\psdots[dotstyle=diamond*](5.98,0.0)
+\psdots[dotstyle=diamond*](4.04,1.7)
+\psdots[dotstyle=diamond*](4.0,2.28)
+\psdots[dotstyle=diamond*](4.0,2.82)
+\psdots[dotstyle=diamond*](4.0,1.08)
+\psdots[dotstyle=diamond*](4.76,0.94)
+\psdots[dotstyle=diamond*](5.0,1.48)
+\psdots[dotstyle=diamond*](5.24,1.98)
+\psdots[dotstyle=diamond*](5.48,0.0)
+\psdots[dotstyle=diamond*](3.28,0.94)
+\psdots[dotstyle=diamond*](2.76,1.96)
+\psdots[dotstyle=diamond*](3.02,1.5)
+\psdots[fillstyle=solid,dotstyle=diamond](2.68,0.92)
+\psdots[fillstyle=solid,dotstyle=diamond](3.08,0.48)
+\psdots[fillstyle=solid,dotstyle=diamond](2.32,1.34)
+\psdots[fillstyle=solid,dotstyle=diamond](3.7,0.72)
+\psdots[fillstyle=solid,dotstyle=diamond](3.58,1.38)
+\psdots[fillstyle=solid,dotstyle=diamond](3.46,1.94)
+\psdots[fillstyle=solid,dotstyle=diamond](3.32,2.48)
+\psdots[fillstyle=solid,dotstyle=diamond](4.92,0.48)
+\psdots[fillstyle=solid,dotstyle=diamond](5.32,0.92)
+\psdots[fillstyle=solid,dotstyle=diamond](5.68,1.3)
+\psdots[fillstyle=solid,dotstyle=diamond](4.34,0.72)
+\psdots[fillstyle=solid,dotstyle=diamond](4.58,1.92)
+\psdots[fillstyle=solid,dotstyle=diamond](4.68,2.46)
+\psdots[fillstyle=solid,dotstyle=diamond](4.44,1.36)
+\psline[linewidth=.5](1,0)(2.8,0)
+\psline[linewidth=.5](5.2,0)(7,0)
+\psline[linewidth=0.15](1,2.95)(7,2.95)
+
+            &lt;/code&gt;</pre></div></figure><p>The measurable effect of the constructive or destructive interference at a barrier depends on what type of waves we are dealing with. If we were dealing with sound waves, then it would be very noisy at points along the barrier where the constructive interference is taking place and quiet where the destructive interference is taking place.</p>
+<div class="note" data-type="note">
+<p>The pattern of constructive then destructive interference measured some distance away from a single slit is caused because of two properties of waves, diffraction <strong>and</strong> interference. Sometimes this pattern is called an interference pattern and sometimes it is called a diffraction pattern. Both names are correct and both properties are required for the pattern to be observed. For consistency we will call it a <em>diffraction pattern</em> in for the rest of this book.</p>
+</div>
+<p>The intensity of the diffraction pattern for a single narrow slit looks like this:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/d9a0f7b7246c47209fa5ae6c817fd6e9.png"/><pre class="pspicture">&lt;code&gt;
+              (-3,-3.5)(11,6)
+\rput(0,-3){
+\uput[r](3,0.0){A}
+\uput[l](5,0.0){B}
+\psdots[linecolor=orange,dotsize=0.2](3.0,0.0)
+\psdots[linecolor=orange,dotsize=0.2](5.0,0.0)
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](3.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](3.0,0.0){2.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](3.0,0.0){3.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){2.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){3.0}{0}{180}
+\psdots[linecolor=orange,dotstyle=diamond*](5.98,0.0)
+\psdots[linecolor=orange,dotstyle=diamond*](4.04,1.7)
+\psdots[linecolor=orange,dotstyle=diamond*](4.0,2.28)
+\psdots[linecolor=orange,dotstyle=diamond*](4.0,2.82)
+\psdots[linecolor=orange,dotstyle=diamond*](4.0,1.08)
+\psdots[linecolor=orange,dotstyle=diamond*](4.76,0.94)
+\psdots[linecolor=orange,dotstyle=diamond*](5.0,1.48)
+\psdots[linecolor=orange,dotstyle=diamond*](5.24,1.98)
+\psdots[linecolor=orange,dotstyle=diamond*](5.48,0.0)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.92,0.48)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](5.32,0.92)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](5.68,1.3)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.34,0.72)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.58,1.92)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.68,2.46)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.44,1.36)
+\psline[linewidth=.5](1,0)(2.8,0)
+\psline[linewidth=.5](5.2,0)(7,0)
+\psline[linewidth=0.15](1,2.95)(7,2.95)
+}
+\rput(4,.3){
+\psplot[linecolor=gray, linewidth=1.5pt,xunit=6,plotpoints=300]{0.00000001}{1}{   3.14159 x SIN 5 mul mul SIN  3.14159 x SIN 5 mul mul div 2 exp 5 mul  }
+\psplot[linecolor=gray, linewidth=1.5pt,xunit=6,plotpoints=300]{-1}{-0.00000001}{   3.14159 x SIN 5 mul mul SIN  3.14159 x SIN 5 mul mul div 2 exp 5 mul  } }
+
+            &lt;/code&gt;</pre></div></figure><p>The picture above sketches how the wavefronts interfere to form the diffraction pattern. The peaks correspond to places where the waves are adding constructively and the minima are places where destructive interference is taking place. If you look at the picture you can see that if the wavelength (the distance between two consecutive peaks/troughs) of the waves were different the pattern would be different. For example, if the wavelength were halved the sketch would be:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ffe34b0f86686adfc04a4547c43d0bb2.png"/><pre class="pspicture">&lt;code&gt;
+              (-1,-.5)(9,3.2)
+			  %\psgrid
+\uput[r](3,0.0){A}
+\uput[l](5,0.0){B}
+\psdots[dotsize=0.2](3.0,0.0)
+\psdots[dotsize=0.2](5.0,0.0)
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){0.25}{0}{180}
+\psarc[dimen=outer](3.0,0.0){.5}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){.75}{0}{180}
+\psarc[dimen=outer](3.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){1.25}{0}{180}
+\psarc[dimen=outer](3.0,0.0){1.5}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){1.75}{0}{180}
+\psarc[dimen=outer](3.0,0.0){2.}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){2.25}{0}{180}
+\psarc[dimen=outer](3.0,0.0){2.5}{0}{180}
+\psarc[linecolor=gray,dimen=outer](3.0,0.0){2.75}{0}{180}
+\psarc[dimen=outer](3.0,0.0){3.}{0}{180}
+
+
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){0.25}{0}{180}
+\psarc[dimen=outer](5.0,0.0){.5}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){.75}{0}{180}
+\psarc[dimen=outer](5.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){1.25}{0}{180}
+\psarc[dimen=outer](5.0,0.0){1.5}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){1.75}{0}{180}
+\psarc[dimen=outer](5.0,0.0){2.}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){2.25}{0}{180}
+\psarc[dimen=outer](5.0,0.0){2.5}{0}{180}
+\psarc[linecolor=gray,dimen=outer](5.0,0.0){2.75}{0}{180}
+\psarc[dimen=outer](5.0,0.0){3.}{0}{180}
+
+\psdots[dotstyle=diamond*](4.02,1.08)
+\psdots[dotstyle=diamond*](4.0,1.42)
+\psdots[dotstyle=diamond*](4.0,1.7)
+\psdots[dotstyle=diamond*](4.02,1.98)
+\psdots[dotstyle=diamond*](4.02,2.26)
+\psdots[dotstyle=diamond*](4.0,2.54)
+\psdots[dotstyle=diamond*](4.02,2.8)
+\psdots[dotstyle=diamond*](4.54,1.66)
+\psdots[dotstyle=diamond*](4.36,1.08)
+\psdots[dotstyle=diamond*](4.88,1.22)
+\psdots[dotstyle=diamond*](4.44,1.38)
+\psdots[dotstyle=diamond*](5.02,1.48)
+\psdots[dotstyle=diamond*](4.76,0.96)
+\psdots[dotstyle=diamond*](4.6,1.94)
+\psdots[dotstyle=diamond*](4.72,2.46)
+\psdots[dotstyle=diamond*](4.66,2.22)
+\psdots[dotstyle=diamond*](5.14,1.72)
+\psdots[dotstyle=diamond*](5.26,1.94)
+\psdots[dotstyle=diamond*](4.64,0.64)
+\psdots[dotstyle=diamond*](3.68,0.72)
+\psdots[dotstyle=diamond*](3.38,0.64)
+\psdots[dotstyle=diamond*](2.88,0.72)
+\psdots[dotstyle=diamond*](3.14,1.24)
+\psdots[dotstyle=diamond*](3.0,1.48)
+\psdots[dotstyle=diamond*](3.28,0.94)
+\psdots[dotstyle=diamond*](3.64,1.06)
+\psdots[dotstyle=diamond*](3.58,1.36)
+\psdots[dotstyle=diamond*](3.52,1.66)
+\psdots[dotstyle=diamond*](3.46,1.92)
+\psdots[dotstyle=diamond*](3.38,2.2)
+\psdots[dotstyle=diamond*](3.32,2.46)
+\psdots[dotstyle=diamond*](2.74,1.96)
+\psdots[dotstyle=diamond*](2.86,1.74)
+\psdots[dotstyle=diamond*](2.32,1.32)
+\psdots[dotstyle=diamond*](2.5,1.14)
+\psdots[dotstyle=diamond*](2.68,0.94)
+\psdots[dotstyle=diamond*](3.08,0.48)
+\psdots[dotstyle=diamond*](4.94,0.48)
+\psdots[dotstyle=diamond*](5.14,0.74)
+\psdots[dotstyle=diamond*](5.34,0.94)
+\psdots[dotstyle=diamond*](5.5,1.14)
+\psdots[dotstyle=diamond*](5.7,1.34)
+\psdots[fillstyle=solid,dotstyle=diamond](4.42,0.44)
+\psdots[fillstyle=solid,dotstyle=diamond](4.52,0.84)
+\psdots[dotstyle=diamond*](4.32,0.72)
+\psdots[fillstyle=solid,dotstyle=diamond](4.72,0.38)
+\psdots[fillstyle=solid,dotstyle=diamond](4.86,0.72)
+\psdots[fillstyle=solid,dotstyle=diamond](5.22,0.44)
+\psdots[fillstyle=solid,dotstyle=diamond](5.44,0.62)
+\psdots[fillstyle=solid,dotstyle=diamond](5.66,0.76)
+\psdots[fillstyle=solid,dotstyle=diamond](5.86,0.9)
+\psdots[fillstyle=solid,dotstyle=diamond](5.5,1.68)
+\psdots[fillstyle=solid,dotstyle=diamond](5.34,1.46)
+\psdots[fillstyle=solid,dotstyle=diamond](4.72,1.46)
+\psdots[fillstyle=solid,dotstyle=diamond](5.16,1.22)
+\psdots[fillstyle=solid,dotstyle=diamond](4.9,1.98)
+\psdots[fillstyle=solid,dotstyle=diamond](4.98,2.26)
+\psdots[fillstyle=solid,dotstyle=diamond](4.8,1.74)
+\psdots[fillstyle=solid,dotstyle=diamond](4.62,1.18)
+\psdots[fillstyle=solid,dotstyle=diamond](4.38,2.68)
+\psdots[fillstyle=solid,dotstyle=diamond](5.0,0.22)
+\psdots[fillstyle=solid,dotstyle=diamond](3.02,0.22)
+\psdots[fillstyle=solid,dotstyle=diamond](2.82,0.46)
+\psdots[fillstyle=solid,dotstyle=diamond](2.58,0.62)
+\psdots[fillstyle=solid,dotstyle=diamond](2.38,0.78)
+\psdots[fillstyle=solid,dotstyle=diamond](2.14,0.88)
+\psdots[fillstyle=solid,dotstyle=diamond](2.52,1.68)
+\psdots[fillstyle=solid,dotstyle=diamond](2.68,1.46)
+\psdots[fillstyle=solid,dotstyle=diamond](2.84,1.22)
+\psdots[fillstyle=solid,dotstyle=diamond](3.0,0.98)
+\psdots[fillstyle=solid,dotstyle=diamond](3.14,0.74)
+\psdots[fillstyle=solid,dotstyle=diamond](3.6,0.44)
+\psdots[fillstyle=solid,dotstyle=diamond](3.32,0.36)
+\psdots[fillstyle=solid,dotstyle=diamond](3.88,0.48)
+\psdots[fillstyle=solid,dotstyle=diamond](3.84,0.92)
+\psdots[fillstyle=solid,dotstyle=diamond](3.5,0.86)
+\psdots[fillstyle=solid,dotstyle=diamond](4.18,0.92)
+\psdots[fillstyle=solid,dotstyle=diamond](3.4,1.18)
+\psdots[fillstyle=solid,dotstyle=diamond](3.3,1.46)
+\psdots[fillstyle=solid,dotstyle=diamond](3.22,1.72)
+\psdots[fillstyle=solid,dotstyle=diamond](3.1,2.0)
+\psdots[fillstyle=solid,dotstyle=diamond](3.02,2.24)
+\psdots[fillstyle=solid,dotstyle=diamond](3.66,2.68)
+\psdots[fillstyle=solid,dotstyle=diamond](3.68,2.38)
+\psdots[fillstyle=solid,dotstyle=diamond](4.36,2.4)
+\psdots[fillstyle=solid,dotstyle=diamond](4.3,2.12)
+\psdots[fillstyle=solid,dotstyle=diamond](4.28,1.86)
+\psdots[fillstyle=solid,dotstyle=diamond](4.24,1.56)
+\psdots[fillstyle=solid,dotstyle=diamond](4.2,1.26)
+\psdots[fillstyle=solid,dotstyle=diamond](3.78,1.56)
+\psdots[fillstyle=solid,dotstyle=diamond](3.8,1.26)
+\psdots[fillstyle=solid,dotstyle=diamond](3.74,1.84)
+\psdots[fillstyle=solid,dotstyle=diamond](3.72,2.12)
+\psdots[fillstyle=solid,dotstyle=diamond](5.04,0.96)
+
+\psline[linewidth=.5](1,0)(2.8,0)
+\psline[linewidth=.5](5.2,0)(7,0)
+\psline[linewidth=0.15](1,2.95)(7,2.95)
+
+            &lt;/code&gt;</pre></div></figure><p>The amount that the waves diffract depends on the wavelength. We can compare the spread in the points of constructive and destructive interference by plotting the highlighted points together for the two cases. We have to line up the central maximum from the two cases to see the difference. The case where the wavelength is smaller results in smaller angles between the lines of constructive and destructive interference.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/0f7edbed08ed4c16737424fb53a31585.png"/><pre class="pspicture">&lt;code&gt;
+              (0,-0.45)(8.0141115,3.03)
+\definecolor{color19}{rgb}{0.3333333333333333,0.0,1.0}
+\definecolor{color357b}{rgb}{0.8784313725490196,0.8274509803921568,0.9803921568627451}
+\definecolor{color355b}{rgb}{0.8745098039215686,0.8274509803921568,0.9803921568627451}
+\rput(3.0265625,-0.26){A}
+\rput(4.9471874,-0.3){B}
+\psdots[dotsize=0.2,linecolor=color19](3.0,0.0)
+\psdots[dotsize=0.2,linecolor=color19](5.0,0.0)
+\psarc[linewidth=0.028222222,linecolor=gray,linestyle=dashed,dash=0.17638889cm 0.10583334cm](3.0,0.0){0.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0,0.0){1.0}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray,linestyle=dashed,dash=0.17638889cm 0.10583334cm](3.0,0.0){1.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0,0.0){2.0}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray,linestyle=dashed,dash=0.17638889cm 0.10583334cm](3.0,0.0){2.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0,0.0){3.0}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray,linestyle=dashed,dash=0.17638889cm 0.10583334cm](5.0,0.0){0.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222](5.0,0.0){1.0}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray,linestyle=dashed,dash=0.17638889cm 0.10583334cm](5.0,0.0){1.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222](5.0,0.0){2.0}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray,linestyle=dashed,dash=0.17638889cm 0.10583334cm](5.0,0.0){2.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222](5.0,0.0){3.0}{0.0}{180.0}
+\psdots[dotsize=0.127,dotstyle=diamond*](5.98,0.0)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.48,0.0)
+\psline[linewidth=0.5cm](0.76,0.0)(2.56,0.0)
+\psline[linewidth=0.15cm](1.0,2.95)(7.0,2.95)
+\psdots[dotsize=0.2](3.0028124,0.0050)
+\psdots[dotsize=0.2](5.0028124,0.0050)
+\psarc[linewidth=0.028222222,linecolor=gray](3.0028124,0.0050){0.25}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0028124,0.0050){0.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](3.0028124,0.0050){0.75}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0028124,0.0050){1.0}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](3.0028124,0.0050){1.25}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0028124,0.0050){1.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](3.0028124,0.0050){1.75}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](3.0028124,0.0050){2.25}{0.0}{180.0}
+\psarc[linewidth=0.028222222](3.0028124,0.0050){2.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](3.0028124,0.0050){2.75}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](5.0028124,0.0050){0.25}{0.0}{180.0}
+\psarc[linewidth=0.028222222](5.0028124,0.0050){0.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](5.0028124,0.0050){0.75}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](5.0028124,0.0050){1.25}{0.0}{180.0}
+\psarc[linewidth=0.028222222](5.0028124,0.0050){1.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](5.0028124,0.0050){1.75}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](5.0028124,0.0050){2.25}{0.0}{180.0}
+\psarc[linewidth=0.028222222](5.0028124,0.0050){2.5}{0.0}{180.0}
+\psarc[linewidth=0.028222222,linecolor=gray](5.0028124,0.0050){2.75}{0.0}{180.0}
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0228124,1.105)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0028124,1.425)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0228124,1.705)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0228124,1.985)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0228124,2.265)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0228124,2.545)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0428123,2.805)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.5428123,1.665)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.3628125,1.085)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.8828125,1.225)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.4428124,1.385)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.0228124,1.485)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.7628126,0.965)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.5628123,1.945)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.7228127,2.465)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.6628127,2.225)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.1428127,1.725)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.2628126,1.945)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.6428127,0.645)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.9428124,0.485)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.1428127,0.745)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.3228126,0.925)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.5028124,1.145)
+\psdots[dotsize=0.127,dotstyle=diamond*](5.7028127,1.345)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.4228125,0.445)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.5228124,0.845)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.3228126,0.725)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.7228127,0.385)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.8628125,0.725)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.2228127,0.445)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.4428124,0.625)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.6628127,0.765)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.8628125,0.905)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.5028124,1.685)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.3428125,1.465)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.7228127,1.465)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.1628127,1.225)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.9028125,1.985)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.9828124,2.265)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.8028126,1.745)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.6228123,1.185)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.3828125,2.685)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.0028124,0.225)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.1828127,0.925)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.3628125,2.405)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.3028126,2.125)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.2828126,1.865)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.2428126,1.565)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](4.2028127,1.265)
+\psdots[dotsize=0.127,fillstyle=solid,dotstyle=diamond](5.0428123,0.965)
+\psline[linewidth=0.5cm](0.7228125,0.0050)(2.5228126,0.0050)
+\psline[linewidth=0.15cm](1.0028125,2.955)(7.0028124,2.955)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](3.98,2.28)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](3.98,1.72)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](3.98,1.1)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](4.82,0.96)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](5.06,1.52)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](5.3,1.98)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color355b,dotstyle=diamond](4.6,1.94)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color357b,dotstyle=diamond](4.76,2.48)
+\psdots[dotsize=0.127,dotstyle=diamond*](4.0228124,0.765)
+\psline[linewidth=0.5cm](5.4,0.04)(7.245625,0.03)
+\psdots[dotsize=0.127,linecolor=color19,dotstyle=diamond*](3.98,2.8)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color355b,dotstyle=diamond](4.48,1.38)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color355b,dotstyle=diamond](4.36,0.74)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color355b,dotstyle=diamond](4.98,0.48)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color355b,dotstyle=diamond](5.38,0.92)
+\psdots[dotsize=0.127,linecolor=color19,fillstyle=solid,fillcolor=color355b,dotstyle=diamond](5.74,1.32)
+			&lt;/code&gt;</pre></div></figure><p>It also depends on the width of the slit, changing the width of the slit would change the distance between the points labelled A and B in the sketch. For example, if we repeat the sketch halving the distance between the points A and B we would get:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/afbaa4027297efa6f02f0ca522a6755d.png"/><pre class="pspicture">&lt;code&gt;
+              (-.5,-.5)(8.5,3.2)
+%			  \psgrid
+\uput[r](3,0.0){A}
+\uput[l](5,0.0){B}
+\psdots[linecolor=purple,dotsize=0.2](4.0,0.0)
+\psdots[linecolor=purple,dotsize=0.2](5.0,0.0)
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](4.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](4.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](4.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](4.0,0.0){2.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](4.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](4.0,0.0){3.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){2.0}{0}{180}
+
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){3.0}{0}{180}
+
+
+
+%\psdots[linecolor=purple,dotstyle=diamond*](5.98,0.0)
+
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,.85)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,1.4)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,1.9)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,2.45)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,2.95)
+
+
+\psdots[linecolor=purple,dotstyle=diamond](5.185,1)
+\psdots[linecolor=purple,dotstyle=diamond](5.35,1.45)
+\psdots[linecolor=purple,dotstyle=diamond](5.7,1.9)
+\psdots[linecolor=purple,dotstyle=diamond](5.85,2.35)
+\psdots[linecolor=purple,fillstyle=solid,dotstyle=diamond](4.88,0.48)
+
+
+
+%\psdots[fillstyle=solid,dotstyle=diamond](5.32,0.92)
+%\psdots[fillstyle=solid,dotstyle=diamond](5.68,1.3)
+%\psdots[fillstyle=solid,dotstyle=diamond](4.34,0.72)
+%%\psdots[fillstyle=solid,dotstyle=diamond](4.58,1.92)
+%\psdots[fillstyle=solid,dotstyle=diamond](4.68,2.46)
+%\psdots[fillstyle=solid,dotstyle=diamond](4.44,1.36)
+%\psline[linewidth=.5](1,0)(2.8,0)
+%\psline[linewidth=.5](5.2,0)(7,0)
+%\psline[linewidth=0.15](1,2.95)(7,2.95)
+
+            &lt;/code&gt;</pre></div></figure><p>We can compare the spread in the points of constructive and destructive interference by plotting the highlighted points together for the two cases. We have to line up the central maximum from the two cases to see the difference. The case where the two points are closer together, in purple, results in bigger angles between the lines of constructive and destructive interference.</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/d30f9d378a4d8436aa8feab49dec37eb.png"/><pre class="pspicture">&lt;code&gt;
+              (-1,-.5)(9,3.2)
+%			  \psgrid
+\rput(-.5,0){
+%\uput[r](4,0.0){\color{orange}A}
+%\uput[l](5,0.0){\color{orange}B}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](4.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](4.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](4.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](4.0,0.0){2.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](4.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](4.0,0.0){3.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){0.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){1.0}{0}{180}
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){1.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){2.0}{0}{180}
+
+\psarc[linecolor=gray,linestyle=dashed,dimen=outer](5.0,0.0){2.5}{0}{180}
+\psarc[dimen=outer](5.0,0.0){3.0}{0}{180}
+
+
+
+\psdots[linecolor=purple,dotsize=0.2](4.0,0.0)
+\psdots[linecolor=purple,dotsize=0.2](5.0,0.0)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,.85)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,1.4)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,1.9)
+\psdots[linecolor=purple,dotstyle=diamond*](4.5,2.45)
+\psdots[linecolor=purple,dotstyle=diamond*,linewidth=1.2pt](4.5,2.95)
+\psdots[linecolor=purple,dotstyle=diamond](5.185,1)
+\psdots[linecolor=purple,dotstyle=diamond](5.35,1.45)
+\psdots[linecolor=purple,dotstyle=diamond](5.7,1.9)
+\psdots[linecolor=purple,dotstyle=diamond](5.85,2.35)
+\psdots[linecolor=purple,fillstyle=solid,dotstyle=diamond](4.88,0.48)
+}
+
+\psdots[linecolor=orange,dotsize=0.2](3.0,0.0)
+\psdots[linecolor=orange,dotsize=0.2](5.0,0.0)
+\psdots[linecolor=orange,dotstyle=diamond*](4.04,1.7)
+\psdots[linecolor=orange,dotstyle=diamond*](4.0,2.28)
+\psdots[linecolor=orange,dotstyle=diamond*](4.0,2.82)
+\psdots[linecolor=orange,dotstyle=diamond*](4.0,1.08)
+\psdots[linecolor=orange,dotstyle=diamond*](4.76,0.94)
+\psdots[linecolor=orange,dotstyle=diamond*](5.0,1.48)
+\psdots[linecolor=orange,dotstyle=diamond*](5.24,1.98)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.92,0.48)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](5.32,0.92)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](5.68,1.3)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.34,0.72)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.58,1.92)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.68,2.46)
+\psdots[linecolor=orange,fillstyle=solid,dotstyle=diamond](4.44,1.36)
+
+            &lt;/code&gt;</pre></div><h3>Effect of slit width and wavelength on diffraction patterns</h3>
+
+<p>Using our sketches we see that the extent to which the diffracted wave passing through the slit spreads out depends on the width of the slit and the wavelength of the waves. The narrower the slit, the more diffraction there is and the shorter the wavelength the less diffraction there is. The degree to which diffraction occurs is:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{diffraction}\propto \frac{\lambda}{w}</annotation></semantics></math> where <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\lambda</annotation></semantics></math> is the wavelength of the wave and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">w</annotation></semantics></math> is the width of the slit.</p>
+
+<p>We can do a sanity check on the relationship by considering some special cases, very big and very small values for each of the numerator and denominator to see what sort of behaviour we expect (this is not a calculation, just a check to see what sort outcomes we expect when we change wavelength or slit width):</p>
+<ul data-class="ListBulleted"><li>Set <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\lambda=1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">w</annotation></semantics></math> very large, the result will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{1}{\text{very big number}}</annotation></semantics></math> which is a very small number. So for a very big slit there is very little diffraction.</li>
+<li>Set <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\lambda=1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">w</annotation></semantics></math> very small, the result will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{1}{\text{very small number}}</annotation></semantics></math> which is a very big number. So for a very small slit there is large diffraction (this makes sense because eventually you are dealing with a point source which emits circular wavefronts).</li>
+<li>Set <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\lambda</annotation></semantics></math> very large and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">w=1</annotation></semantics></math>, the result will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\text{very big number}}{1}</annotation></semantics></math> which is a very big number. So for a very big wavelength there is large diffraction.</li>
+<li>Set <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\lambda</annotation></semantics></math> very small and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">w=1</annotation></semantics></math>, the result will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\text{very small number}}{1}</annotation></semantics></math> which is a very small number. So for a very small wavelength there is little diffraction.</li>
+</ul><h3>Wave nature of light</h3>
+
+<p>In Grade 10 we learnt about electromagnetic radiation and that visible light is a small part of the EM spectrum. EM radiation is a wave so we should see diffraction for visible light when it strikes a barrier or passes through a slit. In everyday life you don't notice diffraction of light around objects or when light passes through an open door or window. This is because the wavelength of light is very small and the "slits" like doors and windows are quite large.</p>
+
+<p>We can put some everyday numbers into <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{diffraction}\propto \frac{\lambda}{w}</annotation></semantics></math> to see how much diffraction we expect. White light is combination of light of many different colours and each colour has a different frequency or wavelength. To make things simpler lets just think about one colour, green light has a wavelength of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{532} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math>. If a wavefront of green light struck the wall of a house with an open door that is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> wide what would we expect to see?</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		\text{diffraction} &amp;\propto \frac{\lambda}{w} \\
+		&amp; \propto \frac{\text{532} \times \text{10}^{-\text{9}}\text{ m}}{\text{1}\text{ m}} \\
+		&amp;\propto \text{532} \times \text{10}^{-\text{9}} 
+		\end{align*}</annotation></semantics></math></p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/dddde6b93dc7cb654cfa0d642fdfaf3c.png"/><pre class="pspicture">&lt;code&gt;
+							(-4.5,-.7)(4.5,.7)
+							\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=532]
+							            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+<figcaption class="caption"><p>A diffraction grating reflecting green light.</p></figcaption></figure><p>The result is a very small number so we expect to see very little diffraction. In fact, the effect is so small that we cannot see it with the human eye. We can observe diffraction of green light but for us to get <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{diffraction} \propto 1</annotation></semantics></math> we need the wavelength and slit width to be the same number. So we know the effects of diffraction should become noticeable when the wavelength and slit width are similar. We can't change the wavelength of green light but there are objects called diffraction gratings that have very narrow slits that we can use to study the diffraction of light. We let wavefronts of green light strike a diffraction grating and then put a screen on the other side. We can see where the intensity of the the light on the screen is large and where it is small. For green light on a particular diffraction grating the pattern of green light on the screen looks like:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/dddde6b93dc7cb654cfa0d642fdfaf3c.png"/><pre class="pspicture">&lt;code&gt;
+(-4.5,-.7)(4.5,.7)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=532]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div></figure><p>Blue light with a wavelength of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{450} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> and the same diffraction grating will produce:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/c4da92cfe4f0096249052a5f44fd3638.png"/><pre class="pspicture">&lt;code&gt;
+(-4.5,-.7)(4.5,.7)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=450]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Diffraction</div><div class="problem" data-class="question">
+
+<p>Two diffraction patterns are presented, determine which one has the longer wavelength based on the features of the diffraction pattern. The first pattern is for green light:</p>
+
+          <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/dddde6b93dc7cb654cfa0d642fdfaf3c.png"/><pre class="pspicture">&lt;code&gt;
+(-4.5,-.7)(4.5,.7)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=532]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div></figure><p>The second pattern is for red light:</p>
+
+          <div class="alternates"><img src="_plone_ignore_/cache/pspictures/5d9a3f340f1780eef3f22ae53ff82a29.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.7)(5.5,.7)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=650]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+		  
+<p>The same diffraction grating is used in to generate both diffraction patterns.</p>
+
+
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is required</div>
+
+<p>We need to compare the diffraction patterns to extract information about the relative wavelengths so we can decide which one is longer. We know that the diffraction pattern depends on wavelength and slit width through: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{diffraction}\propto \frac{\lambda}{w}</annotation></semantics></math></p>
+
+<p>The diffraction grating is the same in both cases so we know that the slit width is fixed.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Analyse patterns</div>
+
+<p>By eye we can see that the red pattern is wider than the green pattern. There is more diffraction for the red light, this means that:
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\text{diffraction}_{red} &amp;&gt; \text{diffraction}_{green}\\
+\frac{\lambda_{red}}{w} &amp;&gt; \frac{\lambda_{green}}{w}\\
+\lambda_{red} &amp;&gt; \lambda_{green}
+\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Final answer</div>
+
+<p>The wavelength of the red light is longer than that of the green light.</p>
+</div></div><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+
+<p>As the width of the slit producing a single-slit diffraction pattern is reduced, how will the diffraction pattern produced change?</p>
+
+</div><div class="solution">
+	
+<p>More diffraction is observed as the slit width is reduced.</p>
+
+</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+<p>A water break at the entrance to a harbour consists of a rock barrier with a <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> wide opening. Ocean waves of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> wavelength approach the opening straight on. Light with a wavelength of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{500} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> strikes a single slit of width <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{30} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math>. Which waves are diffracted to a greater extent?</p>
+
+</div><div class="solution">
+	
+<p>We need to calculate the diffraction for each type of wave. We start by calculating the diffraction of the water waves:</p>
+
+	<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		\text{diffraction} &amp; \propto \frac{\lambda}{w} \\ 
+		&amp; \propto \frac{\text{20}\text{ m}}{\text{50}\text{ m}} \\
+		&amp; \propto \text{0,4}
+		\end{align*}</annotation></semantics></math><p>The diffraction of the light waves is:</p>
+
+	<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		\text{diffraction} &amp; \propto \frac{\lambda}{w} \\ 
+		&amp; \propto \frac{\text{500} \times \text{10}^{-\text{9}}\text{ m}}{\text{30} \times \text{10}^{-\text{9}}\text{ m}} \\
+		&amp; \propto \text{16,67}
+		\end{align*}</annotation></semantics></math><p>The light waves are diffracted more.</p>
+
+</div></div><div class="problemset">
+<div class="header">
+
+<p>For the diffraction pattern below, sketch what you expect to change if:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/d780803b79aef0a49fa78cba8ddabff9.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=532]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+	the wavelength gets larger
+	</div><div class="solution">
+		
+<p>More diffraction would occur. The resulting diffraction pattern is wider:</p>
+
+		<div class="alternates"><img src="_plone_ignore_/cache/pspictures/744bed62658eed4cf80679172b7c9c65.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=602]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+	the wavelength gets smaller
+	</div><div class="solution">
+		
+<p>Less diffraction would occur. The resulting diffraction pattern is narrower:</p>
+
+		<div class="alternates"><img src="_plone_ignore_/cache/pspictures/06f45f2dee5edf4dedf5767bac6363e1.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=482]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+	the slit width gets larger
+	</div><div class="solution">
+		
+<p>Less diffraction would occur. The resulting diffraction pattern is narrower:</p>
+
+		<div class="alternates"><img src="_plone_ignore_/cache/pspictures/db5d75a7d628941566699db5bcb1371c.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.6e-3,k=20,f=10,pixel=0.5,lambda=532]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+	the slit width gets smaller
+	</div><div class="solution">
+		
+<p>More diffraction would occur. The resulting diffraction pattern is wider:</p>
+
+		<div class="alternates"><img src="_plone_ignore_/cache/pspictures/6531726d3b03035172a23c1a10f68567.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.4e-3,k=20,f=10,pixel=0.5,lambda=532]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+	the frequency of the wave gets smaller
+	</div><div class="solution">
+		
+<p>Frequency is inversely related to wavelength. So the wavelength gets longer and more diffraction would occur. The resulting diffraction pattern is wider:</p>
+
+		<div class="alternates"><img src="_plone_ignore_/cache/pspictures/744bed62658eed4cf80679172b7c9c65.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=602]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+	the frequency of the wave gets larger
+	</div><div class="solution">
+		
+<p>Frequency is inversely related to wavelength. The wavelength gets shorter and less diffraction would occur. The resulting diffraction pattern is narrower:</p>
+
+		<div class="alternates"><img src="_plone_ignore_/cache/pspictures/06f45f2dee5edf4dedf5767bac6363e1.png"/><pre class="pspicture">&lt;code&gt;
+(-5.5,-.5)(5.5,.5)
+\psdiffractionRectangle[a=0.5e-3,k=20,f=10,pixel=0.5,lambda=482]
+            &lt;/code&gt;&lt;usepackage&gt;pst-diffraction&lt;/usepackage&gt;</pre></div>
+	</div></div></div></div><h3>Extension: Calculating maxima and minima [NOT IN CAPS]</h3>
+
+<p>There is a formula we can use to determine where the peaks and minima are in the interference spectrum. There will be more than one minimum. There are the same number of minima on either side of the central peak and the distances from the first one on each side are the same to the peak. The distances to the peak from the second minimum on each side is also the same, in fact the two sides are mirror images of each other. We label the first minimum that corresponds to a positive angle from the centre as <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=1</annotation></semantics></math> and the first on the other side (a negative angle from the centre) as <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=-1</annotation></semantics></math>, the second set of minima are labelled <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=2</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=-2</annotation></semantics></math> etc.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a06b1e0d646d876d4ea7e8c9f8bedbd0.png"/><pre class="pspicture">&lt;code&gt;
+(0,0)(5,4)
+\psline{-&amp;gt;}(0,1)(1,1)
+\psline{-&amp;gt;}(0,2)(1,2)
+\psline{-&amp;gt;}(0,3)(1,3)
+\uput[u](1,2){$\lambda$}
+\psline[linewidth=2pt](2,0)(2,1.5)
+\psline[linewidth=2pt](2,2.5)(2,4)
+\psline[linecolor=lightgray](2,2)(5,2)
+\psline(5,0)(5,4)
+\pcline[offset=-8pt]{}(5,2)(5,3)
+\bput{:U}{$y_n$}
+\psline[linecolor=lightgray](2,2)(5,3)
+\rput(3.2,2.2){$\theta$}
+\pcline[offset=8pt]{}(2,1.5)(2,2.5)
+\aput{:U}{$w$}
+            &lt;/code&gt;</pre></div></figure><p>The equation for the angle at which the minima occur is given in the definition below:</p>
+<dl class="definition"><dt>Interference Minima</dt><dd>
+              
+<p>The angle at which the minima in the interference spectrum occur is:</p>
+
+              
+
+              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\sin\theta =\frac{m\lambda }{w}</annotation></semantics></math><p>where</p>
+
+              
+
+              
+<p>&#952; is the angle to the minimum</p>
+
+              
+
+              
+<p>w is the width of the slit</p>
+
+              
+
+              
+<p>&#955; is the wavelength of the impinging wavefronts</p>
+
+              
+
+              
+<p>m is the order of the minimum, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=&#177;1,&#177;2,&#177;3,...</annotation></semantics></math></p>
+
+            </dd></dl><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Diffraction minimum</div><div class="problem" data-class="question">
+              
+<p>A slit with a width of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2511}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> has red light of wavelength <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{650}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> impinge on it. The diffracted light interferes on a surface. At which angle will the first minimum be?</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Check what you are given</div>
+
+<p>We know that we are dealing with diffraction patterns from the diffraction of light passing through a slit. The slit has a width of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2511}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> which is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2511} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> and we know that the wavelength of the light is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{650}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> which is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{650} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math>. We are looking to determine the angle to first minimum so we know that <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=1</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Applicable principles</div>
+
+<p>We know that there is a relationship between the slit width, wavelength and interference minimum angles:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\sin\theta =\frac{m\lambda }{w}</annotation></semantics></math><p>We can use this relationship to find the angle to the minimum by substituting what we know and solving for the angle.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Substitution</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						\sin \theta &amp; = \dfrac{\text{650} \times \text{10}^{-\text{9}}\text{ m}}{\text{2511} \times \text{10}^{-\text{9}}\text{ m}} \\
+						\sin \theta &amp; = \dfrac{\text{650}}{\text{2511}} \\
+						\sin \theta &amp; = \text{0,258861012} \\
+						\theta &amp; = \sin ^{-1}\text{0,258861012} \\
+						\theta &amp; = 15 &#176;
+					\end{align*}</annotation></semantics></math><p>The first minimum is at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> from the centre maximum.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Diffraction minimum</div><div class="problem" data-class="question">
+              
+<p>A slit with a width of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2511}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> has green light of wavelength <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{532}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> impinge on it. The diffracted light interferes on a surface, at what angle will the first minimum be?</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Check what you are given</div>
+
+<p>We know that we are dealing with diffraction patterns from the diffraction of light passing through a slit. The slit has a width of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2511}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> which is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2511} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> and we know that the wavelength of the light is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{532}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> which is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{532} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math>. We are looking to determine the angle to first minimum so we know that <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=1</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Applicable principles</div>
+
+<p>We know that there is a relationship between the slit width, wavelength and interference minimum angles:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\sin\theta =\frac{m\lambda }{w}</annotation></semantics></math><p>We can use this relationship to find the angle to the minimum by substituting what we know and solving for the angle.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Substitution</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						\sin \theta &amp; = \dfrac{\text{532} \times \text{10}^{-\text{9}}\text{ m}}{\text{2511} \times \text{10}^{-\text{9}}\text{ m}} \\
+						\sin \theta &amp; = \dfrac{\text{532}}{\text{2511}} \\
+						\sin \theta &amp; = \text{0,211867782} \\
+						\theta &amp; = \sin ^{-1}\text{0,211867782} \\
+						\theta &amp; = 12.2 &#176;
+					\end{align*}</annotation></semantics></math><p>The first minimum is at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,2}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> from the centre peak.</p>
+</div></div>
+<p>From the formula <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\sin\theta =\frac{m\lambda }{w}</annotation></semantics></math> you can see that a smaller wavelength for the same slit results in a smaller angle to the interference minimum. This is something you just saw in the two worked examples. Do a sanity check, go back and see if the answer makes sense. Ask yourself which light had the longer wavelength, which light had the larger angle and what do you expect for longer wavelengths from the formula.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Diffraction minimum</div><div class="problem" data-class="question">
+              
+<p>A slit has a width which is unknown and has green light of wavelength 532 nm impinge on it. The diffracted light interferes on a surface, and the first minimum is measure at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20,77}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math>?</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Check what you are given</div>
+
+<p>We know that we are dealing with diffraction patterns from the diffraction of light passing through a slit. We know that the wavelength of the light is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{532}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> which is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{532} \times \text{10}^{-\text{9}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math>. We know the angle to first minimum so we know that <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m=1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\theta =20.77&#176;</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Applicable principles</div>
+
+<p>We know that there is a relationship between the slit width, wavelength and interference minimum angles:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\sin\theta =\frac{m\lambda }{w}</annotation></semantics></math><p>We can use this relationship to find the width by substituting what we know and solving for the width.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Substitution</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+						\sin \theta &amp; = \dfrac{\text{532} \times \text{10}^{-\text{9}}\text{ m}}{w} \\
+						\sin \text{20,77} &#176; &amp; = \dfrac{\text{532} \times \text{10}^{-\text{9}}}{w} \\
+						w &amp;= \dfrac{\text{532} \times \text{10}^{-\text{9}}}{\text{0,3546666667}} \\
+						w &amp;= \text{1500} \times \text{10}^{-\text{9}} \\
+						w &amp;= \text{1500}\text{ nm}
+					\end{align*}</annotation></semantics></math><p>The slit width is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math>.</p>
+</div></div><p data-class="simulation" id="sc23VK"><a href="http://phet.colorado.edu/en/simulation/wave-interference">Simulation: 23VK</a></p></body>
+</html>

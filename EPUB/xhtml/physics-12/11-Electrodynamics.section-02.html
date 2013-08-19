@@ -1,0 +1,395 @@
+<html>
+  <head/>
+  <body><h2>Electrical machines - generators and motors</h2>
+
+<p>We have seen that when a conductor is moved in a magnetic field or when a magnet is moved near a conductor, a current flows in the conductor. The amount of current depends on the speed at which the conductor experiences a changing magnetic field, the number of turns of the conductor and the position of the plane of the conductor with respect to the magnetic field. The effect of the orientation of the conductor with respect to the magnetic field is illustrated in <a href="#fig-conductor" data-class="InternalLink">fig-conductor</a>.</p>
+<figure class="figure" id="fig-conductor"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/91a8eccc1a9b9c98cd36561afeb3e758.png"/><pre class="pspicture">&lt;code&gt;
+              (-2,-.5)(11.5,5.5)
+              %\psgrid
+\def\magfieldF{\multirput(0,0)(0.25,0){9}{\psline{}{1}{0}{30}}}
+\rput(0,3){\magfieldF\rput{0}(1,1){\frontview}}
+\rput(0,0){\magfieldT\pscircle[linewidth=0.1cm](1,1){1}}
+
+\rput(3,0)
+{
+\rput(0,3){\magfieldF\rput{45}(1,1){\frontview}}
+\rput(0,0){\magfieldT\psellipse[linewidth=0.1cm](1,1)(0.5,1)}
+}
+
+\rput(6,0)
+{
+\rput(0,3){\magfieldF\rput{90}(1,1){\frontview}}
+\rput(0,0){\magfieldT\rput(1,1){\psline[linewidth=0.1cm](1;270)(1;90)}}
+}
+
+\rput(9,0)
+{
+\rput(0,3){\magfieldF\rput{135}(1,1){\frontview}}
+\rput(0,0){\magfieldT\psellipse[linewidth=0.1cm](1,1)(0.5,1)}
+}
+
+\uput[l](0,1){top view}
+\uput[l](0,4){front view}
+\rput(1,2.5){(a)}
+\rput(4,2.5){(b)}
+\rput(7,2.5){(c)}
+\rput(10,2.5){(d)}
+
+            &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+            
+</p><p>Series of figures showing that the magnetic flux through a conductor is dependent on the angle that the plane of the conductor makes with the magnetic field. The greatest flux passes through the conductor when the plane of the conductor is perpendicular to the magnetic field lines as in (a). The number of field lines passing through the conductor decreases, as the conductor rotates until it is parallel to the magnetic field (c).</p>
+
+          </figcaption></figure><p>If the current flowing in the conductor were plotted as a function of the angle between the plane of the conductor and the magnetic field, then the current would vary as shown in <a href="#fig-ac" data-class="InternalLink">fig-ac</a>. The current alternates about zero and is known as an <em>alternating current</em> (abbreviated AC).</p>
+<figure class="figure" id="fig-ac"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a9925f85320ad892fab3666849e1bbcf.png"/><pre class="pspicture">&lt;code&gt;
+              (-2.5,-2)(5.5,2.2)
+             % \psgrid
+\psset{xunit=0.00556}
+\psaxes[labels=none,ticks=none,dx=180,Dx=180]{-&amp;gt;}(0,0)(0,-1.5)(780,1.5)
+\psplot{0}{720}{x sin}
+\uput[r](780,0){time}
+\uput[u](0,1.5){current (arbitrary units)}
+
+            &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+            
+</p><p>Variation of current as the angle of the plane of a conductor with the magnetic field changes.</p>
+
+          </figcaption></figure><p>Recall Faraday's Law which you learnt about in Grade 11:</p>
+<dl class="definition"><dt>Faraday's Law</dt><dd>
+            
+<p>The emf (electromotive force),
+&#1013;, produced around a loop of conductor is proportional to
+the rate of change of the magnetic flux, &#966;, through the area,
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math>, of the loop. This can be stated mathematically as:</p>
+
+            
+
+            <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">&#1013;=-N\frac{\Delta \phi }{\Delta t}</annotation></semantics></math><p>where <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\phi =B&#183;A</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">B</annotation></semantics></math> is the strength of the magnetic field.</p>
+
+          </dd></dl><p>Faraday's Law relates induced emf (electromotive force) to the rate of change of flux,
+which is the product of the magnetic field and the cross-sectional
+area the field lines pass through.
+As the closed loop conductor changes orientation with respect to the magnetic field, the amount of magnetic flux through the area of the loop changes, and an emf is induced in the conducting loop.</p>
+<h3>Electrical generators</h3>
+<h3>AC generator</h3>
+
+<p>The principle of rotating a conductor in a magnetic field is used in electrical generators. A generator converts mechanical energy (motion) into electrical energy.</p>
+<dl class="definition"><dt>Generator</dt><dd>
+              
+<p>A generator converts mechanical energy into electrical energy.</p>
+
+            </dd></dl><p>The layout of a simple AC generator is shown in <a href="#fig-ACgen" data-class="InternalLink">fig-ACgen</a>. The conductor in the shape of a coil is connected to a slip ring. The conductor is then manually rotated in the magnetic field generating an alternating emf. The slip rings are connected to the load via brushes.</p>
+<figure class="figure" id="fig-ACgen"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/6d6966ee2051eb17d46aa6e398eef957.png"/><pre class="pspicture">&lt;code&gt;
+                (-0.2,-3.2)(9,3.2)
+                %\psgrid
+\definecolor{color1802b}{rgb}{0.8,0.8,0.8}
+\psframe[linewidth=0.042,dimen=outer](2.92,2.72)(0.04,0.86)
+\psframe[linewidth=0.042,dimen=outer](8.8,2.7)(5.92,0.84)
+\psbezier[linewidth=0.042](4.184828,-1.34)(4.0865517,0.88)(4.342069,0.8)(3.8310344,0.86)(3.32,0.92)(3.3396552,1.46)(3.3789656,2.14)(3.4182758,2.82)(4.08,2.68)(4.8727584,2.68)(5.6655173,2.68)(5.5,1.96)(5.5,1.48)(5.5,1.0)(5.4284515,1.0245473)(5.4,0.96)(5.371548,0.8954527)(5.0489655,0.86)(4.88,0.82)(4.7110343,0.78)(4.8334484,0.46)(4.7744827,-1.34)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=black](5.06,-1.26)(3.78,-1.86)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=color1802b](5.28,-1.18)(5.02,-1.92)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=black](5.04,-2.36)(3.76,-2.96)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=color1802b](5.26,-2.28)(5.0,-3.02)
+\pscircle[linewidth=0.06,dimen=outer](1.41,-0.91){0.57}
+\rput(2.5,1.765){N}
+\rput(6.36,1.765){S}
+\rput(5.34,-0.955){brush}
+\rput(3.04,-1.595){slip ring}
+\rput(3.06,-2.675){slip ring}
+\rput(1.52,-0.135){slip ring (front view)}
+\psline[linewidth=0.042cm,fillcolor=black](4.2,-1.82)(4.2,-2.4)
+\psline[linewidth=0.042cm,fillcolor=black](5.26,-1.54)(6.04,-1.54)
+\psline[linewidth=0.042cm,fillcolor=black](6.04,-1.54)(6.02,-0.84)
+\psline[linewidth=0.042cm,fillcolor=black](6.02,-0.84)(7.84,-0.84)
+\psline[linewidth=0.042cm,fillcolor=black](7.84,-0.84)(7.84,-1.5)
+\psline[linewidth=0.042cm,fillcolor=black](7.84,-1.5)(8.08,-1.64)
+\psline[linewidth=0.042cm,fillcolor=black](8.08,-1.64)(7.64,-1.8)
+\psline[linewidth=0.042cm,fillcolor=black](7.64,-1.8)(8.08,-1.96)
+\psline[linewidth=0.042cm,fillcolor=black](8.08,-1.96)(7.66,-2.16)
+\psline[linewidth=0.042cm,fillcolor=black](7.66,-2.16)(8.08,-2.26)
+\psline[linewidth=0.042cm,fillcolor=black](8.08,-2.26)(7.66,-2.46)
+\psline[linewidth=0.042cm,fillcolor=black](7.66,-2.46)(7.86,-2.52)
+\psline[linewidth=0.042cm,fillcolor=black](7.86,-2.52)(7.86,-3.02)
+\psline[linewidth=0.042cm,fillcolor=black](7.86,-3.02)(5.96,-3.02)
+\psline[linewidth=0.042cm,fillcolor=black](5.96,-3.02)(5.98,-2.64)
+\psline[linewidth=0.042cm,fillcolor=black](5.98,-2.64)(5.26,-2.64)
+\rput(8.57,-2.055){load}
+\rput(5.11,0.545){coil}
+\rput(1.47,2.905){magnet}
+\rput(7.39,2.905){magnet}
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p>Layout of an alternating current generator.</p>
+
+            </figcaption></figure><p>If a machine is constructed to rotate a magnetic field around a set of stationary wire coils with the turning of a shaft, AC voltage will be produced across the wire coils as that shaft is rotated, in accordance with Faraday's Law of electromagnetic induction. This is the basic operating principle of an AC generator.</p>
+
+<p>In an AC generator the two ends of the coil are each attached to a slip ring that makes contact with brushes as the coil turns. The direction of the current changes with every half turn of the coil. As one side of the loop moves to the other pole of the magnetic field, the current in the loop changes direction. The two slip rings of the AC generator allow the coil to turn without breaking the connections to the load circuit. This type of current which changes direction is known as alternating current.</p>
+<div class="note" data-type="aside">
+<p>AC generators are also known as alternators. They are found in motor cars to charge the car battery.</p>
+</div><h3>DC generator</h3>
+
+<p>A simple DC generator is constructed the same way as an AC generator except that there is one slip ring which is split into two pieces, called a commutator, so the current in the external circuit does not change direction. The layout of a DC generator is shown in <a href="#fig-DCgen" data-class="InternalLink">fig-DCgen</a>. The split-ring commutator accommodates for the change in direction of the current in the loop, thus creating direct current (DC) current going through the brushes and out to the circuit.</p>
+<figure class="figure" id="fig-DCgen"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/86b1a1874e0b175bfcb8230ff06f6f59.png"/><pre class="pspicture">&lt;code&gt;
+                (-0.2,-2.4)(9.2,4.2)
+                %\psgrid
+\psframe(0,2)(3,4)\uput[l](3,3){N}
+\psframe(6,2)(9,4)\uput[r](6,3){S}
+\psline[linearc=0.4cm](4.2,-0.4)(4.2,2)(3.4,2)(3.4,4)(5.6,4)(5.6,2)(4.8,2)(4.8,-0.4)
+\psframe*(4,-1)(5,-0.4)\psline(5,-0.4)(5,-1)
+\uput[d](4.4,-1){split ring}
+\uput[ul](4,-0.4){brush}
+\uput[ur](5,-0.4){brush}
+
+\psframe[fillstyle=solid,fillcolor=lightgray](5,-1)(5.2,-0.4)\psline(5.2,-0.7)(6,-0.7)(6,0)(8,0)
+
+\psframe[fillstyle=solid,fillcolor=lightgray](3.8,-1)(4,-0.4)\psline(3.8,-0.7)(3,-0.7)(3,-2.2)(8,-2.2)
+\resistor[dipolestyle=zigzag](8,0)(8,-2.2){load}
+\rput(0,-1){\psarc[linewidth=2pt](2,1){0.5}{0}{180}\psarc[linewidth=2pt](2,0.8){0.5}{180}{0}\uput[u](2,1.5){split ring commutator}}
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p>Layout of a direct current generator.</p>
+
+            </figcaption></figure><p>The shape of the emf from a DC generator is shown in <a href="#fig-DCsignal" data-class="InternalLink">fig-DCsignal</a>. The emf is not steady but is the absolute value of a sine/cosine wave.</p>
+<figure class="figure" id="fig-DCsignal"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ce4456cb0bf83f3f83a70fd83d5ed90a.png"/><pre class="pspicture">&lt;code&gt;
+                (-1,-2)(6.4,2)
+               % \psgrid
+\psset{xunit=0.00556}
+\psaxes[labels=none,ticks=none,dx=180,Dx=180]{-&amp;gt;}(0,0)(0,-1.5)(780,1.5)
+\def\sine{\psplot{0}{180}{x sin}}
+\rput(0,0){\sine}
+\rput(180,0){\sine}
+\rput(360,0){\sine}
+\rput(540,0){\sine}
+\uput[r](780,0){$\theta$ or time}
+\uput[u](0,1.5){current}
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p>Variation of emf in a DC generator.</p>
+
+            </figcaption></figure><h3>AC versus DC generators</h3>
+
+<p>The problems involved with making and breaking electrical contact with a moving coil are sparking and heat, especially if the generator is turning at high speed. If the atmosphere surrounding the machine contains flammable or explosive vapours, the practical problems of spark-producing brush contacts are even greater.</p>
+
+<p>If the magnetic field, rather than the coil/conductor is rotated, then brushes are not needed in an AC generator (alternator), so an alternator will not have the same problems as DC generators.
+The same benefits of AC over DC for generator design also apply to electric motors.
+While DC motors need brushes to make electrical contact with moving coils of wire, AC motors do not. In fact, AC and DC motor designs are very similar to their generator counterparts.
+The AC motor is depends on the reversing magnetic field produced by alternating current through its stationary coils of wire to make the magnet rotate. The DC motor depends on the brush contacts making and breaking
+connections to reverse current through the rotating coil every 1/2 rotation (180 degrees).</p>
+<h3>Electric motors</h3>
+
+<p>The basic principles of operation for a motor are the same as that of a generator, except that a motor converts electrical energy into mechanical energy (motion).</p>
+<dl class="definition"><dt>Motor</dt><dd>
+              
+<p>An electric motor converts electrical energy into mechanical energy.</p>
+
+            </dd></dl><p>If one were to place a moving charged particle in a magnetic field, it would feel a force called the <strong>Lorentz force</strong>.</p>
+<dl class="definition"><dt>The Lorentz Force</dt><dd>
+              
+<p>The Lorentz force is the force experienced by a moving charged particle in a magnetic field and can be described by:</p>
+
+              
+
+              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F=qvB</annotation></semantics></math><p>where <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F</annotation></semantics></math> is the force (in newtons, N), <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">q</annotation></semantics></math> is the electric charge (in coulombs, C), <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v</annotation></semantics></math> is the velocity of the charged particle (in <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>) and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">B</annotation></semantics></math> is the magnetic field strength (in teslas, T).</p>
+
+            </dd></dl><p>Current in a conductor consists of moving charges. Therefore, a current carrying coil in a magnetic field will also feel the Lorentz force. For a straight current carrying wire which is not moving:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F=ILB</annotation></semantics></math><p>where <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F</annotation></semantics></math> is the force (in newtons, N), <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> is the current in the wire (in amperes, A), <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">L</annotation></semantics></math> is the length of the wire which is in the magnetic field (in m) and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">B</annotation></semantics></math> is the magnetic field strength (in teslas, T).</p>
+
+<p>The direction of the Lorentz force is perpendicular to both the direction of the flow of current and the magnetic field and can be found using the <strong>Right Hand Rule</strong> as shown in the picture below. Use your <em>right hand</em>; your thumb points in the direction of the current, your first finger in the direction of the magnetic field and your third finger will then point in the direction of the force.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/358fcec33f69bdd14ab0f424d4d5557f.png"/><pre class="pspicture">&lt;code&gt;
+              (-0.2,-2.8)(7.5,2.8)
+              %\psgrid
+\psline[linewidth=0.04cm](0.02,1.14)(1.42,1.14)
+\psline[linewidth=0.04cm](1.42,1.14)(1.42,-0.84)
+\psline[linewidth=0.04cm](1.42,-0.84)(0.0,-0.84)
+\psline[linewidth=0.04cm](7.2182946,-0.8211864)(5.818297,-0.8187762)
+\psline[linewidth=0.04cm](5.818297,-0.8187762)(5.8217053,1.1612209)
+\psline[linewidth=0.04cm](5.8217053,1.1612209)(7.2417035,1.1587762)
+\rput(1.14,0.125){S}
+\rput(6.14,0.165){N}
+\pscircle[linewidth=0.04,dimen=outer](4.07,0.13){0.21}
+\pscircle[linewidth=0.04,dimen=outer](4.21,0.05){0.01}
+\rput(4.08,0.105){+}
+\psline[linewidth=0.054cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.96,-0.02)(2.26,-2.24)
+\psline[linewidth=0.054cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.9,0.18)(1.5,0.18)
+\psline[linewidth=0.054cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(4.06,0.32)(4.06,2.7)
+\rput(0.63,1.345){magnet}
+\rput(6.53,1.365){magnet}
+\rput(5.65,2.625){\small Direction of current }
+\rput(4.98,2.305){\small in the wire}
+\rput(4.89,1.94){\footnotesize [THUMB]}
+\rput(3.41,-2.58){\footnotesize [2nd FINGER]}
+\rput(4.63,-2.195){\small Direction of the Lorentz force}
+\rput(2.65,0.765){\small Direction of the }
+\rput(2.58,0.445){\small magnetic field}
+\rput(2.43,-0.18){\footnotesize [1st FINGER]}
+
+            &lt;/code&gt;</pre></div></figure><p>Both motors and generators can be explained in terms of a coil that rotates in a magnetic field. In a generator the coil is attached to an external circuit that is turned, resulting in a changing flux that induces an emf. In a motor, a current-carrying coil in a magnetic field experiences a force on both sides of the coil, creating a twisting force (called a <em>torque</em>, pronounce like 'talk') which makes it turn.</p>
+
+<p>Any coil carrying current can feel a force in a magnetic field. The force is the Lorentz force on the moving charges in the conductor. The force on opposite sides of the coil will be in opposite directions because the charges are moving in opposite directions. This means the coil will rotate, see the picture below:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/8be7c70fa82711a5146e9082c5975c9e.png"/><pre class="pspicture">&lt;code&gt;
+              (0,-2.32)(7.96,2.32)
+              %\psgrid
+\definecolor{color0}{rgb}{0.6,0.6,0.6}
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(0.9,1.94)(0.9,-1.74)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(1.5,1.94)(1.5,-1.74)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(2.12,1.92)(2.12,-1.76)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(2.72,1.94)(2.72,-1.74)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.32,1.92)(3.32,-1.76)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.92,1.92)(3.92,-1.76)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(4.5,1.92)(4.5,-1.76)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(5.12,1.94)(5.12,-1.74)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(5.72,1.94)(5.72,-1.74)
+\psline[linewidth=0.04cm,linecolor=color0,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(6.32,1.94)(6.32,-1.74)
+\psline[linewidth=0.04](0.34,0.22)(1.88,0.22)(2.26,1.16)(6.16,1.16)(5.64,-1.1)(1.42,-1.08)(1.76,0.0)(0.24,0.0)
+\psellipse[linewidth=0.04,linecolor=color0,dimen=outer](6.99,0.16)(0.39,1.0)
+\psbezier[linewidth=0.04,arrowsize=0.05291667cm 4.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(7.34,0.04)(7.36,0.06)(7.3,-0.86)(7.0142856,-0.82)(6.7285714,-0.78)(6.614286,-0.33518797)(6.6714287,0.46)(6.7285714,1.255188)(7.16,1.32)(7.36,0.54)
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 3.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.46,1.16)(4.66,1.16)
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 3.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(4.7,-1.1)(3.5,-1.1)
+\psframe[linewidth=0.02,linecolor=color0,dimen=outer](2.96,0.38)(2.74,0.14)
+\psline[linewidth=0.12cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(4.02,1.14)(4.76,1.62)
+\psline[linewidth=0.12cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.32,-1.08)(2.68,-1.62)
+\psline[linewidth=0.12cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(2.1,0.66)(1.56,0.66)
+\psline[linewidth=0.12cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(1.6,-0.62)(1.06,-0.62)
+\psline[linewidth=0.12cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(6.02,0.66)(6.56,0.66)
+\psline[linewidth=0.12cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(5.7,-0.64)(6.24,-0.64)
+\rput(5.12,2.125){resultant force is \textit{into} the page}
+\rput(2.95,-2.095){resultant force is \textit{out of} the page}
+\psline[linewidth=0.02cm](0.04,0.14)(7.72,0.14)
+
+            &lt;/code&gt;</pre></div></figure><p>Instead of rotating the loops through a magnetic field to create electricity, a current is sent through the wires, creating electromagnets. The outer magnets will then repel the electromagnets and rotate the shaft as an electric motor. If the current is AC, the two slip rings are required to create an AC motor. An AC motor is shown in <a href="#fig-ACmotor" data-class="InternalLink">fig-ACmotor</a></p>
+<figure class="figure" id="fig-ACmotor"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ed96c380b5a5c372061981f45d07dac9.png"/><pre class="pspicture">&lt;code&gt;
+                (-0.2,-3.2)(9,3.2)
+               % \psgrid
+\definecolor{color1802b}{rgb}{0.8,0.8,0.8}
+\psframe[linewidth=0.042,dimen=outer](2.92,2.72)(0.04,0.86)
+\psframe[linewidth=0.042,dimen=outer](8.8,2.7)(5.92,0.84)
+\psbezier[linewidth=0.042](4.184828,-1.34)(4.0865517,0.88)(4.342069,0.8)(3.8310344,0.86)(3.32,0.92)(3.3396552,1.46)(3.3789656,2.14)(3.4182758,2.82)(4.08,2.68)(4.8727584,2.68)(5.6655173,2.68)(5.5,1.96)(5.5,1.48)(5.5,1.0)(5.4284515,1.0245473)(5.4,0.96)(5.371548,0.8954527)(5.0489655,0.86)(4.88,0.82)(4.7110343,0.78)(4.8334484,0.46)(4.7744827,-1.34)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=black](5.06,-1.26)(3.78,-1.86)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=color1802b](5.28,-1.18)(5.02,-1.92)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=black](5.04,-2.36)(3.76,-2.96)
+\psframe[linewidth=0.042,dimen=outer,fillstyle=solid,fillcolor=color1802b](5.26,-2.28)(5.0,-3.02)
+\pscircle[linewidth=0.06,dimen=outer](1.41,-0.91){0.57}
+\rput(2.5,1.765){N}
+\rput(6.36,1.765){S}
+\rput(5.34,-0.955){brush}
+\rput(3.04,-1.595){slip ring}
+\rput(3.06,-2.675){slip ring}
+\rput(1.52,-0.135){slip ring (front view)}
+\psline[linewidth=0.042cm,fillcolor=black](4.2,-1.82)(4.2,-2.4)
+\psline[linewidth=0.042cm,fillcolor=black](5.26,-1.54)(6.04,-1.54)
+\psline[linewidth=0.042cm,fillcolor=black](6.04,-1.54)(6.02,-0.84)
+\psline[linewidth=0.042cm,fillcolor=black](6.02,-0.84)(7.84,-0.84)
+\psline[linewidth=0.042cm,fillcolor=black](7.84,-0.84)(7.84,-1.5)
+\psline[linewidth=0.042cm,fillcolor=black](7.86,-2.52)(7.86,-3.02)
+\psline[linewidth=0.042cm,fillcolor=black](7.86,-3.02)(5.96,-3.02)
+\psline[linewidth=0.042cm,fillcolor=black](5.96,-3.02)(5.98,-2.64)
+\psline[linewidth=0.042cm,fillcolor=black](5.98,-2.64)(5.26,-2.64)
+\rput(5.11,0.545){coil}
+\rput(1.47,2.905){magnet}
+\rput(7.39,2.905){magnet}
+\psframe[linewidth=0.042,dimen=outer](8.68,-1.52)(7.62,-2.54)
+\rput(8.11,-1.855){\scriptsize AC}
+\rput(8.16,-2.095){\scriptsize source}
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p>Layout of an alternating current motor.</p>
+
+            </figcaption></figure><p>If the current is DC, split-ring commutators are required to create a DC motor. This is shown in <a href="#fig-DCmotor" data-class="InternalLink">fig-DCmotor</a>.</p>
+<figure class="figure" id="fig-DCmotor"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/60e50655fb416d8835dadccdd40366bf.png"/><pre class="pspicture">&lt;code&gt;
+                (-0.2,-2.4)(9.2,4.2)
+                %\psgrid
+\psframe(0,2)(3,4)\uput[l](3,3){N}
+\psframe(6,2)(9,4)\uput[r](6,3){S}
+\psline[linearc=0.4cm](4.2,-0.4)(4.2,2)(3.4,2)(3.4,4)(5.6,4)(5.6,2)(4.8,2)(4.8,-0.4)
+\psframe*(4,-1)(5,-0.4)\psline(5,-0.4)(5,-1)
+\uput[d](4.4,-1){split ring}
+\uput[ul](4,-0.4){brush}
+\uput[ur](5,-0.4){brush}
+
+\psframe[fillstyle=solid,fillcolor=lightgray](5,-1)(5.2,-0.4)\psline(5.2,-0.7)(6,-0.7)(6,0)(8,0)
+
+\psframe[fillstyle=solid,fillcolor=lightgray](3.8,-1)(4,-0.4)\psline(3.8,-0.7)(3,-0.7)(3,-2.2)(8,-2.2)
+\battery(8,0)(8,-2.2){}
+\rput(0,-1){\psarc[linewidth=2pt](2,1){0.5}{0}{180}\psarc[linewidth=2pt](2,0.8){0.5}{180}{0}\uput[u](2,1.5){split ring commutator}}
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p>Layout of a direct current motor.</p>
+
+            </figcaption></figure><h3>Real-life applications</h3>
+<h4>Cars</h4>
+
+<p>A car contains an alternator that charges its battery and powers the car's electric system when its engine is running. Alternators have the great advantage over direct-current generators of not using a commutator, which makes them simpler, lighter, less costly, and more rugged than a DC generator.</p>
+<div class="example" data-class="activity" data-type="Project"><div class="title">Alternators</div>
+<p>Try to find out the different ampere values produced by alternators for different types of machines. Compare these to understand what numbers make sense in the real world. You will find different numbers for cars, trucks, buses, boats etc. Try to find out what other machines might have alternators.</p>
+</div>
+
+<p>A car also contains a DC electric motor, the starter motor, to turn over the engine to start it.
+A starter motor consists of the very powerful DC electric motor and starter solenoid that is attached to the motor.
+A starter motor requires a very high current to crank the engine, that's why it's connected to the battery with large cables.</p>
+<h4>Electricity generation</h4>
+
+<p>AC generators are mainly used in the real-world to generate electricity.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a58898e3c9d64d4d321a4df778202d3c.png"/><pre class="pspicture">&lt;code&gt;
+(-6,-3)(6,3)
+%\psgrid
+\rput(0,0){\includegraphics{images/02007.eps}}
+                &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+                
+</p><p>AC generators are used at the power plant to generate electricity.</p>
+
+              </figcaption></figure><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>State the difference between a generator and a motor.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Use Faraday's Law to explain why a current is induced in a coil that is rotated in a magnetic field.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Explain the basic principle of an AC generator in which a coil is mechanically rotated in a magnetic field. Draw a diagram to support your answer.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Explain how a DC generator works. Draw a diagram to support your answer. Also, describe how a DC generator differs from an AC generator.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Explain why a current-carrying coil placed in a magnetic field (but not parallel to the field) will turn. Refer to the force exerted on moving charges by a magnetic field and the torque on the coil.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Explain the basic principle of an electric motor. Draw a diagram to support your answer.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Give examples of the use of AC and DC generators.</p>
+
+              </div><div class="solution"/></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Give examples of the uses of motors.</p>
+
+              </div><div class="solution"/></div></div></body>
+</html>

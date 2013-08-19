@@ -1,0 +1,385 @@
+<html>
+  <head/>
+  <body><h2>Emission and absorption spectra</h2>
+<h3>Emission spectra</h3>
+
+<p>You have learnt previously about the structure of an atom. The electrons 
+          surrounding the atomic nucleus are arranged in a series of levels of increasing 
+          energy. Each element has a unique number of electrons in a unique configuration
+           therefore each element has its own distinct set of energy levels. This arrangement 
+          of energy levels serves as the atom's unique fingerprint.</p>
+
+<p>In the early 1900s, scientists found that a liquid or solid heated to high 
+          temperatures would give off a broad range of colours of light. However, a gas 
+          heated to similar temperatures would emit light only at certain specific wavelengths 
+          (colours). The reason for this observation was not understood at the time.</p>
+
+<p>Scientists studied this effect using a discharge tube.</p>
+<figure class="figure" id="dischargetube"><img src="images/discharge_tube.eps" width="624"/><figcaption class="caption"><p>
+              
+</p><p>Diagram of a discharge tube. The tube is filled with a gas. When a high 
+              enough voltage is applied across the tube, the gas ionises and acts like a 
+              conductor, allowing a current to flow through the circuit. The current excites 
+              the atoms of the ionised gas. When the atoms fall back to their ground state, 
+              they emit photons to carry off the excess energy.</p>
+
+            </figcaption></figure><p>A discharge tube (shown in Figure <a href="#dischargetube" data-class="InternalLink">dischargetube</a>) is a 
+          gas-filled, glass tube with a metal plate at both ends. If a large enough voltage difference 
+          is applied between the two metal plates, the gas atoms inside the tube will absorb 
+          enough energy to make some of their electrons come off, i.e. the gas atoms are ionised. 
+          These electrons start moving through the gas and create a current, which raises some 
+          electrons in other atoms to higher energy levels. Then as the electrons in the atoms 
+          fall back down, they emit electromagnetic radiation (light). The amount of light 
+          emitted at different wavelengths, called the <strong>emission 
+          spectrum</strong>, is shown for a discharge tube filled with hydrogen gas in 
+          <a href="#hydrogenspectrum" data-class="InternalLink">hydrogenspectrum</a> below. Only certain wavelengths (i.e. colours) 
+          of light are seen, as shown by the lines in the picture.</p>
+<figure class="figure" id="hydrogenspectrum"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/2d26919d2e3d1ffecefcd255882ef91c.png"/><pre class="pspicture">&lt;code&gt;(-0.2,-.5)(9.5,2)
+            %\psgrid
+            %    \psspectrum[element=H,lwidth=0.1](\linewidth,1)
+            \psline[linecolor=gray]{-&amp;gt;}(0,0)(8.7,0)
+            \rput[t](8,-.1){wavelength (nm)}
+                \psspectrum[lwidth=.15,lines={410,434,486,656}]
+                \rput[b](0.9,1.7){\small{410}}
+                \rput[b](1.7,1.7){\small{434}}
+                \rput[b](3.1,1.7){\small{486}}
+                \rput[b](8.3,1.7){\small{656}}
+                &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p>Diagram of the emission spectrum of hydrogen in the visible spectrum. Four lines are visible, and are labelled with their wavelengths. The three lines in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{400}</annotation></semantics></math>&#8211;<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> range are in the blue part of the spectrum, while the higher line (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{656}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math>) is in the red/orange part.</p>
+
+            </figcaption></figure><p>Eventually, scientists realised that these lines come from photons of 
+          a specific energy, emitted by electrons making transitions between specific 
+          energy levels of the atom. Figure <a href="#fig-Henergy" data-class="InternalLink">fig-Henergy</a> shows an example 
+          of this happening. When an electron in an atom falls from a higher energy 
+          level to a lower energy level, it emits a photon to carry off the extra energy. 
+          This photon's energy is equal to the energy difference between the two energy 
+          levels
+          (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta E</annotation></semantics></math>).</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Delta E_{\text{electron}} =  E_f - E_i</annotation></semantics></math><p>As we previously discussed, the frequency of a photon is related to its 
+          energy through the equation <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E=hf</annotation></semantics></math>. Since a specific photon 
+          frequency (or wavelength) gives us a specific colour, we can see how each 
+          coloured line is associated with a specific transition.</p>
+<figure class="figure" id="fig-Henergy"><figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/19bc54b8c1683dcad52cbf8e1216816c.png"/><pre class="pspicture">&lt;code&gt;
+                (0,-3.1)(10.66,3.1)
+\psline(0.7,-2.9)(7.48,-2.9)
+\psline(0.7,-0.08)(7.48,-0.08)
+\psline(0.7,0.54)(7.48,0.54)
+\psline(0.68,1.06)(7.46,1.06)
+\psline(0.66,1.54)(7.44,1.54)
+\psline(0.68,1.84)(7.46,1.84)
+\psline(0.68,2.04)(7.46,2.04)
+\psline(0.68,2.16)(7.46,2.16)
+\psline(0.68,2.26)(7.46,2.26)
+\psline(0.68,2.34)(7.46,2.34)
+\rput(0.52,2.925){Energy}
+\rput(0.49,2.605){Level}
+\rput(0.51,-2.855){1}
+\rput(0.51,-0.055){2}
+\rput(0.52,0.545){3}
+\rput(0.53,1.065){4}
+\rput(0.52,1.545){5}
+\rput(0.53,1.865){6}
+\rput(0.51,2.345){\small $\infty$}
+\rput(7.76,-2.915){\small 0 J}
+\rput(8.78,-0.075){\small $16,3 \times 10^{-19}$ J}
+\rput(8.8,0.565){\small $19,4 \times 10^{-19}$ J}
+\rput(8.82,1.065){\small $20,5 \times 10^{-19}$ J}
+\rput(8.82,1.545){\small $21,0 \times 10^{-19}$ J}
+\rput(8.82,2.365){\small $21,8 \times 10^{-19}$ J}
+\rput(8.84,1.825){\small $21,3 \times 10^{-19}$ J}
+\psline{-&amp;gt;}(1.08,-0.08)(1.1,-2.94)
+\psline{-&amp;gt;}(1.38,0.56)(1.4,-2.94)
+\psline{-&amp;gt;}(1.7,1.02)(1.7,-2.92)
+\psline{-&amp;gt;}(1.98,1.54)(2.0,-2.92)
+\psline{-&amp;gt;}(2.3,1.8)(2.32,-2.92)
+\psline{-&amp;gt;}(3.46,0.56)(3.48,-0.12)
+\psline{-&amp;gt;}(3.74,1.06)(3.74,-0.1)
+\psline{-&amp;gt;}(4.06,1.52)(4.06,-0.1)
+\psline{-&amp;gt;}(4.32,1.82)(4.36,-0.1)
+\psline{-&amp;gt;}(5.32,1.08)(5.34,0.46)
+\psline{-&amp;gt;}(5.58,1.5)(5.58,0.5)
+\psline{-&amp;gt;}(5.9,1.8)(5.9,0.5)
+\psline{-&amp;gt;}(6.22,2.0)(6.22,0.52)
+\rput(3.14,-2.095){ultraviolet}
+\rput(3.92,-0.395){visible light}
+\rput(5.75,0.245){infrared}
+\rput(9.01,-2.875){\small ground state}
+\rput(8.06,2.905){Energy}
+
+              &lt;/code&gt;</pre></div></figure><img src="photos/Hydrogen_transitions.png" width="468"/><figcaption class="caption"><p>
+              
+</p><p>In the first diagram are shown some of the electron energy levels for the
+              hydrogen atom. The arrows show the electron transitions from higher energy 
+              levels to lower energy levels. The energies of the emitted photons are the 
+              same as the energy difference between two energy levels. You can think of 
+              absorption as the opposite process. The arrows would point upwards and the 
+              electrons would jump up to higher levels when they absorb a photon of the 
+              right energy. The second representation shows the wavelengths of the light
+              that is emitted for the the various transitions. The transistions are 
+              grouped into a series based on the lowest level involved in the transition.</p>
+
+            </figcaption></figure><p>Visible light is not the only kind of electromagnetic radiation emitted. More energetic or less energetic transitions can produce ultraviolet or infrared radiation. However, because each atom has its own distinct set of energy levels (its fingerprint!), each atom has its own distinct emission spectrum.</p>
+<h3>Absorption spectra</h3>
+
+<p>Atoms do not only emit photons; they also absorb photons. If a photon hits an 
+          atom and the energy of the photon is the same as the gap between two electron energy 
+          levels in the atom, then the electron in the lower energy level can absorb the photon 
+          and jump up to the higher energy level. If the photon energy does not correspond
+          to the difference between two energy levels then the photon will not be absorbed (it
+          can still be scattered).</p>
+
+<p>Using this effect, if we have a source of photons of various energies we can 
+          obtain the <strong>absorption spectra</strong> for different materials. 
+          To get an absorption spectrum, just shine white light on a sample of the material that 
+          you are interested in. White light is made up of all the different wavelengths of 
+          visible light put together. In the absorption spectrum there will be gaps.
+          The gaps correspond to energies (wavelengths) for which there is a corresponding
+          difference in energy levels for the particular element.</p>
+
+<p>The absorbed photons show up as black lines because the photons of these wavelengths 
+          have been absorbed and do not show up. Because of this, the absorption spectrum is 
+          the exact <em>inverse</em> of the emission spectrum. 
+          Look at the two figures below. In Figure <a href="#fig-emissionSpec" data-class="InternalLink">fig-emissionSpec</a> you can see 
+          the line emission spectrum of hydrogen. Figure <a href="#fig-absorptionSpec" data-class="InternalLink">fig-absorptionSpec</a> shows the 
+          absorption spectrum. It is the exact opposite of the emission spectrum! Both emission 
+          and absorption techniques can be used to get the same information about 
+          the energy levels of an atom.</p>
+<figure class="figure" id="fig-emissionSpec"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/7324a0ef20fa64869d07266ae41ba515.png"/><pre class="pspicture">&lt;code&gt;
+                (\linewidth,1.1)
+                \psspectrum[element=H,lwidth=0.1](\linewidth,1)
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p><em>Emission</em> spectrum of Hydrogen.</p>
+
+            </figcaption></figure><figure class="figure" id="fig-absorptionSpec"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/46d3db3c826cbc48fae65b33906eca6d.png"/><pre class="pspicture">&lt;code&gt;
+                (\linewidth,1.1)
+\psspectrum[absorption,element=H,lwidth=0.1](\linewidth,1)
+
+              &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+              
+</p><p><em>Absorption</em> spectrum of Hydrogen.</p>
+
+            </figcaption></figure><p>The dark lines correspond to the frequencies of light that have been
+          absorbed by the gas. As the photons of light are absorbed by electrons, the electrons
+          move into higher energy levels. This is the opposite process of emission.</p>
+
+<p>The dark lines, absorption lines, correspond to the frequencies of the emission
+          spectrum of the same element. The amount of energy absorbed by the electron to move 
+          into a higher level is the same as the amount of energy released when returning to the 
+          original energy level.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Absorption</div><div class="problem" data-class="question">
+              
+<p>I have an unknown gas in a glass container. I shine a bright white light 
+              through one side of the container and measure the spectrum of transmitted light. 
+              I notice that there is a black line 
+              (<em>absorption</em> line) in the middle of the 
+              visible red band at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{642}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math>. 
+              I have a hunch that the gas might be hydrogen. If I am correct, between which 
+              2 energy levels does this transition occur? (Hint: look 
+              at Figure <a href="#fig-Henergy" data-class="InternalLink">fig-Henergy</a> and the transitions which are in the visible 
+              part of the spectrum.)</p>
+
+            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">What is given and what needs to be done?</div>
+
+<p>We have an absorption line at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{642}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math>. This means that the substance in the glass container absorbed photons with a wavelength of 642 nm.
+We need to calculate which 2 energy levels of hydrogen this transition would correspond to. Therefore we need to know what energy the absorbed photons had.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the energy of the absorbed photons</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 E&amp; = \frac{hc}{\lambda }\\
+		 &amp; = \frac{\left(\text{6,63} \times \text{10}^{-\text{34}}\right)\times \left(\text{3} \times \text{10}^{\text{8}}\right)}{\text{642} \times \text{10}^{-\text{9}}}\\
+		 &amp; = \text{3,1} \times \text{10}^{-\text{19}}\text{ J} 
+		\end{align*}</annotation></semantics></math><p>The absorbed photons had an energy of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,1} \times \text{10}^{-\text{19}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{J}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Find the energy of the transitions resulting in radiation at visible wavelengths</div>
+
+<p>Figure <a href="#fig-Henergy" data-class="InternalLink">fig-Henergy</a> shows various energy level 
+                transitions. The transitions related to visible wavelengths are marked as 
+                the transitions beginning or ending on Energy Level 2.
+                Let us find the energy of those transitions and compare with the energy of 
+                the absorbed photons we have just calculated.</p>
+
+<p>Energy of transition (absorption) from Energy Level 2 to Energy Level 3:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 \Delta E_{electron} = {E}_{2,3}&amp; = {E}_{2}-{E}_{3}\\
+		 &amp; = \text{16,3} \times \text{10}^{-\text{19}}-  \text{19,4} \times \text{10}^{-\text{19}}\\
+		 &amp; = -\text{3,1} \times \text{10}^{-\text{19}}\text{ J} 
+		\end{align*}</annotation></semantics></math><p>Therefore the energy of the photon that an electron must absorb to jump from Energy Level 2 to Energy Level 3 is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,1} \times \text{10}^{-\text{19}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{J}</annotation></semantics></math>.
+(NOTE: The minus sign means that <em>absorption</em> is occurring.)</p>
+
+<p>This is the same energy as the photons which were absorbed by the gas in the container! Therefore, since the transitions of all elements are unique, we can say that the gas in the container is hydrogen. The transition is absorption of a photon between Energy Level 2 and Energy Level 3.</p>
+</div></div><div class="note" data-type="important">
+<p>The energy of the photon does not correspond to the energy of an energy level, it
+          corresponds to the <strong>difference</strong> in energy between two
+          energy levels.</p>
+</div><h3>Applications of emission and absorption spectra</h3>
+
+<p>The study of spectra from stars and galaxies in astronomy is i
+          called <em>spectroscopy</em>. Spectroscopy is a 
+          tool widely used in astronomy to learn different things about astronomical objects.</p>
+<h4>Identifying elements in astronomical objects using their spectra</h4>
+
+<p>Measuring the spectrum of light from a star can tell astronomers what the 
+            star is made of. Since each element emits or absorbs light only at particular 
+            wavelengths, astronomers can identify what elements are in the stars from 
+            the lines in their spectra. From studying the spectra of many stars we know 
+            that there are many different types of stars which contain different 
+            elements and in different amounts.</p>
+<h4>Determining velocities of galaxies using spectroscopy</h4>
+
+<p>You have already learnt in <a data-class="ExternalLink" href="http://everythingscience.co.za/grade-12/09-doppler-effect/">Chapter 9</a><a href="#chap-doppler-effect" data-class="InternalLink">chap-doppler-effect</a> about the Doppler 
+            effect and how the frequency (and wavelength) of sound waves changes 
+            depending on whether the object emitting the sound is moving 
+            <em>towards</em> or 
+            <em>away</em> from you. The same thing happens 
+            to electromagnetic radiation (light). If the object emitting the light is 
+            moving <em>towards</em> us, then the wavelength 
+            of the light appears shorter (called <strong>blueshifted</strong>). 
+            If the object is moving <em>away</em> from us, 
+            then the wavelength of its light appears stretched out 
+            (called <strong>redshifted</strong>).</p>
+
+<p>The Doppler effect affects the spectra of objects in 
+            space depending on their motion relative to us on the earth. For 
+            example, the light from a distant galaxy that is moving away from us 
+            at some velocity will appear redshifted. This means that the emission 
+            and absorption lines in the galaxy's spectrum will be shifted to a longer 
+            wavelength (lower frequency). Knowing where each line in the spectrum 
+            would normally be if the galaxy was not moving and comparing it to 
+            the redshifted position, allows astronomers to precisely measure the velocity 
+            of the galaxy relative to the Earth.</p>
+<h4>Global warming and greenhouse gases</h4>
+
+<p>The sun emits radiation (light) over a range of wavelengths that 
+            are mainly in the visible part of the spectrum. Radiation at these 
+            wavelengths passes through the gases of the atmosphere to warm the 
+            land and the oceans below. The warm earth then radiates this heat 
+            at longer infrared wavelengths. Carbon dioxide (one of the main 
+            greenhouse gases) in the atmosphere has energy levels that correspond 
+            to the infrared wavelengths that allow it to absorb the infrared radiation. 
+            It then also emits at infrared wavelengths in all directions. This 
+            effect stops a large amount of the infrared radiation from getting out of the 
+            atmosphere, which causes the atmosphere and the earth to heat up. More 
+            radiation is coming in than is getting back out.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a1cb9e8b3745e5e6a69f0fe365ae80e7.png"/><pre class="pspicture">&lt;code&gt;
+                (0,-2.59)(15.975868,2.57)
+\psbezier[linewidth=0.04](3.4958684,2.53)(3.5758684,1.85)(5.2958684,1.75)(5.4158683,2.55)
+\psline[linewidth=0.04cm](3.5158684,2.23)(3.1158683,1.89)
+\psline[linewidth=0.04cm](3.8358684,1.99)(3.5558684,1.59)
+\psline[linewidth=0.04cm](4.1958685,1.93)(4.1358685,1.47)
+\psline[linewidth=0.04cm](4.5758686,1.93)(4.6358685,1.43)
+\psline[linewidth=0.04cm](4.9558682,1.99)(5.1358685,1.57)
+\psline[linewidth=0.04cm](5.3358684,2.21)(5.7158685,1.79)
+\psbezier[linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(5.3158684,-1.8245102)(5.4166245,-1.808687)(5.439445,-1.2557855)(5.6350846,-1.3248497)(5.830724,-1.393914)(5.9961104,-1.0932733)(5.831161,-0.9905677)(5.666211,-0.8878622)(5.878371,-0.53134257)(6.0578475,-0.6263778)(6.2373247,-0.7214131)(6.42343,-0.38185132)(6.2439528,-0.28681606)(6.064476,-0.19178078)(6.281192,0.17768885)(6.4606686,0.082653575)(6.640146,-0.012381695)(6.358866,-0.0017902247)(6.759594,0.57)
+\psbezier[linewidth=0.03,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(4.266691,1.9676449)(4.4793305,1.9886502)(4.4655175,1.7896867)(4.310693,1.7585212)(4.1558685,1.7273557)(4.168905,1.5119989)(4.3296576,1.5552567)(4.4904103,1.5985147)(4.5284834,1.3772986)(4.3832135,1.3371572)(4.237943,1.2970159)(4.2414255,1.090635)(4.4099193,1.1354511)(4.578413,1.1802672)(4.579593,0.9407257)(4.455734,0.9157933)(4.331874,0.89086086)(4.3371696,0.6739458)(4.5015483,0.69613546)(4.665927,0.71832514)(4.6848917,0.5150607)(4.530067,0.4838952)(4.3752427,0.4527297)(4.40969,0.2525818)(4.5740685,0.2747715)(4.738447,0.2969612)(4.72826,0.07692955)(4.579364,0.05785641)(4.4304676,0.03878328)(4.48221,-0.16878216)(4.6311064,-0.14970903)(4.7800026,-0.13063589)(4.8203783,-0.3186914)(4.667367,-0.36039102)(4.514355,-0.4020906)(4.564285,-0.5991219)(4.709555,-0.55898064)(4.8548255,-0.5188393)(4.90064,-0.7384971)(4.7458153,-0.7696626)(4.590991,-0.8008281)(4.6368055,-1.0204859)(4.79163,-0.9893204)(4.9464545,-0.9581549)(4.967232,-
+1.1719534)(4.818336,-1.1910266)(4.6694393,-1.2100997)(4.7307363,-1.426641)(4.8700786,-1.398592)(5.0094204,-1.370543)(5.022457,-1.5858998)(4.883115,-1.6139488)(4.743773,-1.6419978)(4.908641,-1.5761135)(4.955779,-1.85)
+\pscircle[linewidth=0.03,dimen=outer](6.8258686,0.62){0.05}
+\pscircle[linewidth=0.03,dimen=outer](7.0258684,0.42){0.05}
+\pscircle[linewidth=0.03,dimen=outer](6.8458686,0.5){0.05}
+\pscircle[linewidth=0.03,dimen=outer](6.6858683,0.62){0.05}
+\psbezier[linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(6.8915195,0.5453803)(6.9068,0.44454044)(7.4595704,0.41874084)(7.389453,0.22347647)(7.3193355,0.028212115)(7.619081,-0.13879196)(7.7226734,0.025601879)(7.8262663,0.18999572)(8.181638,-0.024081578)(8.085637,-0.20304397)(7.989636,-0.38200638)(8.32819,-0.5699386)(8.4241905,-0.39097622)(8.520192,-0.21201381)(8.888489,-0.43071732)(8.792487,-0.6096797)(8.696486,-0.7886421)(8.708593,-0.5074236)(9.278216,-0.91122675)
+\psbezier[linewidth=0.03,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(0.6758684,-2.49)(2.0158684,-1.89)(8.495869,-1.33)(11.615869,-2.45)
+\psbezier[linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(2.3639035,0.53901273)(2.3501835,0.64007664)(1.7978777,0.67441475)(1.8710039,0.8685723)(1.9441302,1.0627298)(1.6470013,1.2343458)(1.5408807,1.0715723)(1.43476,0.9087988)(1.082739,1.1283418)(1.1814939,1.3057994)(1.2802488,1.483257)(0.9446391,1.6763983)(0.8458842,1.4989406)(0.7471294,1.321483)(0.38225624,1.5458515)(0.4810111,1.723309)(0.579766,1.9007666)(0.56331503,1.6197687)(0.0,2.0323257)
+\psbezier[linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(3.6348133,-1.9369571)(3.671527,-1.8418032)(3.204232,-1.5453975)(3.3619184,-1.4105656)(3.5196047,-1.2757337)(3.3420558,-0.9821116)(3.1705978,-1.0735391)(2.99914,-1.1649667)(2.796613,-0.8028884)(2.9686987,-0.6950449)(3.1407845,-0.58720136)(2.9399037,-0.25616616)(2.767818,-0.3640097)(2.5957322,-0.47185323)(2.3842728,-0.09935028)(2.5563583,0.008493258)(2.728444,0.1163368)(2.5785341,-0.121901385)(2.2839727,0.5111552)
+\psbezier[linewidth=0.03,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&amp;gt;}(4.0897393,2.0019855)(4.2958684,1.958283)(4.2253532,1.7663379)(4.0706806,1.7825129)(3.9160075,1.7986879)(3.866014,1.5824502)(4.02976,1.5763997)(4.1935062,1.5703491)(4.165374,1.340752)(4.017095,1.345185)(3.8688161,1.3496181)(3.8124285,1.1451223)(3.9839082,1.138263)(4.155388,1.1314037)(4.087248,0.89491713)(3.9635096,0.9078571)(3.8397713,0.9207971)(3.7820442,0.70536816)(3.9431107,0.67745125)(4.1041775,0.6495343)(4.063257,0.44342107)(3.9085844,0.45959604)(3.7539117,0.47577104)(3.7284586,0.2680403)(3.8895254,0.24012335)(4.050592,0.21220641)(3.9773977,-0.0016050348)(3.831798,0.024694402)(3.6861987,0.050993837)(3.674873,-0.1692876)(3.8204727,-0.19558704)(3.966072,-0.22188649)(3.9496922,-0.41949278)(3.79368,-0.414251)(3.6376677,-0.4090092)(3.6276817,-0.6183574)(3.7759604,-0.6227905)(3.9242392,-0.62722355)(3.9038405,-0.8576294)(3.749168,-0.84145445)(3.594495,-0.8252794)(3.5740964,-1.0556853)(3.728769,-1.0718603)(3.883442,-1.
+0880353)(3.8411818,-1.3050817)(3.6955824,-1.2787824)(3.5499828,-1.2524829)(3.5450516,-1.4845062)(3.684257,-1.4990637)(3.8234625,-1.5136212)(3.7734687,-1.729859)(3.6342633,-1.7153015)(3.4950578,-1.700744)(3.6692169,-1.6857369)(3.6343863,-1.97)
+\pscircle[linewidth=0.03,dimen=outer](2.3658683,0.56){0.05}
+\pscircle[linewidth=0.03,dimen=outer](2.2258685,0.56){0.05}
+\rput(5.9658685,-2.365){earth radiates long wavelength infrared radiation}
+\rput[tl](6,2.275){\small the sun emits short wavelength radiation}
+\rput[tl](6,1.975){\small that penetrates the atmosphere}
+\rput[tl](7.5,1.135){\small CO$_{2}$ molecules absorb and re-emit}
+\rput[tl](7.5,0.835){\small the infrared radiation in all directions,}
+\rput[tl](7.5,0.535){\small heating the atmosphere}
+
+              &lt;/code&gt;</pre></div></figure><p>So increasing the amount of greenhouse gases in the atmosphere increases the amount of trapped infrared radiation and therefore the overall temperature of the earth. The earth is a very sensitive and complicated system upon which life depends and changing the delicate balances of temperature and atmospheric gas content may have disastrous consequences if we are not careful.</p>
+<h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Explain how atomic emission spectra arise and how they relate to each element on the periodic table.</p>
+
+              </div><div class="solution">
+                  
+<p>Atomic emission spectra arise from electrons dropping from higher energy levels to lower energy levels within the atom, photons (light packets) with specific wavelengths are released. The energy levels in an atom are specific/unique to each element on the periodic table therefore the wavelength of light emitted can be used to determine which element the light came from.</p>
+
+                  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>How do the lines on the atomic spectrum relate to electron transitions between energy levels?</p>
+
+              </div><div class="solution">
+                  
+<p>The lines on the atomic spectrum relate to electron transitions between energy levels, if the electron drops an energy level a photon is released resulting in an emission line and if the electron absorbs a photon and rises an energy level an absorption line is observed on the spectrum.</p>
+
+                  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Explain the difference between atomic absorption and emission spectra.</p>
+
+              </div><div class="solution">
+                  
+<p>The difference between absorption and emission spectra are that absorption lines are where light has been absorbed by the atom thus you see a dip in the spectrum whereas emission spectra have spikes in the spectra due to atoms releasing photons at those wavelengths.</p>
+
+                  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Describe how the absorption and emission spectra of the gases in the atmosphere give rise to the Greenhouse Effect.</p>
+
+              </div><div class="solution">
+                  
+<p>The following needs to be in your answer: in what wavelength range the sunlight reaches the earth, the absorption of the sunlight and the re-radiation as infrared light, and finally the scattering of the infrared light by the carbon-dioxide and how this scattering contributes to the Greenhouse Effect.</p>
+
+                  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>Using <a href="#t-Optic-Colours" data-class="InternalLink">t-Optic-Colours</a> calculate the frequency range for yellow light.</p>
+
+              </div><div class="solution">
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                  f &amp; =  \frac{c}{\lambda}
+                  \end{align*}</annotation></semantics></math>
+                   The frequency range of yellow light is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{502}\text{ THz} - \text{520}\text{ THz}</annotation></semantics></math>. (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{THz}</annotation></semantics></math> = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}^{\text{12}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Hz}</annotation></semantics></math>)</p>
+
+                  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>What colour is the light emitted by hydrogen when an electron makes the transition from energy level 5 down to energy level 2? (Use <a href="#fig-Henergy" data-class="InternalLink">fig-Henergy</a> to find the energy of the released photon.)</p>
+
+              </div><div class="solution">
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                  \Delta E &amp; =  E_5 - E_2 \\
+                           &amp; =  \text{21,0} \times \text{10}^{-\text{19}}\text{ J} - \text{16,3} \times \text{10}^{-\text{19}}\text{ J} \\
+                           &amp; =  \text{4,7} \times \text{10}^{-\text{19}}\text{ J}
+                  \end{align*}</annotation></semantics></math></p>
+
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                  \lambda &amp; =  \frac{hc}{\Delta E} \\
+                          &amp; =  \frac{(\text{6,63} \times \text{10}^{-\text{34}}\text{ m^{2}kg&#183;s^{-1}})(\text{3} \times \text{10}^{\text{8}}\text{ m&#183;s^{-1}})}{\text{4,7} \times \text{10}^{-\text{19}}\text{ J}} \\ 
+                          &amp; =  \text{423}\text{ nm}
+                  \end{align*}</annotation></semantics></math>
+                  The colour of light emitted at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{423}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nm}</annotation></semantics></math> is violet.</p>
+
+                  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>I have a glass tube filled with hydrogen gas. I shine white light onto the tube. The spectrum I then measure has an absorption line at a wavelength of 474 nm. Between which two energy levels did the transition occur? (Use <a href="#fig-Henergy" data-class="InternalLink">fig-Henergy</a> in solving the problem.)</p>
+
+              </div><div class="solution">
+                  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                  \Delta E &amp; =  \frac{hc}{\lambda} \\
+                            &amp; =  \frac{(\text{6,63} \times \text{10}^{-\text{34}}\text{ m^{2}kg&#183;s^{-1}})(\text{3} \times \text{10}^{\text{8}}\text{ m&#183;s^{-1}})}{\text{474} \times \text{10}^{-\text{9}}\text{ nm}}\\ 
+                           &amp; =  \text{4,20} \times \text{10}^{-\text{19}}\text{ J}
+                  \end{align*}</annotation></semantics></math>
+                  This energy interval corresponds to a transition from energy level 4 to energy level 2.</p>
+
+                  </div></div></div></body>
+</html>

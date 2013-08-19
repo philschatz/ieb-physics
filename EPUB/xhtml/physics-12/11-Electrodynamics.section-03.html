@@ -1,0 +1,256 @@
+<html>
+  <head/>
+  <body><h2>Alternating current</h2>
+
+<p>Most students learning about electricity begin with what is known as <em>direct current</em> (DC), which is electricity flowing in a constant direction. DC is the kind of electricity made by a battery, with definite positive and negative terminals.</p>
+
+<p>However, we have seen that the electricity produced by some generators alternates and is therefore known as <em>alternating current</em> (AC). The main advantage to AC is that the voltage can be changed using transformers. That means that the voltage can be stepped up at power stations to a very high voltage so that electrical energy can be transmitted along power lines at low current and therefore experience low energy loss due to heating. The voltage can then be stepped down for use in buildings and street lights.</p>
+<div class="note" data-type="aside">
+<p>In South Africa alternating current is generated at a frequency of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Hz}</annotation></semantics></math>.</p>
+</div>
+<p>The circuit symbol for alternating current is:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/db9f42ac5be7f3fb88ebe9b2c7b5df23.png"/><pre class="pspicture">&lt;code&gt;
+            (0,0)(2,2)
+           % \psgrid
+\Ucc[labeloffset=0](0,1)(2,1){\Huge $\sim$}
+
+          &lt;/code&gt;</pre></div></figure><p>Graphs of voltage against time and current against time for an AC circuit are shown in <a href="#fig-ACgraphs" data-class="InternalLink">fig-ACgraphs</a></p>
+<figure class="figure" id="fig-ACgraphs"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/69a0e89e71d8e5a148eb04bb5700bd21.png"/><pre class="pspicture">&lt;code&gt;
+              (-2,-2)(5.5,2.2)
+              %\psgrid
+\psset{xunit=0.00556}
+\psaxes[labels=none,ticks=none,dx=180,Dx=180]{}(0,0)(0,-1.5)(780,1.5)
+\psplot{0}{720}{x sin}
+\uput[r](780,0){time}
+\uput[u](0,1.5){current OR voltage}
+
+            &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+            
+</p><p>Graph of current or voltage in an AC circuit.</p>
+
+          </figcaption></figure><h3>Current and voltage</h3>
+
+<p>In an ideal DC circuit the current and voltage are constant. In an AC circuit the current and voltage vary with time. The value of the current or voltage at any specific time is called the <em>instantaneous current or voltage</em> and is calculated as follows:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 i&amp; = {I}_{\max}\sin\left(\text{2}\pi ft+\phi \right)\\
+		  v&amp; = {V}_{\max}\sin\left(\text{2}\pi ft\right) 
+		\end{align*}</annotation></semantics></math><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">i</annotation></semantics></math> is the instantaneous current. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{\max}</annotation></semantics></math> is the maximum current. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v</annotation></semantics></math> is the instantaneous voltage. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{V}_{\max}</annotation></semantics></math> is the maximum voltage. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f</annotation></semantics></math> is the frequency of the AC and t is the time at which the instantaneous current or voltage is being calculated.</p>
+
+<p>The average value we use for AC is known as the root mean square (rms) average. This is defined as:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		 {I}_{rms}&amp; = \frac{{I}_{\max}}{\sqrt{\text{2}}}\\
+		  {V}_{rms}&amp; = \frac{{V}_{\max}}{\sqrt{\text{2}}} 
+		\end{align*}</annotation></semantics></math><p>Since AC varies sinusoidally, with as much positive as negative, doing a straight average would get you zero for the average voltage. The rms value by-passes this problem.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Laptop transformer</div><div class="problem" data-class="question">
+        
+<p>The transformer for the laptop on which this book was written has the following information: 
+            </p><ul data-class="ListBulleted"><li>INPUT: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>/<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{60}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Hz}</annotation></semantics></math></li>
+<li>OUTPUT:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,25}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math></li>
+</ul><p>What changes from input to output, apart from the voltage and current values, and what does that imply? In addition, calculate the rms (root mean square) current and voltage values for the input and/or output as appropriate.</p>
+
+        </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Comparing input and output</div>
+
+<p>The input description includes a frequency because it is designed for regular household use where we use alternating current. The output doesn't include a frequency. This implies that the output is not alternating current. This means that the output voltage and current will be constant with time.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">RMS values</div>
+
+<p>Root mean square values are only applicable when dealing with alternating current. The transformer takes alternating current input and produces direct current output, this means that we only need to determine the rms values for the input.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         V_{\textrm{rms}} &amp; =  \frac{V_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         V_{\textrm{rms}} &amp; =  \frac{\text{240}\text{ V}}{\sqrt{\text{2}}} \\
+         &amp; = \text{169,71}\text{ V}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\textrm{rms}}=\text{169,71}\text{ V}</annotation></semantics></math></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         I_{\textrm{rms}} &amp; =  \frac{I_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         I_{\textrm{rms}} &amp; =  \frac{\text{1,5}\text{ A}}{\sqrt{\text{2}}} \\
+         &amp; = \text{1,06}\text{ A}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{\textrm{rms}}=\text{1,06}\text{ A}</annotation></semantics></math></p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Camera battery charger</div><div class="problem" data-class="question">
+        
+<p>The transformer for the laptop on which this book was written has the following information: 
+            </p><ul data-class="ListBulleted"><li>INPUT: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,085}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>) - <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,05}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>) ; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>/<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{60}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Hz}</annotation></semantics></math></li>
+<li>OUTPUT:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,7}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math></li>
+</ul><p>Calculate the rms (root mean square) current and voltage values for both <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> input.</p>
+
+        </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Understanding the two cases</div>
+
+<p>The reason the transformer has the different input voltages listed is because it may be used internationally and not all countries use the same household voltage. The transformers purpose is to ensure that the output is consistent regardless of the input voltage. The different input voltages of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> result in different input current values. This is why two different current values are listed under input but the voltage in parentheses tells you which case they are applicable to.</p>
+
+<p>The cases are:</p>
+<ul data-class="ListBulleted"><li><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>:</strong> <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,085}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math></li>
+<li><strong><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>:</strong> <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,05}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math></li>
+</ul></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Input voltage of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math></div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         V_{\textrm{rms}} &amp; =  \frac{V_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         V_{\textrm{rms}} &amp; =  \frac{\text{100}\text{ V}}{\sqrt{\text{2}}} \\
+         &amp; = \text{70,71}\text{ V}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\textrm{rms}}=\text{70,71}\text{ V}</annotation></semantics></math></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         I_{\textrm{rms}} &amp; =  \frac{I_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         I_{\textrm{rms}} &amp; =  \frac{\text{0,085}\text{ A}}{\sqrt{\text{2}}} \\
+         &amp; = \text{0,06}\text{ A}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{\textrm{rms}}=\text{0,06}\text{ A}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Input voltage of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math></div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         V_{\textrm{rms}} &amp; =  \frac{V_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         V_{\textrm{rms}} &amp; =  \frac{\text{240}\text{ V}}{\sqrt{\text{2}}} \\
+         &amp; = \text{169,71}\text{ V}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\textrm{rms}}=\text{169,71}\text{ V}</annotation></semantics></math></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         I_{\textrm{rms}} &amp; =  \frac{I_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         I_{\textrm{rms}} &amp; =  \frac{\text{0,5}\text{ A}}{\sqrt{\text{2}}} \\
+         &amp; = \text{0,35}\text{ A}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{\textrm{rms}}=\text{0,35}\text{ A}</annotation></semantics></math></p>
+</div></div><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+            
+<p>Explain the advantages of alternating current.</p>
+
+          </div><div class="solution">
+				
+<p>The main advantage is that AC current can be passed through transformers which makes power generation and transmission much easier and less wasteful.</p>
+
+			  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+
+<p>Which of the following graphs correctly shows the current vs. time graph for an AC generator?</p>
+
+        <table><tr><td><figure class="figure"><img src="templates/Electrodynamics/generators1-1/media/c8f79c7b6dff39a37d49f43717dc5bd4.pdf" width="234"/></figure></td><td><figure class="figure"><img src="templates/Electrodynamics/generators1-1/media/0922dbab371e6ce18c76237a9ca1c934.pdf" width="234"/></figure></td></tr><tr><td><strong>A</strong></td><td><strong>B</strong></td></tr><tr><td><figure class="figure"><img src="templates/Electrodynamics/generators1-1/media/f8a5cb9557516a7fdeaefb5cbdcab961.pdf" width="234"/></figure></td><td><figure class="figure"><img src="templates/Electrodynamics/generators1-1/media/4831c4f45703fca98c1223b4ed6f08a0.pdf" width="234"/></figure></td></tr><tr><td><strong>C</strong></td><td><strong>D</strong></td></tr></table></div><div class="solution">
+        
+<p>For an alternating current generator, the current vs. time graph is a sine wave and alternates between positive and negative values.</p>
+
+<p>For a direct current generator, the current vs. time graph is the absolute value of a sine wave and does not alternate between positive and negative values.</p>
+
+<p>The correct answer is C.</p>
+
+</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+            
+<p>Write expressions for the current and voltage in an AC circuit.</p>
+
+          </div><div class="solution">
+				<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+				   i &amp; = I_{\max}\sin(\text{2}&#960;ft+&#966;)\\
+				   v &amp; = V_{\max}\sin(\text{2}&#960;ft) 
+				   \end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+            
+<p>Define the rms (root mean square) values for current and voltage for AC.</p>
+
+          </div><div class="solution">
+				
+<p>The root mean square is the average value that we use for AC.</p>
+
+				<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+				  I_{rms} &amp; =\frac{I_{\max}}{\sqrt{\text{2}}}\\
+				  V_{rms} &amp; =\frac{V_{\max}}{\sqrt{\text{2}}}
+				  \end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+            
+<p>What is the frequency of the AC generated in South Africa?</p>
+
+          </div><div class="solution">
+			  
+<p>In South Africa the frequency is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Hz}</annotation></semantics></math></p>
+
+			</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+            
+<p>If <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{V}_{\mathrm{\max}}</annotation></semantics></math> at a power station generator is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{340}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> AC, what is the mains supply (rms voltage) in our household?</p>
+
+          </div><div class="solution">
+				<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+				  V_{rms} &amp; = \frac{V_{\max}}{\sqrt{\text{2}}} \\
+				  &amp; =  \frac{\text{340}}{\sqrt{\text{2}}}\\
+					&amp; =  \text{240,42}\text{ V}
+				  \end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+    
+<p>Given: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{\textrm{max}}</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math></p>
+
+    
+<p>Calculate the rms (root mean square) current to two decimal places.</p>
+
+</div><div class="solution">
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         I_{\textrm{rms}} &amp; = \frac{I_{\textrm{max}}}{\sqrt{\text{2}}}
+         \end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         I_{\textrm{rms}} &amp; =  \frac{\text{10}\text{ A}}{\sqrt{\text{2}}} \\
+         &amp; =  \text{7,07}\text{ A}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{\textrm{rms}}=\text{7,07}\text{ A}</annotation></semantics></math></p>
+
+        
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">7.07</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+    
+<p>Given: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\textrm{max}}</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{266}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math></p>
+
+    
+<p>Calculate the rms (root mean square) voltage to two decimal places.</p>
+
+    </div><div class="solution">
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         V_{\textrm{rms}} &amp; =  \frac{V_{\textrm{max}}}{\sqrt{\text{2}}}
+         \end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         V_{\textrm{rms}} &amp; =  \frac{\text{266}\text{ V}}{\sqrt{\text{2}}} \\
+         &amp; =  \text{188,09}\text{ V}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\textrm{rms}}=\text{188,09}\text{ V}</annotation></semantics></math></p>
+
+        
+        <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{188,09}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+            
+<p>Draw a graph of voltage vs time and current vs time for an AC circuit.</p>
+
+          </div><div class="solution">
+          
+				
+<p>The graph is the same for both voltage and for current:</p>
+
+				 <div class="alternates"><img src="_plone_ignore_/cache/pspictures/d09422645edbc9c752a2b9ba141a9aae.png"/><pre class="pspicture">&lt;code&gt;
+              (0,-2)(4.6,2)
+             % \psgrid
+\psset{xunit=0.00556}
+\psaxes[labels=none,ticks=none,dx=180,Dx=180]{}(0,0)(0,-1.5)(780,1.5)
+\psplot{0}{720}{x sin}
+\uput[r](780,0){time}
+\uput[u](0,1.5){current OR voltage}
+
+            &lt;/code&gt;</pre></div>
+			  </div></div></div><h3>Power</h3>
+
+<p>If the current and voltage are functions of time, so they are always changing, then so will the power that is dissipated in any circuit element. In circuits which contain only ohmic resistors the <strong>average</strong> power dissipated in any component can be calculated in terms of the rms values.</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                P_{av} &amp;=I_{rms}V_{rms} \\
+                        &amp;=\frac{I_{\max}}{\sqrt{\text{2}}}\frac{V_{\max}}{\sqrt{\text{2}}}\\
+                        &amp;=\frac{\text{1}}{\text{2}}I_{\max}V_{\max}
+            \end{align*}</annotation></semantics></math><p>You might ask why we don't need to use an rms value for power. In an AC circuit both the current and voltage have the same sign so they are both either positive or negative. This means that power, the product of the two is always positive. If power is always positive then the average value won't be zero as in the case of current or voltage in AC circuits.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Laptop transformer power</div><div class="problem" data-class="question">
+        
+<p>The transformer for a laptop has the following information: 
+            </p><ul data-class="ListBulleted"><li>INPUT: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>/<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{60}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{Hz}</annotation></semantics></math></li>
+<li>OUTPUT:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>; <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,25}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math></li>
+</ul><p>Using the input values and assuming <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{240}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>, what is the average power dissipated in the transformer?</p>
+
+        </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">RMS values</div>
+
+<p>As calculated previously:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         V_{\textrm{rms}} &amp; =  \frac{V_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         V_{\textrm{rms}} &amp; =  \frac{\text{240}\text{ V}}{\sqrt{\text{2}}} \\
+         &amp; = \text{169,71}\text{ V}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\textrm{rms}}=\text{169,71}\text{ V}</annotation></semantics></math></p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+         I_{\textrm{rms}} &amp; =  \frac{I_{\textrm{max}}}{\sqrt{\text{2}}} \\
+         I_{\textrm{rms}} &amp; =  \frac{\text{1,5}\text{ A}}{\sqrt{\text{2}}} \\
+         &amp; = \text{1,06}\text{ A}
+         \end{align*}</annotation></semantics></math><p>Therefore <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I_{\textrm{rms}}=\text{1,06}\text{ A}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Average power</div>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                P_{av} &amp;=I_{rms}V_{rms} \\
+                        &amp;= \text{1,06}\text{ A} \cdot  \text{169,71}\text{ V}\\
+                        &amp; = \text{179,89}\text{ W}
+            \end{align*}</annotation></semantics></math></div></div></body>
+</html>

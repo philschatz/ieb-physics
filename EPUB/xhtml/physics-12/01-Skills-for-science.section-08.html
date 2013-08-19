@@ -1,0 +1,175 @@
+<html>
+  <head/>
+  <body><h2>How to draw graphs in science</h2>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/6099f06cdf0211eaacedf01eda227963.png"/><pre class="pspicture">&lt;code&gt;
+	    (-0.8,-0.7)(5.2,5.5)
+	    \psline[linewidth=2pt]{-&amp;gt;}(0,0)(5,0)
+	    \psline[linewidth=2pt]{-&amp;gt;}(0,0)(0,5)
+	    \rput{90}(-0.4,2.5){y-axis labels (units)}
+	    \rput(2.5,-0.4){x-axis labels (units)}
+	    \rput(-0.3,-0.3){(0,0)}
+	    \rput(2.5,5.2){Heading}
+	    \psline{-&amp;gt;}(1,1)(0.1,0.1)
+	    \rput(1.2,1.2){Origin}
+	  &lt;/code&gt;</pre></div></figure><h3>Line Graphs</h3>
+
+<p>Line graphs are used when:</p>
+<ul data-class="ListBulleted"><li>
+	      
+<p>the relationship between the dependent and independent variables is continuous.</p>
+
+	    </li>
+<li>
+	      
+<p>Both dependent and independent variables are measured in numbers.</p>
+
+	    </li>
+</ul><p>Features of line graphs:</p>
+<ul data-class="ListBulleted"><li>
+	      
+<p>An appropriate s cale is used for each axis so that the plotted points use most of the axis/space (work out the range of the data and the highest and lowest points).</p>
+
+	    </li>
+<li>
+	      
+<p>The scale must remain the SAME along the entire axis and use easy intervals such as 10's, 20's, 50's, and not intervals such as 7'2, 14's, etc, which make it difficult ot read information off the graph.</p>
+
+	    </li>
+<li>
+	      
+<p>Each axis must be labelled with what is shown on the axis and must include the appropriate units in brakcets, e.g. Temperature (C), Time (seconds), Height (cm).</p>
+
+	    </li>
+<li>
+	      
+<p>Each point has an x and y co-ordinate and is plotted with a symbol which is big enough to see, e.g. a cross or circle.</p>
+
+	    </li>
+<li>
+	      
+<p>The points are then joined (no no no!!)</p>
+
+	    </li>
+<li>
+	      
+<p>With a ruler if the points lie in a straight line (see Figure 3) or you can draw a line of best fit where the number of points are distributed fairly evenly on each side of the line.</p>
+
+	    </li>
+<li>
+	      
+<p>Freehand when the points appear to be following a curve (see Figure 4).</p>
+
+	    </li>
+<li>
+	      
+<p>DO NOT start the line at the origin unless there is a data point for 0. If there is no reading for 0, then start the line at the first plotted point.</p>
+
+	    </li>
+<li>
+	      
+<p>The graph must have a clear, descriptive title which outlines the relationship between the dependent and independent variable. (where does title go?)</p>
+
+	    </li>
+<li>
+	      
+<p>If there is more than one set of data drawn on a graph, a different symbol must be used for each set and a key or legend must define the symbols.</p>
+
+	    </li>
+</ul><div class="alternates"><img src="_plone_ignore_/cache/pspictures/5c29d9b13d49acc01b6e4229bd6814a1.png"/><pre class="pspicture">&lt;code&gt;
+	      (-1.2,-1.2)(5.3,6)
+	      \psframe(0,0)(5,5)
+	      \rput(2.5,5.6){Change in temperature with time}
+	      \pscircle(-0.95,3.48){0.03}
+	      \rput{90}(-0.8,2.5){Temperature ( C)}
+	      \rput(2.5,-0.8){Time (seconds)}
+	      \psline(-0.1,1)(0.1,1)
+	      \rput(-0.3,1){2}
+	      \psline(-0.1,2)(0.1,2)
+	      \rput(-0.3,2){4}
+	      \psline(-0.1,3)(0.1,3)
+	      \rput(-0.3,3){6}
+	      \psline(-0.1,4)(0.1,4)
+	      \rput(-0.3,4){8}
+	      \psline(-0.1,5)(0.1,5)
+	      \rput(-0.3,5){10}
+	      \psline(1,-0.1)(1,0.1)
+	      \rput(1,-0.3){2}
+	      \psline(2,-0.1)(2,0.1)
+	      \rput(2,-0.3){4}
+	      \psline(3,-0.1)(3,0.1)
+	      \rput(3,-0.3){6}
+	      \psline(4,-0.1)(4,0.1)
+	      \rput(4,-0.3){8}
+	      \psline(5,-0.1)(5,0.1)
+	      \rput(5,-0.3){10}
+	      \pscircle[fillstyle=solid,fillcolor=black](0,0.5){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](0.5,1){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](1,1.5){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](1.5,2){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](2,2.5){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](2.5,3){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](3,3.5){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](3.5,4){0.05}
+	      \pscircle[fillstyle=solid,fillcolor=black](4,4.5){0.05}
+	      \psline(0,0.5)(4,4.5)
+	    &lt;/code&gt;</pre></div><h3>Bar graphs</h3>
+
+<p>Bar graphs are used when:</p>
+<ul data-class="ListBulleted"><li>
+	      
+<p>The independent variable is discontinous (i.e. The variables on the x-axis are each associated with somethign different).</p>
+
+	    </li>
+<li>
+	      
+<p>Independent variables are not numerical. For example, when examining the protein content of various food types, the order of the food types along the horizontal axis is irrelevant.</p>
+
+	    </li>
+</ul><p>Bar graphs have the following features:</p>
+<ul data-class="ListBulleted"><li>
+	      
+<p>The data are plotted as columns or bars that do not touch each other as each deals with a different characteristic.</p>
+
+	    </li>
+<li>
+	      
+<p>The bars must be the same width and be the same distance apart from each other.</p>
+
+	    </li>
+<li>
+	      
+<p>A bar graph can be displayed vertically or horizontally.</p>
+
+	    </li>
+<li>
+	      
+<p>A bar graph must have a clear, descriptive title.</p>
+
+	    </li>
+</ul><h3>Histograms</h3>
+
+<p>Histograms are used whe nthe independent variable (x-axis) represents information which is continuous, such as numberical ranges, e.g. 0-9, 10-19, 20-29, etc.</p>
+
+<p>Histograms have the following features:</p>
+<ul data-class="ListBulleted"><li>
+	      
+<p>Unlike a bar graph, in a histogram the data are plotted as columns or bars that touch each other as they are related to each other in some way.</p>
+
+	    </li>
+<li>
+	      
+<p>the numberical categories must not overlap, for example, 0-10, 10-20, 20-30, etc. The ranges must be exclusive so that there is no doubt as to where to put a reading, for example, 0-9, 10-19, 20-29.</p>
+
+	    </li>
+<li>
+	      
+<p>The bars can be vertically or horizontally drawn.</p>
+
+	    </li>
+<li>
+	      
+<p>A histogram must have a descriptive heading and the axes must be labelled.</p>
+
+	    </li>
+</ul></body>
+</html>

@@ -1,0 +1,140 @@
+<html>
+  <head/>
+  <body><h2>The Doppler effect with light</h2>
+
+<p>Light is a wave and earlier you learnt how you can study the properties of one wave 
+        and apply the same ideas to another wave. The same applies to sound and light. 
+        We know the Doppler effect is relevant in the context of sound waves when the source is 
+        moving. Therefore, in the context of light (EM waves), the frequency of observed light
+        should be different to the emitted frequency when the source of the light is moving 
+        relative to the observer.</p>
+
+<p>A frequency shift of light in the visible spectrum 
+        could result in a change of colour which could be observable with the naked eye. There will
+        still be a frequency shift for wavelengths of EM radiation we cannot see.</p>
+
+<p>We can apply all the ideas that we learnt about the Doppler effect to light. 
+        When talking about light we use slightly different terminology to describe what 
+        happens. If you look at the colour spectrum (more details in Chapter 
+        <a href="#chap-electromagnetic-radiation" data-class="InternalLink">chap-electromagnetic-radiation</a>) then you will see that blue 
+        light has a shorter wavelength than red light. Since for light, 
+	<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">c=f\lambda</annotation></semantics></math>, shorter wavelength equals higher frequency.
+	Relative to the  middle of the 
+        visible spectrum (approximately green light) longer wavelengths (or lower frequencies) are redder
+        and shorter wavelengths (or higher frequencies) are bluer. So we call shifts towards longer 
+        wavelengths "redshifts" and shifts towards shorter wavelengths "blueshifts".</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/cbaf6c63356efa6b90f189ee84c26ea1.png"/><pre class="pspicture">&lt;code&gt;
+(0,-1.2)(10.2,0.6)
+\psset{xunit=3}
+\psline{}(0,0)(3.4,0)
+\rput(0.2,0){\psline(0,-0.1)(0,0.1)}
+\rput(1,0){\psline(0,-0.1)(0,0.1)}
+\rput(1.6,0){\psline(0,-0.1)(0,0.1)}
+\rput(2,0){\psline(0,-0.1)(0,0.1)}
+\rput(3.2,0){\psline(0,-0.1)(0,0.1)}
+\uput[u](0.2,0){violet}
+\uput[d](0.2,0){400}
+\uput[u](1,0){blue}
+\uput[d](1,0){480}
+\uput[u](1.6,0){green}
+\uput[d](1.6,0){540}
+\uput[u](2,0){yellow}
+\uput[d](2,0){580}
+\uput[u](3.2,0){red}
+\uput[d](3.2,0){700}
+\uput[l](0,0){ultraviolet}
+\uput[r](3.4,0){infrared}
+\rput(1.7,-1){wavelength (nm)}
+            &lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+            
+</p><p>Blue light has a shorter wavelength than red light.</p>
+
+          </figcaption></figure><p>A shift in wavelength implies that there is also a shift in frequency. Longer wavelengths of light have lower frequencies and shorter wavelengths have higher frequencies. From the Doppler effect we know that when the source moves towards the observer any waves they emit that you measure are shifted to shorter wavelengths (blueshifted). If the source moves away from the observer, the shift is to longer wavelengths (redshifted).</p>
+<h3>The expanding universe</h3>
+
+<p>Stars emit light, which is why we can see them at night. Galaxies are huge 
+          collections of stars. An example is our own Galaxy, the Milky Way, of which our sun 
+          is only one of the billions of stars!</p>
+
+<p>Using large telescopes like the Southern 
+          African Large Telescope (SALT) in the Karoo, astronomers can measure the light 
+          from distant galaxies. The spectrum of light can tell us what elements are in 
+          the stars in the galaxies because each element has unique energy levels and therefore 
+          emits or absorbs light at particular 
+          wavelengths. These characteristic wavelengths are called spectral lines because
+          the show up as discrete frequencies in the spectrum of light from the star.</p>
+<figure class="figure"><img src="photos/HydrogenEmission.png" width="624"/><figcaption class="caption"><p>A subset of the spectral lines of hydrogen</p></figcaption></figure><p>If these lines are observed to be shifted 
+          from their usual wavelengths to shorter wavelengths, then the light from the 
+          galaxy is said to be <em>blueshifted</em>. If the 
+          spectral lines are shifted to longer wavelengths, then the light from the galaxy 
+          is said to be <em>redshifted</em>.
+          If we think of the blueshift and redshift in Doppler effect terms, then a 
+          blueshifted galaxy would appear to be moving <em>towards</em> 
+          us (the observers) and a redshifted galaxy would appear to be 
+          moving <em>away</em> from us.</p>
+<div class="note" data-type="tip">
+<p>1. If the light source is moving away from the observer (positive
+velocity) then the observed frequency is lower and the observed
+wavelength is greater (redshifted).</p>
+
+<p>2. If the source is moving towards the observer (negative velocity), the observed frequency is higher and the wavelength is shorter (blueshifted).</p>
+</div>
+<p>Edwin Hubble (20 November 1889 - 28 September 1953) measured the Doppler shift of a large sample of galaxies. He found that the light from distant galaxies is <em>redshifted</em> and he discovered that there is a proportionality relationship between the <em>redshift</em> and the <em>distance</em> to the galaxy. Galaxies that are further away always appear more redshifted than nearby galaxies. Reemember that a redshift in Doppler terms means a velocity of the light source <em>away</em> from the observer. So why do all distant galaxies appear to be moving away from our Galaxy? None of them seem to be moving towards us.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/6c8bf4fcfdea98454beb605e53f50f05.png"/><pre class="pspicture">&lt;code&gt;
+(-2,-2)(7,5)
+\def\data{
+1210     170
+15000        210
+21000        310
+39300      560
+61200      870
+}
+\pstScalePoints(.001,.01){}{}
+\psset{ axesstyle=frame,
+        xAxisLabel={Velocity away from Earth ($\times 10^3 \frac{\text{km}}{\text{s}}$)},
+        yAxisLabel={Distance (Mpc)}, 
+        xAxisLabelPos={c,-1cm},
+        yAxisLabelPos={-1cm,c} 
+    }
+\begin{psgraph}[ticksize=5pt 0,Dx=10, Dy=2](0,0)(0,0)(65,10){6cm}{3cm}
+
+    \listplot[showpoints=true,plotstyle=colordots, linecolor=blue]{\data}
+
+\end{psgraph}
+&lt;/code&gt;</pre></div>
+<figcaption class="caption"><p>
+The distance to galaxies plotted against their speed away from us. The distance Mpc is a megaparsec which is very big, 1 Mpc = 3.3 million light years. A light year is the distance that light can 
+travel
+in one year, 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">365~\text{days}\times 24~\text{hours} \times 60~\text{minutes} \times 60~\text{s} \times 3\times 10^8 \text{m}\cdot \text{s}^{-1} = 9.5\times 10^{15}~\text{m}</annotation></semantics></math>.
+</p></figcaption></figure><p>The reason is that the <strong>universe is expanding!</strong> 
+          Some of the galaxies will be moving in our direction but more slowly than the 
+          space between us and them is expanding. The expansion is so large that it is 
+          the primary effect that we observe. The light isn't actually redshifted because 
+          all of the Doppler effect, it is redshifted because the space is expanding, 
+          the waves are being stretched out.</p>
+<div class="note" data-type="important">
+<p>You might think that this means we are at the centre of the universe. This isn't correct, the situation will look the same from every galaxy because space is expanding in all directions.</p>
+</div><div class="note" data-type="aside">
+<p>Hubble Law is:</p>
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\boxed{v = H_0\times d}</annotation></semantics></math><p>where latest value of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">H_0</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{67,15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km.s^{-1}.Mpc^{-1}}</annotation></semantics></math> (rate of expansion of the Universe). Latest value from Planck mission, 2013.</p>
+</div>
+<p>There are two things you can do to help you visualise this a little better. 
+          One thing to try is to get a balloon and draw some dots on it with a marker. As 
+          you blow the balloon up all the dots get further away from all the other dots. 
+          The dots represent galaxies in a two-dimensional, expanding universe (the balloon 
+          surface). Another thing to imagine is baking raisin bread. As the bread rises, 
+          the distance between all the raisins gets larger. Every raisin thinks that all 
+          the other raisins are moving away from it.</p>
+
+<p>In this picture the bottom vertex represents the beginning of time, the flat surface
+          represents space. As you move up through the panels you are moving later in time and the
+          expansion of the the flat surface shows the expansion of the universe. The galaxies 
+          shown on the surface get further away from each other just because of the expansion
+          of space.</p>
+<figure class="figure"><img src="photos/galactic_expansion.jpg" width="390" alt="public domain"/></figure><p data-class="video" id="scTODO"><a href="https://www.youtube.com/watch?v=8FPVIV-LzYM">Video: TODO</a></p><div class="note" data-type="tip">
+<p>Cool exercise that can be done with Sloan Digital Sky Survey data:
+<a data-class="ExternalLink" href="http://skyserver.sdss3.org/dr8/en/proj/basic/universe_original/simple.asp"/></p>
+</div></body>
+</html>

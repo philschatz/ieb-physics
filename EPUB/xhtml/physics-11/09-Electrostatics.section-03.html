@@ -1,0 +1,600 @@
+<html>
+  <head/>
+  <body><h2>Electric field</h2>
+
+<p>We have seen in the previous section that point charges exert forces on each other even when they are far apart and not touching each other. How do the charges `know' about the existence of other charges around them?</p>
+
+<p>The answer is that you can think of every charge as being surrounded in space by an electric field. The electric field is the region of space in which an electric charge will experience a force. The direction of the electric field represents the direction of the force a positive test charge would experience if placed in the electric field. In other words, the direction of an electric field at a point in space is the same direction in which a positive test charge would move if placed at that point.</p>
+<dl class="definition"><dt>Electric field</dt><dd>
+    
+<p>A region of space in which an electric charge will experience a force. The direction of the field at a point in space is the direction in which a positive test charge would moved if placed at that point.</p>
+
+  </dd></dl><h3>Representing electric fields</h3>
+
+<p>We can represent the strength and direction of an electric field at a point using <strong>electric field lines</strong>. This is similar to representing magnetic fields around magnets using magnetic field lines as you studied in Grade 10. In the following we will study what the electric fields look like around isolated charges.</p>
+<h4>Positive charge acting on a test charge</h4>
+
+<p>The magnitude of the force that a test charge experiences due to another charge is governed by Coulomb's law. In the diagram below, at each point around the positive charge, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+Q</annotation></semantics></math>, we calculate the force a positive test charge, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+q</annotation></semantics></math>, would experience, and represent this force (a vector) with an arrow. The force vectors for some points around <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+Q</annotation></semantics></math> are shown in the diagram along with the positive test charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+q</annotation></semantics></math> (in red) located at one of the points.</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/770368ad5616d00ec706451e1df500da.png"/><pre class="pspicture">&lt;code&gt;
+              (-3.3,-3.3)(3.3,3.3)
+\pscircle(0,0){.6} \rput(0,0){+Q} \SpecialCoor
+\def\arrlines{\psline{-&amp;gt;}(0.6;0)(1.6;0)
+\psline{-&amp;gt;}(2;0)(2.5;0) \psline{-&amp;gt;}(3;0)(3.3;0)} \degrees[1.2]
+\multido{\n=0.0+.1}{12}{\rput{\n}{\arrlines}}
+\psdots[dotsize=0.2,linecolor=red](0,2) \rput(0.3,2){\footnotesize \color{red} +q}
+            &lt;/code&gt;</pre></div>
+<p>At every point around the charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+Q</annotation></semantics></math>, the positive test charge, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+q</annotation></semantics></math>, will experience a force pushing it away. 
+This is because both charges are positive and so they repel each other. We cannot draw an arrow at every point but we include enough arrows to illustrate what the field would look like. The arrows represent the force the test charge would experience at each point. Coulomb's law is an inverse-square law which means that the force gets weaker the greater the distance between the two charges. This is why the arrows get shorter further away from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+Q</annotation></semantics></math>.</p>
+<h4>Negative charge acting on a test charge</h4>
+
+<p>For a negative charge, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-Q</annotation></semantics></math>, and a positive test charge, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">+q</annotation></semantics></math>, the force vectors would look like:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/104b0475e6081f28e6fdeb268359d878.png"/><pre class="pspicture">&lt;code&gt;
+                (-3.3,-3.3)(3.3,3.3)
+\pscircle[fillstyle=solid, fillcolor=black](0,0){.6} \rput(0,0){\color{white} -Q} \SpecialCoor
+\def\arrlines{\psline{&lt;/code&gt;</pre></div>
+<p>Notice that it is almost identical to the positive charge case. The arrows are the same lengths as in the previous diagram because the absolute magnitude of the charge is the same and so is the magnitude of the test charge. Thus the magnitude of the force is the same at the same points in space. However, the arrows point in the opposite direction because the charges now have opposite signs and attract each other.</p>
+<h4>Electric fields around isolated charges - summary</h4>
+
+<p>Now, to make things simpler, we draw continuous lines that are tangential to the force that a test charge would experience at each point. The field lines are closer together where the field is stronger. Look at the diagram below: close to the central charges, the field lines are close together. This is where the electric field is strongest. Further away from the central charges where the electric field is weaker, the field lines are more spread out from each other.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/17dcdf3aba95c8881e929cfbec1b1c1c.png"/><pre class="pspicture">&lt;code&gt;
+(-3,-2.6)(9,3.5)
+\pscircle(0,0){.6} \rput(0,0){+Q} \SpecialCoor
+\def\arrlines{\psline{-&amp;gt;}(0.6;0)(2.6;0)}
+\degrees[1.2]
+\multido{\n=0.0+.1}{12}{\rput{\n}{\arrlines}}
+\rput(0,3){\small Electric field due to a positive charge}
+
+\pscircle[fillstyle=solid, fillcolor=black](6,0){.6} \rput(6,0){\color{white} -Q} \SpecialCoor
+\def\arrlines2{\psline{&lt;/code&gt;</pre></div></figure><p>We use the following conventions when drawing electric field lines:</p>
+<ul data-class="ListBulleted"><li>
+              
+<p>Arrows on the field lines indicate the direction of the field, i.e. the direction in which a positive test charge would move if placed in the field.</p>
+
+            </li>
+<li>
+              
+<p>Electric field lines point away from positive charges (like charges repel) and towards negative charges (unlike charges attract).</p>
+
+            </li>
+<li>
+              
+<p>Field lines are drawn closer together where the field is stronger.</p>
+
+            </li>
+<li>
+              
+<p>Field lines do not touch or cross each other.</p>
+
+            </li>
+<li>
+              
+<p>Field lines are drawn perpendicular to a charge or charged surface.</p>
+
+            </li>
+<li>
+              
+<p>The greater the magnitude of the charge, the stronger its electric field. We represent this by drawing more field lines around the greater charge than for charges with smaller magnitudes.</p>
+
+            <div class="alternates"><img src="_plone_ignore_/cache/pspictures/c1b0bedbee80ca23e833fb15039e111c.png"/><pre class="pspicture">&lt;code&gt;
+(-2.6,-2.6)(9,3)
+\pscircle(0,0){.6} \rput(0,0){1 nC} \SpecialCoor
+\def\arrlines{\psline{-&amp;gt;}(0.6;0)(2.6;0)}
+\degrees[1.2]
+\multido{\n=0.0+.1}{12}{\rput{\n}{\arrlines}}
+%\rput(0,3){\small text}
+
+\pscircle(6,0){.6} \rput(6,0){10 nC} \SpecialCoor
+\def\arrlines2{\psline{-&amp;gt;}(0.6;0)(2.6;0)}
+\degrees[2.4]
+\multido{\n=3.0+.1}{24}{\rput{\n}(6,0){\arrlines2}}
+%\rput(6,3){\small text}
+              &lt;/code&gt;</pre></div>
+            </li>
+</ul><p><strong>Some important points to remember about electric fields:</strong></p>
+<ul data-class="ListBulleted"><li>
+                
+<p>There is an electric field at <strong>every point</strong> in space
+surrounding a charge.</p>
+
+              </li>
+<li>
+                
+<p>Field lines are merely a <strong>representation</strong> &#8211; they are not
+real. When we draw them, we just pick convenient places to
+indicate the field in space.</p>
+
+              </li>
+<li>
+                
+<p>Field lines exist in three dimensions, not only in two dimension as we've drawn them.</p>
+
+              </li>
+<li>
+              
+<p>The number of field lines passing through a surface is proportional to the charge contained inside the surface.</p>
+
+            </li>
+</ul><h3>Electric fields around different charge configurations</h3>
+
+<p>We have seen what the electric fields look like around isolated positive and negative charges. Now we will study what the electric fields look like around combinations of charges placed close together.</p>
+<h4>Electric field around two unlike charges</h4>
+
+<p>We will start by looking at the electric field around a positive and negative charge placed next to each other. Using the rules for drawing electric field lines, we will sketch the electric field one step at a time. The net resulting field is the sum of the fields from each of the charges. To start off let us sketch the electric fields for each of the charges separately.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/4c3196500e63289c9b329d5b2a89aef1.png"/><pre class="pspicture">&lt;code&gt;
+                (-5.4,-2.6)(5.4,2.6)
+\rput(-2.8,0){\pscircle(0,0){.6} \rput(0,0){+Q} \SpecialCoor
+\def\arrlines{\psline{-&amp;gt;}(0.6;0)(2.4;0)}
+\degrees[1.2]
+\multido{\n=0.0+.1}{12}{\rput{\n}{\arrlines}}}
+\psline[linestyle=dashed](0,2.6)(0,-2.6)
+\rput(2.8,0){\pscircle[fillcolor=black,fillstyle=solid](0,0){.6} \rput(0,0){\color{white}-Q} \SpecialCoor
+\def\arrlines{\psline{&lt;/code&gt;</pre></div></figure><p>A positive test charge (red dots) placed at different positions directly between the two charges would be pushed away (orange force arrows) from the positive charge and pulled towards (blue force arrows) the negative charge in a straight line. The orange and blue force arrows have been drawn slightly offset from the dots for clarity. In reality they would lie on top of each other. Notice that the further from the positive charge, the smaller the repulsive force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_+</annotation></semantics></math> (shorter orange arrows) and the closer to the negative charge the greater the attractive force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_-</annotation></semantics></math> (longer blue arrows).
+The resultant forces are shown by the red arrows. 
+The electric field line is the black line which is tangential to the resultant forces and is a straight line between the charges pointing from the positive to the negative charge.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/20d4d8541f6f25c098dba76563363706.png"/><pre class="pspicture">&lt;code&gt;
+(-1,-1)(7,1)
+\cnode[](0,0){.6}{mycircle} \rput(0,0){+Q}
+\psline{-&amp;gt;}(0.6,0)(5.4,0) \cnode[fillcolor=black,fillstyle=solid](6,0){.6}{mycircle}
+\rput(6,0){\color{white}-Q}
+\rput(1,0){\psdot[linecolor=red]\psline[linewidth=0.04cm,linecolor=red]{-&amp;gt;}(0,0)(1,0)}
+\rput(1,0.1){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.75,0) \rput(0.5,0.2){\footnotesize \color{orange} $F_+$}} 
+\rput(1,-0.1){\psline[linecolor=blue]{-&amp;gt;}(0,0)(0.25,0) \rput(0.1,-0.2){\footnotesize \color{blue} $F_-$}}
+
+\rput(3,0){\psdot[linecolor=red]\psline[linewidth=0.04cm,linecolor=red]{-&amp;gt;}(0,0)(1,0)}
+\rput(3,0.1){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.5,0) \rput(0.25,0.2){\footnotesize \color{orange} $F_+$}} 
+\rput(3,-0.1){\psline[linecolor=blue]{-&amp;gt;}(0,0)(0.5,0) \rput(0.25,-0.2){\footnotesize \color{blue} $F_-$}}
+
+\rput(4.4,0){\psdot[linecolor=red]\psline[linewidth=0.04cm,linecolor=red]{-&amp;gt;}(0,0)(1,0)}
+\rput(4.4,0.1){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.25,0) \rput(0.1,0.2){\footnotesize \color{orange} $F_+$}} 
+\rput(4.4,-0.1){\psline[linecolor=blue]{-&amp;gt;}(0,0)(0.75,0) \rput(0.5,-0.2){\footnotesize \color{blue} $F_-$}}
+
+&lt;/code&gt;</pre></div></figure><p>Now let's consider a positive test charge placed slightly higher than the line joining the two charges.
+The test charge will experience a repulsive force (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_+</annotation></semantics></math> in orange) from the positive charge and an attractive force (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_-</annotation></semantics></math> in blue) due to the negative charge. As before, the magnitude of these forces will depend on the distance of the test charge from each of the charges according to Coulomb's law.
+
+Starting at a position closer to the positive charge, the test charge will experience a larger repulsive force due to the positive charge and a weaker attractive force from the negative charge. At a position half-way between the positive and negative charges, the magnitudes of the repulsive and attractive forces are the same. If the test charge is placed closer to the negative charge, then the attractive force will be greater and the repulsive force it experiences due to the more distant positive charge will be weaker. At each point we add the forces due to the positive and negative charges to find the resultant force on the test charge (shown by the red arrows). The resulting electric field line, which is tangential to the resultant force vectors, will be a curve.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/825ce719f02ac1e6aa901a824b65d04c.png"/><pre class="pspicture">&lt;code&gt;
+                (-1,-1)(8,2)
+\cnode[](0,0){.6}{mycircle} \rput(0,0){+Q}
+\pscurve{-&amp;gt;}(0.52,0.3)(3.0 ,1.)(5.5,0.3)
+\cnode[fillcolor=black,fillstyle=solid](6,0){.6}{mycircle} \rput(6,0){\color{white}-Q}
+
+\rput(1,0.5){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.05cm]{-&amp;gt;}(0,0)(0.8,0.28)}
+\rput(1,0.5){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.75,0.375) \rput(0.3,0.375){\footnotesize \color{orange} $F_+$}}
+\rput(1,0.5){\psline[linecolor=blue]{-&amp;gt;}(0,0)(0.25,-0.025) \rput(0.1,-0.25){\footnotesize \color{blue} $F_-$}}
+
+\rput(3.0 ,1.){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.05cm]{-&amp;gt;}(0,0)(1.0,0)}
+\rput(3.0 ,1.){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.6,0.2) \rput(0.3,0.3){\footnotesize \color{orange} $F_+$}}
+\rput(3.0 ,1.){\psline[linecolor=blue]{-&amp;gt;}(0,0)(0.6,-0.2) \rput(0.3, -0.3){\footnotesize \color{blue} $F_-$}}
+
+\rput(4.5,0.68){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.05cm]{-&amp;gt;}(0,0)(0.8,-0.28)}
+\rput(4.5,0.68){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.35,0.0525) \rput(0.15,0.25){\footnotesize \color{orange} $F_+$}}
+\rput(4.5,0.68){\psline[linecolor=blue]{-&amp;gt;}(0,0)(0.6,-0.272) \rput(0.3, -0.35){\footnotesize \color{blue} $F_-$}}
+
+   &lt;/code&gt;</pre></div></figure><p>Now we can fill in the other field lines quite easily using the same ideas. The electric field lines look like:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/1bc6ab937de1e8a2c544246f57baf37e.png"/><pre class="pspicture">&lt;code&gt;
+(-6,-4)(6,4)
+\psElectricfield[Q={[5 -2 0][-5 2 0]},N=15,points=150,stepFactor=3.0]
+\rput(-2,0){+Q}
+\rput(2,0){\color{white}-Q}
+&lt;/code&gt;</pre></div><h4>Electric field around two like charges (both positive)</h4>
+
+<p>For the case of two positive charges <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2</annotation></semantics></math> of the same magnitude, things look a little different. We can't just turn the arrows around the way we did before. In this case the positive test charge is repelled by both charges. The electric fields around each of the charges in isolation looks like.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/1e9a6de75b1d78b15960e09d2263f6c0.png"/><pre class="pspicture">&lt;code&gt;
+                (-5.4,-2.6)(5.4,2.6)
+\rput(-2.8,0){\pscircle(0,0){.6} \rput(0,0){+Q} \SpecialCoor
+\def\arrlines{\psline{-&amp;gt;}(0.6;0)(2.4;0)}
+\degrees[1.2]
+\multido{\n=0.0+.1}{12}{\rput{\n}{\arrlines}}}
+\psline[linestyle=dashed](0,2.6)(0,-2.6)
+\rput(2.8,0){\pscircle(0,0){.6} \rput(0,0){+Q} \SpecialCoor
+\def\arrlines{\psline{-&amp;gt;}(0.6;0)(2.4;0)}
+\degrees[1.2]
+\multido{\n=0.0+.1}{12}{\rput{\n}{\arrlines}}}
+
+      &lt;/code&gt;</pre></div></figure><p>Now we can look at the resulting electric field when the charges are placed next to each other.
+Let us start by placing a positive test charge directly between the two charges. 
+We can draw the forces exerted on the test charge due to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2</annotation></semantics></math> and determine the resultant force.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/b5ede6cdf17eb1cb20fd95a8110d40a2.png"/><pre class="pspicture">&lt;code&gt;
+(-1,-1)(7,1)
+\cnode[](0,0){.6}{mycircle} \rput(0,0){+Q$_1$}
+\psline{-}(0.6,0)(5.4,0) \cnode[](6,0){.6}{mycircle}
+\rput(6,0){+Q$_2$}
+
+\rput(3,0){\psdot[linecolor=red]}
+\rput(3,0){\psline[linewidth=0.04cm,linecolor=orange]{-&amp;gt;}(0,0)(1.0,0) \rput(0.5,0.2){\footnotesize \color{orange} $F_1$}} 
+\rput(3,0){\psline[linewidth=0.04cm,linecolor=blue]{-&amp;gt;}(0,0)(-1.0,0) \rput(-0.5,0.2){\footnotesize \color{blue} $F_2$}}
+&lt;/code&gt;</pre></div></figure><p>The force <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_1</annotation></semantics></math> (in orange) on the test charge (red dot) due to the charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math> is equal in magnitude but opposite in direction to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_2</annotation></semantics></math> (in blue) which is the force exerted on the test charge due to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2</annotation></semantics></math>. Therefore they cancel each other out and there is no resultant force. This means that the electric field directly between the charges cancels out in the middle. A test charge placed at this point would not experience a force.</p>
+
+<p>Now let's consider a positive test charge placed close to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math> and above the imaginary line joining the centres of the charges. Again we can draw the forces exerted on the test charge due to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2</annotation></semantics></math> and sum them to find the resultant force (shown in red). This tells us the direction of the electric field line at each point. The electric field line (black line) is tangential to the resultant forces.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a6b93e3a83f36a502c2aa67b7b8f9c90.png"/><pre class="pspicture">&lt;code&gt;
+(-1,-1)(7,3)
+\cnode[](0,0){.6}{mycircle} \rput(0,0){+Q$_1$}
+%\pscurve{-&amp;gt;}(0.5638, 0.2052)(0.6108,0.2223)(2,0.95)(2.7,2.7)(2.9,3.0)
+\pscurve{-&amp;gt;}(0.5, 0.296)(1, 0.4)(2.7,2.7)(2.8,3.0)
+\cnode[](6,0){.6}{mycircle} \rput(6,0){+Q$_2$}
+
+\rput(1,0.4){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.04cm]{-&amp;gt;}(0,0)(0.4,0.304)}
+\rput(1,0.4){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.7,0.28) \rput(0.35,-0.1){\footnotesize \color{orange} $F_1$}} 
+\rput(1,0.4){\psline[linecolor=blue]{-&amp;gt;}(0,0)(-0.3,0.024) \rput(-0.25, 0.2){\footnotesize \color{blue} $F_2$}}
+
+\rput(2.2,1.8){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.04cm]{-&amp;gt;}(0,0)(0.32,0.64)}
+\rput(2.2,1.8){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.57,0.47) \rput(0.4,0){\footnotesize \color{orange} $F_1$}}
+\rput(2.2,1.8){\psline[linecolor=blue]{-&amp;gt;}(0,0)(-0.33,0.1659) \rput(-0.3,0.3){\footnotesize \color{blue} $F_2$}}
+
+  &lt;/code&gt;</pre></div></figure><p>If we place a test charge in the same relative positions but <em>below</em> the imaginary line joining the centres of the charges, we can see in the diagram below that the resultant forces are reflections of the forces above. Therefore, the electric field line is just a reflection of the field line above.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/52263cfabbf7738aba3489c5cca7e85f.png"/><pre class="pspicture">&lt;code&gt;
+(-1,-3)(7,3)
+\cnode[](0,0){.6}{mycircle} \rput(0,0){+Q$_1$}
+%\pscurve{-&amp;gt;}(0.5638, 0.2052)(0.6108,0.2223)(2,0.95)(2.7,2.7)(2.9,3.0)
+\pscurve{-&amp;gt;}(0.5, 0.296)(1, 0.4)(2.7,2.7)(2.8,3.0)
+\cnode[](6,0){.6}{mycircle} \rput(6,0){+Q$_2$}
+
+\rput(1,0.4){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.04cm]{-&amp;gt;}(0,0)(0.4,0.304)}
+\rput(1,0.4){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.7,0.28) \rput(0.35,-0.1){\footnotesize \color{orange} $F_1$}} 
+\rput(1,0.4){\psline[linecolor=blue]{-&amp;gt;}(0,0)(-0.3,0.024) \rput(-0.25, 0.2){\footnotesize \color{blue} $F_2$}}
+
+\rput(2.2,1.8){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.04cm]{-&amp;gt;}(0,0)(0.32,0.64)}
+\rput(2.2,1.8){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.57,0.47) \rput(0.4,0){\footnotesize \color{orange} $F_1$}}
+\rput(2.2,1.8){\psline[linecolor=blue]{-&amp;gt;}(0,0)(-0.33,0.1659) \rput(-0.3,0.3){\footnotesize \color{blue} $F_2$}}
+
+\pscurve{-&amp;gt;}(0.5, -0.296)(1, -0.4)(2.7,-2.7)(2.8,-3.0)
+\rput(1,-0.4){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.04cm]{-&amp;gt;}(0,0)(0.4,-0.304)}
+\rput(1,-0.4){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.7,-0.28) \rput(0.35,0.1){\footnotesize \color{orange} $F_1$}} 
+\rput(1,-0.4){\psline[linecolor=blue]{-&amp;gt;}(0,0)(-0.3,-0.024) \rput(-0.25, -0.2){\footnotesize \color{blue} $F_2$}}
+
+\rput(2.2,-1.8){\psdot[linecolor=red]\psline[linecolor=red,linewidth=0.04cm]{-&amp;gt;}(0,0)(0.32,-0.64)}
+\rput(2.2,-1.8){\psline[linecolor=orange]{-&amp;gt;}(0,0)(0.57,-0.47) \rput(0.4,0){\footnotesize \color{orange} $F_1$}}
+\rput(2.2,-1.8){\psline[linecolor=blue]{-&amp;gt;}(0,0)(-0.33,-0.1659) \rput(-0.3,-0.3){\footnotesize \color{blue} $F_2$}}
+  &lt;/code&gt;</pre></div></figure><p>Since <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2</annotation></semantics></math> has the same charge as <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math>, the forces at the same relative points close to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2</annotation></semantics></math> will have the same magnitudes but opposite directions i.e. they are also reflections . We can therefore easily draw the next two field lines as follows:</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/b2e16aea476f4feaedbdd62cc647e3b5.png"/><pre class="pspicture">&lt;code&gt;
+                (-1,-3)(7,3)
+\cnode[](0,0){.6}{mycircle} \rput(0,0){+Q}
+
+\pscurve{-&amp;gt;}(0.5638, 0.2052)(0.6108,
+0.2223)(2,0.95)(2.7,2.7)(2.7,3.0) \pscurve{-&amp;gt;}(0.5638,
+-0.2052)(0.6108, -0.2223)(2, -0.95)(2.7, -2.7)(2.7, -3.0)
+\cnode[](6,0){.6}{mycircle} \rput(6,0){+Q} \pscurve{-&amp;gt;}(5.4362,
+0.2052)(5.3892, 0.2223)(4, 0.95)(3.3, 2.7)(3.3, 3.0)
+\pscurve{-&amp;gt;}(5.4362, -0.2052)(5.3892, -0.2223)(4, -0.95)(3.3,
+-2.7)(3.3, -3.0)
+
+  &lt;/code&gt;</pre></div></figure><p>Working through a number of possible starting points for the test
+charge we can show the electric field can be represented by:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/104ac42b2d01c02beb2f94e8e112547b.png"/><pre class="pspicture">&lt;code&gt;
+(-6,-4)(6,4)
+\psElectricfield[Q={[5 -2 0][5 2 0]},N=13,points=150,stepFactor=2.0]
+\rput(-2,0){+Q}
+\rput(2,0){+Q}
+&lt;/code&gt;</pre></div><h4>Electric field around two like charges (both negative)</h4>
+
+<p>We can use the fact that the direction of the force is reversed
+for a test charge if you change the sign of the charge that is
+influencing it. If we change to the case where both charges are
+negative we get the following result:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/56e85fd7a8d424d09a10d513e2648468.png"/><pre class="pspicture">&lt;code&gt;
+(-6,-4)(6,4)
+\psElectricfield[Q={[-5 -2 0][-5 2 0]},N=13,points=150,stepFactor=2.0]
+\rput(-2,0){\color{white}-Q}
+\rput(2,0){\color{white}-Q}
+&lt;/code&gt;</pre></div><h4>Charges of different magnitudes</h4>
+
+<p>When the magnitudes are not equal the larger charge will influence the direction of the field lines more than if they were equal. For example, here is a configuration where the positive charge is much larger than the negative charge. You can see that the field lines look more similar to that of an isolated charge at greater distances than in the earlier example. This is because the larger charge gives rise to a stronger field and therefore makes a larger relative contribution to the force on a test charge than the smaller charge.</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/828fc254dbb0cc307e07d7009aeb7d2b.png"/><pre class="pspicture">&lt;code&gt;
+(-6.5,-4)(6.5,4)
+\psElectricfield[Q={[-1 -2 0][10 2 0]},N=9,points=400,stepFactor=.250,runit=1]
+\rput(2,0){+10Q}
+\psdots[dotsize=15pt,linecolor=black](-2,0)
+\rput(-2,0){\color{white}-Q}
+&lt;/code&gt;</pre></div><h3>Electric field strength</h3>
+
+<p>In the previous sections we have studied how we can represent the electric fields around a charge or combination of charges by means of electric field lines. In this representation we see that the electric field strength is represented by how close together the field lines are. In addition to the drawings of the electric field, we would also like to be able to quantify (put a number to) how strong an electric field is and what its direction is at any point in space.</p>
+
+<p>A small test charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">q</annotation></semantics></math> placed near a charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math> will experience a force due to the electric field surrounding <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math>. The magnitude of the force is described by Coulomb's law and depends on the magnitude of the charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math> and the distance of the test charge from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math>. The closer the test charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">q</annotation></semantics></math> is to the charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math>, the greater the force it will experience. Also, at points closer to the charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math>, the stronger is its electric field. We define the electric field at a point as the force per unit charge.</p>
+<dl class="definition"><dt>Electric field</dt><dd>
+    
+<p>The magnitude of the electric field, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E</annotation></semantics></math>, at a point can be quantified as the force per unit charge 
+    We can write this as:</p>
+
+    <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E = \frac{F}{q}</annotation></semantics></math><p>where <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F</annotation></semantics></math> is the Coulomb force exerted by a charge on a test charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">q</annotation></semantics></math>.</p>
+
+	
+<p>The units of the electric field are newtons per coulomb: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N&#183;C^{-1}}</annotation></semantics></math>.</p>
+
+  </dd></dl><p>Since the force <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F</annotation></semantics></math> is a vector and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">q</annotation></semantics></math> is a scalar, the electric field, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E</annotation></semantics></math>, is also a vector; it has a magnitude and a direction at every point.</p>
+
+<p>Given the definition of electric field above and substituting the expression for Coulomb's law for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F</annotation></semantics></math>:
+    <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+      E &amp; = \frac{F}{q} \\
+        &amp; = \frac{kQq}{r^2 q}\\
+      E &amp; = \frac{kQ}{r^2} 
+      \end{align*}</annotation></semantics></math> 
+we can see that the electric field <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E</annotation></semantics></math> only depends on the charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q</annotation></semantics></math> and not the magnitude of the test charge.</p>
+
+<p>If the electric field is known, then the electrostatic force on any charge <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">q</annotation></semantics></math> placed into the field is simply obtained by rearranging the definition equation: 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F=qE.</annotation></semantics></math></p>
+<p data-class="video" id="sc23Z6"><a href="http://www.khanacademy.org/video/electrostatics--part-2?playlist=Physics">Video: 23Z6</a></p><p data-class="simulation" id="sc23Z7"><a href="http://phet.colorado.edu/en/simulation/charges-and-fields">Simulation: 23Z7</a></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Electric field 1</div><div class="problem" data-class="question">
+                
+<p>Calculate the electric field strength <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{30}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math> from a <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nC}</annotation></semantics></math> charge.</p>
+
+                <div class="alternates"><img src="_plone_ignore_/cache/pspictures/2bbc68d888d6f09741f208e977054121.png"/><pre class="pspicture">&lt;code&gt;
+                    (-.2,-1.0265625)(3.6053126,1.0265625)
+\psdots[dotsize=0.248](0.4209375,0.4)
+\rput(0.4159375,0.83){+5 nC}
+\rput(3.4553125,0.43){x}
+\psline[linewidth=0.04cm,arrowsize=0.05cm 4.0,arrowlength=1.85,arrowinset=0.4]{}(0.4609375,-0.52)(3.4009376,-0.5)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](0.4009375,0.14)(0.4009375,-0.48)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](3.4609375,0.18)(3.4609375,-0.44)
+\rput(1.944375,-0.87){30 cm}
+
+                  &lt;/code&gt;</pre></div>
+              </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is required</div>
+
+<p>We need to calculate the electric field a distance from a given charge.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is
+given</div>
+
+<p>We are given the magnitude of the charge and the distance from the charge.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+
+<p>We will use the equation:
+                  
+
+                  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E=k\frac{Q}{{r}^{2}}.</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Solve the problem</div>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    E &amp; = \frac{kQ}{r^2} \\
+		    &amp; = \frac{(\text{9,0} \times \text{10}^{\text{9}})(\text{5} \times \text{10}^{-\text{9}})}{\text{0,3}^2} \\
+			&amp; = \text{4,99} \times \text{10}^{\text{2}}\text{ N&#183;C^{-1}}
+		    \end{align*}</annotation></semantics></math></p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Electric field 2</div><div class="problem" data-class="question">
+                
+<p>Two charges of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}=+3\mathrm{nC}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}=-4\mathrm{nC}</annotation></semantics></math> are separated by a distance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math>. What is the electric
+field strength at a point that is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math> from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math> from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>? The point lies between <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>.</p>
+
+                <div class="alternates"><img src="_plone_ignore_/cache/pspictures/2e05427306c6636c09641a2b45923e82.png"/><pre class="pspicture">&lt;code&gt;
+                    (0,-1.0565625)(12.97,1.0565625)
+\psdots[dotsize=0.248](0.4209375,0.37)
+\rput(0.4159375,0.8){+3 nC}
+\rput(3.4553125,0.4){x}
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 4.0,arrowlength=1.85,arrowinset=0.4]{}(0.4609375,-0.55)(3.4009376,-0.53)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](0.4009375,0.11)(0.4009375,-0.51)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](3.4609375,0.15)(3.4609375,-0.47)
+\rput(1.935625,-0.9){10 cm}
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 4.0,arrowlength=1.85,arrowinset=0.4]{}(3.5409374,-0.53)(12.440937,-0.49)
+\rput(8.064375,-0.9){30 cm}
+\psdots[dotsize=0.248](12.520938,0.43)
+\rput(12.4825,0.86){-4 nC}
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](12.500937,0.17)(12.500937,-0.45)
+
+                  &lt;/code&gt;</pre></div>
+              </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is required</div>
+
+<p>We need to calculate the electric field a distance from two given charges.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is given</div>
+
+<p>We are given the magnitude of the charges and
+the distances from the charges.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+
+<p>We will use the equation:
+                  
+
+                  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E=k\frac{Q}{{r}^{2}}.</annotation></semantics></math></p>
+
+<p>We need to calculate the electric field for each charge separately and then add them to determine the resultant field.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Solve the problem</div>
+
+<p>We first solve for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math>:
+                  
+
+                  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    E &amp;= \frac{kQ}{r^2} \\
+		    &amp;= \frac{(\text{9,0} \times \text{10}^{\text{9}})(\text{3} \times \text{10}^{-\text{9}})}{\text{0,2}^2} \\
+			&amp; = \text{6,74} \times \text{10}^{\text{2}}\text{ N&#183;C^{-1}}
+		    \end{align*}</annotation></semantics></math></p>
+
+<p>Then for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>:
+                  
+		    <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    E &amp;= \frac{kQ}{r^2} \\
+		    &amp;= \frac{(\text{9,0} \times \text{10}^{\text{9}})(\text{4} \times \text{10}^{-\text{9}})}{\text{0,3}^2} \\
+			&amp; = \text{3,99} \times \text{10}^{\text{2}}\text{ N&#183;C^{-1}}
+		    \end{align*}</annotation></semantics></math></p>
+
+<p>We need to add the two electric fields because both are in the same direction. The field is away from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math> and towards <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>.
+					  Therefore, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{E}_{\text{total}}= \text{6,74} \times \text{10}^{\text{2}} + \text{3,99} \times \text{10}^{\text{2}} = \text{1,08} \times \text{10}^{\text{2}}\text{ N&#183;C^{-1}}</annotation></semantics></math></p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Two-dimensional electric fields</div><div class="problem" data-class="question">
+            
+<p>Two point charges form a right-angled triangle with the point <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math> at the origin.
+Their charges are <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_2 = \text{6} \times \text{10}^{-\text{9}}\text{ C}=\text{6}\text{ nC}</annotation></semantics></math> 
+and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_3 = -\text{3} \times \text{10}^{-\text{9}}\text{ C}=-\text{3}\text{ nC}</annotation></semantics></math>. The distance between 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math> 
+is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5} \times \text{10}^{-\text{2}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> 
+and the distance between 
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{3}</annotation></semantics></math> 
+is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3} \times \text{10}^{-\text{2}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math>. What is the net electric field measured at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math> from the two charges if they are arranged as shown?</p>
+
+          
+		   <div class="alternates"><img src="_plone_ignore_/cache/pspictures/dd8505c7791807f4c467525526d1249b.png"/><pre class="pspicture">&lt;code&gt;
+                (-.5,-1)(8,3.5)
+\psdots[dotsize=.3](5,0)(0,3)
+\rput[l](5.4,0.5){$Q_2$ = +6 nC}
+\rput[l](.5,2.8){$Q_3$ = -3 nC}
+\rput(0,0){$A$}
+\rput(2.5,-0.5){0,05 m}
+\rput(0.7,1.5){0,03 m}
+\psline{}(0,.35)(0,2.65)
+\psline{}(.35,0)(4.65,0)
+              &lt;/code&gt;</pre></div>
+ 
+		  
+		  </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is required</div>
+
+<p>We are required to calculate the net electric field at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math>. This field is the sum of the two electric fields - the field from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math> and from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{3}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+<ul data-class="ListBulleted"><li>
+                  
+<p>We need to calculate the two fields at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math>, using <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E=k\frac{Q}{r^2}</annotation></semantics></math> for the magnitude and determining the direction from the charge signs.</p>
+
+                </li>
+<li>
+                  
+<p>We then need to add up the two fields using our rules for adding vector quantities, because the electric field is a vector quantity.</p>
+
+                </li>
+</ul></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is given</div>
+
+<p>We are given all the charges and the distances.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the magnitude of the fields.</div>
+
+<p>The magnitude of the field from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math>, which we will call <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E_2</annotation></semantics></math>, is:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+            E_2 &amp; = k\frac{Q_2}{r^2} \\
+            &amp;= (\text{9,0} \times \text{10}^{\text{9}})\frac{(\text{6} \times \text{10}^{-\text{9}})}{(\text{5} \times \text{10}^{-\text{2}})^2} \\
+            &amp;= (\text{9,0} \times \text{10}^{\text{9}})\frac{(\text{6} \times \text{10}^{-\text{9}})}{(\text{25} \times \text{10}^{-\text{4}})} \\
+			&amp;= \text{2,158} \times \text{10}^{\text{4}}\text{ N&#183;C^{-1}}
+            \end{align*}</annotation></semantics></math></p>
+
+<p>The magnitude of the electric field from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{3}</annotation></semantics></math> at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math>, which we will call <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E_3</annotation></semantics></math>, is:</p>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+            E_3 &amp; = k\frac{Q_3}{r^2} \\
+            &amp;= (\text{9,0} \times \text{10}^{\text{9}})\frac{(\text{3} \times \text{10}^{-\text{9}})}{(\text{3} \times \text{10}^{-\text{2}})^2} \\
+            &amp;= (\text{9,0} \times \text{10}^{\text{9}})\frac{(\text{3} \times \text{10}^{-\text{9}})}{(\text{9} \times \text{10}^{-\text{4}})} \\
+            &amp;= \text{2,997} \times \text{10}^{\text{4}}\text{ N&#183;C^{-1}}
+            \end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Vector addition of electric fields</div>
+
+<p>We will use precisely the <strong>same procedure</strong> as before. Determine the vectors on the Cartesian plane, break them into components in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-directions, sum components in each direction to get the components of the resultant.</p>
+
+<p>We choose the positive directions to be to the right (the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction) and up (the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction). We know the electric field magnitudes but we need to use the charges to determine the direction. Then we can use the diagram to determine the directions.</p>
+
+<p>The force between a positive test charge and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math> is repulsive (like charges). This means that the electric field is to the left, or in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction.</p>
+
+<p>The force between a positive test charge and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{3}</annotation></semantics></math> is attractive
+(unlike charges) and the electric field will be in the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction.</p>
+
+<p>We can redraw the diagram illustrating the fields to make sure we can visualise the situation:</p>
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/56036eb9baa8f625a84aa823c827e1b1.png"/><pre class="pspicture">&lt;code&gt;
+                (-1.7,-.7)(8,3.7)
+\psdots[linecolor=blue,dotsize=.3](5,0)
+\psdots[dotsize=.3,linecolor=orange](0,3)
+\rput[l](5.4,0.5){$Q_2$ = +6 nC}
+\rput[l](.5,2.8){$Q_3$ = -3 nC}
+\rput(0,0){$A$}
+\psline[linecolor=orange]{-&amp;gt;}(0,.3)(0,2)
+\psline[linecolor=blue]{-&amp;gt;}(-.3,0)(-1.7,0)
+\rput[l](0.05,1.3){\color{orange}$\vec{E}_3$}
+\rput[b](-1.,.05){\color{blue}$\vec{E}_2$}
+              &lt;/code&gt;</pre></div></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Resultant force</div>
+
+<p>The magnitude of the resultant force acting on <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">Q_1</annotation></semantics></math> can be calculated from the forces using Pythagoras' theorem because there are only two forces and they act in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-directions: 
+				 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                        E^{2}_R &amp; = E_{2}^{2} + E_{3}^{2}\ \textrm{Pythagoras' theorem}\\
+                        E_R &amp;= \sqrt{(\text{2,158} \times \text{10}^{\text{4}})^{2} + (\text{2,997} \times \text{10}^{\text{4}})^{2}}\\
+			E_R &amp;= \text{3,693} \times \text{10}^{\text{4}}\text{ N&#183;C^{-1}}
+                        \end{align*}</annotation></semantics></math> and the angle, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\theta_R</annotation></semantics></math> made with the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis can be found using trigonometry.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/7159af61de833ccc2f3458f15c56ff7b.png"/><pre class="pspicture">&lt;code&gt;
+                (3,-.2)(8,4.2)
+\psarc[linecolor=purple]{}(7,0)(7,4.117)
+\psline[linecolor=purple]{-&amp;gt;}(7,0)(3.464,0)
+\psline[linecolor=purple]{-&amp;gt;}(7,0)(3.464,4.117)
+\psline[linecolor=purple,linestyle=dashed]{-&amp;gt;}(3.464,0)(3.464,4.117)
+\psline[linecolor=purple,linestyle=dashed]{-&amp;gt;}(7,4.117)(3.464,4.117)
+\rput[b](5.5,.1){\color{purple}$\vec{E}_{2}$}
+\rput[l](5.5,2.1){\color{purple}$\vec{E}_R$}
+\rput[r](6.9,2.1){\color{purple}$\vec{E}_{3}$}
+              &lt;/code&gt;</pre></div></figure><p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+                  \tan(\theta_R) &amp;= \frac{\textrm{y-component}}{\textrm{x-component}} \\
+                  \tan(\theta_R) &amp;= \frac{\text{2,997} \times \text{10}^{\text{4}}}{\text{2,158} \times \text{10}^{\text{4}}} \\
+                  \theta_R &amp;= \tan^{-1}(\frac{\text{2,997} \times \text{10}^{\text{4}}}{\text{2,158} \times \text{10}^{\text{4}}}) \\
+                  \theta_R &amp;= \text{54,24}\text{&#176;} 
+                  \end{align*}</annotation></semantics></math></p>
+
+<p>The final resultant electric field acting at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">A</annotation></semantics></math> is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3,693} \times \text{10}^{\text{4}}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N&#183;C^{-1}}</annotation></semantics></math> acting at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{54,24}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis or <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{125,76}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math>to the positive <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis.</p>
+</div></div><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+				  
+<p>Calculate the electric field strength <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m}</annotation></semantics></math> from a <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{7}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{nC}</annotation></semantics></math> charge.</p>
+
+                <div class="alternates"><img src="_plone_ignore_/cache/pspictures/4e45c30610569115f9570a5472fc1eb5.png"/><pre class="pspicture">&lt;code&gt;
+                    (-.2,-1.0265625)(3.6053126,1.0265625)
+\psdots[dotsize=0.248](0.4209375,0.4)
+\rput(0.4159375,0.83){+7 nC}
+\rput(3.4553125,0.43){x}
+\psline[linewidth=0.04cm,arrowsize=0.05cm 4.0,arrowlength=1.85,arrowinset=0.4]{}(0.4609375,-0.52)(3.4009376,-0.5)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](0.4009375,0.14)(0.4009375,-0.48)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](3.4609375,0.18)(3.4609375,-0.44)
+\rput(1.944375,-0.87){20 m}
+
+                  &lt;/code&gt;</pre></div>
+              </div><div class="solution">
+                  
+<p>We need to calculate the electric field a distance from a given charge. We are given the magnitude of the charge and the distance from the charge. We will use the equation:
+                  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E=k\frac{Q}{{r}^{2}}.</annotation></semantics></math></p>
+
+		  
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    E &amp; = \frac{kQ}{r^2} \\
+		    &amp; = \frac{(\text{9,0} \times \text{10}^{\text{9}})(\text{7} \times \text{10}^{-\text{9}})}{\text{20}^2} \\
+			&amp; = \text{0,15}\text{ N&#183;C^{-1}}
+		    \end{align*}</annotation></semantics></math></p>
+
+			  </div></div><div class="exercise" data-class="entry">
+<div class="problem">
+					  
+<p>Two charges of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}=-\text{6}\text{ pC}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}=-\text{8}\text{ pC}</annotation></semantics></math> are separated by a distance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km}</annotation></semantics></math>. What is the electric field strength at a point that is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km}</annotation></semantics></math> from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km}</annotation></semantics></math> from <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>? The point lies between <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>.</p>
+
+                <div class="alternates"><img src="_plone_ignore_/cache/pspictures/0035c7a5a967318b520d28d1cf687cbe.png"/><pre class="pspicture">&lt;code&gt;
+                    (0,-1.0565625)(12.97,1.0565625)
+\psdots[dotsize=0.248](0.42,0.37)
+\rput(0.4,0.8){-8 pC}
+\rput(3.46,0.4){x}
+\psline{}(0.46,-0.55)(3.4,-0.55)
+\psline(0.4,0.11)(0.4,-0.51)
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](3.46,0.15)(3.46,-0.47)
+\rput(1.935625,-0.9){1 km}
+\psline{}(3.54,-0.55)(12.44,-0.55)
+\rput(8.064375,-0.9){2 km}
+\psdots[dotsize=0.248](12.520938,0.43)
+\rput(12.4825,0.86){-6 pC}
+\psline[linewidth=0.04cm,linestyle=dotted,dotsep=0.16cm](12.500937,0.17)(12.500937,-0.45)
+
+                  &lt;/code&gt;</pre></div>
+              </div><div class="solution">
+                  
+<p>We need to calculate the electric field a distance from two given charges. We are given the magnitude of the charges and the distances from the charges.</p>
+
+                  
+<p>We will use the equation:
+                  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">E=k\frac{Q}{{r}^{2}}.</annotation></semantics></math></p>
+
+                  
+<p>We need to calculate the electric field for each charge separately and then add them to determine the resultant field.</p>
+
+                  
+<p>We first solve for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{1}</annotation></semantics></math>:
+                  <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    E &amp;= \frac{kQ}{r^2} \\
+				&amp;= \frac{(\text{9,0} \times \text{10}^{\text{9}})(\text{6} \times \text{10}^{-\text{12}})}{(\text{2} \times \text{10}^{\text{3}})^2} \\
+	&amp; = \text{1,3} \times \text{10}^{-\text{8}}\text{ N&#183;C^{-1}}
+		    \end{align*}</annotation></semantics></math></p>
+
+                  
+<p>Then for <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{Q}_{2}</annotation></semantics></math>:
+		    <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    E &amp;= \frac{kQ}{r^2} \\
+				&amp;= \frac{(\text{9,0} \times \text{10}^{\text{9}})(\text{8} \times \text{10}^{-\text{12}})}{(\text{1} \times \text{10}^{\text{3}})^2} \\
+			&amp; = \text{7,1} \times \text{10}^{-\text{8}}\text{ N&#183;C^{-1}}
+		    \end{align*}</annotation></semantics></math></p>
+
+                  
+<p>We need to subtract the two electric fields because they are in opposite directions. The electric fields due to each charge will be towards the charge causing it.
+					  Therefore, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{E}_{\text{total}}= \text{1,3} \times \text{10}^{-\text{8}} - \text{7,1} \times \text{10}^{-\text{8}} = -\text{5,8} \times \text{10}^{-\text{8}}\text{ N&#183;C^{-1}}</annotation></semantics></math> in the direction of the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{pC}</annotation></semantics></math> charge.</p>
+
+              </div></div></div></body>
+</html>
