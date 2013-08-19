@@ -1,0 +1,395 @@
+<html>
+  <head/>
+  <body>
+
+<h3>Different types of forces in physics</h3>
+
+<p>A lot of the physics topics you will study revolve around the impact or effect of forces. Although there are many different forces, will learn some fundamental principles for approaching the problems and applications in this book no matter which force applies</p>
+
+<p>Physics is the study of the natural world and you probably know a lot more physics than you think. You see things happening everyday that are governed by the laws of physics but you probably aren't thinking about physics at the time. If you throw a stone up in the air it eventually falls to the ground. A lot of physics can be learnt by analysing an everyday situation.</p>
+
+<p>We are going to learn about some forces in the next few sections but before we start lets describe an everyday situation in which they all play a role so you can visualise what is happening. You need a table and a three books that all have different masses. Take any book and put it on the table. Nothing happens, the book just rests on the table if the table is flat. If you slowly lift one side of the table so that the top of the table is tilted the book doesn't move immediately. As you lift the table more and more the book suddenly starts to slide off the table. You can repeat this with all three books and see how much you have to tilt the table before the books start to slide.</p>
+<figure class="figure"><figure class="figure"><img src="photos/thembile_holding_book.jpg" width="312" alt="Photo by Nicola du Toit"/></figure><figure class="figure"><img src="photos/thembile_book_table.jpg" width="312" alt="Photo by Nicola du Toit"/></figure><img src="photos/thembile_lift_table.jpg" width="312" alt="Photo by Nicola du Toit"/><img src="photos/thembile_table_book_fall.jpg" width="312" alt="Photo by Nicola du Toit"/></figure><p>This real world situation illustrates a lot of the physics we want to learn about in this chapter.</p>
+<h4>The normal force</h4>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/1f833593845dd4d1f56ea2e14d6eb99e.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,2)
+\pscircle(-0.5,0.9){0.4}
+\psline(-0.5,0.5)(-0.5,-1)
+\psline(0,0)(-1,0)
+\psline(-1,-2)(-0.5,-1)
+\psline(0,-2)(-0.5,-1)
+\psline(-1.5,-2)(3.2,-2)
+\psline(0.5,-0.4)(3,-0.4)
+\psline(0.7,-0.4)(0.7,-2)
+\psline(2.8,-0.4)(2.8,-2)
+\psframe(1,-0.4)(2,-0.2)
+            &lt;/code&gt;</pre></div></figure><p>When an object is placed on a surface, for example think of the case of putting a book on a table, there are a number of forces acting. Firstly, if the table were not there the book would fall to the floor. The force that causes this is gravity. The table stops the book falling to the floor. The only way this can happen is for the table to exert a force on the book. The force that the table exerts on the book must balance out the force of gravity. This tells us a few things immediately! Gravity is a force pulling the book down, it is a vector. The force that the table exerts must balance this out and it can only do this if it has the same magnitude and acts in the opposite direction.</p>
+
+<p>This occurs often, gravity pulls a person towards the earth but when you are standing on the ground something must be balancing it, if you put a heavy box on the ground the gravitational force is balanced. If you put a brick on water it will sink because nothing balances the gravitational force. We give the force that a surface (any surface) exerts to balance the forces on an object in contact with that surface the <strong>normal</strong> force.</p>
+
+<p>The normal force is a force that acts on the object as a result of the interaction with the surface and is perpendicular to the surface. This last part might be seem unexpected (counter-intuitive) because if we tilt the table slightly the direction of the gravitational force hasn't changed but the direction of the normal force has a little (the normal is not always directly opposite gravity). Don't panic, this will all make sense before the end of this chapter. Remember: the normal force is <strong>always perpendicular (at a right angle)</strong> to the surface.</p>
+<dl class="definition"><dt>Normal force</dt><dd>
+The normal force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{N}</annotation></semantics></math>, is the force exerted by a surface on an object in contact with it.
+</dd></dl><div class="alternates"><img src="_plone_ignore_/cache/pspictures/28e794a7fde4f13daf2f83a8c22fcec2.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,1.5)
+\pscircle(-0.5,0.9){0.4}
+\psline(-0.5,0.5)(-0.5,-1)
+\psline(0,0)(-1,0)
+\psline(-1,-2)(-0.5,-1)
+\psline(0,-2)(-0.5,-1)
+\psline(-1.5,-2)(3.2,-2)
+\psline(0.5,-0.4)(3,-0.4)
+\psline(0.7,-0.4)(0.7,-2)
+\psline(2.8,-0.4)(2.8,-2)
+\psframe[](1,-0.4)(2,-0.2)
+\psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.5)
+\rput[l](1.6,.2){\color{purple}$\vec{N}$}
+            &lt;/code&gt;</pre></div><div class="alternates"><img src="_plone_ignore_/cache/pspictures/dd900917b9dc2ae75e78f3830752e3ca.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,1.5)
+\pscircle(-0.5,0.9){0.4}
+\psline(-0.5,0.5)(-0.5,-1)
+\psline(0,0)(-1,0)
+\psline(-1,-2)(-0.5,-1)
+\psline(0,-2)(-0.5,-1)
+\psline(-1.5,-2)(3.2,-2)
+\rput{-35}(.3,1.25){
+\psline[linecolor=blue](0.5,-0.4)(3,-0.4)
+\psline[linecolor=blue](0.7,-0.4)(0.7,-2)
+\psline[linecolor=blue](2.8,-0.4)(2.8,-2)
+\psframe[linecolor=red](1,-0.4)(2,-0.2)
+\psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.3)
+\rput[l](1.6,.2){\color{purple}$\vec{N}$}}
+            &lt;/code&gt;</pre></div><h4>Friction forces</h4>
+
+<p>Why does a box sliding on a surface eventually come to a stop? The answer is <strong>friction</strong>. Friction arises where two surfaces are in contact and moving relative to each other.</p>
+
+<p>For an everyday example, press your hands together and move one backwards and forwards, we have two surfaces in contact with one moving relative to the other. Your hands get warm, you will have experienced this before and probably rub your hands together in winter to warm them up. The heat is generated through friction.</p>
+
+<p>Friction arises because the surfaces interact with each other. Think about sandpaper with lots of bumps on the surface. If you rub sandpaper the bumps will slot into any groove .</p>
+
+<p>When the surface of one object slides over the surface of another, each body exerts a frictional force on the other. For example if a book slides across a table, the table exerts a frictional force onto the book and the book exerts a frictional force onto the table. Frictional forces act <strong>parallel to surfaces</strong>.</p>
+<dl class="definition"><dt>Frictional force</dt><dd>Frictional force is the force that opposes the motion of an object in contact with a surface and it acts parallel to the surface the object is in contact with.
+</dd></dl><figure class="figure"><img src="photos/boxontable_morguefile.jpg" width="312" alt="Photo by http://www.morguefile.com/archive/display/84031"/><div class="alternates"><img src="_plone_ignore_/cache/pspictures/5b6ba7007e716a2ff04be4c959efb5ae.png"/><pre class="pspicture">&lt;code&gt;
+              (-3,-1)(4,1)
+\psline[linewidth=2pt](-3,-1)(-3,0)(3,0)(3, -1)
+\multido{\n=-2.8+0.1}{59}
+{\rput(\n,-0.2){\psline(-0.2,0)(0,0.2)}}
+\psframe[linewidth=1pt](-0.5,0)(0.5,1)
+\psline[linewidth=2pt]{&lt;/code&gt;</pre></div></figure><p>The magnitude of the frictional force depends on the surface and the magnitude of the normal force. Different surfaces will give rise to different frictional forces, even if the normal force is the same. Frictional forces are proportional to the magnitude of the normal force. 
+		   <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_{\text{friction}} \propto N</annotation></semantics></math></p>
+
+<p>For every surface we can determine a constant factor, the coefficient of friction, that allows us to calculate what the frictional force would be if we know the magnitude of the normal force. We know that static friction and kinetic friction have different magnitudes so we have different coefficients for the two types of friction:</p>
+<ul data-class="ListBulleted"><li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s</annotation></semantics></math> is the coefficient of <strong>static</strong> friction</li>
+<li><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_k</annotation></semantics></math> is the coefficient of <strong>kinetic</strong> friction</li>
+</ul><p>A force is not always large enough to make an object move, for example a small applied force might not be able to move a heavy crate. The frictional force opposing the motion of the crate is equal to the applied force but acting in the opposite direction. This frictional force is called <em>static friction</em>. When we increase the applied force (push harder), the frictional force will also increase until it reaches a maximum value. When the applied force is larger than the maximum force of static friction the object will move. The static frictional force can vary from zero (when no other forces are present and the object is stationary) to a maximum that depends on the surfaces.</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/b37ddf96365b77b6878d83b214ccea24.png"/><pre class="pspicture">&lt;code&gt;
+(-1.650,-1.65)(5.5,5.5)
+\psaxes{-&amp;gt;}(0,0)(0,0)(5,5)
+\psline(0,0)(3,3)\psline[linestyle=dotted]{-&amp;gt;}(3,3)(3,1.5)
+\psline{-&amp;gt;}(3,1.5)(5,1.5)
+\rput[t](2.5,-.8){Applied Force ($N$)}
+\rput[b]{90}(-.8,2.5){Frictional Force ($N$)}
+\rput[b]{45}(1.75,1.95){Static}
+\rput[b](4,1.7){Kinetic}
+\psdot(3,3)\rput[l](3.1,3){$f_s^{max}$}
+&lt;/code&gt;</pre></div></figure><p>For static friction the force can vary up to some maximum value after which friction has been overcome and the object starts to move. So we define a maximum value for the static friction: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max} = \mu_sN</annotation></semantics></math>.</p>
+
+<p>When the applied force is greater than the maximum, static frictional force, the object moves but still experiences friction. This is called <em>kinetic friction</em>. 
+For kinetic friction the value remains the same regardless of the magnitude of the applied force. The magnitude of the kinetic friction is: <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_k = \mu_kN</annotation></semantics></math>.</p>
+
+<p>Remember that static friction is present when the object is not moving and kinetic friction while the object is moving. For example when you drive at constant velocity in a car on a tar road you have to keep the accelerator pushed in slightly to overcome the friction between the tar road and the wheels of the car. However, while moving at a constant velocity the wheels of the car are rolling, so this is not a case of two surfaces &#8220;rubbing&#8221; against each other and we are in fact looking at static friction. If you should break hard, causing the car to skid to a halt, we would be dealing with two surfaces rubbing against each other and hence kinetic friction. The higher the value for the coefficient of friction, the more 'sticky' the surface is and the lower the value, the more 'slippery' the surface is.</p>
+
+<p>Friction is very useful. If there was no friction and you tried to prop a ladder up against a wall, it would simply slide to the ground. Rock climbers use friction to maintain their grip on cliffs. The brakes of cars would be useless if it wasn't for friction!</p>
+<figure class="figure"><img src="photos/ladder_morguefile.jpg" width="468" alt="Photo by http://www.morguefile.com/archive/display/200857"/><img src="photos/rockclimber_megan_beckett.jpg" width="468" alt="Photo by Sagriffin305 on Flickr"/></figure><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Static friction</div><div class="problem" data-class="question">
+<p>A box resting on a surface experiences a normal force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{30}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> and the coefficient of static friction tween the surface and the box, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s</annotation></semantics></math>, is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,34}</annotation></semantics></math>. What is the maximum static frictional force?</p>
+
+	</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Maximum static friction</div>
+
+<p>We know that the relationship between the maximum static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max}</annotation></semantics></math>, the coefficient of static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s</annotation></semantics></math> and the normal, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">N</annotation></semantics></math>, to be:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max} = \mu_sN</annotation></semantics></math></p>
+
+<p>We have been given that <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s = \text{0,34}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">N=\text{30}\text{ N}</annotation></semantics></math>. This is all of the information required to do the calculation.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the result</div>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		f_s^{max} &amp;= \mu_sN \\
+		 &amp;= (\text{0,34})(\text{30}) \\
+		&amp; = \text{10,2} 
+		\end{align*}</annotation></semantics></math></p>
+
+<p>The maximum magnitude of static friction is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10,2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Static friction</div><div class="problem" data-class="question">
+<p>The forwards of your school's rugby team are trying to push their scrum machine. The normal force exerted on the scrum machine is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10\ 000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. The machine isn't moving at all. If the coefficient of static friction is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,78}</annotation></semantics></math> what is the minimum force they need to exert to get the scrum machine to start moving?</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Minimum or maximum</div>
+
+<p>The question asks what the minimum force required to get the scrum machine moving will be. We don't know a relationship for this but we do know how to calculate the maximum force of static friction. The forwards need to exert a force greater than this so the minimum amount they can exert is in fact equal to the maximum force of static friction.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Maximum static friction</div>
+
+<p>We know that the relationship between the maximum static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max}</annotation></semantics></math>, the coefficient of static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s</annotation></semantics></math> and the normal, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">N</annotation></semantics></math>, to be:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max} = \mu_sN</annotation></semantics></math></p>
+
+<p>We have been given that <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s = \text{0,78}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">N=\text{10\ 000}\text{ N}</annotation></semantics></math>. This is all of the information required to do the calculation.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the result</div>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		f_s^{max} &amp;= \mu_sN \\
+		 &amp;= (\text{0,78})(\text{10\ 000}) \\
+		&amp; = \text{7800}\text{ N} 
+		\end{align*}</annotation></semantics></math></p>
+
+<p>The maximum magnitude of static friction is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{7800}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Kinetic friction</div><div class="problem" data-class="question">
+<p>The normal force exerted on a pram is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. The pram's brakes are locked so that the wheels cannot turn. The owner tries to push the pram but it doesn't move. The owner pushes harder and harder until it suddenly starts to move when the applied force is three quarters of the normal force. After that the owner is able to keep it moving with a force that is half of the force at which it started moving. What is the magnitude of the applied force at which it starts moving and what are the coefficients of static and kinetic friction?</p>
+
+	</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Maximum static friction</div>
+
+<p>The owner of the pram increases the force he is applying until suddenly the pram starts to move. This will be equal to the maximum static friction which we know is given by:
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max} = \mu_sN</annotation></semantics></math></p>
+
+<p>We are given that the magnitude of the applied force is three quarters of the normal force magnitude, so:
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    f_s^{max} &amp;= \frac{\text{3}}{\text{4}}N \\
+		     &amp;= \frac{\text{3}}{\text{4}}(\text{100}) \\
+			 &amp;=\text{75}\text{ N}
+			\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Coefficient of static friction</div>
+
+<p>We now know both the maximum magnitude of static friction and the magnitude of the normal force so we can find the coefficient of static friction:
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    f_s^{max} &amp;= \mu_sN \\
+		    \text{75} &amp;= \mu_s (\text{100}) \\
+			\mu_s &amp;=\text{0,75}
+			\end{align*}</annotation></semantics></math></p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Coefficient of kinetic friction</div>
+
+<p>The magnitude of the force required to keep the pram moving is half of the magnitude of the force required to get it to start moving so we can determine it from:
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		f_k &amp;= \frac{\text{1}}{\text{2}}f_s^{max} \\
+		 &amp;= \frac{\text{1}}{\text{2}}(\text{75}) \\
+		&amp; = \text{37,5}\text{ N} 
+		\end{align*}</annotation></semantics></math></p>
+
+<p>We know the relationship between the magnitude of the kinetic friction, magnitude of the normal force and coefficient of kinetic friction. We can use it to solve for the coefficient of kinetic friction:
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		    f_k &amp;= \mu_kN \\
+		    \text{37,5} &amp;= \mu_k (\text{100}) \\
+			\mu_k &amp;=\text{0,375}
+			\end{align*}</annotation></semantics></math></p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Coefficient of static friction</div><div class="problem" data-class="question">
+                
+<p>A block of wood experiences a normal force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{32}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> from a rough, flat surface. There is a rope tied to the block. The rope is pulled parallel to the surface and the tension (force) in the rope can be increased to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> before the block starts to slide.  Determine the coefficient of static friction.</p>
+
+              </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Analyse the question and determine what is asked</div>
+
+<p>The normal force is given (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{32}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>) and we know that the block does not move until the applied force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+
+<p>We are asked to find the coefficient for static friction <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{\mu }_{s}</annotation></semantics></math>.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Find the coefficient of static friction</div>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+				  	F_f &amp; = \mu_sN	\\
+					\text{8} &amp;= \mu_s(\text{32}) \\
+					\mu_s &amp;= \text{0,25}
+					\end{align*}</annotation></semantics></math></p>
+
+<p>Note that the coefficient of friction does not have a unit as it shows a ratio. The value for the coefficient of friction friction can have any value up to a maximum of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,25}</annotation></semantics></math>. When a force less than <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> is applied, the coefficient of friction will be less than <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,25}</annotation></semantics></math>.</p>
+</div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Static friction</div><div class="problem" data-class="question">
+<p>A box resting on an inclined plane experiences a normal force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{130}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> and the coefficient of static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s</annotation></semantics></math>, between the box and the surface is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,47}</annotation></semantics></math>. What is the maximum static frictional force?</p>
+
+	</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Maximum static friction</div>
+
+<p>We know that the relationship between the maximum static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max}</annotation></semantics></math>, the coefficient of static friction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s</annotation></semantics></math> and the normal, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">N</annotation></semantics></math>, to be:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">f_s^{max} = \mu_sN.</annotation></semantics></math>This does not depend on whether the surface is inclined or not. Changing the inclination of the surface will affect the magnitude of the normal force but the method of determining the frictional force remains the same.</p>
+
+<p>We have been given that <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mu_s = \text{0,47}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">N=\text{130}\text{ N}</annotation></semantics></math>. This is all of the information required to do the calculation.</p>
+</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculate the result</div>
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		f_s^{max} &amp;= \mu_sN \\
+		 &amp;= (\text{0,47})(\text{130}) \\
+		&amp; = \text{61,1}\text{ N} 
+		\end{align*}</annotation></semantics></math></p>
+
+<p>The maximum magnitude of static friction is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{61,1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+</div></div><div class="teachers-guide">
+<p>A recommended practical for informal assessment on normal forces and friction is included. In this experiment learners investigate the relationship between the normal force and the maximum static friction. Learners should use different surfaces to see the effect of static friction. If time allows learners can also investigate dynamic friction. You will need spring balances; several blocks, of the same material, with hooks attached to one end; several rough and smooth surfaces; and bricks or blocks to incline the surfaces.</p>
+</div><div class="example" data-class="activity" data-type="informalexperiment"><div class="title">Normal forces and friction</div><div class="section"><div class="title">Aim</div>
+<p>To investigate the relationship between normal force and friction.</p>
+</div>
+<div class="section"><div class="title">Apparatus</div>
+<p>Spring balance, several blocks, of the same material, with hooks attached to one end, several rough and smooth surfaces, bricks or blocks to incline the surfaces</p>
+</div>
+<div class="section"><div class="title">Method</div><ul data-class="ListBulleted"><li>
+<p>Attach each of the blocks to the spring balance in turn and note the reading.</p>
+</li>
+<li>
+<p>Take one block and attach it to the spring balance. Now slide the block along each of the surfaces in turn. Note the readings. Repeat for the other blocks.</p>
+</li>
+<li>
+<p>Repeat the above step but incline the surfaces at different angles.</p>
+</li>
+</ul></div>
+<div class="section"><div class="title">Results</div>
+<p>Record your results in a table</p>
+</div>
+</div>
+
+<p>Early humans made use of friction to create fire. Friction can create a lot of heat and the early humans used this fact when they rubbed two sticks together to start a fire. When you rub your hands together fast and pressing hard you will feel that they get warm. This is heat created by the friction. You can use this to start a fire.</p>
+
+<p>To start a fire you need two pieces of wood, one long straight, round piece approximately the same thickness as your finger and about <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{40}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{cm}</annotation></semantics></math> long as well as a thicker flat piece of wood. The flat thick piece of wood needs a hole that the long straight one can fit into. Then you put the flat piece on the ground, the long straight one in the hole and rub it between your hands applying downwards pressure to increase the normal force and the amount of friction. Where the two pieces of wood rub against each other the friction results in many tiny pieces of wood being rubbed off and getting hot.</p>
+
+<p>After a while the hole will start to smoke. At this point the smoking wood bits, called the ember, need to be gently tipped out of the hole into a small bed of dry grass. You cover the ember completely and blow gently. The grass should start to burn. Then you use the burning grass to light some dry twigs, and keep working your way up to bigger pieces of wood.</p>
+
+<p>To make it even easier, a bow from wood with a string can be used to cause the wood to turn. By twisting the string from the bow around the long piece of wood it can be driven without requiring a person use their hands.</p>
+<figure class="figure"><img src="photos/Brant_park_and_mini_bow_049.eps" width="390" alt="Photo by unknown on Wikipedia"/></figure><p data-class="video" id="sc23GW"><a href="http://www.youtube.com/watch?v=i3r3APvRwSU">Video: 23GW</a></p><h4>Tension</h4>
+
+<p>Tension is the magnitude of the force that exists in objects like ropes, chains and struts that are providing support. For example, there are tension forces in the ropes supporting a child's swing hanging from a tree.</p>
+<h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="problemset">
+<div class="exercise" data-class="entry">
+<div class="problem">
+                
+<p>A box is placed on a rough surface. It has a normal force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{120}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. A force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> applied to the right cannot move the box. Calculate the magnitude and direction of the friction forces.</p>
+
+              </div><div class="solution">
+				
+<p>The normal force is given (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{120}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>) and we know that the block does not move when an applied force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> is used.</p>
+
+				
+<p>We are asked to find the magnitude and direction of the friction forces.</p>
+
+				
+<p>Since the box is stationary and the applied force is insufficient to move the box, we know that the kinetic friction force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+
+				
+<p>The frictional force is defined as the the force that opposes the motion of an object in contact with a surface and it acts parallel to the surface the object is in contact with. Therefore the static frictional force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> to the left to give a resultant of zero.</p>
+
+			  </div></div><div class="multipart">
+<div class="header">
+
+<p>A block rests on a horizontal surface. The normal force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. The coefficient of static friction between the block and the surface is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,40}</annotation></semantics></math> and the coefficient of dynamic friction is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,20}</annotation></semantics></math>.</p>
+</div><div class="exercise" data-class="entry">
+<div class="problem">
+	
+<p>What is the magnitude of the frictional force exerted on the block while the block is at rest?</p>
+
+</div><div class="solution">
+	
+<p>The block is not moving and so there is no kinetic frictional force acting on the block. There is also no force applied to the block and so the static frictional force is also zero.</p>
+
+</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+		
+<p>What will the magnitude of the frictional force be if a horizontal force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> is exerted on the block?</p>
+
+	</div><div class="solution">
+		
+<p>The block is not moving and so there is no kinetic frictional force acting on the block.</p>
+
+		
+<p>The frictional force is defined as the the force that opposes the motion of an object in contact with a surface and it acts parallel to the surface the object is in contact with. Therefore the static frictional force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> in the opposite direction to the applied force.</p>
+
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+		
+<p>What is the minimum force required to start the block moving?</p>
+
+	</div><div class="solution">
+		
+<p>To find the minimum force required to start the block moving we need to calculate the maximum static friction force:</p>
+
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			F_{s}^{\text{max}} &amp; = \mu_{s} N \\
+			&amp; = (\text{0,40})(\text{20}) \\
+			&amp; = \text{8}\text{ N} 
+			\end{align*}</annotation></semantics></math><p>So we must apply a force of magnitude greater than <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> to start the box moving.</p>
+
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+		
+<p>What is the minimum force required to keep the block in motion once it has been started?</p>
+
+	</div><div class="solution">
+		
+<p>To find the minimum force required to keep the block in motion we need to calculate the magnitude of the force of kinetic friction:</p>
+
+		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+			F_{k} &amp; = \mu_{k} N \\
+			&amp; = (\text{0,20})(\text{20}) \\
+			&amp; = \text{4}\text{ N}
+			\end{align*}</annotation></semantics></math><p>So we must apply a force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> to keep the box in motion.</p>
+ 
+	</div></div><div class="exercise" data-class="entry">
+<div class="problem">
+		
+<p>If the horizontal force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>, determine the frictional force.</p>
+
+	</div><div class="solution">
+		
+<p>This force is greater than the force required to start the block moving. So the static frictional force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+
+		
+<p>For kinetic friction the value of the frictional force remains the same regardless of the magnitude of the applied force. So the kinetic frictional force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
+
+	</div></div></div><div class="multipart">
+<div class="header">
+
+<p>A lady injured her back when she slipped and fell in a supermarket. She holds the owner of the supermarket accountable for her medical expenses. The owner claims that the floor covering was not wet and meets the accepted standards. He therefore cannot accept responsibility. The matter eventually ends up in court. Before passing judgement, the judge approaches you, a science student, to determine whether the coefficient of static friction of the floor is a minimum of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,5}</annotation></semantics></math> as required. He provides you with a tile from the floor, as well as one of the shoes the lady was wearing on the day of the incident.</p>
+</div><div class="exercise" data-class="entry">
+<div class="problem">
+	
+<p>Write down an expression for the coefficient of static friction.</p>
+
+</div><div class="solution">
+	<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">F_{s} \leq \mu_{s}N</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
+<div class="problem">
+<p>Plan an investigation that you will perform to assist the judge in his judgement. Follow the steps outlined below to ensure that your plan meets the requirements.</p>
+
+		<ol data-class="ListEnumerated"><li>
+				
+<p>Formulate an investigation question.</p>
+
+			</li>
+<li>
+				
+<p>Apparatus: List <em>all</em> the other apparatus, except the tile and the shoe, that you will need.</p>
+
+			</li>
+<li>
+				
+<p>A stepwise method: How will you perform the investigation? Include a relevant, labelled diagram.</p>
+
+			</li>
+<li>
+				
+<p>Results: What will you record?</p>
+
+			</li>
+<li>
+				
+<p>Conclusion: How will you interpret the results to draw a conclusion?</p>
+
+			</li>
+</ol></div><div class="solution">
+		
+<p>The following provides a guideline to what learners should do. This experiment is very similar to the experiment on normal forces and friction given above.</p>
+
+		
+<p>Investigation question: What is the co-efficient of static friction for the tiles in the supermarket for different shoes and weights of people?</p>
+
+		
+<p>Apparatus: Spring balance, several blocks, of the same material, with hooks attached to one end, several rough and smooth surfaces, bricks or blocks to incline the surfaces (and the tile and shoe)</p>
+
+		
+<p>Method:</p>
+
+		<ol data-class="ListEnumerated"><li>Measure the frictional force for a minimum mass</li>
+<li>Measure the frictional force for a maximum mass</li>
+<li>Measure the frictional force for an average mass</li>
+<li>Repeat each of the above measurements and take the average</li>
+<li>Determine the average co-efficient of friction</li>
+</ol><p>Results: You should record the results for each step described above</p>
+
+		
+<p>Conclusion: If the co-efficient of static friction is less than the minimum required than the supermarket owner is incorrect. If the co-efficient of static friction is greater than the minimum required than the lady is incorrect. If the co-efficient of static friction is the same as the minimum then other factors must be considered.</p>
+
+	</div></div></div></div>
+    
+   </body> 
