@@ -163,15 +163,13 @@ v &amp;= \text{velocity (m.s}^{-1}\text{)}
             
         <div class="problem"><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a car of mass 1 000 kg travelling with a velocity of 8 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">−1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p></div><div class="solution">
 <p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
-  <mtable columnalign="right center left" rowspacing=".5em" columnspacing="thickmathspace" displaystyle="true">
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
         <mi>p</mi>
       </mtd>
       <mtd>
         <mo>=</mo>
-      </mtd>
-      <mtd>
         <mi>m</mi>
         <mi>v</mi>
       </mtd>
@@ -182,8 +180,6 @@ v &amp;= \text{velocity (m.s}^{-1}\text{)}
       </mtd>
       <mtd>
         <mo>=</mo>
-      </mtd>
-      <mtd>
         <mo stretchy="false">(</mo>
         <mn>1000</mn>
         <mo stretchy="false">)</mo>
@@ -198,8 +194,6 @@ v &amp;= \text{velocity (m.s}^{-1}\text{)}
       </mtd>
       <mtd>
         <mo>=</mo>
-      </mtd>
-      <mtd>
         <mn>8000</mn>
         <mtext>&nbsp;</mtext>
         <msup>
@@ -212,10 +206,10 @@ v &amp;= \text{velocity (m.s}^{-1}\text{)}
       </mtd>
     </mtr>
   </mtable>
-<annotation encoding="math/tex">\begin{eqnarray}p &amp;=&amp; mv \\
-p &amp;=&amp; (1000)(8) \\
-p &amp;=&amp; 8000 \ \text{kg.m.s}^{-1}
-\end{eqnarray}</annotation></semantics></math></p></div><div class="solution">
+<annotation encoding="math/tex">\begin{align}p &amp;= mv \\
+p &amp;= (1000)(8) \\
+p &amp;= 8000 \ \text{kg.m.s}^{-1}
+\end{align}</annotation></semantics></math></p></div><div class="solution">
 <p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>8000</mn>
   <mtext>&nbsp;</mtext>
@@ -226,5 +220,7 @@ p &amp;=&amp; 8000 \ \text{kg.m.s}^{-1}
       <mn>1</mn>
     </mrow>
   </msup>
-</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1}</annotation></semantics></math></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Eg 2. Calculate the momentum of a motor cycle of mass 250 kg travelling at 32 m.s</span><span style="font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: super; white-space: pre-wrap;">-1</span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><p><span></span></p><div contenteditable="true" class="" data-unknown="true"><span><br></span></div><p></p><p></p><p> </p></body>
+</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1}</annotation></semantics></math></p></div></div><div class="exercise" data-type="Worked Example">
+            
+        <div class="problem"><p>&nbsp;</p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Eg 2. Calculate the momentum of a motor cycle of mass 250 kg travelling at 32 m.s</span><span style="font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: super; white-space: pre-wrap;">-1</span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><p><span></span></p><div contenteditable="true" class="" data-unknown="true"><span><br></span></div><p></p><p></p><p> </p></body>
 </html>
