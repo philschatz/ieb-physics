@@ -41,11 +41,7 @@
   </msub>
   <mi mathvariant="normal">Δ<!-- Δ --></mi>
   <mi>t</mi>
-</mrow><annotation encoding="math/tex">impulse=F_{net}\Delta t</annotation></semantics></math></li><li style="">Know that impulse is a vector quantity</li><li><br style=""></li></ul><div class="teachers-guide" data-unknown="true">
-<p><br></p>
-
-<p>The following topics are covered in this chapter.</p>
-<ul data-class="ListBulleted"><li style=""><br></li><li>Know that <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+</mrow><annotation encoding="math/tex">impulse=F_{net}\Delta t</annotation></semantics></math></li><li style="">Know that impulse is a vector quantity</li><li>Know that&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <msub>
     <mi>F</mi>
     <mrow class="MJX-TeXAtom-ORD">
@@ -56,21 +52,7 @@
   </msub>
   <mi mathvariant="normal">Δ<!-- Δ --></mi>
   <mi>t</mi>
-</mrow><annotation encoding="math/tex">F_{net}\Delta t</annotation></semantics></math>  is a change in momentum, i.e. <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
-  <msub>
-    <mi>F</mi>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mi>n</mi>
-      <mi>e</mi>
-      <mi>t</mi>
-    </mrow>
-  </msub>
-  <mi mathvariant="normal">Δ<!-- Δ --></mi>
-  <mi>t</mi>
-  <mo>=</mo>
-  <mi mathvariant="normal">Δ<!-- Δ --></mi>
-  <mi>p</mi>
-</mrow><annotation encoding="math/tex">F_{net}\Delta t = \Delta p</annotation></semantics></math></li><li>Solve problems using <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+</mrow><annotation encoding="math/tex">F_{net}\Delta t</annotation></semantics></math> is a change in momentum, i.e.&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <msub>
     <mi>F</mi>
     <mrow class="MJX-TeXAtom-ORD">
@@ -84,8 +66,19 @@
   <mo>=</mo>
   <mi mathvariant="normal">Δ<!-- Δ --></mi>
   <mi>p</mi>
-</mrow><annotation encoding="math/tex">F_{net}\Delta t = \Delta p</annotation></semantics></math></li><li>Apply the concept of impulse in everyday life, e.g. airbags, catching a
-hard ball</li></ul></div><div class="exercise aloha-block-dropzone">
-            
-        <div class="problem"><p>&nbsp;</p></div></div><div class="note"><span class="title"></span></div><div class="example aloha-block-dropzone"><span class="title"></span><p class="para"></p></div><h2>Introduction</h2><p>kdshgk</p><p><br></p></body>
+</mrow><annotation encoding="math/tex">F_{net}\Delta t = \Delta p</annotation></semantics></math></li><li>Solve problems using&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>F</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>n</mi>
+      <mi>e</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mi mathvariant="normal">Δ<!-- Δ --></mi>
+  <mi>t</mi>
+  <mo>=</mo>
+  <mi mathvariant="normal">Δ<!-- Δ --></mi>
+  <mi>p</mi>
+</mrow><annotation encoding="math/tex">F_{net}\Delta t = \Delta p</annotation></semantics></math></li><li style="">Apply the concept of impulse in everyday life, e.g. airbags, catching a hard ball</li></ul><h2>Introduction</h2><p> </p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Photos of bicycle, motor car and truck</span></p><p><span id="docs-internal-guid-6d2e1f5f-9b60-8b67-b53c-321453d020da"><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Consider a bicycle, a motor car and a truck. Which of them is more likely to result in</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">less damage in a collision situation, why? Would you agree that how massive the object is and how fast the object is going will determine the amount of damage. </span></p><p><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Newton introduced a quantity of motion which included the mass and the velocity of the object. We call this quantity momentum.</span></p><p><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br></span></span></p><p><br></p></body>
 </html>
