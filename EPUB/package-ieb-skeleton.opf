@@ -18,7 +18,7 @@
 <item id="chapter-9" href="xhtml/ieb-skeleton/10-PhotoElectricEffectAndEmissionSpectra.cnxmlplus.html" media-type="application/xhtml+xml"/>
 <item id="chapter-10" href="xhtml/ieb-skeleton/template.cnxmlplus.html" media-type="application/xhtml+xml"/>
 <item id="nav" href="xhtml/ieb-skeleton/ieb-skeleton.nav.html" media-type="application/xhtml+xml" properties="nav"/>
-</manifest><spine>
+<item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/></manifest><spine>
 <itemref idref="chapter-0"/>
 <itemref idref="chapter-1"/>
 <itemref idref="chapter-2"/>
