@@ -1923,7 +1923,7 @@
       <item media-type="image/jpeg" href="resources/Figure_34_03_06.jpg"/>
     <item media-type="application/xhtml+xml" id="m42720" href="xhtml/physics-cnx/m42720.xhtml"/>
     <item media-type="application/xhtml+xml" id="m42955" href="xhtml/physics-cnx/m42955.xhtml"/>
-  <item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/><item href="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" id="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" media-type="application/xhtml+xml"/></manifest>
+  <item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/><item href="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" id="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" media-type="application/xhtml+xml"/><item href="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" id="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" media-type="application/xhtml+xml"/></manifest>
   <spine>
     <itemref linear="no" idref="toc"/>
     <itemref linear="yes" idref="m42033"/>
