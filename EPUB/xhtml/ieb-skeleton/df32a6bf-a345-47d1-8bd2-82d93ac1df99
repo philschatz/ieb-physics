@@ -43,6 +43,9 @@ Define acceleration as the rate of change of velocity</li><li><br></li></ul></di
   <mi>e</mi>
   <mi>e</mi>
   <mi>d</mi>
+  <mo stretchy="false">(</mo>
+  <mi>v</mi>
+  <mo stretchy="false">)</mo>
   <mo>=</mo>
   <mfrac>
     <mrow>
@@ -54,15 +57,21 @@ Define acceleration as the rate of change of velocity</li><li><br></li></ul></di
       <mi>n</mi>
       <mi>c</mi>
       <mi>e</mi>
+      <mo stretchy="false">(</mo>
+      <mi>d</mi>
+      <mo stretchy="false">)</mo>
     </mrow>
     <mrow>
       <mi>t</mi>
       <mi>i</mi>
       <mi>m</mi>
       <mi>e</mi>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
     </mrow>
   </mfrac>
-</mrow><annotation encoding="math/tex">speed = \frac{distance}  {time}</annotation></semantics></math></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Imagine a bus trip along a straight road where the bus can maintain a steady speed of 90 km/h. &nbsp;Every half hour, you peep at the speedometer and make a note of the speed bus on a graph labeled as follows:</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Let us say the journey ends after 3 hours. </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p class="" style=""><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Insert graph</span></span></p><p class="" style=""><br></p><p class="" style=""><br></p><p class="" style=""><br></p><p class="" style=""><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Note that the shape of the "area" under the graph is rectangular.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The area of a rectangle is given by: &nbsp;length &nbsp;&nbsp;x &nbsp;&nbsp;breadth</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">When we calculate this "area" we use the units given on the axes.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+</mrow><annotation encoding="math/tex">speed (v) = \frac{distance(d)}  {time(t)}</annotation></semantics></math></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Imagine a bus trip along a straight road where the bus can maintain a steady speed of 90 km/h. &nbsp;Every half hour, you peep at the speedometer and make a note of the speed bus on a graph labeled as follows:</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Let us say the journey ends after 3 hours. </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p class="" style=""><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Insert graph</span></span></p><p class="" style=""><br></p><p class="" style=""><br></p><p class="" style=""><br></p><p class="" style=""><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Note that the shape of the "area" under the graph is rectangular.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The area of a rectangle is given by: &nbsp;length &nbsp;&nbsp;x &nbsp;&nbsp;breadth</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">When we calculate this "area" we use the units given on the axes.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
@@ -377,7 +386,109 @@ Distance~ travelled &amp;= &nbsp;"area" under~ graph\\ &amp;= l \times b\\ &nbsp
 <annotation encoding="math/tex">\begin{align}Slope &nbsp;&nbsp;&amp;= \frac{&nbsp;change~ in ~y (rise) }{&nbsp;&nbsp;change~ in~x (run) &nbsp;}\\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;= \frac{&nbsp;270km} { 3 h} \\
 &amp;= 90 km.h^{-1}
-\end{align}</annotation></semantics></math><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">This graph is a straight line passing through the origin and shows that the distance travelled is directly proportional to time. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">i.e.: &nbsp;s &nbsp;α &nbsp;t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where &nbsp;s = distance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t = &nbsp;time taken. and α = directly proportional</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The constant of proportionality is the speed v. Thus, s = vt.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br></span></span> </p><p style=""><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br></span></span> </p>
+\end{align}</annotation></semantics></math><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">This graph is a straight line passing through the origin and shows that the distance travelled is directly proportional to time. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">i.e.: <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mo>&nbsp;</mo>
+  </mrow>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mo>α</mo>
+  </mrow>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mo>&nbsp;</mo>
+  </mrow>
+  <mi>t</mi>
+</mrow><annotation encoding="math/tex">&nbsp;s &nbsp;α &nbsp;t </annotation></semantics></math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mtext>where</mtext>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mi>s</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>distance</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mi>t</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <mi>t</mi>
+        <mi>i</mi>
+        <mi>m</mi>
+        <mi>e</mi>
+        <mtext>&nbsp;</mtext>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>k</mi>
+        <mi>e</mi>
+        <mi>n</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>a</mi>
+        <mi>n</mi>
+        <mi>d</mi>
+        <mtext>&nbsp;</mtext>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>α</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mi>d</mi>
+        <mi>i</mi>
+        <mi>r</mi>
+        <mi>e</mi>
+        <mi>c</mi>
+        <mi>t</mi>
+        <mi>l</mi>
+        <mi>y</mi>
+        <mtext>&nbsp;</mtext>
+        <mi>p</mi>
+        <mi>r</mi>
+        <mi>o</mi>
+        <mi>p</mi>
+        <mi>o</mi>
+        <mi>r</mi>
+        <mi>t</mi>
+        <mi>i</mi>
+        <mi>o</mi>
+        <mi>n</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align} \text{where}  &nbsp;s &amp;= \text{distance} \\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+t &amp;= &nbsp;time~ taken\\ 
+and ~α &amp;= directly ~proportional 
+\end{align}</annotation></semantics></math></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The constant of proportionality is the speed v. Thus, s = v x t.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"> <br></p><p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;"><br style=""></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Summarising: &nbsp;For constant speed:</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span id="docs-internal-guid-76d80477-9bdf-e119-bd52-0d9ef035d357"><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Insert 2 graphs</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"area" &nbsp;under v-t graph gives: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slope of s-t graph gives:</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><h3 dir="ltr" style="line-height:1.15;margin-top:8pt;margin-bottom:0pt;"><span style="font-size: 16px; font-family: 'Trebuchet MS'; color: rgb(102, 102, 102); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Assignment</span></h3><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Solve the following problem using graphs of distance versus time:</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">One day, Grandmother decides to go shopping and sets off in her old car which she drives very </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">slowly at a steady 25 km/h. &nbsp;She stays on a farm quite a long way from the trading store and it </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">will take her over an hour to reach the shop.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">When she is 10 km away, you notice that she has left her handbag on the kitchen table, so you </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">jump on to your Honda Scrambler and set off after her. &nbsp;You travel at a steady 50 km/h along </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">the farm road. Copy the axes and then add the two lines showing the distance travelled by the car and the Honda..</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Use graphs of distance versus time to find out,</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i) &nbsp;After what distance you catch up to her, and</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><br><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;&nbsp;ii) &nbsp;After how many minutes you catch up to her.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br></span></span> </p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p style=""><span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br></span></span> </p>
 <h1>Vertical Projectile Motion</h1>
 <div class="teachers-guide" data-unknown="true">
 <p>Notes</p>
