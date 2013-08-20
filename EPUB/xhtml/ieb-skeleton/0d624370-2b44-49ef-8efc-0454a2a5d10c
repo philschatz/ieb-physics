@@ -276,7 +276,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
 p &amp;= (250)(32) \\
 p &amp;= 8000 \ \text{kg.m.s}^{-1} \text{east}
 \end{align}</annotation></semantics></math></p></div></div></div><p></p><div class="solution aloha-oer-block">
-<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f968521b-c8a4-386f-d441-db6270196bd3" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone aloha-editable-active" id="cba47a53-ec29-071b-4c63-3a571bba4b71" contenteditable="true"><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f968521b-c8a4-386f-d441-db6270196bd3" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="cba47a53-ec29-071b-4c63-3a571bba4b71" contenteditable="true"><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>8000</mn>
   <mtext>&nbsp;</mtext>
   <msup>
@@ -291,14 +291,20 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \text{east}
             
 </p><p>A soccer ball of mass <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>420</mtext>
-<annotation encoding="math/tex">\text{420}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+<annotation encoding="math/tex">\text{420}</annotation></semantics></math>&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>g</mtext>
 <annotation encoding="math/tex">\text{g}</annotation></semantics></math> 
             is kicked at <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>20</mtext>
-<annotation encoding="math/tex">\text{20}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
-  <mtext>m·s^{-1}</mtext>
-<annotation encoding="math/tex">\text{m·s^{-1}}</annotation></semantics></math> 
+<annotation encoding="math/tex">\text{20}</annotation></semantics></math>&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msup>
+    <mtext>m·s</mtext>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mo>−<!-- − --></mo>
+      <mn>1</mn>
+    </mrow>
+  </msup>
+<annotation encoding="math/tex">\text{m·s}^{-1}</annotation></semantics></math> 
             towards the goal post. Calculate the momentum of the ball.</p>
 
             <figure class="figure aloha-oer-block" title=""><div class="title"></div><img width="390" alt="http://www.flickr.com/photos/klemencic/7892058384/sizes/k/" draggable="false" src="photos/SoccerLadyKicking-by-KM_Klemencic-on-Flickr-7892058384_0892ae36c9_k.jpg"/><figcaption></figcaption></figure><p></p></div><div class="solution" data-class="workstep" data-type="Step">
@@ -389,14 +395,20 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \text{east}
       <mtd>
         <mo>=</mo>
         <mtext>8,40</mtext>
-        <mtext>&nbsp;kg·m·s^{-1}</mtext>
+        <msup>
+          <mtext>&nbsp;kg·m·s</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
       </mtd>
     </mtr>
   </mtable>
 <annotation encoding="math/tex">\begin{align*}
  \vec{p}&amp; = m\vec{v} \\ 
 &amp; = \left(\text{0,42}\right)\left(20\right) \\ 
-&amp; = \text{8,40}\text{ kg·m·s^{-1}} 
+&amp; = \text{8,40}\text{ kg·m·s}^{-1} 
 \end{align*}</annotation></semantics></math><p></p></div><div class="solution" data-class="workstep" data-type="Step">
 
 
@@ -410,7 +422,13 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \text{east}
   </mrow>
 <annotation encoding="math/tex">\vec{p}</annotation></semantics></math> = <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>8,40</mtext>
-<annotation encoding="math/tex">\text{8,40}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
-  <mtext>kg·m·s^{-1}</mtext>
-<annotation encoding="math/tex">\text{kg·m·s^{-1}}</annotation></semantics></math> in the direction of the goal post.</p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><span class="Apple-tab-span" style="white-space:pre;"></span></span></p><p><span></span></p><p></p><p></p><p> </p></body>
+<annotation encoding="math/tex">\text{8,40}</annotation></semantics></math>&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msup>
+    <mtext>kg·m·s</mtext>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mo>−<!-- − --></mo>
+      <mn>1</mn>
+    </mrow>
+  </msup>
+<annotation encoding="math/tex">\text{kg·m·s}^{-1}</annotation></semantics></math> in the direction of the goal post.</p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><span class="Apple-tab-span" style="white-space:pre;"></span></span></p><p><span></span></p><p></p><p></p><p> </p></body>
 </html>
