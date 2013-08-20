@@ -253,17 +253,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
 
 
 
-<p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives:</p><ul data-class="ListBulleted"><li>
-                  
-<p>the mass of the ball, and</p>
-
-                </li>
-<li>
-                  
-<p>the velocity of the ball.</p>
-
-                </li>
-</ul><p>The mass of the ball must be converted to SI units.</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+<p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives:</p><ul data-class="ListBulleted"><li><p>the mass of the ball, and</p></li><li><p>the velocity of the ball.</p></li></ul><p>The mass of the ball must be converted to SI units.</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>420</mn>
   <mrow class="MJX-TeXAtom-ORD">
     <mo>&nbsp;</mo>
@@ -393,9 +383,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
 
 
 
-<p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives</p><ul data-class="ListBulleted"><li>
-                  
-<p>the mass of the ball (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+<p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives</p><ul data-class="ListBulleted"><li><p>the mass of the ball (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>m</mi>
 <annotation encoding="math/tex">m</annotation></semantics></math> = <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>160</mtext>
@@ -407,12 +395,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
   <mn>16</mn>
 </mrow><annotation encoding="math/tex">0,16</annotation></semantics></math>&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>kg</mtext>
-<annotation encoding="math/tex">\text{kg}</annotation></semantics></math>), and</p>
-
-                </li>
-<li>
-		  
-<p>the velocity of the ball <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+<annotation encoding="math/tex">\text{kg}</annotation></semantics></math>), and</p></li><li><p>the velocity of the ball <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mo stretchy="false">(</mo>
   <mrow class="MJX-TeXAtom-ORD">
     <mover>
@@ -430,10 +413,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
       <mn>1</mn>
     </mrow>
   </msup>
-<annotation encoding="math/tex">\text{m·s}^{-1}</annotation></semantics></math> towards the batsman)</p>
-
-                </li>
-</ul><p>To calculate the momentum we will use</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+<annotation encoding="math/tex">\text{m·s}^{-1}</annotation></semantics></math> towards the batsman)</p></li></ul><p>To calculate the momentum we will use</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mrow class="MJX-TeXAtom-ORD">
     <mover>
       <mi>p</mi>
