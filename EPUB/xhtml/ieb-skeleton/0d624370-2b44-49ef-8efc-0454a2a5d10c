@@ -22,39 +22,7 @@
       <mi>t</mi>
     </mrow>
   </mfrac>
-</mrow><annotation encoding="math/tex">&nbsp;F_{net}=\frac{\Delta p}{\Delta t}</annotation></semantics></math></li></ul><p> </p><p> </p>
-<h1>Newton's Second Law Expressed in terms of Momentum</h1>
-<div class="teachers-guide" data-unknown="true">
-<p>Notes</p>
-
-<p>The following topics are covered in this chapter.</p>
-<ul data-class="ListBulleted"><li>
-State Newton's second law in terms of momentum: The net force
-acting on an object is equal to the rate of change of momentum.
-(Note: there are two acceptable statements of Newton's Second Law)
-</li><li>
-Solve problems for constant mass using <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
-  <msub>
-    <mi>F</mi>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mi>n</mi>
-      <mi>e</mi>
-      <mi>t</mi>
-    </mrow>
-  </msub>
-  <mo>=</mo>
-  <mfrac>
-    <mrow>
-      <mi mathvariant="normal">Δ<!-- Δ --></mi>
-      <mi>p</mi>
-    </mrow>
-    <mrow>
-      <mi mathvariant="normal">Δ<!-- Δ --></mi>
-      <mi>t</mi>
-    </mrow>
-  </mfrac>
-</mrow><annotation encoding="math/tex">F_{net}=\frac{\Delta p}{\Delta t}</annotation></semantics></math></li></ul></div><h2>Section title</h2>
-<h1>Conservation of Momentum and Elastic and Inelastic Collisions</h1>
+</mrow><annotation encoding="math/tex">&nbsp;F_{net}=\frac{\Delta p}{\Delta t}</annotation></semantics></math></li></ul><h3>Conservation of Momentum and Elastic and Inelastic Collisions</h3>
 <div class="teachers-guide" data-unknown="true">
 <p>Notes</p>
 
