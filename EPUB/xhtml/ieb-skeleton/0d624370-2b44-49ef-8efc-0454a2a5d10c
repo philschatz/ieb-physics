@@ -268,14 +268,15 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
             <mn>1</mn>
           </mrow>
         </msup>
+        <mtext>east</mtext>
       </mtd>
     </mtr>
   </mtable>
 <annotation encoding="math/tex">\begin{align}p &amp;= mv \\
 p &amp;= (250)(32) \\
-p &amp;= 8000 \ \text{kg.m.s}^{-1}
+p &amp;= 8000 \ \text{kg.m.s}^{-1} \text{east}
 \end{align}</annotation></semantics></math></p></div></div></div><p></p><div class="solution aloha-oer-block">
-<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f968521b-c8a4-386f-d441-db6270196bd3" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="cba47a53-ec29-071b-4c63-3a571bba4b71" contenteditable="true"><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f968521b-c8a4-386f-d441-db6270196bd3" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone aloha-editable-active" id="cba47a53-ec29-071b-4c63-3a571bba4b71" contenteditable="true"><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>8000</mn>
   <mtext>&nbsp;</mtext>
   <msup>
@@ -285,7 +286,8 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1}
       <mn>1</mn>
     </mrow>
   </msup>
-</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1}</annotation></semantics></math></p></div></div></div><p><br></p><p></p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p>
+  <mtext>east</mtext>
+</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \text{east}</annotation></semantics></math></p></div></div></div><p><br></p><p></p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p>
             
 </p><p>A soccer ball of mass <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>420</mtext>
