@@ -8,6 +8,6 @@
        </metadata><manifest>
 <item id="chapter-0" href="xhtml/kathi-scratch/Kathis-file.html" media-type="application/xhtml+xml"/>
 <item id="nav" href="xhtml/kathi-scratch/kathi-scratch.nav.html" media-type="application/xhtml+xml" properties="nav"/>
-</manifest><spine>
+<item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/></manifest><spine>
 <itemref idref="chapter-0"/>
 </spine></package>
