@@ -231,7 +231,70 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
   <mtext>east</mtext>
 </mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \ \text{east}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><div class="exercise" data-type="Worked Example">
             
-        <div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a motor cycle of mass 250 kg travelling east at 32 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">-1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p><p></p><div><br></div><p></p><p><br></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+        <div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a motor cycle of mass 250 kg travelling east at 32 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">-1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p><p></p><div><div class="solution aloha-oer-block">
+<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="76e5681a-7d55-c98b-f467-86b4a881da5f" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>p</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mi>m</mi>
+        <mi>v</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>p</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mn>250</mn>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mn>32</mn>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>p</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mn>8000</mn>
+        <mtext>&nbsp;</mtext>
+        <msup>
+          <mtext>kg.m.s</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+        <mtext>&nbsp;</mtext>
+        <mtext>east</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align}p &amp;= mv \\
+p &amp;= (250)(32) \\
+p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
+\end{align}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><div class="solution aloha-oer-block">
+<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="65e642ca-1f1b-117c-4861-0cf4ba7ade28" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mn>8000</mn>
+  <mtext>&nbsp;</mtext>
+  <msup>
+    <mtext>kg.m.s</mtext>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mo>−<!-- − --></mo>
+      <mn>1</mn>
+    </mrow>
+  </msup>
+  <mtext>&nbsp;</mtext>
+  <mtext>east</mtext>
+</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \ \text{east}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><br></div><p></p><p><br></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
             
 </p><p>A soccer ball of mass <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>420</mtext>
