@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns#">
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" xmlns:xml="http://www.w3.org/XML/1998/namespace" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:title id="title">Physics - Openstax College</dc:title>
     <meta refines="#title" property="title-type">main</meta>
@@ -1924,7 +1923,7 @@
       <item media-type="image/jpeg" href="resources/Figure_34_03_06.jpg"/>
     <item media-type="application/xhtml+xml" id="m42720" href="xhtml/physics-cnx/m42720.xhtml"/>
     <item media-type="application/xhtml+xml" id="m42955" href="xhtml/physics-cnx/m42955.xhtml"/>
-  </manifest>
+  <item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/></manifest>
   <spine>
     <itemref linear="no" idref="toc"/>
     <itemref linear="yes" idref="m42033"/>
