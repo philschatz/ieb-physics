@@ -166,8 +166,8 @@ m &amp;= \text{mass (kg)}	\\
 v &amp;= \text{velocity (m.s}^{-1}\text{)}
 \end{align}</annotation></semantics></math><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The direction of the linear momentum is the same as the direction of the velocity.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(Note: we will often drop the adjective “linear” as we will only deal with momentum in one dimension)</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">According to this definition, momentum is related to both the mass and velocity of an object.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">A small car travelling at the same velocity as a big truck will have a smaller momentum than the truck. A car travelling fast will have a greater momentum than the same car travelling slowly.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Different objects can also have the same momentum, for example a car travelling slowly can have the same momentum as a motor cycle travelling relatively fast.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><div class="exercise" data-type="Worked Example">
             
-        <div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a car of mass 1 000 kg travelling east with a velocity of 8 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">−1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+        <div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a car of mass 1 000 kg travelling east with a velocity of 8 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">−1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
@@ -216,8 +216,8 @@ v &amp;= \text{velocity (m.s}^{-1}\text{)}
 <annotation encoding="math/tex">\begin{align}p &amp;= mv \\
 p &amp;= (1000)(8) \\
 p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
-\end{align}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+\end{align}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>8000</mn>
   <mtext>&nbsp;</mtext>
   <msup>
@@ -229,10 +229,10 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
   </msup>
   <mtext>&nbsp;</mtext>
   <mtext>east</mtext>
-</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \ \text{east}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><div class="exercise" data-type="Worked Example">
+</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \ \text{east}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><div class="exercise" data-type="Worked Example">
             
-        <div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a motor cycle of mass 250 kg travelling east at 32 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">-1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p><p></p><div class="solution aloha-oer-block">
-<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f466ea07-9309-e4d3-ef82-77ee8dfc9f7b" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="76e5681a-7d55-c98b-f467-86b4a881da5f" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+        <div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Calculate the momentum of a motor cycle of mass 250 kg travelling east at 32 m.s</span><span style="background-color: transparent; font-size: 9px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;">-1</span><span style="background-color: transparent; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">.</span></p><p></p><div class="solution aloha-oer-block">
+<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f638d1e6-8f6e-ad3b-f5e6-1f119d5065d3" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="f466ea07-9309-e4d3-ef82-77ee8dfc9f7b" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="76e5681a-7d55-c98b-f467-86b4a881da5f" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
@@ -281,8 +281,8 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
 <annotation encoding="math/tex">\begin{align}p &amp;= mv \\
 p &amp;= (250)(32) \\
 p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
-\end{align}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div></div><div class="solution aloha-oer-block">
-<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="9b607699-02ec-fe0c-7e23-2dde39fb48af" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+\end{align}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div></div></div><div class="solution aloha-oer-block">
+<div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="d3db70e7-b617-1735-b0db-db629bc400ed" contenteditable="true"><div class="body aloha-editable aloha-block-blocklevel-sortable ui-sortable aloha-block-dropzone" id="9b607699-02ec-fe0c-7e23-2dde39fb48af" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>8000</mn>
   <mtext>&nbsp;</mtext>
   <msup>
@@ -294,7 +294,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
   </msup>
   <mtext>&nbsp;</mtext>
   <mtext>east</mtext>
-</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \ \text{east}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p></p><p><br></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+</mrow><annotation encoding="math/tex">8000 \ \text{kg.m.s}^{-1} \ \text{east}</annotation></semantics></math></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div></div><p></p><p><br></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;<span class="Apple-tab-span" style="white-space:pre;">	</span></span></p><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
             
 </p><p>A soccer ball of mass <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>420</mtext>
@@ -314,12 +314,12 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
 <annotation encoding="math/tex">\text{m·s}^{-1}</annotation></semantics></math> 
             towards the goal post. Calculate the momentum of the ball.</p>
 
-            <figure class="figure aloha-oer-block" title=""><div class="title"></div><img width="390" alt="http://www.flickr.com/photos/klemencic/7892058384/sizes/k/" draggable="false" src="../physics-12/photos/SoccerLadyKicking-by-KM_Klemencic-on-Flickr-7892058384_0892ae36c9_k.jpg"/><figcaption></figcaption></figure><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
+            <figure class="figure aloha-oer-block" title=""><div class="title"></div><img width="390" alt="http://www.flickr.com/photos/klemencic/7892058384/sizes/k/" draggable="false" src="../physics-12/photos/SoccerLadyKicking-by-KM_Klemencic-on-Flickr-7892058384_0892ae36c9_k.jpg"/><figcaption></figcaption></figure><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
 
 
 
 
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives:</p><ul data-class="ListBulleted"><li><p>the mass of the ball, and</p></li><li><p>the velocity of the ball.</p></li></ul><p>The mass of the ball must be converted to SI units.</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives:</p><ul data-class="ListBulleted"><li><p>the mass of the ball, and</p></li><li><p>the velocity of the ball.</p></li></ul><p>The mass of the ball must be converted to SI units.</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mn>420</mn>
   <mrow class="MJX-TeXAtom-ORD">
     <mo>&nbsp;</mo>
@@ -350,10 +350,10 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
     </mover>
   </mrow>
 </mrow><annotation encoding="math/tex">\vec{p}=m\vec{v}</annotation></semantics></math> we see that we need the mass and velocity of the 
-              ball, which we are given.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
+              ball, which we are given.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
 
 
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Do the calculation</div><p>We calculate the magnitude of the momentum of the ball,</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Do the calculation</div><p>We calculate the magnitude of the momentum of the ball,</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
@@ -406,10 +406,10 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
  \vec{p}&amp; = m\vec{v} \\ 
 &amp; = \left(\text{0,42}\right)\left(20\right) \\ 
 &amp; = \text{8,40}\text{ kg·m·s}^{-1} 
-\end{align*}</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
+\end{align*}</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
 
 
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Quote the final answer</div><p>We quote the answer with the direction of motion included,
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Quote the final answer</div><p>We quote the answer with the direction of motion included,
 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mrow class="MJX-TeXAtom-ORD">
     <mover>
@@ -427,7 +427,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
       <mn>1</mn>
     </mrow>
   </msup>
-<annotation encoding="math/tex">\text{kg·m·s}^{-1}</annotation></semantics></math> in the direction of the goal post.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+<annotation encoding="math/tex">\text{kg·m·s}^{-1}</annotation></semantics></math> in the direction of the goal post.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
             
 </p><p>A cricket ball of mass <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>160</mtext>
@@ -445,11 +445,11 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
   </msup>
 <annotation encoding="math/tex">\text{m·s}^{-1}</annotation></semantics></math> towards a batsman. Calculate the momentum of the cricket ball.</p>
 
-           <figure class="figure aloha-oer-block" title=""><div class="title"></div><img width="468" alt="http://www.flickr.com/photos/gareth1953/5858562848/sizes/o/" draggable="false" src="photos/Bowler-by-gareth1953-on-Flickr-5858562848_02ab046a55_o.jpg"/><figcaption></figcaption></figure><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
+           <figure class="figure aloha-oer-block" title=""><div class="title"></div><img width="468" alt="http://www.flickr.com/photos/gareth1953/5858562848/sizes/o/" draggable="false" src="photos/Bowler-by-gareth1953-on-Flickr-5858562848_02ab046a55_o.jpg"/><figcaption></figcaption></figure><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
 
 
 
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives</p><ul data-class="ListBulleted"><li><p>the mass of the ball (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Identify what information is given and what is asked for</div><p>The question explicitly gives</p><ul data-class="ListBulleted"><li><p>the mass of the ball (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>m</mi>
 <annotation encoding="math/tex">m</annotation></semantics></math> = <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>160</mtext>
@@ -495,8 +495,8 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
     </mover>
   </mrow>
   <mo>.</mo>
-</mrow><annotation encoding="math/tex">\vec{p}=m\vec{v}.</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Do the calculation</div><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+</mrow><annotation encoding="math/tex">\vec{p}=m\vec{v}.</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Do the calculation</div><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
@@ -568,10 +568,10 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
  &amp; = \left(\text{0,16}\right)\left(40\right) \\ 
  &amp; = \text{6,4}\text{ kg·m·s}^{-1} \\ 
  &amp; = \text{6,4}\text{ kg·m·s}^{-1}&nbsp;\text{in the direction of the batsman} 
-\end{align*}</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
+\end{align*}</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution" data-class="workstep" data-type="Step">
 
 
-<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Quote the final answer</div><p>The momentum of the cricket ball is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><div class="title">Quote the final answer</div><p>The momentum of the cricket ball is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtext>6,4</mtext>
 <annotation encoding="math/tex">\text{6,4}</annotation></semantics></math>&nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <msup>
@@ -581,7 +581,7 @@ p &amp;= 8000 \ \text{kg.m.s}^{-1} \ \text{east}
       <mn>1</mn>
     </mrow>
   </msup>
-<annotation encoding="math/tex">\text{kg·m·s}^{-1}</annotation></semantics></math>&nbsp;in the direction of the batsman.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><h2 dir="ltr" style="line-height:1.15;margin-top:10pt;margin-bottom:0pt;"><span style="font-size: 17px; font-family: 'Trebuchet MS'; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Momentum and Newton’s Second Law</span></h2><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Newton’s Second Law of Motion can be defined in terms of momentum</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Newton’s Second Law can be written as</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Where </span></p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+<annotation encoding="math/tex">\text{kg·m·s}^{-1}</annotation></semantics></math>&nbsp;in the direction of the batsman.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><h2 dir="ltr" style="line-height:1.15;margin-top:10pt;margin-bottom:0pt;"><span style="font-size: 17px; font-family: 'Trebuchet MS'; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Momentum and Newton’s Second Law</span></h2><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Newton’s Second Law of Motion can be defined in terms of momentum</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Newton’s Second Law can be written as</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Where </span></p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
     <mtr>
       <mtd>
