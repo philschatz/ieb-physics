@@ -692,7 +692,7 @@
 <item id="5a0888b9ec1dcbf0e3e9f0280572d7fd.png" href="xhtml/physics-11/_plone_ignore_/cache/pspictures/5a0888b9ec1dcbf0e3e9f0280572d7fd.png" media-type="image/png"/>
 <item id="a94939533520153d1cfd5b4a6a795e68.png" href="xhtml/physics-11/_plone_ignore_/cache/pspictures/a94939533520153d1cfd5b4a6a795e68.png" media-type="image/png"/>
 <item id="d4b4b63f320531546cc2660962ab85d0.png" href="xhtml/physics-11/_plone_ignore_/cache/pspictures/d4b4b63f320531546cc2660962ab85d0.png" media-type="image/png"/>
-</manifest><spine>
+<item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/></manifest><spine>
 <itemref idref="chapter-0"/>
 <itemref idref="chapter-1"/>
 <itemref idref="chapter-2"/>
