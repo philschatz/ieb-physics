@@ -18,7 +18,7 @@
 <item id="chapter-9" href="xhtml/ieb-skeleton/10-PhotoElectricEffectAndEmissionSpectra.cnxmlplus.html" media-type="application/xhtml+xml"/>
 <item id="chapter-10" href="xhtml/ieb-skeleton/template.cnxmlplus.html" media-type="application/xhtml+xml"/>
 <item id="nav" href="xhtml/ieb-skeleton/ieb-skeleton.nav.html" media-type="application/xhtml+xml" properties="nav"/>
-<item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/><item href="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" id="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" media-type="application/xhtml+xml"/></manifest><spine>
+<item href="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" id="xhtml/ieb-skeleton/ec0543ce-83c2-4cdb-b057-1baa15649e2e" media-type="application/xhtml+xml"/><item href="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" id="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" media-type="application/xhtml+xml"/><item href="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" id="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" media-type="application/xhtml+xml"/></manifest><spine>
 <itemref idref="chapter-0"/>
 <itemref idref="chapter-1"/>
 <itemref idref="chapter-2"/>
