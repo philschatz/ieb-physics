@@ -13,7 +13,7 @@
 <item href="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" id="xhtml/ieb-skeleton/0d624370-2b44-49ef-8efc-0454a2a5d10c" media-type="application/xhtml+xml"/>
 <item href="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" id="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" media-type="application/xhtml+xml"/>
 <item href="xhtml/ieb-skeleton/df32a6bf-a345-47d1-8bd2-82d93ac1df99" id="xhtml/ieb-skeleton/5c8b6dc5-5d28-4169-8750-e3d6f2c23061" media-type="application/xhtml+xml"/>
-<item href="../resources/f1149bfc24e39103ad21f0b4d6e484767ea1b1a5.jpg" id="../resources/f1149bfc24e39103ad21f0b4d6e484767ea1b1a5.jpg" media-type="image/jpeg"/></manifest><spine>
+<item href="../resources/f1149bfc24e39103ad21f0b4d6e484767ea1b1a5.jpg" id="../resources/f1149bfc24e39103ad21f0b4d6e484767ea1b1a5.jpg" media-type="image/jpeg"/><item href="xhtml/ieb-skeleton/438ff229-f03d-4ec1-b16f-c626908ef099" id="xhtml/ieb-skeleton/438ff229-f03d-4ec1-b16f-c626908ef099" media-type="application/xhtml+xml"/></manifest><spine>
 <itemref idref="chapter-0"/>
 <itemref idref="chapter-1"/>
 </spine></package>
