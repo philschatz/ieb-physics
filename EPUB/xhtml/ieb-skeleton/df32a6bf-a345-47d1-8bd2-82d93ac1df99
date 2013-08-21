@@ -1277,6 +1277,8 @@ and ~α &amp;= directly ~proportional
         <mtext>&nbsp;</mtext>
         <mtext>&nbsp;</mtext>
         <mtext>&nbsp;</mtext>
+        <mtext>&nbsp;</mtext>
+        <mtext>&nbsp;</mtext>
       </mtd>
       <mtd>
         <mtext>&nbsp;leaves out</mtext>
@@ -1346,7 +1348,7 @@ and ~α &amp;= directly ~proportional
 <annotation encoding="math/tex">\begin{align*} 
                 {v}&amp; = \vec{u}+\vec{a}t~~~~~~~&amp;\text{leaves out}~~~~ s \\
                 s&amp; = \frac{\left(\vec{u}+\vec{v}\right)}{2}t~~~~~~~~&amp;\text{leaves out}~~~~a\\
-                {s}&amp; = u t+\frac{1}{2}{a}{t}^{2}~~~~~~~~&amp;\text{ leaves out}~~~~~v \\
+                {s}&amp; = u t+\frac{1}{2}{a}{t}^{2}~~~~~~~~~~&amp;\text{ leaves out}~~~~~v \\
                {v}^{2}&amp; = {u}^{2}+2{a}{ s }~~~~~~~~~~~~~~&amp;\text{ leaves out}~~~~~t
           \end{align*}</annotation></semantics></math></span></font><br></span></div><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
