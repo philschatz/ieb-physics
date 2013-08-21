@@ -6,7 +6,7 @@
 <!-- remove cnxml specific content from html -->
 
 <xsl:output
-  method="txt"
+  method="text"
   encoding="UTF-8"
   indent="yes"/>
 
