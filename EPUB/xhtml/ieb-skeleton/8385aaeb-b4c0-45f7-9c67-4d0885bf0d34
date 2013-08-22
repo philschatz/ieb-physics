@@ -75,5 +75,54 @@
   </msub>
 <annotation encoding="math/tex">F_N</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>N</mi>
-<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol></body>
+<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol><p class=""></p><div class="problemset" data-unknown="true">
+<div class="header" data-unknown="true">
+<p>Draw a labelled force diagram for each of the following situations. (The object of interest is in bold)</p></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="0e1862d4-1a49-683e-a2b1-82fd8c145c21" contenteditable="true"><p>A <strong>box</strong> being pulled across a rough horizontal surface by a horizontal rope.</p>
+</div><div class="solution">
+Put the solution here.<div class="body aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="64c8fac7-5cf9-9cd4-5557-f7a2440c5d4e" contenteditable="true"></div></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="eb6db92d-6cdf-48d5-7838-a2286665c2ab" contenteditable="true"><p>A <strong>rocket</strong> just after leaving the launch pad on its way to the ISS. (Air&nbsp;resistance is not negligible)<br></p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="37b03593-a451-cbb8-299f-bdd4d9dd28fa" contenteditable="true">A <strong>steel beam</strong> being lifted by a cable attached to a crane.</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><h3>Free body diagrams</h3><p class="" style="">A free body diagram is tackled in the same way as a force diagram, but the object&nbsp;of interest is drawn as a dot.</p><p class="" style=""></p><div class="problemset" data-unknown="true">
+<div class="header" data-unknown="true">
+<p>Draw a labelled free body diagram for each of the following situations. (The object of interest is in bold)</p></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="2b1282c5-2ce6-62da-936e-d68ebdb135fc" contenteditable="true"><p>You have just kicked a <strong>ball</strong> across the ground and it is rolling across the&nbsp;ground about a meter in front of you.<br></p>
+</div><div class="solution">
+Put the solution here.<div class="body aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="03370c87-6cc4-917a-87e4-6821f2a416b9" contenteditable="true"></div></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="c9352926-23f8-e5b2-da55-cd42a8e8a614" contenteditable="true"><p>You have just thrown a <strong>cricket ball</strong> horizontally to the wicket keeper and&nbsp;the ball is in midflight.<br></p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><p class="">NB: It is important only to include forces that are actually acting on an object.&nbsp;</p><p class=""><br></p><p class="">In the last example, the hand only exerts a force on the cricket ball while&nbsp;the ball was in contact with the hand. Once the hand was no longer&nbsp;touching the cricket ball, it could no longer exert a force.</p><div class="example aloha-block-dropzone" data-type="activity"><span class="title"></span><p class="para"></p></div><div class="note"><span class="title"></span><ul><li>Forces exist due to interactions happening at the moment. Not due to interactions in the past.</li><li class="">Forces only exist at the point of contact between the object and the agent.&nbsp;(Except for a few cases of non-contact forces like gravitational forces)</li></ul></div><div class="exercise aloha-block-dropzone">
+            
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="908eef74-19b9-f7a4-74a3-2a9b0cb97a88" contenteditable="true"><p class="">A force acts on an object. Name three effects that the force can have on the&nbsp;object.</p></div></div><div class="exercise">
+            
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="067ca0a4-9494-2ebc-9799-de40d1c3a2cb" contenteditable="true">A book of mass 2 kg is lying on a table. Draw a labelled force diagram&nbsp;indicating all the forces on the book.</div></div><p class="" style=""><br></p><p class=""><br></p><p class="">3. A boy pushes a shopping trolley (mass 15 kg) with a constant force of 75&nbsp;</p><p class=""><br></p><p class="">N. A constant frictional force of 20 N is present.</p><p class=""><br></p><p class="">a. Draw a labelled force diagram to identify all the forces acting on&nbsp;</p><p class=""><br></p><p class="">b. Draw a free body diagram of all the horizontal forces acting on the&nbsp;</p><p class=""><br></p><p class="">c. Determine the resultant force on the trolley.</p><p class=""><br></p><p class="">the shopping trolley.</p><p class=""><br></p><p class="">trolley.</p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class="" style=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p></body>
 </html>
