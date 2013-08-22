@@ -80,12 +80,48 @@
 
 <div class="header" data-unknown="true">
 <p>Draw a labelled force diagram for each of the following situations. (The object of interest is in bold)<br></p></div><div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="b812609e-c098-b83e-4c1f-2e97fcd97415" contenteditable="true"><p>A&nbsp;<strong>box</strong>&nbsp;being pulled across a rough horizontal surface by a horizontal rope.<br></p>
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="7ed63c05-91d0-2753-bae4-d313a7a21b63" contenteditable="true"><p>A&nbsp;<strong>box</strong>&nbsp;being pulled across a rough horizontal surface by a horizontal rope.<br></p>
 </div><div class="solution">
 
 <p>Put the solution here.</p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="84faba59-a86e-0dd0-d368-3c727eeffce3" contenteditable="true">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="186ede19-bcad-24a4-98ec-efa525068907" contenteditable="true">
+<p>A&nbsp;<strong>rocket</strong>&nbsp;just after leaving the launch pad on its way to the ISS. (Air&nbsp;resistance is not negligible)<br></p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="c05575d1-4973-b274-884d-eda693ebc5c6" contenteditable="true">
+<p>A&nbsp;<strong>steel beam</strong>&nbsp;being lifted by a cable attached to a crane.<br></p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><h3>Free body diagrams</h3><p class="" style="">A free body diagram is tackled in the same way as a force diagram, but the object&nbsp;of interest is drawn as a dot.</p><p class="" style=""></p><div class="problemset" data-unknown="true">
+
+
+<div class="header" data-unknown="true">
+<p>Draw a labelled free body diagram for each of the following situations. (The object of interest is in bold)<br></p></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="" contenteditable="true"><p><span style="background-color: rgb(240, 240, 240);">You have just kicked a&nbsp;</span><strong style="background-color: rgb(240, 240, 240);">ball</strong><span style="background-color: rgb(240, 240, 240);">&nbsp;across the ground and it is rolling across the&nbsp;ground about a meter in front of you.</span><br></p>
+</div><div class="solution">
+
+<p>Put the solution here.</p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="" contenteditable="true">
 <p>A&nbsp;<strong>rocket</strong>&nbsp;just after leaving the launch pad on its way to the ISS. (Air&nbsp;resistance is not negligible)<br></p>
 </div><div class="solution">
 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
@@ -111,13 +147,12 @@
   <mi>a</mi>
   <mi>t</mi>
   <mi>h</mi>
-</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><h3>Free body diagrams</h3><p class="" style="">A free body diagram is tackled in the same way as a force diagram, but the object&nbsp;of interest is drawn as a dot.</p><p class="" style=""></p><div class="problemset" data-unknown="true">
-<div class="header" data-unknown="true">
-<p>Draw a labelled free body diagram for each of the following situations. (The object of interest is in bold)</p></div><div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="fb79fd25-4914-377e-c5be-718de3070ef2" contenteditable="true"><p>You have just kicked a <strong>ball</strong> across the ground and it is rolling across the&nbsp;ground about a meter in front of you.<br></p>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><div class="problemset" data-unknown="true">
+<div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="a226e4ea-fe0a-7bf4-d426-f5bc74052e0e" contenteditable="true"><p>You have just kicked a <strong>ball</strong> across the ground and it is rolling across the&nbsp;ground about a meter in front of you.<br></p>
 </div><div class="solution">
 Put the solution here.<div class="body aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="03370c87-6cc4-917a-87e4-6821f2a416b9" contenteditable="true"></div></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="4ef29e1f-5478-ca7e-748c-e9d70d353100" contenteditable="true"><p>You have just thrown a <strong>cricket ball</strong> horizontally to the wicket keeper and&nbsp;the ball is in midflight.<br></p>
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="21845a00-30e7-ff2e-1f77-93a58ada0954" contenteditable="true"><p>You have just thrown a <strong>cricket ball</strong> horizontally to the wicket keeper and&nbsp;the ball is in midflight.<br></p>
 </div><div class="solution">
 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mi>s</mi>
@@ -130,7 +165,7 @@ Put the solution here.<div class="body aloha-block-dropzone aloha-editable aloha
   <mi>h</mi>
 </mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><p class="">NB: It is important only to include forces that are actually acting on an object.&nbsp;</p><p class=""><br></p><p class="">In the last example, the hand only exerts a force on the cricket ball while&nbsp;the ball was in contact with the hand. Once the hand was no longer&nbsp;touching the cricket ball, it could no longer exert a force.</p><div class="example aloha-block-dropzone" data-type="activity"><span class="title"></span><p class="para"></p></div><div class="note"><span class="title"></span><ul><li>Forces exist due to interactions happening at the moment. Not due to interactions in the past.</li><li class="">Forces only exist at the point of contact between the object and the agent.&nbsp;(Except for a few cases of non-contact forces like gravitational forces)</li></ul></div><div class="exercise aloha-block-dropzone">
             
-        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="61ef6095-b4ec-54f9-fe44-eaddf981ea61" contenteditable="true"><p class="">A force acts on an object. Name three effects that the force can have on the&nbsp;object.</p></div></div><div class="exercise">
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="5811e1c1-938c-4577-6618-06c83e4575a7" contenteditable="true"><p class="">A force acts on an object. Name three effects that the force can have on the&nbsp;object.</p></div></div><div class="exercise">
             
-        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="b6f7ce92-3658-3f20-15fd-148fb5089178" contenteditable="true">A book of mass 2 kg is lying on a table. Draw a labelled force diagram&nbsp;indicating all the forces on the book.</div></div><p class="" style=""><br></p><p class=""><br></p><p class="">3. A boy pushes a shopping trolley (mass 15 kg) with a constant force of 75&nbsp;</p><p class=""><br></p><p class="">N. A constant frictional force of 20 N is present.</p><p class=""><br></p><p class="">a. Draw a labelled force diagram to identify all the forces acting on&nbsp;</p><p class=""><br></p><p class="">b. Draw a free body diagram of all the horizontal forces acting on the&nbsp;</p><p class=""><br></p><p class="">c. Determine the resultant force on the trolley.</p><p class=""><br></p><p class="">the shopping trolley.</p><p class=""><br></p><p class="">trolley.</p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class="" style=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p></body>
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="0755928c-95b7-9573-7ce0-cbc8354a96a3" contenteditable="true">A book of mass 2 kg is lying on a table. Draw a labelled force diagram&nbsp;indicating all the forces on the book.</div></div><p class="" style=""><br></p><p class=""><br></p><p class="">3. A boy pushes a shopping trolley (mass 15 kg) with a constant force of 75&nbsp;</p><p class=""><br></p><p class="">N. A constant frictional force of 20 N is present.</p><p class=""><br></p><p class="">a. Draw a labelled force diagram to identify all the forces acting on&nbsp;</p><p class=""><br></p><p class="">b. Draw a free body diagram of all the horizontal forces acting on the&nbsp;</p><p class=""><br></p><p class="">c. Determine the resultant force on the trolley.</p><p class=""><br></p><p class="">the shopping trolley.</p><p class=""><br></p><p class="">trolley.</p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class="" style=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p></body>
 </html>
