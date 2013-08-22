@@ -75,34 +75,34 @@
   </msub>
 <annotation encoding="math/tex">F_N</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>N</mi>
-<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol><p class="" style=""><br></p><p class=""></p><div class="problemset" data-unknown="true"><div class="header" id="2a892d13-8eec-27ff-3257-d40ed6e7ffd4">
+<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol><p class="" style=""><br></p><p class=""></p><div class="problemset" data-unknown="true"><div class="header" id="c57f7518-d97b-20f9-d02a-523280131bbe">
 <p>Draw a labelled force diagram for each of the following situations. (The object of interest is in bold)<br></p></div>
 
 
 <div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem" id="79e1b48f-917b-4e5c-11c2-fdc2aab6d233"><p>A&nbsp;<strong>box</strong>&nbsp;being pulled across a rough horizontal surface by a horizontal rope.<br></p>
+<div class="problem" id="0facce8f-5b6b-bb63-2707-18c65e17d4cd"><p>A&nbsp;<strong>box</strong>&nbsp;being pulled across a rough horizontal surface by a horizontal rope.<br></p>
 </div><div class="solution"><p>
 
 </p><p>need a diagram.</p><p></p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="1e614ec4-206f-7695-69e7-71fef202b265">
+<div class="problem" id="d0df9e6d-a350-99cc-4076-5f2821ff3840">
 <p>A&nbsp;<strong>rocket</strong>&nbsp;just after leaving the launch pad on its way to the ISS. (Air&nbsp;resistance is not negligible)<br></p>
 </div><div class="solution"><p>
 need a diagram</p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="2cbf517f-fe9f-4960-56db-2139a7ad1ea9">
+<div class="problem" id="1a6cf4f7-881d-0914-28b5-5abc09340203">
 <p>A&nbsp;<strong>steel beam</strong>&nbsp;being lifted by a cable attached to a crane.<br></p>
 </div><div class="solution"><p>
-need a diagram</p></div></div></div><h3>Free body diagrams</h3><p class="" style="">A free body diagram is tackled in the same way as a force diagram, but the object&nbsp;of interest is drawn as a dot.</p><p class="" style=""></p><div class="problemset" data-unknown="true"><div class="header" id="a9e30206-5644-e146-23c1-b15771de3d82">
+need a diagram</p></div></div></div><h3>Free body diagrams</h3><p class="" style="">A free body diagram is tackled in the same way as a force diagram, but the object&nbsp;of interest is drawn as a dot.</p><p class="" style=""></p><div class="problemset" data-unknown="true"><div class="header" id="6929ebb6-86b0-c445-d4dd-5dce8ae41d55">
 <p>Draw a labelled free body diagram for each of the following situations. (The object of interest is in bold)<br></p></div>
 
 
 <div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem" id="4500a82c-7fe9-cfa6-7af7-83bd0feb1264">You have just kicked a&nbsp;<strong>ball</strong>&nbsp;across the ground and it is rolling across the&nbsp;ground about a meter in front of you.</div><div class="solution"><p>
+<div class="problem" id="a466b0e1-67a8-b278-8a8c-643614cd7f65">You have just kicked a&nbsp;<strong>ball</strong>&nbsp;across the ground and it is rolling across the&nbsp;ground about a meter in front of you.</div><div class="solution"><p>
 
 </p><p>Put the solution here.</p><p></p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="8643af41-3def-3efa-fca0-940eeb9a52ca">You have just thrown a&nbsp;<strong>cricket ball</strong>&nbsp;horizontally to the wicket keeper and&nbsp;the ball is in midflight.</div><div class="solution"><p>
+<div class="problem" id="08e63336-d52f-1e17-7469-1b34f32de6a5">You have just thrown a&nbsp;<strong>cricket ball</strong>&nbsp;horizontally to the wicket keeper and&nbsp;the ball is in midflight.</div><div class="solution"><p>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mi>s</mi>
   <mi>o</mi>
@@ -114,19 +114,19 @@ need a diagram</p></div></div></div><h3>Free body diagrams</h3><p class="" style
   <mi>h</mi>
 </mrow><annotation encoding="math/tex">some math</annotation></semantics></math></p></div></div></div><p class="">NB: It is important only to include forces that are actually acting on an object.&nbsp;</p><p class=""><br></p><p class="">In the last example, the hand only exerts a force on the cricket ball while&nbsp;the ball was in contact with the hand. Once the hand was no longer&nbsp;touching the cricket ball, it could no longer exert a force.</p><div class="note"><span class="title"></span><ul><li>Forces exist due to interactions happening at the moment. Not due to interactions in the past.</li><li class="">Forces only exist at the point of contact between the object and the agent.&nbsp;(Except for a few cases of non-contact forces like gravitational forces)</li></ul></div><div class="exercise">
             
-        <div class="problem" id="2fcc2c94-2744-c931-1d85-bbbcbca1ec61"><p class="">A force acts on an object. Name three effects that the force can have on the&nbsp;object.</p></div></div><div class="exercise">
+        <div class="problem" id="e24bcfd4-7baa-e987-55cf-9455654edc13"><p class="">A force acts on an object. Name three effects that the force can have on the&nbsp;object.</p></div></div><div class="exercise">
             
-        <div class="problem" id="51a473ed-4909-5949-d631-faf479e153db">A book of mass 2 kg is lying on a table. Draw a labelled force diagram&nbsp;indicating all the forces on the book.</div></div><p class="" style=""></p><div class="problemset" data-unknown="true"><div class="header" id="1dc2d8ef-7c7d-b555-d914-6904a1d513d7">
+        <div class="problem" id="213798b5-c2b6-1cc9-2b02-64e1a7f7b60b">A book of mass 2 kg is lying on a table. Draw a labelled force diagram&nbsp;indicating all the forces on the book.</div></div><p class="" style=""></p><div class="problemset" data-unknown="true"><div class="header" id="6e7c4888-4e0e-4fb3-9bc1-03d8c3fbc6f6">
 <p style="">A boy pushes a shopping trolley (mass 15 kg) with a constant force of 75&nbsp;N. A constant frictional force of 20 N is present.<br style=""></p></div>
 
 
 <div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem" id="cc018e6e-5c6c-cecc-84ca-ceff0fbab359"><p style=""><strong></strong>Draw a labelled force diagram to identify all the forces acting on the shopping cart.<br style=""></p>
+<div class="problem" id="be7b3234-4d97-dfae-2307-5156f8729af8"><p style=""><strong></strong>Draw a labelled force diagram to identify all the forces acting on the shopping cart.<br style=""></p>
 </div><div class="solution"><p>
 
 </p><p>Put the solution here.</p><p></p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="73022fa0-d940-bded-1526-9eaaca51fd2d"><p style="">Draw a free body diagram of all the horizontal forces acting on the trolley.<br style=""></p>
+<div class="problem" id="f7537e9b-c529-e816-bd05-33daafb4d820"><p style="">Draw a free body diagram of all the horizontal forces acting on the trolley.<br style=""></p>
 </div><div class="solution"><p>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mi>s</mi>
@@ -139,7 +139,7 @@ need a diagram</p></div></div></div><h3>Free body diagrams</h3><p class="" style
   <mi>h</mi>
 </mrow><annotation encoding="math/tex">some math</annotation></semantics></math></p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="ffed1731-2b04-279b-c35a-b763609aea43"><p style="">Determine the resultant force on the trolley.<br style=""></p>
+<div class="problem" id="02d06c05-ffd8-4efd-4a12-fcdf2805c7ba"><p style="">Determine the resultant force on the trolley.<br style=""></p>
 </div><div class="solution"><p>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mi>s</mi>
@@ -150,7 +150,7 @@ need a diagram</p></div></div></div><h3>Free body diagrams</h3><p class="" style
   <mi>a</mi>
   <mi>t</mi>
   <mi>h</mi>
-</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></p></div></div></div><p class=""></p><div class="problemset" data-unknown="true"><div class="header" id="bcd264f4-cf41-b541-7497-cb378f84982c">
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></p></div></div></div><p class=""></p><div class="problemset" data-unknown="true"><div class="header" id="6bb6c394-3dbb-41dd-3ad1-0b2e91edc4a0">
 <p>A donkey (mass 250 kg) is desperately trying to pull a cart (mass 80 kg)&nbsp;with a force of 400 N. The rope between the donkey and the cart makes an angle of 30<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <msup>
     <mi></mi>
@@ -162,18 +162,18 @@ need a diagram</p></div></div></div><h3>Free body diagrams</h3><p class="" style
 
 
 <div class="exercise" data-class="entry" data-type="Worked Example">
-<div class="problem" id="3bb0fe8f-a98a-85fb-3a3e-fdc7a9a64287"><p style="">Draw a force diagram of all the forces acting on the donkey.<br style=""></p>
+<div class="problem" id="fd2f3e29-a462-207e-8798-dc21e9a4274d"><p style="">Draw a force diagram of all the forces acting on the donkey.<br style=""></p>
 </div><div class="solution"><p>
 
 </p><p>need a diagram.</p><p></p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="025b9d88-130f-b778-2e18-e72fa74bd35f">
+<div class="problem" id="7c7c30d8-68df-c286-540a-bde56d99a38a">
 <p>Draw a free body diagram of all the forces acting on the cart.<br></p>
 </div><div class="solution"><p>
 need a diagram</p></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
 
-<div class="problem" id="2975fcb3-7ad9-8c26-ff47-5513a0673d4c">
+<div class="problem" id="46dad5d2-c031-6847-535b-5654d912605c">
 <p>Find the magnitude and direction of the frictional force preventing the cart from moving.<br></p>
 </div><div class="solution"><p>
-need a diagrammaths needed</p></div></div></div><h2>Newton’s First Law</h2><blockquote class="quote" id="eabf252e-c0a9-05b6-b5fe-b350c8647b4b"><span style="font-style: normal; line-height: 20px;">If I have seen further than others, it is by standing on the shoulders of giants.</span></blockquote><p class="">Sir Isaac Newton</p><p class=""><br></p><p class="">Since the days of Aristotle, many people tried to answer questions about forces&nbsp;and motion. Galileo did a lot of work and thinking about forces, but it was&nbsp;Newton who was able to come up with a general understanding of force and&nbsp;motion.</p><dl class="definition"><dt>Newton's First Law</dt><dd><p class="">An object continues in a state of rest or uniform (moving with constant) velocity&nbsp;unless it is acted upon by a net or resultant force.</p></dd></dl><p class="">Something to consider:</p><p class="">An ice skater pushes away from the side of the ice rink and skates across the ice. She will continue to move in a straight line across the ice unless something&nbsp;stops her. Objects are also like that. If we kick a soccer ball across a soccer field,&nbsp;according to Newton’s First Law, the soccer ball should keep on moving forever.&nbsp;However, in real life this does not happen. Is Newton’s Law wrong? No.&nbsp;</p><p class="">Newton’s First Law applies to situations where there aren’t any net forces&nbsp;present. In the case of the ice skater, the friction between the skates and the&nbsp;ice is very little and she will continue moving for quite a distance. In the case of&nbsp;the soccer ball, air resistance (friction between the air and the ball) and friction&nbsp;between the grass and the ball is present and this will slow the ball down.</p><p class="">Newton’s first law answers our question “What is a force?” A force is what causes an object to change its motion. It also tells us that no force is needed for motion,&nbsp;we only need a force to change the motion.</p><p class=""><br></p><p class="">The following facts arise from Newton’s First Law:</p><ul><li>If a body is stationary or traveling at a constant velocity, it has no net&nbsp;or resultant force acting on it. &nbsp;(e.g. A motor car traveling at a constant 120 km.h<sup>-1</sup> in a straight line.)</li></ul><p class=""><strong>Diagram of car needed</strong></p><p class="">We say that an object that has no net or resultant force acting on it is in equilibrium. A body in equilibrium can be at rest or moving with a constant&nbsp;velocity.</p><ul><li>A resultant force causes a change in the state of rest or motion of a&nbsp;body. &nbsp;(i.e. the body accelerates).</li><li class="" style="">No force is required to keep an object moving at constant velocity. (eg&nbsp;the Voyager spacecrafts)<br style=""><figure class="figure" title=""><div class="title"></div><img draggable="false" src="../../../resources/1fd53ccfb27d8fdf11d3ffb0dad4b150519944ef.jpg" alt="" class="aloha-image-uploading" data-lrmi-creator="NASA" data-tbook-permissiontext="Image by NASA.License: Choose a license."/><figcaption></figcaption></figure></li><li class="" style="">We wear seat belts in cars. This is to protect us when the car is involved in an accident. If a car is travelling at 120 km.h<sup>-1</sup>, the<br style="">passenger in the car is also travelling at 120 km.h<sup>-1</sup>. When the car suddenly stops a force is exerted on the car (making it slow down), but not on the passenger. The passenger will carry on moving&nbsp;forward at 120 km.h<sup>-1</sup> according to Newton I. If they are wearing a seat belt, the seat belt will stop them by exerting a force on them&nbsp;and so prevent them from getting hurt.</li></ul><p class=""><br></p><p class="">Newton’s first law is also known as the law of inertia.</p><p class="">If an object is at rest it has a tendency to stay at rest. If an object is moving, it has&nbsp;a tendency to continue moving with the same velocity.</p><p class=""><br></p><div><br></div></body>
+need a diagrammaths needed</p></div></div></div><h2>Newton’s First Law</h2><blockquote class="quote" id="eabf252e-c0a9-05b6-b5fe-b350c8647b4b"><span style="font-style: normal; line-height: 20px;">If I have seen further than others, it is by standing on the shoulders of giants.</span></blockquote><p class="">Sir Isaac Newton</p><p class=""><br></p><p class="">Since the days of Aristotle, many people tried to answer questions about forces&nbsp;and motion. Galileo did a lot of work and thinking about forces, but it was&nbsp;Newton who was able to come up with a general understanding of force and&nbsp;motion.</p><dl class="definition"><dt>Newton's First Law</dt><dd><p class="">An object continues in a state of rest or uniform (moving with constant) velocity&nbsp;unless it is acted upon by a net or resultant force.</p></dd></dl><p class="">Something to consider:</p><p class="">An ice skater pushes away from the side of the ice rink and skates across the ice. She will continue to move in a straight line across the ice unless something&nbsp;stops her. Objects are also like that. If we kick a soccer ball across a soccer field,&nbsp;according to Newton’s First Law, the soccer ball should keep on moving forever.&nbsp;However, in real life this does not happen. Is Newton’s Law wrong? No.&nbsp;</p><p class="">Newton’s First Law applies to situations where there aren’t any net forces&nbsp;present. In the case of the ice skater, the friction between the skates and the&nbsp;ice is very little and she will continue moving for quite a distance. In the case of&nbsp;the soccer ball, air resistance (friction between the air and the ball) and friction&nbsp;between the grass and the ball is present and this will slow the ball down.</p><p class="">Newton’s first law answers our question “What is a force?” A force is what causes an object to change its motion. It also tells us that no force is needed for motion,&nbsp;we only need a force to change the motion.</p><p class=""><br></p><p class="">The following facts arise from Newton’s First Law:</p><ul><li>If a body is stationary or traveling at a constant velocity, it has no net&nbsp;or resultant force acting on it. &nbsp;(e.g. A motor car traveling at a constant 120 km.h<sup>-1</sup> in a straight line.)</li></ul><p class=""><strong>Diagram of car needed</strong></p><p class="">We say that an object that has no net or resultant force acting on it is in equilibrium. A body in equilibrium can be at rest or moving with a constant&nbsp;velocity.</p><ul><li>A resultant force causes a change in the state of rest or motion of a&nbsp;body. &nbsp;(i.e. the body accelerates).</li><li class="" style="">No force is required to keep an object moving at constant velocity. (eg&nbsp;the Voyager spacecrafts)<br style=""><figure class="figure" title=""><div class="title"></div><img draggable="false" alt="" class="aloha-image-uploading" data-lrmi-creator="NASA" data-tbook-permissiontext="Image by NASA.License: Choose a license." src="../../../resources/1fd53ccfb27d8fdf11d3ffb0dad4b150519944ef.jpg"/><figcaption></figcaption></figure></li><li class="" style="">We wear seat belts in cars. This is to protect us when the car is involved in an accident. If a car is travelling at 120 km.h<sup>-1</sup>, the<br style="">passenger in the car is also travelling at 120 km.h<sup>-1</sup>. When the car suddenly stops a force is exerted on the car (making it slow down), but not on the passenger. The passenger will carry on moving&nbsp;forward at 120 km.h<sup>-1</sup> according to Newton I. If they are wearing a seat belt, the seat belt will stop them by exerting a force on them&nbsp;and so prevent them from getting hurt.</li></ul><p class=""><br></p><p class="">Newton’s first law is also known as the law of inertia.</p><p class="">If an object is at rest it has a tendency to stay at rest. If an object is moving, it has&nbsp;a tendency to continue moving with the same velocity.</p><h3>Inertia</h3><p class="" style="">Inertia is the property of an object that causes it to resist a change in its state of&nbsp;rest or uniform motion. &nbsp;</p><p class="" style="">The extent of the inertia is directly proportional to the mass.</p><p class=""><br></p></body>
 </html>
