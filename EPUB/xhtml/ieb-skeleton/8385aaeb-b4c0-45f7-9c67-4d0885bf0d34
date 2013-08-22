@@ -48,5 +48,32 @@
 \psframe[](1,-0.4)(2,-0.2)
 \psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.5)
 \rput[l](1.6,.2){\color{purple}$\vec{N}$}
-            &lt;/code&gt;</pre></div><p class=""><br></p><p class=""><br></p></body>
+            &lt;/code&gt;</pre></div><p class=""></p><div class="alternates" data-unknown="true"><img draggable="false" src="_plone_ignore_/cache/pspictures/dd900917b9dc2ae75e78f3830752e3ca.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,1.5)
+\pscircle(-0.5,0.9){0.4}
+\psline(-0.5,0.5)(-0.5,-1)
+\psline(0,0)(-1,0)
+\psline(-1,-2)(-0.5,-1)
+\psline(0,-2)(-0.5,-1)
+\psline(-1.5,-2)(3.2,-2)
+\rput{-35}(.3,1.25){
+\psline[linecolor=blue](0.5,-0.4)(3,-0.4)
+\psline[linecolor=blue](0.7,-0.4)(0.7,-2)
+\psline[linecolor=blue](2.8,-0.4)(2.8,-2)
+\psframe[linecolor=red](1,-0.4)(2,-0.2)
+\psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.3)
+\rput[l](1.6,.2){\color{purple}$\vec{N}$}}
+            &lt;/code&gt;</pre></div><p class="">The origin of the word normal is due to mathematicians. Mathematicians call a line that is perpendicular to a surface a normal to the surface.</p><h3>Frictional Force</h3><p class="" style="">The frictional force (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>F</mi>
+    <mi>f</mi>
+  </msub>
+<annotation encoding="math/tex">F_f</annotation></semantics></math>) is also due to the surface. It is defined as the force that&nbsp;opposes the motion of an object. The frictional force acts parallel to the surface&nbsp;with which the object is in contact. We will come back to frictional forces later.</p><h3>Air Resistance</h3><p class="" style="">An object moving through a liquid or a gas experiences a resistive force. This&nbsp;resistive force is called drag. Drag is another force that opposes motion. We will&nbsp;ignore all air resistance (drag) unless it is explicitly included in a problem.</p><h3>Tension</h3><p class="" style="">When a rope, string or cable pulls on an object, it exerts a force that we call the&nbsp;tension force (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>F</mi>
+    <mi>N</mi>
+  </msub>
+<annotation encoding="math/tex">F_N</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>N</mi>
+<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol></body>
 </html>
