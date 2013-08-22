@@ -3,10 +3,10 @@
   <head><title>01 Vectors</title></head>
   <body><h1>Vectors</h1>
 <div class="teachers-guide" data-unknown="true">
-<p>Notes</p>
 
-<p>The following topics are covered in this chapter.</p>
-<ul data-class="ListBulleted"><li>
+
+
+<p>Notes</p><p>The following topics are covered in this chapter.</p><ul data-class="ListBulleted"><li>
 Define a vector as a physical quantity that has both magnitude and
 direction and give examples
 </li><li>
@@ -20,5 +20,430 @@ as the original vectors acting together
 </li><li>
  Determine two perpendicular components of any vector (e.g. force at
 an angle, weight on an inclined plane)
-</li></ul></div><h2>Section title</h2><p><br></p><div class="note"><span class="title">Title</span><p>Some text</p></div><h2>Section Title</h2><p style=""><br style=""></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 13px; font-family: Verdana; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Functionalists view education as one of the more important social institutions in a society. They contend that education contributes two kinds of functions: manifest (or primary) functions, which are the intended and visible functions of education; and latent (or secondary) functions, which are the hidden and unintended functions.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p style=""><span id="docs-internal-guid-528b0830-9b23-4515-fd91-e2e28732836e"><span style="font-size: 13px; font-family: Verdana; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;"><br></span></span><br style=""></p></body>
+</li></ul></div><h2>Section title</h2><p><br></p><div class="note"><span class="title">Title</span><p>Some text</p></div><h2>Section Title</h2><p style=""><br style=""></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 13px; font-family: Verdana; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Functionalists view education as one of the more important social institutions in a society. They contend that education contributes two kinds of functions: manifest (or primary) functions, which are the intended and visible functions of education; and latent (or secondary) functions, which are the hidden and unintended functions.</span></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"></p><h1>Heading for copying</h1><h2>Momentum and Newton’s Second Law</h2><p>Newton’s Second Law of Motion can be defined in terms of momentum.</p><p>Newton’s Second Law can be written as</p><div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>F</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>n</mi>
+      <mi>e</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mi>m</mi>
+  <mi>a</mi>
+</mrow><annotation encoding="math/tex">F_{net}=m a</annotation></semantics></math></div><p>Where&nbsp;</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>F</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+            <mi>e</mi>
+            <mi>t</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>resultant force (N)</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>m</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>mass (kg)</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>a</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msup>
+          <mtext>acceleration (m.s</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <mtext>)</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align} F_{net} &amp;= \text{resultant force (N)} \\ m &amp;= \text{mass (kg)} \\ a &amp;= \text{acceleration (m.s}^{-2}\text{)}\end{align}</annotation></semantics></math>&nbsp;</p><p>But acceleration is the rate of change of velocity and can be written as <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>a</mi>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>v</mi>
+    </mrow>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>t</mi>
+    </mrow>
+  </mfrac>
+</mrow><annotation encoding="math/tex">a=\frac{\Delta v}{\Delta t}</annotation></semantics></math></p><p>Combining these equations&nbsp;</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>F</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>n</mi>
+      <mi>e</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mi>m</mi>
+  <mfrac>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>v</mi>
+    </mrow>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>t</mi>
+    </mrow>
+  </mfrac>
+</mrow><annotation encoding="math/tex">F_{net} =m \frac{\Delta v}{\Delta t}</annotation></semantics></math></p><p>So for constant mass</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>F</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>n</mi>
+      <mi>e</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>p</mi>
+    </mrow>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>t</mi>
+    </mrow>
+  </mfrac>
+</mrow><annotation encoding="math/tex">F_{net} = \frac{\Delta p}{\Delta t}</annotation></semantics></math></p><p>This is an alternative form of Newton’s second law.</p><p></p><dl class="definition"><dt>Newton's Second Law</dt><dd><p>The resultant force acting on an object is directly proportional to the rate of change of mom</p></dd></dl><p>Multipart example</p><p></p><div class="problemset" data-unknown="true">
+<div class="header" data-unknown="true">
+<p>A resultant force of 20 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>N</mi>
+<annotation encoding="math/tex">N</annotation></semantics></math> acts on a 5 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>k</mi>
+  <mi>g</mi>
+</mrow><annotation encoding="math/tex">kg</annotation></semantics></math> object, initially at rest, for 10 seconds.</p></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="cd48f3d2-07f9-5e83-69f1-e783477f68b1" contenteditable="true"><p>Determine the change in momentum.</p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>S</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">Some math</annotation></semantics></math></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="f2afec2c-16d4-cc33-5fa2-e21edd202e58" contenteditable="true"><p>Calculate the final velocity.</p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><p><br></p><p>Siyavula Gr 12 with vector diagrams - change diagrams notation slighty</p><p>consider delta p positive and delta p negative</p><p>link to Phet Collision Lab</p><h2>Impulse</h2><p>When a resultant force acts on an object for a period of time the object will undergo a&nbsp;change in velocity. &nbsp;Momentum which is the product of mass and velocity must therefore&nbsp;also change. &nbsp;The change in momentum is directly proportional to the resultant force and to the time&nbsp;for which the force acts.</p><p>Starting with Newton's second law,</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>F</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>n</mi>
+      <mi>e</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>p</mi>
+    </mrow>
+    <mrow>
+      <mi mathvariant="normal">Δ<!-- Δ --></mi>
+      <mi>t</mi>
+    </mrow>
+  </mfrac>
+</mrow><annotation encoding="math/tex">F_{net}=\frac{\Delta p}{\Delta t}</annotation></semantics></math></p><p>Rearranging:</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>F</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>n</mi>
+      <mi>e</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mi mathvariant="normal">Δ<!-- Δ --></mi>
+  <mi>t</mi>
+  <mo>=</mo>
+  <mi mathvariant="normal">Δ<!-- Δ --></mi>
+  <mi>p</mi>
+</mrow><annotation encoding="math/tex">F_{net} \Delta t = \Delta p</annotation></semantics></math></p><p></p><p>The left hand side of this equation is a measure of the strength of the force and the duration for which the force acts. This combination is defined as &nbsp;impulse.&nbsp;</p><p></p><dl class="definition aloha-block-dropzone"><dt>Impulse</dt><dd><p>Impulse <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>J</mi>
+<annotation encoding="math/tex">J </annotation></semantics></math>&nbsp;is the product of the net force and the time for which the net force acts.</p><p></p></dd></dl><div class="note"><span class="title"></span><ul><li>The unit of impulse can be&nbsp;&nbsp;or&nbsp;</li><li>Impulse is equal to the change in momentum</li></ul></div><p></p><div class="exercise">
+            
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="b17e371c-cb6d-8cd4-f912-5a06f596a7b8" contenteditable="true"><p>Show that the units N.s and kg.m.s<sup>-1</sup> are equivalent.</p></div><div class="solution">
+<p>N.s = (kg.m.s<sup>-2</sup>).s = kg.m.s<sup>-1</sup></p></div></div><p></p><div class="exercise" data-type="Worked Example">
+            
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="e032dd0d-a5e8-63c8-2332-1a3c7add34fe" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>A bullet of mass 150 g is fired from a rifle. The bullet's muzzle velocity is 300 m.s<sup>-1</sup>&nbsp;. The mass of the rifle is 5 kg and its recoil velocity is 9 m.s<sup>-1</sup>. Calculate the impulse of the rifle. (use the bullet's direction as positive)</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>need diagram</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>J</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mi>m</mi>
+        <mo stretchy="false">(</mo>
+        <mi>v</mi>
+        <mo>−<!-- − --></mo>
+        <mi>u</mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mn>5</mn>
+        <mo stretchy="false">(</mo>
+        <mo>−<!-- − --></mo>
+        <mn>9</mn>
+        <mo>−<!-- − --></mo>
+        <mn>0</mn>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mn>45</mn>
+        <mtext>&nbsp;</mtext>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <msup>
+          <mtext>kg.m.s</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align}J&amp;=m(v-u) \\&amp;=5(-9-0) \\&amp;= -45 \ &nbsp;\text{kg.m.s}^{-1}\end{align}</annotation></semantics></math><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p>If the time for which the force acts in known, the net force can be calculated</p><div class="exercise" data-type="Worked Example">
+            
+        <div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="59f7ffba-7b56-5585-44d0-c485770bfb48" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>If the bullet is in the barrel for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mn>0</mn>
+  <mo>,</mo>
+  <mn>1</mn>
+  <mi>s</mi>
+</mrow><annotation encoding="math/tex">0,1 s</annotation></semantics></math> (time for which net force acts), calculate the net force on the bullet.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>answer is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mn>450</mn>
+<annotation encoding="math/tex">450</annotation></semantics></math>
+  
+</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div></div><p>NOTE: The impulse will always be in the direction of the resultant force as impulse = F∆t</p><p>Exercise</p><p>How would the length of the barrel affect the velocity of the bullet if the force acting on the&nbsp;</p><p>bullet remains constant while in the barrel.</p><p>Example</p><p>A golf club exerts an average force of 4000N on a ball with a mass of 50g. &nbsp;If the golf club&nbsp;</p><p>is in contact with the ball for 0,001 seconds, calculate the velocity at which the ball leaves&nbsp;</p><p>the club.</p><p>Example</p><p>A vertical bounce</p><p>Siyavula worked eg 5</p><p>Exercise</p><p>A tennis ball of mass 200 g, moving at 20 m.s-1 , is hit by a racket. The ball moves off in the opposite direction with a speed of 15 m.s. The racket is in contact with the ball for 0.03s.</p><p>a. Calculate the change in momentum of the ball</p><p>b. What is the impulse exerted by the racket on the ball</p><p>c. Calculate the force exerted by the racket on the ball.</p><p>A puck of mass 100 g travels towards an ice hockey player at 20 m.s. He exerts a force of 350 N on the puck when he hits it so that the puck moves off at 15 m.s. in the opposite direction. Determine the time that the puck was in contact with the stick.</p><p>A child sitting in a toy cart moves with a velocity of 5 m.s. The mass of the child plus cart is 30 kg. The child and cart collide with a large tree and rebound at a speed of 2 m.s</p><p>Calculate</p><p>a. The change in momentum of the child plus cart.</p><p>b. The force exerted by the tree on the cart if the cart was in contact with the tree for 0.01s.</p><p>A 800 g &nbsp;rubber ball is dropped onto the floor. The speed of the ball just before it hits the floor is 15 m.s and 10 m.s just after it leaves the floor.</p><p>a. Determine the change in momentum of the ball during collision with the floor.</p><p>b. If the ball was in contact with the floor for 0.2 s, calculate the average force exerted on the ball during collision.</p><p>Applications of impulse: follow through, catching ball, jumping from high, crumple zones</p><h2>Conservation of Momentum</h2><p>Practical - Conservation of momentum (dropping mass)</p><p>Practical - Conservation of Momentum (exploding masses)</p><p>SummExercise</p><p>How would the length of the barrel affect the velocity of the bullet if the force acting on the&nbsp;</p><p>bullet remains constant while in the barrel.</p><p>Example</p><p>A golf club exerts an average force of 4000N on a ball with a mass of 50g. &nbsp;If the golf club&nbsp;</p><p>is in contact with the ball for 0,001 seconds, calculate the velocity at which the ball leaves&nbsp;</p><p>the club.</p><p>Example</p><p>A vertical bounce</p><p>Siyavula worked eg 5</p><p>Exercise</p><p>A tennis ball of mass 200 g, moving at 20 m.s-1 , is hit by a racket. The ball moves off in the opposite direction with a speed of 15 m.s-1. The racket is in contact with the ball for 0,03s.</p><p>a. Calculate the change in momentum of the ball</p><p>b. What is the impulse exerted by the racket on the ball</p><p>c. Calculate the force exerted by the racket on the ball</p><p>A puck of mass 100 g travels towards an ice hockey player at 20 m.s-1. He exerts a force of 350 N on the puck when he hits it so that the puck moves off at 15 m.s-1. in the opposite direction. Determine the time that the puck was in contact with the stick.</p><p>A child sitting in a toy cart moves with a velocity of 5 m.s-1. The mass of the child plus cart is 30 kg. The child and cart collide with a large tree and rebound at a speed of 2 m.s-1.</p><p>Calculate</p><p>a. The change in momentum of the child plus cart.</p><p>b. The force exerted by the tree on the cart if the cart was in contact with the tree for 0.01s</p><p>A 800 g &nbsp;rubber ball is dropped onto the floor. The speed of the ball just before it hits the floor is 15 m.s and 10 m.s just after it leaves the floor.</p><p>a. Determine the change in momentum of the ball during collision with the floor.</p><p>b. If the ball was in contact with the floor for 0,2 s, calculate the average force exerted on the ball during collision.</p><p>Applications of impulse: follow through, catching ball, jumping from high, crumple zones</p><p>ary of practicals</p><p>Definition</p><p>The principle of conservation of momentum: The total momentum for a system of&nbsp;</p><p>interacting objects (objects colliding or exploding apart) remains constant, &nbsp;providing that&nbsp;</p><p>there are no external forces acting on the system.</p><p>Note: Before an explosion, the total momentum is zero if nothing is moving. &nbsp;After an&nbsp;</p><p>explosion, the total momentum is still zero.</p><p>When solving problems with momentum use the following formula:</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>p</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+            <mi>o</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mi>p</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>a</mi>
+            <mi>f</mi>
+            <mi>t</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+          </mrow>
+        </msub>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>m</mi>
+          <mn>1</mn>
+        </msub>
+        <msub>
+          <mi>u</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mi>m</mi>
+          <mn>2</mn>
+        </msub>
+        <msub>
+          <mi>u</mi>
+          <mn>2</mn>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+        <msub>
+          <mi>m</mi>
+          <mn>1</mn>
+        </msub>
+        <msub>
+          <mi>v</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mi>m</mi>
+          <mn>2</mn>
+        </msub>
+        <msub>
+          <mi>v</mi>
+          <mn>2</mn>
+        </msub>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align}p_{before} &amp;= p_{after} \\m_1 u_1 + m_2 u_2 &amp;=&nbsp;m_1 v_1 + m_2 v_2\end{align}</annotation></semantics></math></p><p>Where</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>m</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>mass</mtext>
+        <mfenced open="(" close=")">
+          <mrow>
+            <mi>k</mi>
+            <mi>g</mi>
+          </mrow>
+        </mfenced>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>u</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>initial velocity</mtext>
+        <mfenced open="(" close=")">
+          <mrow>
+            <mi>m</mi>
+            <mo>.</mo>
+            <msup>
+              <mi>s</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo>−<!-- − --></mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </mrow>
+        </mfenced>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>v</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo>&nbsp;</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>final velocity</mtext>
+        <mfenced open="(" close=")">
+          <mrow>
+            <mi>m</mi>
+            <mo>.</mo>
+            <msup>
+              <mi>s</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo>−<!-- − --></mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </mrow>
+        </mfenced>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align}m &nbsp;&amp;= \text{mass} \left(kg \right) \\
+u &nbsp;&amp;= \text{initial velocity} \left(m.s^{-1}\right) \\
+v &nbsp;&amp;= \text{final velocity} \left(m.s^{-1}\right)
+\end{align}</annotation></semantics></math></p><p>Example</p><p>A ball with a mass of 1 kg is moving eastward with a speed of 2m.s. It collides head on&nbsp;with a second ball that has a mass of 1,5 kg and is moving with a speed of 1,5 m.s in the opposite direction. &nbsp;The first ball bounces back with a velocity of 2,2m.s</p><p>Calculate the velocity of the second ball after the collision.</p><p>Example</p><p>A bullet of mass 150 g is fired from a rifle. &nbsp;If the bullets muzzle velocity is 300 m.s and the&nbsp;mass of the rifle is 5 kg, calculate the recoil velocity.</p><p>Example</p><p>In an experiment a 1 kg mass piece was dropped onto a 2kg trolley pulling a ticker tape. The ticker-tape has been drawn below at full size. &nbsp;If the frequency of the timer is 50Hz&nbsp;analyze the tape and calculate the following:</p><p>a) &nbsp;the momentum of the trolley before the collision.</p><p>b) &nbsp;the momentum of the trolley after the collision.</p><p>Ticker tape for this example</p><p>Example</p><p>A railway truck with a mass of 3000 kg is moving east at a speed of 5m.s. &nbsp;It collides with a stationary truck which has a mass of 4000 kg. &nbsp;If the two trucks couple together during the&nbsp;collision, what is their combined velocity.</p><p>Example</p><p>Diagram from eg 5 from SJC notes</p><p>A 0,1kg bullet is fired in a horizontal direction toward block A and B as shown in the diagrams&nbsp;above. &nbsp;The bullet finally becomes embedded in block B after passing through block A. &nbsp;The&nbsp;velocity of &nbsp;block A immediately after the bullet has passed through it is 5m.s and that of block B is 1m.s directly after impact.</p><p>a) &nbsp;Calculate the initial velocity of the bullet.</p><p>b) &nbsp;Calculate the velocity of the bullet as it travels from A to B.</p><p>Exercise</p><p>1. A boy of mass 50 kg runs at 3 m.s behind a cart moving at 2 m.s. The mass of the cart is 200 kg. Calculate the velocity of the boy and the cart after he jumped onto it.</p><p>2. A trolley X of mass 1.5 kg is moving at a speed of 3 m.s It collides with an identical trolley Y, which is stationary. After the collision, trolley Y moves off at 2 m.s in the direction in which trolley X was originally moving. Calculate the velocity of trolley X after the collision.</p><p>3. A tennis ball of mass 200 g rolls at 3 m.stowards a cricket ball of mass 500 g rolling at 1 m.s The two balls collide head on. If the tennis ball bounces back and moves off at a velocity of 2 m.s Calculate the velocity of the cricket ball after the collision.</p><p>4. A bullet of 100 g leaves a rifle with a velocity of 200 m.s The mass of the rifle is 2 kg. Calculate the recoil velocity of the rifle.</p><p></p><p>5. A person of mass 50 kg wearing skates stands stationary on ice. The person throws a 500 g ball at a speed of 20 m.s Calculate the velocity of the person immediately after throwing the ball.</p><p></p><div class="problemset" data-unknown="true">
+<div class="header" data-unknown="true">
+
+
+<p>Identify each of the following forces as contact or non-contact forces.</p></div><div class="exercise" data-class="entry">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="b4eccd89-46b2-f165-62e9-c35e50842c82" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+	
+</p><p>The force between the north pole of a magnet and a paper clip.</p>
+
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+	non-contact
+<p></p></div></div><div class="exercise" data-class="entry">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="6a354d21-1a6d-41f8-ff96-35789c339bde" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+		
+</p><p>The force required to open the door of a taxi.</p>
+
+	<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+		contact
+	<p></p></div></div><div class="exercise" data-class="entry">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="641bf960-6d9f-f553-69dc-b9b222705665" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+		
+</p><p>The force required to stop a soccer ball.</p>
+
+	<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+		contact
+	<p></p></div></div><div class="exercise" data-class="entry">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="7f5da68a-3f82-2901-9ab6-5d07fe46f8c7" contenteditable="true"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>
+		
+</p><p>The force causing a ball, dropped from a height of ~, to fall to the floor.</p>
+
+	<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div><div class="solution">
+		non-contact
+	<p></p></div></div></div><h2>Key Examples</h2><p>How can a small force impart the same momentum to an object as a large force?</p><p>Explain why a cup landing on a tile floor is more likely to break than when landing on a carpeted floor.</p><p></p><figure class="figure" title=""><div class="title"></div><img draggable="false" alt="pendulum colliding with block" class="aloha-image-uploading" src="../../../resources/9d8d5351898762b98b4d96a246ca775942633045.png"/><figcaption></figcaption></figure><p><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><br></p><p style=""><span id="docs-internal-guid-528b0830-9b23-4515-fd91-e2e28732836e"><span style="font-size: 13px; font-family: Verdana; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;"><br></span></span><br style=""></p></body>
 </html>
