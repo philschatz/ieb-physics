@@ -63,5 +63,17 @@
 \psframe[linecolor=red](1,-0.4)(2,-0.2)
 \psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.3)
 \rput[l](1.6,.2){\color{purple}$\vec{N}$}}
-            &lt;/code&gt;</pre></div><p class=""><br></p><p class=""><br></p></body>
+            &lt;/code&gt;</pre></div><p class="">The origin of the word normal is due to mathematicians. Mathematicians call a line that is perpendicular to a surface a normal to the surface.</p><h3>Frictional Force</h3><p class="" style="">The frictional force (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>F</mi>
+    <mi>f</mi>
+  </msub>
+<annotation encoding="math/tex">F_f</annotation></semantics></math>) is also due to the surface. It is defined as the force that&nbsp;opposes the motion of an object. The frictional force acts parallel to the surface&nbsp;with which the object is in contact. We will come back to frictional forces later.</p><h3>Air Resistance</h3><p class="" style="">An object moving through a liquid or a gas experiences a resistive force. This&nbsp;resistive force is called drag. Drag is another force that opposes motion. We will&nbsp;ignore all air resistance (drag) unless it is explicitly included in a problem.</p><h3>Tension</h3><p class="" style="">When a rope, string or cable pulls on an object, it exerts a force that we call the&nbsp;tension force (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>F</mi>
+    <mi>N</mi>
+  </msub>
+<annotation encoding="math/tex">F_N</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>N</mi>
+<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><p class=""><br></p></body>
 </html>
