@@ -34,7 +34,19 @@
   <mi>m</mi>
 <annotation encoding="math/tex">m</annotation></semantics></math> is the mass of the object measured in kilograms (kg)</p><p class="" style=""><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>g</mi>
-<annotation encoding="math/tex">g</annotation></semantics></math> is the acceleration due to gravity. On the surface of the Earth it has a&nbsp;value of approximately 9,8 m.s<sup>-2</sup></p><p class="">NOTE: Mass and Weight are different concepts and must not be confused.</p><p class=""></p><table id="a41b8b41-906a-b955-451c-b1bfd3ccfe7c"><caption contenteditable="false">Table 1</caption><tbody><tr class=""><th class="">&nbsp;Mass</th><th class="">&nbsp;Weight</th></tr><tr class=""><td class="">&nbsp;Is a property of the object and is a measure of the amount of matter in an object</td><td class="">&nbsp;Is a measure of the force of attraction between the Earth and an object on or near the surface of the Earth</td></tr><tr class=""><td class="">&nbsp;Scalar quantity (Unit: kg)</td><td class="">&nbsp;Vector quantity (Unit: N)</td></tr><tr class=""><td class="">&nbsp;Constant throughout the universe</td><td class="">&nbsp;Changes depending on the situation</td></tr></tbody></table><div><h3>Normal Force</h3></div><div><br></div><div>The normal force (or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
-  <mi>N</mi>
-<annotation encoding="math/tex">N</annotation></semantics></math> ) is defined as the perpendicular force exerted by a surface&nbsp;on an object in contact with it.</div><div><br></div><div>Eg if you place a book on a table, the table exerts an upward force on the book. &nbsp;If&nbsp;you tilt the table, the table still exerts a force perpendicular to the surface on the&nbsp;book. In both cases the force is perpendicular to the surface.</div><p></p><p class=""><br></p><p class=""><br></p></body>
+<annotation encoding="math/tex">g</annotation></semantics></math> is the acceleration due to gravity. On the surface of the Earth it has a&nbsp;value of approximately 9,8 m.s<sup>-2</sup></p><p class="">NOTE: Mass and Weight are different concepts and must not be confused.</p><p class=""></p><table id="a41b8b41-906a-b955-451c-b1bfd3ccfe7c"><caption contenteditable="false">Table 1</caption><tbody><tr class=""><th class="">&nbsp;Mass</th><th class="">&nbsp;Weight</th></tr><tr class=""><td class="">&nbsp;Is a property of the object and is a measure of the amount of matter in an object</td><td class="">&nbsp;Is a measure of the force of attraction between the Earth and an object on or near the surface of the Earth</td></tr><tr class=""><td class="">&nbsp;Scalar quantity (Unit: kg)</td><td class="">&nbsp;Vector quantity (Unit: N)</td></tr><tr class=""><td class="">&nbsp;Constant throughout the universe</td><td class="">&nbsp;Changes depending on the situation</td></tr></tbody></table><h3>Normal Force</h3><p class="">The normal force (or N) is defined at the perpendicular force exerted by a surface on an object in contact with it.</p><div class="" data-unknown="true">Eg if you place a book on a table, the table exerts an upward force on the book. &nbsp;If&nbsp;you tilt the table, the table still exerts a force perpendicular to the surface on the&nbsp;book. In both cases the force is perpendicular to the surface.<div class="body aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="b223ec8a-1096-2af8-97ae-11622a2557e5" contenteditable="true"></div></div><p></p><p class=""></p><div class="alternates" data-unknown="true"><img draggable="false" src="_plone_ignore_/cache/pspictures/28e794a7fde4f13daf2f83a8c22fcec2.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,1.5)
+\pscircle(-0.5,0.9){0.4}
+\psline(-0.5,0.5)(-0.5,-1)
+\psline(0,0)(-1,0)
+\psline(-1,-2)(-0.5,-1)
+\psline(0,-2)(-0.5,-1)
+\psline(-1.5,-2)(3.2,-2)
+\psline(0.5,-0.4)(3,-0.4)
+\psline(0.7,-0.4)(0.7,-2)
+\psline(2.8,-0.4)(2.8,-2)
+\psframe[](1,-0.4)(2,-0.2)
+\psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.5)
+\rput[l](1.6,.2){\color{purple}$\vec{N}$}
+            &lt;/code&gt;</pre></div><p class=""><br></p><p class=""><br></p></body>
 </html>
