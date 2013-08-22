@@ -75,5 +75,50 @@
   </msub>
 <annotation encoding="math/tex">F_N</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>N</mi>
-<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol></body>
+<annotation encoding="math/tex">N </annotation></semantics></math>).</p><p class=""><br></p><p class="">There are many other forces that we will meet along the way.</p><h2>Force Diagrams and Free Body Diagrams</h2><p class="" style="">To simplify problems, it is common to treat each object as though all the mass is&nbsp;acting at one point. In order to solve problems in Physics, it is always useful to&nbsp;visualize the problem. &nbsp;</p><p class="" style=""><br></p><p class="">We are going to use force diagrams and free body diagrams to help us identify&nbsp;the forces acting and visualize the situation.</p><h3>Force diagrams</h3><ol><li>Identify the object of interest</li><li class="" style="">Draw a diagram of the situation with all forces that are present due to&nbsp;contact as well as non-contact forces. The forces must be represented by&nbsp;arrows that touch the object of interest. Also, draw the length of&nbsp;the arrows representing the force vectors relative to their magnitude.</li><li class="" style="">Name and label (in words) all the forces acting.</li></ol><p class=""></p><div class="problemset" data-unknown="true">
+<div class="header" data-unknown="true">
+<p>Draw a labelled force diagram for each of the following situations. (The object of interest is in bold)</p></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="6425982c-7ec6-3cda-2b0a-bab1f501ddff" contenteditable="true"><p>A <strong>box</strong> being pulled across a rough horizontal surface by a horizontal rope.</p>
+</div><div class="solution">
+Put the solution here.<div class="body aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="64c8fac7-5cf9-9cd4-5557-f7a2440c5d4e" contenteditable="true"></div></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="8375b745-9831-0685-9dd9-91e46b1f3073" contenteditable="true"><p>A <strong>rocket</strong> just after leaving the launch pad on its way to the ISS. (Air&nbsp;resistance is not negligible)<br></p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="" contenteditable="true">A <strong>steel beam</strong> being lifted by a cable attached to a crane.</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><h3>Free body diagrams</h3><p class="" style="">A free body diagram is tackled in the same way as a force diagram, but the object&nbsp;of interest is drawn as a dot.</p><p class="" style=""></p><div class="problemset" data-unknown="true">
+<div class="header" data-unknown="true">
+<p>Draw a labelled free body diagram for each of the following situations. (The object of interest is in bold)</p></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="" contenteditable="true"><p>You have just kicked a <strong>ball</strong> across the ground and it is rolling across the&nbsp;ground about a meter in front of you.<br></p>
+</div><div class="solution">
+Put the solution here.<div class="body aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" id="" contenteditable="true"></div></div></div><div class="exercise" data-class="entry" data-type="Worked Example">
+<div class="problem aloha-block-dropzone aloha-editable aloha-block-blocklevel-sortable ui-sortable" placeholder="Type the text of your problem here." id="" contenteditable="true"><p>You have just thrown a <strong>cricket ball</strong> horizontally to the wicket keeper and&nbsp;the ball is in midflight.<br></p>
+</div><div class="solution">
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>s</mi>
+  <mi>o</mi>
+  <mi>m</mi>
+  <mi>e</mi>
+  <mi>m</mi>
+  <mi>a</mi>
+  <mi>t</mi>
+  <mi>h</mi>
+</mrow><annotation encoding="math/tex">some math</annotation></semantics></math></div></div></div><p class="" style=""><br style=""></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class="" style=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p><p class=""><br></p></body>
 </html>
