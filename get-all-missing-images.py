@@ -2,6 +2,8 @@ import fnmatch
 import os
 import lxml.html
 
+# Get all missing images on FS from nav's htmls
+
 # =================================
 # just some fancy colors for output
 
