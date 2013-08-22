@@ -48,5 +48,20 @@
 \psframe[](1,-0.4)(2,-0.2)
 \psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.5)
 \rput[l](1.6,.2){\color{purple}$\vec{N}$}
+            &lt;/code&gt;</pre></div><p class=""></p><div class="alternates" data-unknown="true"><img draggable="false" src="_plone_ignore_/cache/pspictures/dd900917b9dc2ae75e78f3830752e3ca.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,1.5)
+\pscircle(-0.5,0.9){0.4}
+\psline(-0.5,0.5)(-0.5,-1)
+\psline(0,0)(-1,0)
+\psline(-1,-2)(-0.5,-1)
+\psline(0,-2)(-0.5,-1)
+\psline(-1.5,-2)(3.2,-2)
+\rput{-35}(.3,1.25){
+\psline[linecolor=blue](0.5,-0.4)(3,-0.4)
+\psline[linecolor=blue](0.7,-0.4)(0.7,-2)
+\psline[linecolor=blue](2.8,-0.4)(2.8,-2)
+\psframe[linecolor=red](1,-0.4)(2,-0.2)
+\psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.3)
+\rput[l](1.6,.2){\color{purple}$\vec{N}$}}
             &lt;/code&gt;</pre></div><p class=""><br></p><p class=""><br></p></body>
 </html>
