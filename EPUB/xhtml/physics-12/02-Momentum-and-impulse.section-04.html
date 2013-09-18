@@ -41,25 +41,26 @@
 
 <p>There is a very useful property of isolated systems, total momentum is conserved.</p>
 
-<p>Lets use a practical example to show why this is the case, lets consider the Moon 
-          orbiting the Earth. Here is a sketch (not to scale):</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/086cc2e0143a81fc3a5047313a78fd9d.png"/><pre class="pspicture">&lt;code&gt;(-1,-1)(6,6)
-          \pscircle[fillcolor=gray!80!black,fillstyle=solid](0,5){6pt}
+<p>Lets use a practical example to show why this is the case, let us consider two billiard
+          balls moving towards each other.
+           Here is a sketch (not to scale):</p>
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/59b41e8959f1901c4a7d122cc5720e17.png"/><pre class="pspicture">&lt;code&gt;(-1,-1)(6,6)
+          \pscircle[fillcolor=gray!80!black,fillstyle=solid](0,5){15pt}
           \pscircle[fillcolor=blue!80!black,fillstyle=solid](5,0){15pt}
           \psdot(0,5)\psline{-&amp;gt;}(0,5)(1.5,3.5)
-          \rput[l](1.1,4.3){$\vec{F}_{\text{Moon}}$}
-          \rput[l](4.3,1){$\vec{F}_{\text{Earth}}$}
+          \rput[l](1.1,4.3){$\vec{v}_{\text{B1}}$}
+          \rput[l](4.3,1){$\vec{v}_{\text{B2}}$}
           \psdot(5,0)\psline{-&amp;gt;}(5,0)(3.5,1.5)
-          &lt;/code&gt;</pre></div></figure><p>The Earth exerts a gravitational force on the Moon, 
-          <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{\text{Moon}}</annotation></semantics></math>, and the Moon exerts a 
-          gravitational force on the Earth, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{\text{Earth}}</annotation></semantics></math>. We also know
+          &lt;/code&gt;</pre></div></figure><p>When the come into contact, ball 1 exerts a contact force on the ball 2, 
+          <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{\text{B1}}</annotation></semantics></math>, and the ball 2 exerts a 
+           force on ball 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{\text{B2}}</annotation></semantics></math>. We also know
           that the force will result in a change in momentum:</p>
 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{net}  =\frac{\Delta \vec{p}}{\Delta t}</annotation></semantics></math><p>We also know from Newton's third law that:</p>
 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
-          \vec{F}_{\text{Moon}} &amp; = - \vec{F}_{\text{Earth}}\\ 
-          \frac{\Delta \vec{p}_{\text{Moon}}}{\Delta t} &amp; = - \frac{\Delta \vec{p}_{\text{Earth}}}{\Delta t}\\ 
-          \Delta \vec{p}_{\text{Moon}} &amp; = - \Delta \vec{p}_{\text{Earth}}\\ 
-          \Delta \vec{p}_{\text{Moon}} + \Delta \vec{p}_{\text{Earth}} &amp; = 0 \\ 
+          \vec{F}_{\text{B1}} &amp; = - \vec{F}_{\text{B2}}\\ 
+          \frac{\Delta \vec{p}_{\text{B1}}}{\Delta t} &amp; = - \frac{\Delta \vec{p}_{\text{B2}}}{\Delta t}\\ 
+          \Delta \vec{p}_{\text{B1}} &amp; = - \Delta \vec{p}_{\text{B2}}\\ 
+          \Delta \vec{p}_{\text{B1}} + \Delta \vec{p}_{\text{B2}} &amp; = 0 
             \end{align*}</annotation></semantics></math><p>This says that if you add up all the changes in momentum for an isolated system
             the net result will be zero. If we add up all the momenta in the system the total 
             momentum won't change because the net change is zero. 
@@ -70,18 +71,18 @@
 <p>In the absence of an external force acting on a system, momentum is
           conserved.</p>
 <div class="example" data-class="activity" data-type="Activity"><div class="title">Newton's cradle demonstration</div><div class="section"><div class="title">Momentum conservation</div>
-<p>A Newton's cradle demonstrates a series of collisions in which momentum is conserved. At the end
-the kinetic energy does work against gravity to raise the ball (constrained by the cable). The ball will
-fall back down and repeat the process. In this way momentum conservation and mechanical energy are
-demonstrated.</p>
+<p>A Newton's cradle demonstrates a series of collisions in which momentum is conserved.</p>
 <figure class="figure"><img src="photos/NewtonsCrade-by-StockMonkeys.com-on-Flickr-7984171587_8a534f9581_k2.eps" width="468" alt="http://www.flickr.com/photos/86530412@N02/7984171587/sizes/o/ - Stockmonkeys.com"/></figure></div>
 </div>
 <div class="example" data-class="activity" data-type="informalexperiment"><div class="title">Conservation of momentum</div><div class="section"><div class="title">Aim</div>
 <p>To investigate the changes in momentum when two bodies are separated by an explosive force.</p>
 </div>
 <div class="section"><div class="title">Apparatus</div>
-<p>Two spring-loaded trolleys, stopwatch, meter-stick, two barriers</p>
-<figure class="figure"><img src="photos/conservationofmomentumaparatus.JPG" width="312" alt="Brink and Jones"/></figure><p><strong>Proper illustration still pending</strong></p>
+<p/><ul data-class="ListBulleted"><li>two spring-loaded trolleys</li>
+<li>stopwatch</li>
+<li>meter-stick</li>
+<li>two barriers</li>
+</ul><figure class="figure"><img src="photos/conservationofmomentumaparatus.JPG" width="312" alt="Brink and Jones"/></figure><p><strong>Proper illustration still pending</strong></p>
 </div>
 <div class="section"><div class="title">Method</div><ul data-class="ListBulleted"><li>
 <p>Clamp the barriers one metre apart onto a flat surface.</p>
@@ -191,19 +192,112 @@ is in the positive direction (i.e. to the right).</p>
 <div class="exercise" data-class="entry">
 <div class="problem">
               
-<p>Two golf balls roll towards each other. They each have a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math>. Ball 1 is moving at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{1}=\text{2,4}\text{m&#183;s^{-1}}</annotation></semantics></math> to the right, while ball 2 is moving at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{2}=3\text{m&#183;s^{-1}}</annotation></semantics></math> to the left. Calculate the total momentum of the system.</p>
+<p>Two golf balls roll towards each other. They each have a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math>. Ball 1 is moving at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{1}=\text{2,4}\text{ m&#183;s^{-1}}</annotation></semantics></math> to the right, while ball 2 is moving at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{2}=\text{3}\text{ m&#183;s^{-1}}</annotation></semantics></math> to the left. Calculate the total momentum of the system.</p>
 
-            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+            </div><div class="solution">
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m1=100\text{g}=0,1\text{kg}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m2=100\text{g}=0,1\text{kg}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v1=2,4\text{m/s}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v2=-3\text{m/s}</annotation></semantics></math></p>
+
+
+            
+<p>Therefore the total momentum of the system is:</p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">p=m1v1+m2v2</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">p=\left(0,1\text{kg}\times 2,4\text{m/s}\right)+\left(0,1\text{kg}\times -3\text{m/s}\right)</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">p=-0,06\text{kg.m/s}</annotation></semantics></math></p>
+
+
+            </div></div><div class="exercise" data-class="entry">
 <div class="problem">
               
 <p>Two motorcycles are involved in a head on collision. Motorcycle A has a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> and was travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{120}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math> south. Motor cycle B has a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{250}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> and was travelling north at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math>. A and B are about to collide. Calculate the momentum of the system before the collision takes place.</p>
 
-            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+            </div><div class="solution">
+            
+<p>First convert the velocities to the correct units:</p>
+
+
+            
+<p>motorcycle 1:
+            <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\left(120\right)\left(1000\right)}{3600}=33,33\phantom{\rule{1ex}{0ex}}\text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+
+            
+<p>motorcycle 2:
+            <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\left(100\right)\left(1000\right)}{3600}=27,78\phantom{\rule{1ex}{0ex}}\text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+
+            
+<p>Taking south as positive:</p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}={m}_{1}{v}_{1}+{m}_{2}{v}_{2}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}=\left(200\right)\left(33,33\right)+\left(250\right)\left(-27,78\right)</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}=-279\phantom{\rule{1ex}{0ex}}\text{kg}\cdot \text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+            </div></div><div class="exercise" data-class="entry">
 <div class="problem">
               
 <p>A <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{700}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> truck is travelling north at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{40}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math> when it is approached by a <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> car travelling south at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{100}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{km&#183;hr^{-1}}</annotation></semantics></math>. Calculate the total momentum of the system.</p>
 
-            </div><div class="solution"/></div></div><h3>Collisions</h3>
+            </div><div class="solution">
+            
+<p>We need to convert the velocities to the correct units:</p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\left(40\right)\left(1000\right)}{3600}=11,11\phantom{\rule{1ex}{0ex}}\text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\left(100\right)\left(1000\right)}{3600}=27,78\phantom{\rule{1ex}{0ex}}\text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+            
+<p>Take north to be positive.</p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}=m{v}_{1}+m{v}_{2}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}=\left(700\right)\left(11,11\right)+\left(500\right)\left(-27,78\right)</annotation></semantics></math></p>
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}=-6113\phantom{\rule{1ex}{0ex}}\text{kg}\cdot \text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{p}_{\text{total}}=6113\phantom{\rule{1ex}{0ex}}\text{kg}\cdot \text{m}\cdot {\text{s}}^{-1}\phantom{\rule{1ex}{0ex}}\text{to the south}</annotation></semantics></math></p>
+
+            </div></div></div><h3>Collisions</h3>
 
 <p>We have shown that the net change in momentum is zero for an isolated system. The
           momenta of the <strong>individual objects can change</strong> but the
@@ -217,8 +311,12 @@ is in the positive direction (i.e. to the right).</p>
           a <strong>collision</strong> or <strong>explosion</strong> 
           is equal to the total momentum after the collision or explosion.</p>
 
-<p>Consider a simple collision of two billiard balls. The balls are rolling on a frictionless surface and the system is isolated. So, we can apply conservation of momentum. The first ball has a mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}</annotation></semantics></math> and an initial velocity <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}</annotation></semantics></math>. The second ball has a mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{2}</annotation></semantics></math> and moves first ball with an initial velocity <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i2}</annotation></semantics></math>. This
-situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>.</p>
+<p>Consider a simple collision of two billiard balls. The balls are rolling on a frictionless, 
+          horizontal surface and the system is isolated. We can apply conservation of momentum. The first 
+          ball has a mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}</annotation></semantics></math> and an initial velocity <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}</annotation></semantics></math>. 
+          The second ball has a mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{2}</annotation></semantics></math> and moves first ball with an initial 
+          velocity <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i2}</annotation></semantics></math>. This
+situation is shown in Figure <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>.</p>
 <figure class="figure"><img src="photos/PoolBalls-by-WillFolsom-on-Flickr-5127727938_6bbfb8bb8f_b.jpg" width="468" alt="http://www.flickr.com/photos/willfolsom/5127727938/sizes/l/"/></figure><figure class="figure" id="fig_mom1"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/50cf32cd5fdd5dcc1ee8b6c63cea462d.png"/><pre class="pspicture">&lt;code&gt;
                 (-3.25,-.25)(3.25,1.25)
 \psline[linewidth=2pt,linecolor=green!50!black](-3,0)(3,0)
@@ -317,7 +415,8 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 \end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Conservation of momentum</div><div class="problem" data-class="question">
               
 <p>A jet flies at a speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{275}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. The pilot fires a missile forward off a mounting at a 
-              speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{700}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. 
+              speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{700}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> relative 
+              to the ground. 
               The respective masses of the jet and the missile are 
               <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> and 
               <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>. 
@@ -360,8 +459,10 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
  \left({m}_{1}+{m}_{2}\right)\vec{v}_{i}&amp; = {m}_{1}\vec{v}_{f1}+{m}_{2}\vec{v}_{f2} \\ 
  \left(\text{5000}+50\right)\left(275&#160;\right)&amp; = \left(\text{5000}\right)\left(\vec{v}_{f1}\right)+\left(50\right)\left(700&#160;\right) \\ 
  \text{1\ 388\ 750}&#160;-\text{35\ 000}&#160;&amp; = \left(\text{5000}\right)\left(\vec{v}_{f1}\right) \\ 
- \vec{v}_{f1}&amp; = \text{270,75}&#160;\text{m&#183;s^{-1}} 
-\end{align*}</annotation></semantics></math><p>Note that speed is asked and not velocity, therefore no direction is included in the answer.</p>
+ \vec{v}_{f1}&amp; = \text{270,75}&#160;\text{m&#183;s^{-1}}~\text{in the original direction} 
+\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Quote the final answer</div>
+
+<p>The speed of the jet is the magnitude of the final velocity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{270,75}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
 </div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Conservation of momentum</div><div class="problem" data-class="question">
               
 <p>A bullet of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> travelling horizontally to the right at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> strikes a stationary wooden block of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> resting on a smooth horizontal surface. The bullet goes through the block and comes out on the other side at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. Calculate the speed of the block after the bullet has come out the other side.</p>
@@ -375,7 +476,7 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 <li>the initial velocity of the bullet (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}</annotation></semantics></math> = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right)</li>
 <li>the final velocity of the bullet (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f1}</annotation></semantics></math> = <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right)</li>
 </ul><p>We need to find the velocity of the wood block. We choose the direction in
-                which the bullet was travellign to be the positive direction, to the right.</p>
+                which the bullet was travelling to be the positive direction, to the right.</p>
 <figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/4b88314c2b8e318f8b595e51952afc40.png"/><pre class="pspicture">&lt;code&gt;
                       (0,-2.1907814)(8.664375,2.1907814)
 \rput(4.3896875,-0.20296875){2 kg}
@@ -402,8 +503,12 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
  {m}_{1}\vec{v}_{i1}+{m}_{2}\vec{v}_{i2}&amp; = {m}_{1}\vec{v}_{f1}+{m}_{2}\vec{v}_{f2} \\ 
  \left(\text{0,05}\right)\left(+500&#160;\right)+\left(2\right)\left(0&#160;\right)&amp; = \left(\text{0,05}\right)\left(+200&#160;\right)+\left(2\right)\left(\vec{v}_{f2}\right) \\ 
  25+0-10&amp; = 2&#160;\vec{v}_{f2} \\ 
- {v}_{f2}&amp; = \text{7,5}\text{m&#183;s^{-1}}&#160;\text{in the same direction as the bullet} 
-\end{align*}</annotation></semantics></math></div></div>
+ \vec{v}_{f2}&amp; = \text{7,5} \text{m&#183;s^{-1}}&#160;\text{in the same direction as the bullet} 
+\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Apply the Law of Conservation of momentum</div>
+
+<p>The block is travelling at 
+                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{7,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+</div></div>
 <p>We have been applying conservation of momentum to collisions and explosion which 
             is valid but there are actually two different types of collisions and they have 
             different properties.</p>
@@ -423,13 +528,18 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 
 <p>Initially in a collision the objects have kinetic energy. In some collisions 
         that energy is transformed through processes like deformation. In a car crash the car
-        gets all mangled which requires energy.</p>
+        gets all mangled which requires the permanent transfer of energy.</p>
 <h3>Elastic collisions</h3>
 <dl class="definition"><dt>Elastic Collisions</dt><dd>
               
 <p>An elastic collision is a collision where total momentum and total kinetic energy are both conserved.</p>
 
-            </dd></dl><p>This means that in an elastic collision the total momentum <em>and</em> the total kinetic energy before the collision is the same as after the collision. For these kinds of collisions, the kinetic energy is not tranformed through work or deformation of the objects.</p>
+            </dd></dl><p>This means that in an elastic collision the total momentum i
+          <em>and</em> the total kinetic energy before the collision is 
+          the same as after the collision. For these kinds of collisions, the kinetic energy is 
+          not tranformed permanently through work or deformation of the objects. During the collision
+          the energy is going to be transferred (for example as a ball compresses) but will be recovered 
+          during the elatic response of the system (for example the ball then expanding again).</p>
 <h4>Before the collision</h4>
 
 <p><a href="#fig-pc-types-elast-before" data-class="InternalLink">fig-pc-types-elast-before</a> shows two balls rolling toward each other, about to collide:</p>
@@ -496,27 +606,27 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine what is given and what is needed</div>
 <ul data-class="ListBulleted"><li>
                       
-<p>Mass of ball 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}=0,3\text{kg}</annotation></semantics></math>.</p>
+<p>Mass of ball 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}=0,3~\text{kg}</annotation></semantics></math>.</p>
 
                     </li>
 <li>
                       
-<p>Mass of ball 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{2}=0,3\text{kg}</annotation></semantics></math>.</p>
+<p>Mass of ball 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{2}=0,3~\text{kg}</annotation></semantics></math>.</p>
 
                     </li>
 <li>
                       
-<p>Initial velocity of ball 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}=0\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+<p>Initial velocity of ball 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}=\text{0}\text{ m&#183;s^{-1}}</annotation></semantics></math>.</p>
 
                     </li>
 <li>
                       
-<p>Initial velocity of ball 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i2}=2\text{m&#183;s^{-1}}</annotation></semantics></math> to the left.</p>
+<p>Initial velocity of ball 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i2}=\text{2}\text{ m&#183;s^{-1}}</annotation></semantics></math> to the left.</p>
 
                     </li>
 <li>
                       
-<p>Final velocity of ball 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f2}=0\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+<p>Final velocity of ball 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{f2}=\text{0}\text{ m&#183;s^{-1}}</annotation></semantics></math>.</p>
 
                     </li>
 <li>
@@ -550,14 +660,16 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 \rput(0,0.5){$m_2$}}
 \psline{&lt;/code&gt;</pre></div></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Solve the problem</div>
 
-<p>Momentum is conserved in all collision so it makes sense to begin
+<p>Momentum is conserved in all collisions so it makes sense to begin
                   with momentum. Therefore:</p>
 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
 			 \vec{p}_{Ti}&amp; = \vec{p}_{Tf}\\
 			 {m}_{1}\vec{v}_{i1}+{m}_{2}\vec{v}_{i2}&amp; = {m}_{1}\vec{v}_{f1}+{m}_{2}\vec{v}_{f2}\\
-			 \left(0,3\right)\left(0\right)+\left(0,3\right)\left(-2\right)&amp; = \left(0,3\right){v}_{f1}+0\\
-			 {v}_{f1}&amp; = -\text{2,00}\text{ m&#183;s^{-1}}
-			\end{align*}</annotation></semantics></math><p>The final velocity of ball 1 is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the left.</p>
+			 \left(0,3\right)\left(0\right)+\left(0,3\right)\left(-2\right)&amp; = \left(0,3\right)\vec{v}_{f1}+0\\
+			 \vec{v}_{f1}&amp; = -\text{2,00}\text{ m&#183;s^{-1}}
+			\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Quote your final answer</div>
+
+<p>The final velocity of ball 1 is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the left.</p>
 </div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Another elastic collision</div><div class="problem" data-class="question">
                 
 <p>Consider 2 marbles. Marble 1 has mass 
@@ -575,22 +687,22 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 <p>We are given:</p>
 <ul data-class="ListBulleted"><li>
                       
-<p>mass of marble 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}=50\text{g}</annotation></semantics></math></p>
+<p>mass of marble 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}=50~\text{g}</annotation></semantics></math></p>
 
                     </li>
 <li>
                       
-<p>mass of marble 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{2}=100\text{g}</annotation></semantics></math></p>
+<p>mass of marble 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{2}=100~\text{g}</annotation></semantics></math></p>
 
                     </li>
 <li>
                       
-<p>initial velocity of marble 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}=0\text{m&#183;s^{-1}}</annotation></semantics></math></p>
+<p>initial velocity of marble 1, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i1}=\text{0}\text{ m&#183;s^{-1}}</annotation></semantics></math></p>
 
                     </li>
 <li>
                       
-<p>initial velocity of marble 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i2}=3\text{m&#183;s^{-1}}</annotation></semantics></math> to the right</p>
+<p>initial velocity of marble 2, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{v}_{i2}=\text{3}\text{ m&#183;s^{-1}}</annotation></semantics></math> to the right</p>
 
                     </li>
 <li>
@@ -629,7 +741,7 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 
 <p>Choose to the right as positive.</p>
 </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Draw a rough sketch of the situation</div>
-<div class="alternates"><img src="_plone_ignore_/cache/pspictures/46f2585a2f04093ca2c34e24cd805447.png"/><pre class="pspicture">&lt;code&gt;
+<div class="alternates"><img src="_plone_ignore_/cache/pspictures/73d146bdf3a48bd4f481291459055382.png"/><pre class="pspicture">&lt;code&gt;
                       (0,-2.2639062)(12.742812,2.2639062)
 \pscircle[linewidth=0.04,dimen=outer](1.1809375,-0.02609375){0.85}
 \pscircle[linewidth=0.04,dimen=outer](4.0209374,-0.02609375){0.36}
@@ -647,7 +759,7 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 \rput(1.1523438,-1.2760937){$m_2=100g$}
 \rput(1.1623437,-2.0160937){$v_{i2}=3\,\text{m} \cdot \text{s}^{-1}$}
 \rput(4.1423435,-1.1960938){$m_1=50g$}
-\rput(4.4023438,-2.0360937){$v_{i1}=0$}
+\rput(4.4023438,-2.0360937){$v_{i1}=0\,\text{m} \cdot \text{s}^{-1}$}
 \rput(8.732344,-1.2360938){$m_2=100g$}
 \rput(11.842343,-1.2560937){$m_1=50g$}
 
@@ -692,13 +804,13 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 			 {v}_{f1}&amp; = \frac{{m}_{2}}{{m}_{1}}\left({v}_{i2}-{v}_{f2}\right)\\
 			&amp;=\frac{0.1}{0.05}\left(3-3\right)\\
 			&amp;=0\\
-			&amp; \text{or}&amp; \\ 
+			&amp; \text{or} \\ 
             {v}_{f1}&amp;=\frac{{m}_{2}}{{m}_{1}}\left({v}_{i2}-{v}_{f2}\right)\\
 			&amp;=\frac{0.1}{0.05}\left(3-1\right)\\
-			&amp;=4\text{m&#183;s^{-1}}
+			&amp;=\text{4}\text{ m&#183;s^{-1}}
 			\end{align*}</annotation></semantics></math><p>But according to the question, marble 1 is moving after the collision, therefore marble 1 moves to the right at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
 
-<p>Therefore marble 2 moves to the right with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+<p>Therefore marble 2 moves with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right.</p>
 </div></div><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Colliding billiard balls</div><div class="problem" data-class="question">
                 
 <p>Two billiard balls each with a mass of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{150}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{g}</annotation></semantics></math> collide head-on in an elastic collision. Ball 1 was travelling at a speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and ball 2 at a speed of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. After the collision, ball 1 travels away from ball 2 at a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
@@ -748,7 +860,7 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 			 \left(\frac{150}{1000}\right)\left(2\right)+\left(\frac{150}{1000}\right)\left(-1,5\right)&amp; = \left(\frac{150}{1000}\right)\left(-1,5\right)+\left(\frac{150}{1000}\right)\left(\vec{v}_{f2}\right)\\
 			 0,3-0,225&amp; = -0,225+0,15\vec{v}_{f2}\\
 			 \vec{v}_{f2}&amp; = \text{3}\text{ m&#183;s^{-1}}
-			\end{align*}</annotation></semantics></math><p>So after the collision, ball 2 moves with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
+			\end{align*}</annotation></semantics></math><p>So after the collision, ball 2 moves with a velocity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{3}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the right.</p>
 </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Elastic collisions</div>
 
 <p>The fact that characterises an elastic collision is that the total kinetic energy of the particles before the collision is the same as the total kinetic energy of the particles after the collision. This means that if we can show that the initial kinetic energy is equal to the final kinetic energy, we have shown that the collision is elastic.</p>
@@ -766,7 +878,7 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 </div></div><h3>Inelastic collisions</h3>
 <dl class="definition"><dt>Inelastic Collisions</dt><dd>
               
-<p>An inelastic collision is a collision in which <strong>total momentum</strong> is conserved but <strong>total kinetic energy</strong> is <em>not</em> conserved. The kinetic energy is <em>transformed</em> into other kinds of energy.</p>
+<p>An inelastic collision is a collision in which <strong>total momentum</strong> is conserved but <strong>total kinetic energy</strong> is <em>not</em> conserved. The kinetic energy is <em>transformed</em> from or into other kinds of energy.</p>
 
             </dd></dl><p>So the total momentum before an inelastic collisions is the same as after the collision. But the total <em>kinetic</em> energy before and after the inelastic collision is <em>different</em>. Of course this does not mean that total energy has not been conserved, rather the energy has been <em>transformed</em> into another type of energy.</p>
 
@@ -881,45 +993,84 @@ situation is shown in <a href="#fig_mom1" data-class="InternalLink">fig_mom1</a>
 			\end{align*}</annotation></semantics></math><p>Therefore, the final velocity of the resulting mass of cars is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> to the left.</p>
 </div></div><h1 class="title" data-class="complex-section">Exercises</h1>
 <div class="problemset">
-<div class="exercise" data-class="entry">
-<div class="problem">
-              
-<p>A truck of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> hits a car from behind. The car (mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>) was travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. The two vehicles, now connected carry on moving in the same direction.</p>
+<div class="multipart">
+<div class="header">
 
-              <ol data-class="ListEnumerated"><li>
+<p>A truck of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> hits a car from behind. The car (mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{1000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math>) was travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>. The two vehicles, now connected carry on moving in the same direction.</p>
+</div><div class="exercise" data-class="entry">
+<div class="problem">
                   
 <p>Calculate the final velocity of the truck-car combination after the collision.</p>
 
-                </li>
-<li>
+</div><div class="solution">
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}{v}_{1}+{m}_{2}{v}_{2}=\left({m}_{1}+{m}_{2}\right){v}_{}</annotation></semantics></math></p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v=\frac{\left(4500\right)\left(20\right)+\left(1000\right)\left(15\right)}{4500+1000}</annotation></semantics></math></p>
+
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v=19,09\phantom{\rule{1ex}{0ex}}\text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+</div></div><div class="exercise" data-class="entry">
+<div class="problem">
                   
 <p>Determine the kinetic energy of the system before and after the collision.</p>
 
-                </li>
-<li>
+</div><div class="solution">
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">KE=\frac{1}{2}m{v}^{2}</annotation></semantics></math></p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">K{E}_{i1}=\frac{1}{2}\left(4500\right)\left({20}^{2}\right)=900000\phantom{\rule{1ex}{0ex}}\text{J}</annotation></semantics></math></p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">K{E}_{i2}=\frac{1}{2}\left(1000\right)\left({15}^{2}\right)=112500\phantom{\rule{1ex}{0ex}}\text{J}</annotation></semantics></math></p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">K{E}_{f=}\frac{1}{2}\left({m}_{1}+{m}_{2}\right)\left({v}^{2}\right)=\frac{1}{2}\left(1000+4500\right)\left(19,{09}^{2}\right)=819963.225\phantom{\rule{1ex}{0ex}}\text{J}</annotation></semantics></math></p>
+
+
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">K{E}_{T}=1012500\phantom{\rule{1ex}{0ex}}\text{J}</annotation></semantics></math></p>
+
+</div></div><div class="exercise" data-class="entry">
+<div class="problem">
                   
 <p>Explain the difference in your answers for b).</p>
 
-                </li>
-<li>
+</div><div class="solution">
+
+<p>The energy is permanently transferred into non-elastic deformation during the collision.</p>
+
+</div></div><div class="exercise" data-class="entry">
+<div class="problem">
                   
 <p>Was this an example of an elastic or inelastic collision? Give reasons for your answer.</p>
 
-                </li>
-</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+            </div><div class="solution">
+
+<p>Inelastic. The two bodies move in contact with each other.</p>
+
+</div></div></div><div class="exercise" data-class="entry">
 <div class="problem">
               
-<p>Two cars of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{900}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> each collide head-on and stick together. Determine the final velocity of the cars if</p>
+<p>Two cars of mass <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{900}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{kg}</annotation></semantics></math> each collide head-on and stick together. 
+              Determine the final velocity of the cars if car 1 was travelling at 
+              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and car 2 was travelling 
+              at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
 
-              
+            </div><div class="solution"> 
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{m}_{1}{v}_{1}+{m}_{2}{v}_{2}=\left({m}_{1}+{m}_{2}\right)v</annotation></semantics></math></p>
 
-              
-<p>car 1 was travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{15}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math> and</p>
 
-              
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\left(900\right)\left(15\right)+\left(900\right)\left(20\right)=\left(900+900\right)v</annotation></semantics></math></p>
 
-              
-<p>car 2 was travelling at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{m&#183;s^{-1}}</annotation></semantics></math>.</p>
 
-            </div><div class="solution"/></div></div></body>
+            
+<p><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">v=17,5\phantom{\rule{1ex}{0ex}}\text{m}\cdot {\text{s}}^{-1}</annotation></semantics></math></p>
+
+            </div></div></div></body>
 </html>

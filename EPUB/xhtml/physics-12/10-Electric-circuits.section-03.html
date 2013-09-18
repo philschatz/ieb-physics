@@ -50,7 +50,15 @@
          components in the circuit. This can be illustrated by showing the energy per unit charge
          as as function of the position in the circuit. The charge gains energy when moving through
          the battery and loses energy when moving through resistors.</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ecbfb1ad1dfb98f2c380ff8cf8fcf2ee.png"/><pre class="pspicture">&lt;code&gt;
+<ol data-class="ListEnumerated"><li>Postive work is done on a unit charge by the battery transferring an energy equal to the emf. </li>
+<li>The charge does work to overcome the internal resistance of the battery. Doing work requires that the 
+            charge lose some energy. The work done to overcome the internal resistance is 
+            <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{internal resistance}}=Ir</annotation></semantics></math>.</li>
+<li>When the unit charge leaves the battery it has less energy than the original emf. This is now the total
+            energy that it can use to do work moving through the circuit, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}} = \mathcal{E}-Ir</annotation></semantics></math>.</li>
+<li>As the charge moves around the circuit it does work passing through each component which is equal
+            to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">IR</annotation></semantics></math>.</li>
+</ol><figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/bf2f767222e329d0b59be98e7a156729.png"/><pre class="pspicture">&lt;code&gt;
               (0,-3.5)(7,3.5)
        %       \psgrid
 \pnode(1,1){A}
@@ -67,6 +75,11 @@
 \pnode(3.5,-.5){GIRE}
 \pnode(4.5,-.5){GRS}
 \pnode(5.5,-3){GRE}
+
+\psdot(A)
+\psdot(1.25,1)
+\psdot(2.5,1)
+\psdot(4,1)
 
 
 \psline[linecolor=gray]{-&amp;gt;}(GO)(1,.3)
@@ -115,7 +128,7 @@
           because the emf is constant. For the same reason, the potential difference 
           only equals the emf when the current is very small.</p>
 
-<p>The current that can be drawn from a battery is limited by a critical, maximum value <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. The more resistance in the circuit the less the current will be. Imagine that you have a wire with no resistance that you use to connect the terminals of the battery. The circuit is complete, current will flow and adding any resistance to the circuit would decrease the current. This will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. At a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V=\text{0}\text{ V}</annotation></semantics></math> because there is no load in the circuit. Then, the equation becomes:</p>
+<p>The current that can be drawn from a battery is limited by a critical, maximum value <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. The more resistance in the circuit the less the current will be. Imagine that you have a wire with no resistance that you use to connect the terminals of the battery. The circuit is complete, current will flow and adding any resistance to the circuit would decrease the current. The current without any external resistance will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. At a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V=\text{0}\text{ V}</annotation></semantics></math> because there is no load in the circuit. Then, the equation becomes:</p>
 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
 		 \text{0}&amp; = \mathcal{E}-{I}_{c}r\\
 		  {I}_{c}r&amp; = \mathcal{E}\\
@@ -183,7 +196,7 @@
                 the circuit changes so that the current is different each time. The reason 
                 that doing this can tell us about the internal resistance of the battery 
                 is because the potential difference across the internal resistance is 
-                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I\cdot r</annotation></semantics></math> and we can vary I by changing the resistance of the 
+                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{internal resistance}}=I\cdot r</annotation></semantics></math> and we can vary I by changing the resistance of the 
                 circuit. If the potential difference across the internal resistance is 
                 changing and we add up all the potential differences, 
                 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E} = V_{\text{load}}+V_{\text{internal resistance}}</annotation></semantics></math> 
@@ -268,12 +281,37 @@
               
 <p>Describe what is meant by the <em>internal resistance</em> of a real battery.</p>
 
-            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+            </div><div class="solution">
+            
+<p>Real batteries are made from materials which have
+             resistance. This means that real batteries are not just sources of
+             potential difference (voltage), but they also possess internal
+             resistance.</p>
+
+                
+             
+<p>So internal resistance is a measure of the resistance of the material that the battery is made of.</p>
+
+		
+             </div></div><div class="exercise" data-class="entry">
 <div class="problem">
               
 <p>Explain why there is a difference between the emf and terminal voltage of a battery if the load (external resistance in the circuit) is comparable in size to the battery's internal resistance</p>
 
-            </div><div class="solution"/></div><div class="exercise" data-class="entry">
+            </div><div class="solution">
+		
+            
+<p>The emf of a battery is essentially constant
+            because it only depends on the chemical reaction (that converts chemical
+             energy into electrical energy) going on inside the battery. Therefore,
+             we can see that the voltage across the terminals of the battery is
+             dependent on the current drawn by the load. The higher the current, the
+             lower the voltage across the terminals, because the emf is constant. By
+             the same reasoning, the voltage only equals the emf when the current is
+             very small.</p>
+
+		
+        </div></div><div class="exercise" data-class="entry">
 <div class="problem">
               
 <p>What is the internal resistance of a battery if its emf is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and the potential difference across its terminals is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> when a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> flows in the circuit when it is connected across a load?</p>
@@ -281,17 +319,97 @@
             </div><div class="solution"/></div><div class="exercise" data-class="entry">
 <div class="problem">
 
-<p>A 12.0 V battery has an internal resistance of 7.0 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>.</p>
+<p>A <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> battery has an internal resistance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{7,0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math>.</p>
 
 <ol data-class="ListEnumerated"><li>What is the maximum current this battery could supply?</li>
 <li>What is the potential difference across its terminals when it is supplying a current of 150.0 mA?</li>
 <li>Draw a sketch graph to show how the terminal potential difference varies with the current supplied if the internal resistance remains constant. How could the internal resistance be obtained from the graph?</li>
-</ol></div><div class="solution"/></div><div class="exercise" data-class="entry">
+</ol></div><div class="solution">
+
+
+<p>What is the maximum current this battery could supply?</p>
+
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+I_{max} &amp; =\frac{\mathcal{E}}{r} \\
+ &amp; =\frac{\text{12,0}}{\text{7,0}} \\
+ &amp; =\text{1,71428} \\
+ &amp; =\text{1,71}\text{ A}
+\end{align*}</annotation></semantics></math><p>What is the potential difference across its terminals when it is supplying a current of 150.0 mA?</p>
+
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ V   &amp; =\mathcal{E} - Ir \\
+ &amp; =(\text{12,0})-  (\text{1,50} \times \text{10}^{-\text{1}})(\text{7,0}) \\
+ &amp; =\text{10,95} \\
+ &amp; =\text{10,95}\text{ V}
+\end{align*}</annotation></semantics></math><p>Draw a sketch graph to show how the terminal potential difference varies with the current supplied if the internal resistance remains constant. How could the internal resistance be obtained from the graph?</p>
+
+
+<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/8d13d1b2c6c48878d3ec3884a458200f.png"/><pre class="pspicture">&lt;code&gt;
+(-2,-2)(6,6)
+%\psgrid
+\def\mdata{
+0.5 1.455
+1   1.41
+2   1.32
+3   1.23
+4   1.14
+}
+%\pstScalePoints(1,1){}{}
+\psset{ axesstyle=frame,
+        xAxisLabel={$I~\text{(A)}$},
+        yAxisLabel={$V_{\text{load}}~\text{(V)}$},
+        xAxisLabelPos={c,-1cm},
+        yAxisLabelPos={-1cm,c}
+    }
+\begin{psgraph}[ticksize=5pt 0,Dx=7, Dy=7, Ox=0, Oy=1.0](0,0.8)(5,1.7){5cm}{5cm}
+    \listplot[linewidth=2pt,showpoints=true,plotstyle=dots,dotstyle=x,linecolor=blue]{\mdata}
+    \psplot[xMaxValue=4,xMinValue=0,linestyle=dashed,linecolor=gray]{0}{4.5}{ -0.09 x mul 1.5 add }
+    \psdot[linecolor=purple](0,1.5)
+    \rput[r](-.05,1.5){\textcolor{purple}{$\mathcal{E}$}}
+\end{psgraph}
+&lt;/code&gt;</pre></div></figure><p>The slope of the graph is the internal resistance.</p>
+
+
+</div></div><div class="exercise" data-class="entry">
 <div class="problem">
 
-<p>In a hearing aid a battery supplies a current of 25.0 mA through a resistance of 400 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>. When the volume is increased, the resistance is changed to 100 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>and the current rises to 60 mA. What is the emf and internal resistance of the cell?</p>
+<p>In a hearing aid a battery supplies a current of 25.0 mA through a resistance of 400 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>. When the volume is increased, the resistance is changed to 100 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> and the current rises to 60 mA. What is the emf and internal resistance of the cell?</p>
 
-</div><div class="solution"/></div><div class="exercise" data-class="entry">
+</div><div class="solution">
+
+<p>We have two unknowns but information for two different scenarios so we can solve simultaneously.</p>
+
+
+<p>In the first case:</p>
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ V   &amp; =\mathcal{E} - Ir \\
+(\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) =  &amp; =\mathcal{E} - (\text{2,50} \times \text{10}^{-\text{2}})r \\
+\mathcal{E}  &amp; = (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})r 
+\end{align*}</annotation></semantics></math><p>In the second case we will get:</p>
+
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+ V   &amp; =\mathcal{E} - Ir \\
+(\text{6,0} \times \text{10}^{-\text{2}})(\text{100}) =  &amp; =\mathcal{E} - (\text{6,0} \times \text{10}^{-\text{2}})r \\
+\mathcal{E}  &amp; = (\text{6,0} \times \text{10}^{-\text{2}})(\text{100}) +  (\text{6,0} \times \text{10}^{-\text{2}})r 
+\end{align*}</annotation></semantics></math><p>Subtracting the equation from the second case from the equation from the first case:</p>
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\mathcal{E}   - \mathcal{E}   &amp; = ((\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})r) - ((\text{6,0} \times \text{10}^{-\text{2}})(\text{100}) +  (\text{6,0} \times \text{10}^{-\text{2}})r)\\
+0 &amp;= 10 + \text{2,50} \times \text{10}^{-\text{2}}r -6 -\text{6,0} \times \text{10}^{-\text{2}}r \\
+-\text{3,5} \times \text{10}^{-\text{2}}r = -4 \\
+r &amp;= \frac{4}{\text{3,5} \times \text{10}^{-\text{2}}} \\
+ &amp;=\text{1,1428} \times \text{10}^{-\text{2}}
+\end{align*}</annotation></semantics></math><p>We substitute this back into one of the equations to get <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>:</p>
+
+<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\mathcal{E}  &amp; = (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})r \\
+\mathcal{E}  &amp; = (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})(\text{1,1428} \times \text{10}^{-\text{2}}) \\
+\mathcal{E}  &amp; = \text{10}
+\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
 <div class="problem">
 
 <p>A battery is connected in series with a rheostat and an ammeter. When the resistance of the resistor is 10 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> the current is 2.0 A. When the resistance is 5 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> the current is 3.8 A. Find the emf and the internal resistance of the battery.</p>
