@@ -1,13 +1,10 @@
-<html>
-  <head/>
-  <body>
-  
-
-		
-    <h3>Force diagrams</h3>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>undefined</head>
+  <body><h3>Force diagrams</h3>
 
 <p>Force diagrams are sketches of the physical situation you are dealing with, with arrows for all the forces acting drawn on the system. For example, if a block rests on a surface then there is a force from gravity pulling the block down and there is a normal force acting on the block from the surface. The normal force and the force of gravity have the same magnitude in this situation. The force diagram for this situation is:</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/514f0940309ebf26a87705f070d25ca3.png"/><pre class="pspicture">&lt;code&gt;
+<figure class="figure"><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/514f0940309ebf26a87705f070d25ca3.png"/><pre class="pspicture">&lt;code&gt;
             (-3.6,-.5)(4.6,3.3)
 \psframe[linewidth=1pt,linecolor=brown](-1.55,0)(1.55,3)
 \psline[linecolor=blue,linewidth=1.4pt]{-&amp;gt;}(.05,0)(.05,1.5)
@@ -18,10 +15,42 @@
 \rput[r](-0.05,1.55){\color{purple}\begin{tabular}{c}$\vec{F}_g$\\gravity\end{tabular}}
 \rput[l](0.15,.55){\color{blue}\begin{tabular}{c}$\vec{N}$\\normal\end{tabular}}
 \rput(0,2.5){\color{brown}block}
-            &lt;/code&gt;</pre></div></figure><p>The length of the arrows are the same to indicate that the forces have the same magnitude.</p>
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>The length of the arrows are the same to indicate that the forces have the same magnitude.</p>
 
-<p>Another example could be a the same block on a surface but with an applied force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_L</annotation></semantics></math>, to the left of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> and an applied force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_R</annotation></semantics></math>, to the right of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. The weight and normal also have magnitudes of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>.</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ce98aab71b4f76b28b287195ebf5611f.png"/><pre class="pspicture">&lt;code&gt;
+<p>Another example could be a the same block on a surface but with an applied force, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>L</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_L</annotation></semantics></math>, to the left of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>10</mtext>
+<annotation encoding="math/tex">\text{10}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> and an applied force, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>R</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_R</annotation></semantics></math>, to the right of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>20</mtext>
+<annotation encoding="math/tex">\text{20}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>. The weight and normal also have magnitudes of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>10</mtext>
+<annotation encoding="math/tex">\text{10}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>.</p>
+<figure class="figure"><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/ce98aab71b4f76b28b287195ebf5611f.png"/><pre class="pspicture">&lt;code&gt;
             (-3.6,-.5)(4.6,3.3)
 \psline[linecolor=blue,linewidth=1.4pt]{-&amp;gt;}(.05,0)(.05,1.5)
 \rput[r](-0.05,1.55){\color{purple}\begin{tabular}{c}$\vec{F}_g$\\gravity\end{tabular}}
@@ -35,7 +64,7 @@
 \psline[linecolor=orange,linewidth=1.4pt]{-&amp;gt;}(-1.55,1.5)(-3.05,1.5)
 \rput[l](1.8,2.05){\color{green!75!black}$\vec{F}_R$}
 \psline[linecolor=green!75!black,linewidth=1.4pt]{-&amp;gt;}(1.55,1.5)(4.55,1.5)
-            &lt;/code&gt;</pre></div></figure><p>It is important to keep the following in mind when you draw force diagrams:</p>
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>It is important to keep the following in mind when you draw force diagrams:</p>
 <ul data-class="ListBulleted"><li>
               
 <p>Make your drawing large and clear.</p>
@@ -48,7 +77,43 @@
             </li>
 <li>
               
-<p>The length of the arrow will indicate the size of the force, in other words, the longer arrows in the diagram (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{R}</annotation></semantics></math> for example) indicates a bigger force than a shorter arrow (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{L}</annotation></semantics></math>). Arrows of the same length indicate forces of equal size (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{N}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{g}</annotation></semantics></math>). Use &#8220;little lines&#8221; like in maths to show this.</p>
+<p>The length of the arrow will indicate the size of the force, in other words, the longer arrows in the diagram (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>F</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>R</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{F}_{R}</annotation></semantics></math> for example) indicates a bigger force than a shorter arrow (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>F</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>L</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{F}_{L}</annotation></semantics></math>). Arrows of the same length indicate forces of equal size (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>F</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>N</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{F}_{N}</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>F</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>g</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{F}_{g}</annotation></semantics></math>). Use “little lines” like in maths to show this.</p>
 
             </li>
 <li>
@@ -71,7 +136,5 @@
 <p>If the values of the forces are known, these values can be added to the diagram or key.</p>
 
             </li>
-</ul>
-
-</body>
-
+</ul></body>
+</html>
