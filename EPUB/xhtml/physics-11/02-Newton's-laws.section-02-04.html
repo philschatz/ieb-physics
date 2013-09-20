@@ -1,10 +1,10 @@
-<html>
-  <head/>
-  <body>
-<h3>Free body diagrams</h3>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>undefined</head>
+  <body><h3>Free body diagrams</h3>
 
 <p>In a free-body diagram, the object of interest is drawn as a dot and all the forces acting on it are drawn as arrows pointing away from the dot. We can redraw the two force diagrams above as free body diagrams:</p>
-<div class="alternates"><img src="_plone_ignore_/cache/pspictures/b48172ef1502292d280ece9e5cdedfd3.png"/><pre class="pspicture">&lt;code&gt;
+<div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="_plone_ignore_/cache/pspictures/b48172ef1502292d280ece9e5cdedfd3.png"/><pre class="pspicture">&lt;code&gt;
               (-6,-.5)(4,3.3)
 
 \rput(-5,1.5){
@@ -27,7 +27,7 @@
 \rput[l](0.15,.55){\color{blue}\begin{tabular}{c}$\vec{N}$\\normal\end{tabular}}
 \rput(0,2.5){\color{brown}block}
 
-            &lt;/code&gt;</pre></div><div class="alternates"><img src="_plone_ignore_/cache/pspictures/be6c8c2ff5abf394f0138c02c1b9db36.png"/><pre class="pspicture">&lt;code&gt;
+            &lt;/code&gt;</pre><figcaption></figcaption></div><div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="_plone_ignore_/cache/pspictures/be6c8c2ff5abf394f0138c02c1b9db36.png"/><pre class="pspicture">&lt;code&gt;
               (-8,-.75)(5,3.3)
 \rput(-6.3,1.5){
 \psline[linecolor=blue,linewidth=1.4pt]{-&amp;gt;}(0,0)(0,1.5)
@@ -58,12 +58,24 @@
 
 
 
-            &lt;/code&gt;</pre></div><h3>Resolving forces into components</h3>
+            &lt;/code&gt;</pre><figcaption></figcaption></div><h3>Resolving forces into components</h3>
 
 <p>We have looked at resolving forces into components. There is one situation we will consider where this is particularly useful, problems involving an inclined plane. It is important because the normal force depends on the component of the gravitational force that is perpendicular to the slope.</p>
 
-<p>Let us consider a block on an inclined plane. The plane is inclined at an angle <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\theta</annotation></semantics></math> to the horizontal. It feels a gravitational force, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math>, directly downwards. This force can be broken into components that are perpendicular to the plane and parallel to it. This is shown here:</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/fc7841ca67237cb94dcb676f3dfc5549.png"/><pre class="pspicture">&lt;code&gt;
+<p>Let us consider a block on an inclined plane. The plane is inclined at an angle <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>θ<!-- θ --></mi>
+<annotation encoding="math/tex">\theta</annotation></semantics></math> to the horizontal. It feels a gravitational force, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math>, directly downwards. This force can be broken into components that are perpendicular to the plane and parallel to it. This is shown here:</p>
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/fc7841ca67237cb94dcb676f3dfc5549.png"/><pre class="pspicture">&lt;code&gt;
 (0,0)(7.5,4)
 %\rput{30}{\psaxes{-&amp;gt;}(0,0)(0,0)(10,5)}
 \psline(0,0)(2,0)
@@ -85,8 +97,10 @@
   \psarc{-&amp;gt;}(1.75,0){.75}{243}{270}}}
 }
 
-&lt;/code&gt;</pre></div></figure><p>We can use any coordinate system to describe the situation and the simplest thing to do is to make the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-axis of the Cartesian coordinate system align with the inclined plane. Here is the same physical situation with the coordinate system drawn in:</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ea4fa47d87d6fcc23e1074d9428e0859.png"/><pre class="pspicture">&lt;code&gt;
+&lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>We can use any coordinate system to describe the situation and the simplest thing to do is to make the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math>-axis of the Cartesian coordinate system align with the inclined plane. Here is the same physical situation with the coordinate system drawn in:</p>
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/ea4fa47d87d6fcc23e1074d9428e0859.png"/><pre class="pspicture">&lt;code&gt;
 (-3,-1.25)(6,4)
 \rput{30}{\psaxes[linecolor=gray]{-&amp;gt;}(0,0)(0,0)(6,4)\rput(5.5,-.2){$x$}\rput(.2,3.5){$y$}}
 \psline(0,0)(2,0)
@@ -105,8 +119,8 @@
   \psline{-&amp;gt;}(1.75,0)(1.24999,-1)
   \psarc{-&amp;gt;}(1.75,0){.75}{243}{270}}}
 }
-&lt;/code&gt;</pre></div></figure><p>This means that the components of gravitational force are aligned (parallel) with one of the axes of the coordinate system. We have shown in the figures that the angle between the horizontal and the incline is also the angle between the gravitational force and its component perpendicular to the inclined plane (this is normal to the plane). Using this angle and the fact that the components form part of a right-angled triangle we can calculate the components using trigonometry:</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/5a801524f7d6b32fbebb9fd14928bce6.png"/><pre class="pspicture">&lt;code&gt;
+&lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>This means that the components of gravitational force are aligned (parallel) with one of the axes of the coordinate system. We have shown in the figures that the angle between the horizontal and the incline is also the angle between the gravitational force and its component perpendicular to the inclined plane (this is normal to the plane). Using this angle and the fact that the components form part of a right-angled triangle we can calculate the components using trigonometry:</p>
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/5a801524f7d6b32fbebb9fd14928bce6.png"/><pre class="pspicture">&lt;code&gt;
 (-3,-1.25)(6,4)
 \rput{30}{\psaxes[linecolor=gray]{-&amp;gt;}(0,0)(0,0)(6,4)\rput(5.5,-.2){$x$}\rput(.2,3.5){$y$}}
 \rput(3.1,1.2){$\theta$}
@@ -127,96 +141,829 @@
 \rput[r](4,0){\color{purple}$\vec{F}_{gx}$}
 \rput[r](4.2,1.1){\color{blue}$\vec{F}_{gy}$}
 
-&lt;/code&gt;</pre></div></figure><p>Using trigonometry the components are given by:
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+&lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>Using trigonometry the components are given by:
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>y</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
 {F}_{gy} &amp; = {F}_g\cos(\theta)
 \end{align*}</annotation></semantics></math></p>
-<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Components of force due to gravity</div><div class="problem" data-class="question">
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem" data-class="question" id="d0f6aa6e-4130-997b-e8a1-cbbc4857298e">
 
-<p>A block on an inclined plane experiences a force due to gravity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{137}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> straight down. If the slope is inclined at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{37}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the horizontal, what is the component of the force due to gravity perpendicular and parallel to the slope?</p>
+<p>A block on an inclined plane experiences a force due to gravity, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>137</mtext>
+<annotation encoding="math/tex">\text{137}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> straight down. If the slope is inclined at <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>37</mtext>
+<annotation encoding="math/tex">\text{37}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>°</mtext>
+<annotation encoding="math/tex">\text{°}</annotation></semantics></math> to the horizontal, what is the component of the force due to gravity perpendicular and parallel to the slope?</p>
 
-</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Components</div>
+</div><div class="solution" data-class="workstep" data-type="Step">
 
-<p>We know that for a block on a slope we can resolve the force due to gravity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> into components parallel and perpendicular to the slope. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+<div class="title">Components</div><p>We know that for a block on a slope we can resolve the force due to gravity, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> into components parallel and perpendicular to the slope. <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>y</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
 {F}_{gy} &amp; = {F}_g\cos(\theta)
-\end{align*}</annotation></semantics></math></p>
-</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Calculations</div>
+\end{align*}</annotation></semantics></math></p></div><div class="solution" data-class="workstep" data-type="Step">
 
-<p>This problem is straightforward as we know that the slope is inclined at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{37}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math>. This is the same angle we need to use to calculate the components, therefore:
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+<div class="title">Calculations</div><p>This problem is straightforward as we know that the slope is inclined at an angle of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>37</mtext>
+<annotation encoding="math/tex">\text{37}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>°</mtext>
+<annotation encoding="math/tex">\text{°}</annotation></semantics></math>. This is the same angle we need to use to calculate the components, therefore:
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>137</mtext>
+        <mo stretchy="false">)</mo>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>37</mtext>
+        <mtext>°</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>82,45</mtext>
+        <mtext>&nbsp;N</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
- &amp; = (\text{137})\sin(\text{37}\text{&#176;})\\
+ &amp; = (\text{137})\sin(\text{37}\text{°})\\
  &amp; = \text{82,45}\text{ N}
-\end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>y</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>137</mtext>
+        <mo stretchy="false">)</mo>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>37</mtext>
+        <mtext>°</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>109,41</mtext>
+        <mtext>&nbsp;N</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gy} &amp; = {F}_g\cos(\theta)\\
- &amp; = (\text{137})\cos(\text{37}\text{&#176;})\\
+ &amp; = (\text{137})\cos(\text{37}\text{°})\\
  &amp; = \text{109,41}\text{ N}
-\end{align*}</annotation></semantics></math></p>
-</div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Final answer</div>
+\end{align*}</annotation></semantics></math></p></div><div class="solution" data-class="workstep" data-type="Step">
 
-<p>The component of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{gy}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{109,41}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction.</p>
 
-<p>The component of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{gx}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{82,45}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction.</p>
-</div></div><h1 class="title" data-class="complex-section">Exercises</h1>
+
+
+<div class="title">Final answer</div><p>The component of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>g</mi>
+      <mi>y</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_{gy}</annotation></semantics></math>=<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>109,41</mtext>
+<annotation encoding="math/tex">\text{109,41}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> in the negative <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>y</mi>
+<annotation encoding="math/tex">y</annotation></semantics></math>-direction.</p><p>The component of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>g</mi>
+      <mi>x</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_{gx}</annotation></semantics></math>=<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>82,45</mtext>
+<annotation encoding="math/tex">\text{82,45}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> in the negative <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math>-direction.</p></div></div><h1 class="title" data-class="complex-section">Exercises</h1>
 <div class="problemset">
 <div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="5fc03170-7b12-1464-b039-1a49d709646e">
 
-<p>A block on an inclined plane experiences a force due to gravity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{456}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> straight down. If the slope is inclined at <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{67,8}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> to the horizontal, what is the component of the force due to gravity perpendicular and parallel to the slope?</p>
+<p>A block on an inclined plane experiences a force due to gravity, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>456</mtext>
+<annotation encoding="math/tex">\text{456}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> straight down. If the slope is inclined at <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>67,8</mtext>
+<annotation encoding="math/tex">\text{67,8}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>°</mtext>
+<annotation encoding="math/tex">\text{°}</annotation></semantics></math> to the horizontal, what is the component of the force due to gravity perpendicular and parallel to the slope?</p>
 
 </div><div class="solution">
 
-<p>We know that for a block on a slope we can resolve the force due to gravity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> into components parallel and perpendicular to the slope. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+
+
+
+
+
+
+
+
+
+<p>We know that for a block on a slope we can resolve the force due to gravity, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> into components parallel and perpendicular to the slope. <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>y</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
 {F}_{gy} &amp; = {F}_g\cos(\theta)
-\end{align*}</annotation></semantics></math></p>
-
-
-<p>The slope is inclined at an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{67,8}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math>. This is the same angle we need to use to calculate the components, therefore:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math></p><p>The slope is inclined at an angle of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>67,8</mtext>
+<annotation encoding="math/tex">\text{67,8}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>°</mtext>
+<annotation encoding="math/tex">\text{°}</annotation></semantics></math>. This is the same angle we need to use to calculate the components, therefore:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>456</mtext>
+        <mo stretchy="false">)</mo>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>67,8</mtext>
+        <mtext>°</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>422,20</mtext>
+        <mtext>&nbsp;N</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
- &amp; = (\text{456})\sin(\text{67,8}\text{&#176;})\\
+ &amp; = (\text{456})\sin(\text{67,8}\text{°})\\
  &amp; = \text{422,20}\text{ N}
-\end{align*}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>y</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>456</mtext>
+        <mo stretchy="false">)</mo>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>67,8</mtext>
+        <mtext>°</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>172,30</mtext>
+        <mtext>&nbsp;N</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gy} &amp; = {F}_g\cos(\theta)\\
- &amp; = (\text{456})\cos(\text{67,8}\text{&#176;})\\
+ &amp; = (\text{456})\cos(\text{67,8}\text{°})\\
  &amp; = \text{172,30}\text{ N}
-\end{align*}</annotation></semantics></math><p>The component of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{gy}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{172,30}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-direction.</p>
+\end{align*}</annotation></semantics></math><p>The component of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>g</mi>
+      <mi>y</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_{gy}</annotation></semantics></math>=<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>172,30</mtext>
+<annotation encoding="math/tex">\text{172,30}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> in the negative <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>y</mi>
+<annotation encoding="math/tex">y</annotation></semantics></math>-direction.</p><p>The component of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>g</mi>
+      <mi>x</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_{gx}</annotation></semantics></math>=<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>422,20</mtext>
+<annotation encoding="math/tex">\text{422,20}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> in the negative <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math>-direction.</p></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="2c5dadb6-b4a3-3383-7d3e-988ad8e751d6">
 
-
-<p>The component of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> that is perpendicular to the slope is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{gx}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{422,20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction.</p>
-
-</div></div><div class="exercise" data-class="entry">
-<div class="problem">
-
-<p>A block on an inclined plane is subjected to a force due to gravity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{456}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> straight down. If the component of the gravitational force parallel to the slope is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_{gx}</annotation></semantics></math>=<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{308,7}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> in the negative <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction (down the slope), what is the incline of the slope?</p>
+<p>A block on an inclined plane is subjected to a force due to gravity, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>456</mtext>
+<annotation encoding="math/tex">\text{456}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> straight down. If the component of the gravitational force parallel to the slope is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>g</mi>
+      <mi>x</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_{gx}</annotation></semantics></math>=<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>308,7</mtext>
+<annotation encoding="math/tex">\text{308,7}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> in the negative <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math>-direction (down the slope), what is the incline of the slope?</p>
 
 </div><div class="solution">
 	
-<p>We know that for a block on a slope we can resolve the force due to gravity, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{F}_g</annotation></semantics></math> into components parallel and perpendicular to the slope. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+
+
+
+
+
+
+<p>We know that for a block on a slope we can resolve the force due to gravity, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>F</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>g</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{F}_g</annotation></semantics></math> into components parallel and perpendicular to the slope. <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>y</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
 {F}_{gy} &amp; = {F}_g\cos(\theta)
-\end{align*}</annotation></semantics></math></p>
-
-
-<p>We are given the horizontal component of gravity and the force due to gravity. We can use these to find the incline of the slope:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math></p><p>We are given the horizontal component of gravity and the force due to gravity. We can use these to find the incline of the slope:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>F</mi>
+          </mrow>
+          <mi>g</mi>
+        </msub>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>θ<!-- θ --></mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mtext>308,7</mtext>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>456</mtext>
+        <mo stretchy="false">)</mo>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mi>θ<!-- θ --></mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>sin</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mi>θ<!-- θ --></mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>0,6769</mtext>
+        <mo>…<!-- … --></mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>θ<!-- θ --></mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>42,61</mtext>
+        <mtext>°</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 {F}_{gx} &amp; = {F}_g\sin(\theta)\\
  \text{308,7} &amp; = (\text{456})\sin \theta\\
  \sin \theta &amp; = \text{0,6769} \ldots \\
-	 \theta &amp; = \text{42,61}\text{&#176;} 
-\end{align*}</annotation></semantics></math><p>The slope is at an incline of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{42,61}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math>.</p>
+	 \theta &amp; = \text{42,61}\text{°} 
+\end{align*}</annotation></semantics></math><p>The slope is at an incline of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>42,61</mtext>
+<annotation encoding="math/tex">\text{42,61}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>°</mtext>
+<annotation encoding="math/tex">\text{°}</annotation></semantics></math>.</p></div></div></div><h3>Finding the resultant force</h3>
 
-</div></div></div><h3>Finding the resultant force</h3>
-
-<p>The easiest way to determine a resultant force is to draw a free body diagram. Remember from <a data-class="ExternalLink" href="http://everythingscience.co.za/grade-11/11-vectors/11-vectors-03.cnxmlplus#scESBDZ">Chapter 1</a> that we use the length of the arrow to indicate the vector's magnitude and the direction of the arrow to show which direction it acts in.</p>
+<p>The easiest way to determine a resultant force is to draw a free body diagram. Remember from <a data-class="ExternalLink" href="http://everythingscience.co.za/grade-11/11-vectors/11-vectors-03.cnxmlplus#scESBDZ" title="">Chapter 1</a> that we use the length of the arrow to indicate the vector's magnitude and the direction of the arrow to show which direction it acts in.</p>
 
 <p>After we have done this, we have a diagram of vectors and we simply find the sum of the vectors to get the resultant force.</p>
-<figure class="figure" id="fig-forces-1"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/46472ebc5e530c1803f08bef8042ade1.png"/><pre class="pspicture">&lt;code&gt;
+<figure class="figure" id="fig-forces-1" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/46472ebc5e530c1803f08bef8042ade1.png"/><pre class="pspicture">&lt;code&gt;
                 (-2,-0.8)(6,1.3)
 \psline[linewidth=2pt]{}(1,0.5)(2,0.5)
 \psframe[linewidth=1pt](0,0)(1,1)
@@ -234,11 +981,64 @@
               &lt;/code&gt;</pre></div>
 <figcaption class="caption"><p>
              (a) Force diagram of 2 forces acting on a box. (b) Free body diagram of the box.
-            </p></figcaption></figure><p>For example, two people push on a box from opposite sides with forces of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> respectively as shown in Figure <a href="#fig-forces-1" data-class="InternalLink">fig-forces-1</a> (a). The free body diagram in Figure <a href="#fig-forces-1" data-class="InternalLink">fig-forces-1</a> (b) shows the object represented by a dot and the two forces are represented by arrows with their tails on the dot.</p>
+            </p></figcaption></figure><p>For example, two people push on a box from opposite sides with forces of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>4</mtext>
+<annotation encoding="math/tex">\text{4}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>6</mtext>
+<annotation encoding="math/tex">\text{6}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> respectively as shown in Figure <a href="#fig-forces-1" data-class="InternalLink" title="">fig-forces-1</a> (a). The free body diagram in Figure <a href="#fig-forces-1" data-class="InternalLink" title="">fig-forces-1</a> (b) shows the object represented by a dot and the two forces are represented by arrows with their tails on the dot.</p>
 
-<p>As you can see, the arrows point in opposite directions and have different lengths. The resultant force is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> to the left. This result can be obtained algebraically too, since the two forces act along the same line. First, as in motion in one direction, choose a frame of reference. Secondly, add the two vectors taking their directions into account.</p>
+<p>As you can see, the arrows point in opposite directions and have different lengths. The resultant force is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>2</mtext>
+<annotation encoding="math/tex">\text{2}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> to the left. This result can be obtained algebraically too, since the two forces act along the same line. First, as in motion in one direction, choose a frame of reference. Secondly, add the two vectors taking their directions into account.</p>
 
-<p>For the example, assume that the positive direction is to the right, then:<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+<p>For the example, assume that the positive direction is to the right, then:<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>F</mi>
+          <mi>R</mi>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>4</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mo>−<!-- − --></mo>
+        <mtext>6</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mtext>2</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mtext>2</mtext>
+        <mtext>&nbsp;N</mtext>
+        <mtext>&nbsp;</mtext>
+        <mtext>to the left.</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 			F_R &amp; = (\text{4}) + (-\text{6}) \\
 			 &amp; = -\text{2} \\
 			 &amp; = -\text{2}\text{ N}\ \text{to the left.}
@@ -246,19 +1046,94 @@
 
 <p>Remember that a negative answer means that the force acts in the <em>opposite</em> direction to the one that you chose to be positive. You can <em>choose</em> the positive direction to be any way you want, but once you have chosen it you <em>must</em> use it consistently for that problem.</p>
 
-<p>As you work with more force diagrams in which the forces exactly balance, you may notice that you get a zero answer (e.g. <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>). This simply means that the forces are balanced and the resultant is zero.</p>
+<p>As you work with more force diagrams in which the forces exactly balance, you may notice that you get a zero answer (e.g. <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>0</mtext>
+<annotation encoding="math/tex">\text{0}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>). This simply means that the forces are balanced and the resultant is zero.</p>
 
-<p>Once a force diagram has been drawn the techniques of vector addition introduced in <a data-class="ExternalLink" href="http://everythingscience.co.za/grade-11/11-vectors/11-vectors-06.cnxmlplus#scESBEG">Chapter 1</a> can be used. Depending on the situation you might choose to use a graphical technique such as the tail-to-head method or the parallelogram method, or else an algebraic approach to determine the resultant. Since force is a vector quantity all of these methods apply.</p>
+<p>Once a force diagram has been drawn the techniques of vector addition introduced in <a data-class="ExternalLink" href="http://everythingscience.co.za/grade-11/11-vectors/11-vectors-06.cnxmlplus#scESBEG" title="">Chapter 1</a> can be used. Depending on the situation you might choose to use a graphical technique such as the tail-to-head method or the parallelogram method, or else an algebraic approach to determine the resultant. Since force is a vector quantity all of these methods apply.</p>
 
 <p>A good strategy is:</p>
-<ul data-class="ListBulleted"><li>resolve all forces into components parallel to the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>- and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">y</annotation></semantics></math>-directions;</li>
-<li>calculate the resultant in each direction, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}_x</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}_y</annotation></semantics></math>, using co-linear vectors; and</li>
-<li>use <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}_x</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}_y</annotation></semantics></math> to calculate the resultant, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\vec{R}</annotation></semantics></math>.</li>
-</ul><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Finding the resultant force</div><div class="problem" data-class="question">
+<ul data-class="ListBulleted"><li>resolve all forces into components parallel to the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math>- and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>y</mi>
+<annotation encoding="math/tex">y</annotation></semantics></math>-directions;</li>
+<li>calculate the resultant in each direction, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>R</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>x</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{R}_x</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>R</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>y</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{R}_y</annotation></semantics></math>, using co-linear vectors; and</li>
+<li>use <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>R</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>x</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{R}_x</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mover>
+        <mi>R</mi>
+        <mo>⃗<!-- ⃗ --></mo>
+      </mover>
+    </mrow>
+    <mi>y</mi>
+  </msub>
+<annotation encoding="math/tex">\vec{R}_y</annotation></semantics></math> to calculate the resultant, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mover>
+      <mi>R</mi>
+      <mo>⃗<!-- ⃗ --></mo>
+    </mover>
+  </mrow>
+<annotation encoding="math/tex">\vec{R}</annotation></semantics></math>.</li>
+</ul><div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem" data-class="question" id="a70960e3-9fc5-aa26-eaa9-507f3da55ed3">
 				
-<p>A car (experiencing a gravitational force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12\ 000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> and a normal force of the same magnitude) applies a force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2000}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> on a trailer (experiencing a gravitational force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> and normal force of the same magnitude). A constant frictional force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{200}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> is acting on the trailer, and a constant frictional force of magnitude <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{300}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> is acting on the car.</p>
+<p>A car (experiencing a gravitational force of magnitude <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>12\ 000</mtext>
+<annotation encoding="math/tex">\text{12\ 000}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> and a normal force of the same magnitude) applies a force of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>2000</mtext>
+<annotation encoding="math/tex">\text{2000}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> on a trailer (experiencing a gravitational force of magnitude <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>2500</mtext>
+<annotation encoding="math/tex">\text{2500}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> and normal force of the same magnitude). A constant frictional force of magnitude <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>200</mtext>
+<annotation encoding="math/tex">\text{200}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> is acting on the trailer, and a constant frictional force of magnitude <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>300</mtext>
+<annotation encoding="math/tex">\text{300}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> is acting on the car.</p>
 
-<figure class="figure"><img src="photos/car_trailer_foshie_flickr.eps" width="312" alt="Photo by Foshie on Flickr"/></figure><ol data-class="ListEnumerated"><li>
+<figure class="figure" title=""><div class="title"></div><img width="312" alt="Photo by Foshie on Flickr" draggable="false" src="photos/car_trailer_foshie_flickr.eps"/><figcaption></figcaption></figure><ol data-class="ListEnumerated"><li>
                   
 <p>Draw a force diagram of all the forces acting on the car.</p>
 
@@ -273,26 +1148,64 @@
 <p>Use the force diagram to determine the resultant force on the trailer.</p>
 
                 </li>
-</ol></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Draw the force diagram for the car.</div>
+</ol></div><div class="solution" data-class="workstep" data-type="Step">
 
-<p>The question asks us to draw all the forces on the car. This means that we must include horizontal and vertical forces.</p>
-<figure class="figure"><img src="photos/car_trailer_forces.png" width="624" alt="Derivative work by Heather Williams based on photo by Floshie on Flickr."/></figure></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine the resultant force on the trailer.</div>
 
-<p>To find the resultant force we need to add all the horizontal forces together. We do not add vertical forces as the movement of the car and trailer will be in a horizontal direction, and not up or down.
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{F}_{R}=\text{2000}+\left(-\text{200}\right)=\text{1800}&#160;\text{N to the right}</annotation></semantics></math>.</p>
-</div></div><p data-class="simulation" id="sc23H4"><a href="http://phet.colorado.edu/en/simulation/forces-and-motion">Simulation: 23H4</a></p><h1 class="title" data-class="complex-section">Exercises</h1>
+<div class="title">Draw the force diagram for the car.</div><p>The question asks us to draw all the forces on the car. This means that we must include horizontal and vertical forces.</p><figure class="figure" title=""><div class="title"></div><img width="624" alt="Derivative work by Heather Williams based on photo by Floshie on Flickr." draggable="false" src="photos/car_trailer_forces.png"/><figcaption></figcaption></figure></div><div class="solution" data-class="workstep" data-type="Step">
+
+
+<div class="title">Determine the resultant force on the trailer.</div><p>To find the resultant force we need to add all the horizontal forces together. We do not add vertical forces as the movement of the car and trailer will be in a horizontal direction, and not up or down.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>F</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>R</mi>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mtext>2000</mtext>
+  <mo>+</mo>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mo>−<!-- − --></mo>
+      <mtext>200</mtext>
+    </mrow>
+  </mfenced>
+  <mo>=</mo>
+  <mtext>1800</mtext>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mo>&nbsp;</mo>
+  </mrow>
+  <mtext>N to the right</mtext>
+</mrow><annotation encoding="math/tex">{F}_{R}=\text{2000}+\left(-\text{200}\right)=\text{1800}&nbsp;\text{N to the right}</annotation></semantics></math>.</p></div></div><p data-class="simulation" id="sc23H4"><a href="http://phet.colorado.edu/en/simulation/forces-and-motion" title="">Simulation: 23H4</a></p><h1 class="title" data-class="complex-section">Exercises</h1>
 <div class="problemset">
 <div class="multipart">
-<div class="header">
+<div class="header" id="51bce260-75c9-29c0-a3d7-c43325b9e8d1">
 
-<p>A boy pushes a shopping trolley (weight due to gravity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{150}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>) with a constant force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{75}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. A constant frictional force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{20}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math> is present.</p>
+<p>A boy pushes a shopping trolley (weight due to gravity of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>150</mtext>
+<annotation encoding="math/tex">\text{150}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>) with a constant force of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>75</mtext>
+<annotation encoding="math/tex">\text{75}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>. A constant frictional force of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>20</mtext>
+<annotation encoding="math/tex">\text{20}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math> is present.</p>
 </div><div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="a6f1d96b-716c-49f2-4fe0-df44cb0bb622">
 	
 <p>Draw a labelled force diagram to identify all the forces acting on the shopping trolley.</p>
 
 </div><div class="solution">
-	<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/ef8175f85995a75efedce5bc000b1dfe.png"/><pre class="pspicture">&lt;code&gt;
+	
+
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/ef8175f85995a75efedce5bc000b1dfe.png"/><pre class="pspicture">&lt;code&gt;
             (-4.6,-.5)(5.6,3.3)
 \psframe[linewidth=1pt](-1.55,0)(1.55,3)
 \psline[linecolor=blue,linewidth=1.4pt]{-&amp;gt;}(.05,0)(.05,1.5)
@@ -307,20 +1220,90 @@
 \rput(-.7,.6){\small{$150$ N}}
 \rput(.7,1){\small{$\vec{N} =$}}
 \rput(.7,.7){\small{$150$ N}}
-            &lt;/code&gt;</pre></div></figure><p>Where:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>Where:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>f</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;frictional force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;applied force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;gravitational force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mover>
+            <mi>N</mi>
+            <mo>⃗<!-- ⃗ --></mo>
+          </mover>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;normal force</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 	\vec{F}_{f} &amp; \text{ frictional force} \\
 	\vec{F}_{A} &amp; \text{ applied force} \\
 	\vec{F}_{g} &amp; \text{ gravitational force} \\
 	\vec{N} &amp; \text{ normal force}
 	\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="5a4c73bb-a80f-a0d1-1824-ade09a75e588">
 		
 <p>Draw a free body diagram of all the forces acting on the trolley.</p>
 
 	</div><div class="solution">
-		<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/2a65e06e146a275c1af9effcd29fb75d.png"/><pre class="pspicture">&lt;code&gt;
+		
+
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/2a65e06e146a275c1af9effcd29fb75d.png"/><pre class="pspicture">&lt;code&gt;
             (-3.6,-.5)(4.6,3.5)
 \psdot(0,1.5)
 \psline[linecolor=blue,linewidth=1.4pt]{-&amp;gt;}(0,1.5)(0,3)
@@ -333,40 +1316,188 @@
 \rput(-.7,.6){\small{$150$ N}}
 \rput(.7,2.5){\small{$\vec{N} =$}}
 \rput(.7,2.2){\small{$150$ N}}
-            &lt;/code&gt;</pre></div></figure><p>Where:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>Where:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>f</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;frictional force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;applied force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;gravitational force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mover>
+            <mi>N</mi>
+            <mo>⃗<!-- ⃗ --></mo>
+          </mover>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;normal force</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 	\vec{F}_{f} &amp; \text{ frictional force} \\
 	\vec{F}_{A} &amp; \text{ applied force} \\
 	\vec{F}_{g} &amp; \text{ gravitational force} \\
 	\vec{N} &amp; \text{ normal force}
 	\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="3d97be4f-1934-2218-8847-8430b2f77888">
 		
 <p>Determine the resultant force on the trolley.</p>
 
 	</div><div class="solution">
 		
-<p>The normal force and the gravitational force are balanced and produced no net force on the trolley.</p>
+
 
 		
-<p>We need to determine the resultant force using the force of friction and the applied force. We choose to the right as positive and assume that the applied force is applied to the right, while the frictional force acts to the left.</p>
 
-		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+		<p>The normal force and the gravitational force are balanced and produced no net force on the trolley.</p><p>We need to determine the resultant force using the force of friction and the applied force. We choose to the right as positive and assume that the applied force is applied to the right, while the frictional force acts to the left.</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>R</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>f</mi>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mtext>20</mtext>
+        <mo>+</mo>
+        <mtext>75</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>55</mtext>
+        <mtext>&nbsp;N</mtext>
+        <mtext>&nbsp;to the right</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 			\vec{F}_{R} &amp; = \vec{F}_{f} + \vec{F}_{A} \\
 			&amp; = -\text{20} + \text{75} \\
 			&amp; = \text{55}\text{ N} \text{ to the right} 
 			\end{align*}</annotation></semantics></math></div></div></div><div class="multipart">
-<div class="header">
+<div class="header" id="0c9fcad9-2b0f-ffcd-96c6-0e1117f975d1">
 
-<p>A donkey (experiencing a gravitational force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{2500}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>) is trying to pull a cart (force due to gravity of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{800}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>) with a force of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{400}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{N}</annotation></semantics></math>. The rope between the donkey and the cart makes an angle of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{30}</annotation></semantics></math><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#176;}</annotation></semantics></math> with the cart. The cart does not move.</p>
+<p>A donkey (experiencing a gravitational force of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>2500</mtext>
+<annotation encoding="math/tex">\text{2500}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>) is trying to pull a cart (force due to gravity of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>800</mtext>
+<annotation encoding="math/tex">\text{800}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>) with a force of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>400</mtext>
+<annotation encoding="math/tex">\text{400}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>N</mtext>
+<annotation encoding="math/tex">\text{N}</annotation></semantics></math>. The rope between the donkey and the cart makes an angle of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>30</mtext>
+<annotation encoding="math/tex">\text{30}</annotation></semantics></math><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>°</mtext>
+<annotation encoding="math/tex">\text{°}</annotation></semantics></math> with the cart. The cart does not move.</p>
 </div><div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="4da895fa-d13a-5bbb-0a72-c4cdd9737912">
 	
 <p>Draw a free body diagram of all the forces acting on the donkey.</p>
 
 </div><div class="solution">
-	<div class="alternates"><img src="_plone_ignore_/cache/pspictures/37ea1ece59f87a30dbcfa7502bc4e97a.png"/><pre class="pspicture">&lt;code&gt;
+	
+<div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="_plone_ignore_/cache/pspictures/37ea1ece59f87a30dbcfa7502bc4e97a.png"/><pre class="pspicture">&lt;code&gt;
 			(-.5,-1.7689062)(9.345938,1.7489063)
 \psdots[dotsize=0.12](0.9009375,0.22890624)
 \psline{-&amp;gt;}(0.9009375,0.22890624)(0.9009375,1.7289063)
@@ -380,14 +1511,15 @@
 \rput(1.6275,-1.5410937){donkey (2500 N)}
 \rput(4.5,-.2){$F_{1}$: Force of cart on donkey (60$^{\circ}$}
 \rput(4.1,-0.5){ downwards from horizontal)}
-		&lt;/code&gt;</pre></div>
-</div></div><div class="exercise" data-class="entry">
-<div class="problem">
+		&lt;/code&gt;</pre><figcaption></figcaption></div></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="467ba416-ce54-edbf-87e8-b139e90c8433">
 		
 <p>Draw a force diagram of all the forces acting on the cart.</p>
 
 	</div><div class="solution">
-		<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/0956968c3ede31f0d15dce6da10b08c1.png"/><pre class="pspicture">&lt;code&gt;
+		
+
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/0956968c3ede31f0d15dce6da10b08c1.png"/><pre class="pspicture">&lt;code&gt;
 			(0,-1.53)(6.2209377,1.51)
 \psline{-&amp;gt;}(2.9409375,-1.47)(2.9409375,0.03)
 \psline{-&amp;gt;}(1.3409375,-0.05)(0.0409375,1.05)
@@ -397,23 +1529,146 @@
 \rput(2.5123436,-0.64){$F_{g}$}
 \rput(3.1723437,-0.66){$N$}
 \rput(0.60234374,1.04){$F_{2}$}
-		&lt;/code&gt;</pre></div></figure><p>Where:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		&lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>Where:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>f</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;frictional force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;force of cart on donkey</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>g</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;gravitational force</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mover>
+            <mi>N</mi>
+            <mo>⃗<!-- ⃗ --></mo>
+          </mover>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mtext>&nbsp;normal force</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 	\vec{F}_{f} &amp; \text{ frictional force} \\
 	\vec{F}_{2} &amp; \text{ force of cart on donkey} \\
 	\vec{F}_{g} &amp; \text{ gravitational force} \\
 	\vec{N} &amp; \text{ normal force}
 	\end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="6b4cb03c-3284-743d-b25b-18aab0266438">
 		
 <p>Find the magnitude and direction of the frictional force preventing the cart from moving.</p>
 
 	</div><div class="solution">
 		
-<p>The cart is not moving so this is static friction only. We note that the frictional force acts in the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math>-direction only and will be equal to the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">x</annotation></semantics></math> component of the force applied by the donkey. The direction will be in the opposite direction that the donkey is pulling. The frictional force is:</p>
 
-		<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+		<p>The cart is not moving so this is static friction only. We note that the frictional force acts in the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math>-direction only and will be equal to the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>x</mi>
+<annotation encoding="math/tex">x</annotation></semantics></math> component of the force applied by the donkey. The direction will be in the opposite direction that the donkey is pulling. The frictional force is:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>F</mi>
+              <mo>⃗<!-- ⃗ --></mo>
+            </mover>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>f</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mi>F</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mi>θ<!-- θ --></mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>400</mtext>
+        <mi>cos</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>30</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>346,41</mtext>
+        <mtext>&nbsp;N</mtext>
+        <mtext>&nbsp;in the opposite direction to the applied force</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 			\vec{F}_{f} &amp; = F_{A}\cos \theta \\
 			&amp; = \text{400} \cos(\text{30}) \\
 			&amp; = \text{346,41}\text{ N} \text{ in the opposite direction to the applied force}
