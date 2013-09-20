@@ -1,5 +1,6 @@
-<html>
-  <head/>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>undefined</head>
   <body><h2>Batteries and internal resistance</h2>
 
 <p>Up until now we have been dealing with ideal batteries in that they aren't affected
@@ -15,10 +16,18 @@
 <p>Real batteries are made from materials which have resistance. This means that 
           real batteries are not just sources of potential difference (voltage), but they 
           also possess internal resistance. If the total potential difference source is 
-          referred to as the emf, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>, then a real battery can be 
-          represented as an emf connected in series with a resistor <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>. The internal 
-          resistance of the battery is represented by the symbol <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>.</p>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/a67774b6ce610791a186990ef04b9d0b.png"/><pre class="pspicture">&lt;code&gt;
+          referred to as the emf, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math>, then a real battery can be 
+          represented as an emf connected in series with a resistor <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>r</mi>
+<annotation encoding="math/tex">r</annotation></semantics></math>. The internal 
+          resistance of the battery is represented by the symbol <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>r</mi>
+<annotation encoding="math/tex">r</annotation></semantics></math>.</p>
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/a67774b6ce610791a186990ef04b9d0b.png"/><pre class="pspicture">&lt;code&gt;
               (0,0)(5,5)
               %\psgrid
 \pnode(1,1){A}
@@ -34,14 +43,93 @@
 \psframe[linestyle=dashed](1.4,0.4)(3.8,2)
 \uput[d](2.5,0.4){$V$}
 
-            &lt;/code&gt;</pre></div></figure><dl class="definition"><dt>Load</dt><dd>
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><dl class="definition"><dt>Load</dt><dd>
               
 <p>The external resistance in the circuit is referred to as the load.</p>
 
-            </dd></dl><p>Suppose that the battery with emf <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and internal resistance <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math> supplies a current <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> through an external load resistor <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">R</annotation></semantics></math>. Then the potential difference across the load resistor is that supplied by the battery:</p>
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}=I\cdot R</annotation></semantics></math><p>Similarly, from Ohm's Law, the potential difference across the internal resistance is:</p>
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{V}_{\text{internal resistance}}=I\cdot r</annotation></semantics></math><p>The potential difference <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V</annotation></semantics></math> of the battery is related to its emf <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and internal resistance <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math> by:</p>
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+            </dd></dl><p>Suppose that the battery with emf <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math> and internal resistance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>r</mi>
+<annotation encoding="math/tex">r</annotation></semantics></math> supplies a current <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>I</mi>
+<annotation encoding="math/tex">I</annotation></semantics></math> through an external load resistor <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>R</mi>
+<annotation encoding="math/tex">R</annotation></semantics></math>. Then the potential difference across the load resistor is that supplied by the battery:</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>load</mtext>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mi>I</mi>
+  <mo>⋅<!-- ⋅ --></mo>
+  <mi>R</mi>
+</mrow><annotation encoding="math/tex">V_{\text{load}}=I\cdot R</annotation></semantics></math><p>Similarly, from Ohm's Law, the potential difference across the internal resistance is:</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>V</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>internal resistance</mtext>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mi>I</mi>
+  <mo>⋅<!-- ⋅ --></mo>
+  <mi>r</mi>
+</mrow><annotation encoding="math/tex">{V}_{\text{internal resistance}}=I\cdot r</annotation></semantics></math><p>The potential difference <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>V</mi>
+<annotation encoding="math/tex">V</annotation></semantics></math> of the battery is related to its emf <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math> and internal resistance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>r</mi>
+<annotation encoding="math/tex">r</annotation></semantics></math> by:</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mi>V</mi>
+        <mo>+</mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mtext>or</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>V</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 		 \mathcal{E}&amp; = V+Ir\\
          &amp;\text{or}\\
 		  V&amp; = \mathcal{E}-Ir 
@@ -53,12 +141,39 @@
 <ol data-class="ListEnumerated"><li>Postive work is done on a unit charge by the battery transferring an energy equal to the emf. </li>
 <li>The charge does work to overcome the internal resistance of the battery. Doing work requires that the 
             charge lose some energy. The work done to overcome the internal resistance is 
-            <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{internal resistance}}=Ir</annotation></semantics></math>.</li>
+            <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>internal resistance</mtext>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mi>I</mi>
+  <mi>r</mi>
+</mrow><annotation encoding="math/tex">V_{\text{internal resistance}}=Ir</annotation></semantics></math>.</li>
 <li>When the unit charge leaves the battery it has less energy than the original emf. This is now the total
-            energy that it can use to do work moving through the circuit, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}} = \mathcal{E}-Ir</annotation></semantics></math>.</li>
+            energy that it can use to do work moving through the circuit, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>load</mtext>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+  <mo>−<!-- − --></mo>
+  <mi>I</mi>
+  <mi>r</mi>
+</mrow><annotation encoding="math/tex">V_{\text{load}} = \mathcal{E}-Ir</annotation></semantics></math>.</li>
 <li>As the charge moves around the circuit it does work passing through each component which is equal
-            to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">IR</annotation></semantics></math>.</li>
-</ol><figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/bf2f767222e329d0b59be98e7a156729.png"/><pre class="pspicture">&lt;code&gt;
+            to <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>I</mi>
+  <mi>R</mi>
+</mrow><annotation encoding="math/tex">IR</annotation></semantics></math>.</li>
+</ol><figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/bf2f767222e329d0b59be98e7a156729.png"/><pre class="pspicture">&lt;code&gt;
               (0,-3.5)(7,3.5)
        %       \psgrid
 \pnode(1,1){A}
@@ -120,7 +235,7 @@
 
 \psline{-&amp;gt;}(6,2.8)(3,2.8)
 
-            &lt;/code&gt;</pre></div></figure><p>The emf of a battery is essentially constant because it only depends on the 
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>The emf of a battery is essentially constant because it only depends on the 
           chemical reaction (that converts chemical energy into electrical energy) going on 
           inside the battery. Therefore, we can see that the potential difference across 
           the terminals of the battery is dependent on the current drawn by the load. The 
@@ -128,38 +243,215 @@
           because the emf is constant. For the same reason, the potential difference 
           only equals the emf when the current is very small.</p>
 
-<p>The current that can be drawn from a battery is limited by a critical, maximum value <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. The more resistance in the circuit the less the current will be. Imagine that you have a wire with no resistance that you use to connect the terminals of the battery. The circuit is complete, current will flow and adding any resistance to the circuit would decrease the current. The current without any external resistance will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>. At a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">{I}_{c}</annotation></semantics></math>, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V=\text{0}\text{ V}</annotation></semantics></math> because there is no load in the circuit. Then, the equation becomes:</p>
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+<p>The current that can be drawn from a battery is limited by a critical, maximum value <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>I</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>c</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{I}_{c}</annotation></semantics></math>. The more resistance in the circuit the less the current will be. Imagine that you have a wire with no resistance that you use to connect the terminals of the battery. The circuit is complete, current will flow and adding any resistance to the circuit would decrease the current. The current without any external resistance will be <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>I</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>c</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{I}_{c}</annotation></semantics></math>. At a current of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>I</mi>
+    </mrow>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>c</mi>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">{I}_{c}</annotation></semantics></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mi>V</mi>
+  <mo>=</mo>
+  <mtext>0</mtext>
+  <mtext>&nbsp;V</mtext>
+</mrow><annotation encoding="math/tex">V=\text{0}\text{ V}</annotation></semantics></math> because there is no load in the circuit. Then, the equation becomes:</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mtext>0</mtext>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>I</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>c</mi>
+          </mrow>
+        </msub>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>I</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>c</mi>
+          </mrow>
+        </msub>
+        <mi>r</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>I</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>c</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mfrac>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+          </mrow>
+          <mi>r</mi>
+        </mfrac>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 		 \text{0}&amp; = \mathcal{E}-{I}_{c}r\\
 		  {I}_{c}r&amp; = \mathcal{E}\\
 		  {I}_{c}&amp; = \frac{\mathcal{E}}{r} 
-		\end{align*}</annotation></semantics></math><p>The maximum current that can be drawn from a battery is less than <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\frac{\mathcal{E}}{r}</annotation></semantics></math>.</p>
-<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="title">Internal resistance</div><div class="problem" data-class="question">
+		\end{align*}</annotation></semantics></math><p>The maximum current that can be drawn from a battery is less than <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mfrac>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+    </mrow>
+    <mi>r</mi>
+  </mfrac>
+<annotation encoding="math/tex">\frac{\mathcal{E}}{r}</annotation></semantics></math>.</p>
+<div class="exercise" data-class="worked_example" data-type="Worked Example"><div class="problem" data-class="question" id="9c76a620-95c4-940f-0476-5e76ecbcd859">
               
 <p>Determine the internal resistance of a battery that has an emf of 
-              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and has a
+              <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>12,00</mtext>
+<annotation encoding="math/tex">\text{12,00}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>V</mtext>
+<annotation encoding="math/tex">\text{V}</annotation></semantics></math> and has a
               potential difference across its terminals of 
-              <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{10,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> when a 
-              current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{4,00}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> 
+              <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>10,00</mtext>
+<annotation encoding="math/tex">\text{10,00}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>V</mtext>
+<annotation encoding="math/tex">\text{V}</annotation></semantics></math> when a 
+              current of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>4,00</mtext>
+<annotation encoding="math/tex">\text{4,00}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>A</mtext>
+<annotation encoding="math/tex">\text{A}</annotation></semantics></math> 
               is flowing through the battery when connected in a circuit.</p>
 
-            </div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Determine how to approach the problem</div>
+            </div><div class="solution" data-class="workstep" data-type="Step">
 
-<p>It is an internal resistance problem. So we use the equation:</p>
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+<div class="title">Determine how to approach the problem</div><p>It is an internal resistance problem. So we use the equation:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mi>V</mi>
+        <mo>+</mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 		 \mathcal{E}&amp; = V+Ir 
-		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Solve the problem</div>
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step">
+<div class="title">Solve the problem</div><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mi>V</mi>
+        <mo>+</mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mtext>12</mtext>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>10</mtext>
+        <mo>+</mo>
+        <mtext>4</mtext>
+        <mfenced open="(" close=")">
+          <mi>r</mi>
+        </mfenced>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>r</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>0,5</mtext>
+        <mtext>&nbsp;Ω</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 		 \mathcal{E}&amp; = V+Ir\\
 		  \text{12}&amp; = \text{10}+\text{4}\left(r\right)\\
-		 r &amp; = \text{0,5}\text{ &#937;} 
-		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step"><div class="title">Write the final answer</div>
+		 r &amp; = \text{0,5}\text{ Ω} 
+		\end{align*}</annotation></semantics></math></div><div class="solution" data-class="workstep" data-type="Step">
 
-<p>The internal resistance of the battery is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,50}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math>.</p>
-</div></div><div class="example" data-class="activity" data-type="formalexperiment"><div class="title">Finding the internal resistance of a battery</div><div class="section"><div class="title">Aim</div>
+
+<div class="title">Write the final answer</div><p>The internal resistance of the battery is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>0,50</mtext>
+<annotation encoding="math/tex">\text{0,50}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>Ω</mtext>
+<annotation encoding="math/tex">\text{Ω}</annotation></semantics></math>.</p></div></div><div class="example" data-class="activity" data-type="formalexperiment"><span class="title">Finding the internal resistance of a battery</span><p></p><div class="section" data-unknown="true"><div class="title">Aim</div>
 <p>To determine the internal resistance of a battery.</p>
-</div>
-<div class="section"><div class="title">Apparatus</div>
+<figcaption></figcaption></div><p></p><p>
+</p><p></p><div class="section" data-unknown="true"><div class="title">Apparatus</div>
 <p>You will need the following items for this experiment:</p>
 <ul data-class="ListBulleted"><li>
                   
@@ -186,8 +478,8 @@
 <p>voltmeter</p>
 
                 </li>
-</ul></div>
-<div class="section"><div class="title">Method</div>
+</ul><figcaption></figcaption></div><p></p><p>
+</p><p></p><div class="section" data-unknown="true"><div class="title">Method</div>
 <p>We will set up a circuit that contains the battery we want to study in series 
                 with a resistor. Then we will measure the potential difference across the load 
                 as well as the current for a number of different resistors/rheostat in the 
@@ -196,12 +488,41 @@
                 the circuit changes so that the current is different each time. The reason 
                 that doing this can tell us about the internal resistance of the battery 
                 is because the potential difference across the internal resistance is 
-                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{internal resistance}}=I\cdot r</annotation></semantics></math> and we can vary I by changing the resistance of the 
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>internal resistance</mtext>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mi>I</mi>
+  <mo>⋅<!-- ⋅ --></mo>
+  <mi>r</mi>
+</mrow><annotation encoding="math/tex">V_{\text{internal resistance}}=I\cdot r</annotation></semantics></math> and we can vary I by changing the resistance of the 
                 circuit. If the potential difference across the internal resistance is 
                 changing and we add up all the potential differences, 
-                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E} = V_{\text{load}}+V_{\text{internal resistance}}</annotation></semantics></math> 
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+  <mo>=</mo>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>load</mtext>
+    </mrow>
+  </msub>
+  <mo>+</mo>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>internal resistance</mtext>
+    </mrow>
+  </msub>
+</mrow><annotation encoding="math/tex">\mathcal{E} = V_{\text{load}}+V_{\text{internal resistance}}</annotation></semantics></math> 
                 we can determine the internal resistance.</p>
-<figure class="figure"><img src="photos/InternalResistance-AReynolds.jpg" width="468" alt="Adam Reynolds (Pinelands High School)"/></figure><div class="alternates"><img src="_plone_ignore_/cache/pspictures/21d3e72be8d5b621db9983ea50af776d.png"/><pre class="pspicture">&lt;code&gt;
+<figure class="figure" title=""><div class="title"></div><img width="468" alt="Adam Reynolds (Pinelands High School)" draggable="false" src="photos/InternalResistance-AReynolds.jpg"/><figcaption></figcaption></figure><div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="_plone_ignore_/cache/pspictures/21d3e72be8d5b621db9983ea50af776d.png"/><pre class="pspicture">&lt;code&gt;
               (0,0)(5,5)
               %\psgrid
 \pnode(1,1){A}
@@ -222,33 +543,232 @@
 \psframe[linestyle=dashed](1.4,0.4)(3.8,2)
 \uput[d](2.5,0.4){$V_{\text{battery}}$}
 \circledipole[labeloffset=0](VA)(VB){$V_{\text{load}}$}
-            &lt;/code&gt;</pre></div>
-<p>To do this we will actually plot a graph of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}</annotation></semantics></math> versus <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> and then use the features of the graph to determine <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">r</annotation></semantics></math>. To understand why plotting the graph will help us we start with the equation for the magnitude of the <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math> and substitute Ohm's Law and re-arrange as follows:
-                <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+            &lt;/code&gt;</pre><figcaption></figcaption></div>
+<p>To do this we will actually plot a graph of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>load</mtext>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">V_{\text{load}}</annotation></semantics></math> versus <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>I</mi>
+<annotation encoding="math/tex">I</annotation></semantics></math> and then use the features of the graph to determine <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>r</mi>
+<annotation encoding="math/tex">r</annotation></semantics></math>. To understand why plotting the graph will help us we start with the equation for the magnitude of the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math> and substitute Ohm's Law and re-arrange as follows:
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mi>V</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext>load</mtext>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mi>V</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext>internal resistance</mtext>
+          </mrow>
+        </msub>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <msub>
+          <mi>V</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext>load</mtext>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <mi>I</mi>
+        <mo>⋅<!-- ⋅ --></mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>V</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext>load</mtext>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mi>I</mi>
+        <mo>⋅<!-- ⋅ --></mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>V</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext>load</mtext>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mi>r</mi>
+        <mo>⋅<!-- ⋅ --></mo>
+        <mi>I</mi>
+        <mo>+</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <munder>
+          <munder>
+            <msub>
+              <mi>V</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mtext>load</mtext>
+              </mrow>
+            </msub>
+            <mo>⏟<!-- ⏟ --></mo>
+          </munder>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>y</mi>
+          </mrow>
+        </munder>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <munder>
+          <munder>
+            <mrow>
+              <mo>−<!-- − --></mo>
+              <mi>r</mi>
+            </mrow>
+            <mo>⏟<!-- ⏟ --></mo>
+          </munder>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>m</mi>
+          </mrow>
+        </munder>
+        <mo>⋅<!-- ⋅ --></mo>
+        <munder>
+          <munder>
+            <mi>I</mi>
+            <mo>⏟<!-- ⏟ --></mo>
+          </munder>
+          <mi>x</mi>
+        </munder>
+        <mo>+</mo>
+        <munder>
+          <munder>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+            </mrow>
+            <mo>⏟<!-- ⏟ --></mo>
+          </munder>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>c</mi>
+          </mrow>
+        </munder>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
                     \mathcal{E} &amp; = V_{\text{load}} + V_{\text{internal resistance}} \\
                     \mathcal{E} &amp; = V_{\text{load}} + I\cdot r \\
                      V_{\text{load}}&amp; = \mathcal{E} -I\cdot r \\
                      V_{\text{load}}&amp; = -r\cdot I + \mathcal{E} \\
                      \underbrace{V_{\text{load}}}_{y}&amp; = \underbrace{-r}_{m}\cdot\underbrace{I}_x +  \underbrace{\mathcal{E}}_{c}
                     \end{align*}</annotation></semantics></math>
-                If we plot <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}</annotation></semantics></math> versus <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> we will be plotting data that are governed by this relationship. This allows us to conclude that the slope of the graph, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">m</annotation></semantics></math>, will be <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-r</annotation></semantics></math> and the intercept vertical axis, <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">c</annotation></semantics></math>, will be the emf <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>.</p>
-</div>
-<div class="section"><div class="title">Results</div>
+                If we plot <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>load</mtext>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">V_{\text{load}}</annotation></semantics></math> versus <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>I</mi>
+<annotation encoding="math/tex">I</annotation></semantics></math> we will be plotting data that are governed by this relationship. This allows us to conclude that the slope of the graph, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>m</mi>
+<annotation encoding="math/tex">m</annotation></semantics></math>, will be <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mo>−<!-- − --></mo>
+  <mi>r</mi>
+</mrow><annotation encoding="math/tex">-r</annotation></semantics></math> and the intercept vertical axis, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>c</mi>
+<annotation encoding="math/tex">c</annotation></semantics></math>, will be the emf <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math>.</p>
+<figcaption></figcaption></div><p></p><p>
+</p><p></p><div class="section" data-unknown="true"><div class="title">Results</div>
 <p>Record your results in a table like the one below. You can take more readings if you like.</p>
-<table><tr><td><strong>Setup</strong></td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">V_{\text{load}}</annotation></semantics></math> (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math>)</td><td><math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">I</annotation></semantics></math> (<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math>)</td></tr><tr><td>Resistance 1</td><td/><td/></tr><tr><td>Resistance 2</td><td/><td/></tr><tr><td>Resistance 3</td><td/><td/></tr><tr><td>Resistance 4</td><td/><td/></tr><tr><td>Resistance 5</td><td/><td/></tr></table></div>
-<div class="section"><div class="title">Discussion and conclusion</div>
+<table><caption>Table 1</caption><tbody><tr><td><strong>Setup</strong></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <msub>
+    <mi>V</mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mtext>load</mtext>
+    </mrow>
+  </msub>
+<annotation encoding="math/tex">V_{\text{load}}</annotation></semantics></math> (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>V</mtext>
+<annotation encoding="math/tex">\text{V}</annotation></semantics></math>)</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi>I</mi>
+<annotation encoding="math/tex">I</annotation></semantics></math> (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>A</mtext>
+<annotation encoding="math/tex">\text{A}</annotation></semantics></math>)</td></tr><tr><td>Resistance 1</td><td></td><td></td></tr><tr><td>Resistance 2</td><td></td><td></td></tr><tr><td>Resistance 3</td><td></td><td></td></tr><tr><td>Resistance 4</td><td></td><td></td></tr><tr><td>Resistance 5</td><td></td><td></td></tr></tbody></table><figcaption></figcaption></div><p></p><p>
+</p><p></p><div class="section" data-unknown="true"><div class="title">Discussion and conclusion</div>
 <p>Plot your data on a set of axes similar to this example. The blue
                 crosses represent the measured data points, the gray, dashed line is the 
                 drawn straight line through the data 
                 points. The best fit line you draw doesn't need to go through all the data points, it
                 should, in general, have as many points above and below the line.
-                The slope of the line can be measured and equated to <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">-r</annotation></semantics></math> and the 
-                intercept with the vertical axis will give you <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>. The
+                The slope of the line can be measured and equated to <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+  <mo>−<!-- − --></mo>
+  <mi>r</mi>
+</mrow><annotation encoding="math/tex">-r</annotation></semantics></math> and the 
+                intercept with the vertical axis will give you <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math>. The
                 intercept with the horizontal axis would give you the maximum possible current 
                 the battery could deliver.</p>
 
-<p/>
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/33d597f8141c9674bd6d7345ad0df432.png"/><pre class="pspicture">&lt;code&gt;
+<p></p>
+<figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/33d597f8141c9674bd6d7345ad0df432.png"/><pre class="pspicture">&lt;code&gt;
 (-2,-2)(6,6)
 %\psgrid
 \def\mdata{
@@ -271,55 +791,75 @@
     \psdot[linecolor=purple](0,1.5)
     \rput[r](-.05,1.5){\textcolor{purple}{$\mathcal{E}$}}
 \end{psgraph}
-&lt;/code&gt;</pre></div></figure><ul data-class="ListBulleted"><li>Do your data form a perfectly straight line? </li>
+&lt;/code&gt;</pre></div><figcaption></figcaption></figure><ul data-class="ListBulleted"><li>Do your data form a perfectly straight line? </li>
 <li>What errors were introduced?</li>
-</ul></div>
-</div>
+</ul><figcaption></figcaption></div><p></p><p>
+</p></div>
 <div class="problemset">
 <div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="e9a75a59-2795-dce6-03e7-bd73e74ac7bb">
               
 <p>Describe what is meant by the <em>internal resistance</em> of a real battery.</p>
 
             </div><div class="solution">
             
-<p>Real batteries are made from materials which have
-             resistance. This means that real batteries are not just sources of
-             potential difference (voltage), but they also possess internal
-             resistance.</p>
+
 
                 
              
-<p>So internal resistance is a measure of the resistance of the material that the battery is made of.</p>
+
 
 		
-             </div></div><div class="exercise" data-class="entry">
-<div class="problem">
+             <p>Real batteries are made from materials which have
+             resistance. This means that real batteries are not just sources of
+             potential difference (voltage), but they also possess internal
+             resistance.</p><p>So internal resistance is a measure of the resistance of the material that the battery is made of.</p></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="8addc8d5-3936-d3cc-4e1f-104827392163">
               
 <p>Explain why there is a difference between the emf and terminal voltage of a battery if the load (external resistance in the circuit) is comparable in size to the battery's internal resistance</p>
 
             </div><div class="solution">
 		
             
-<p>The emf of a battery is essentially constant
+
+
+		
+        <p>The emf of a battery is essentially constant
             because it only depends on the chemical reaction (that converts chemical
              energy into electrical energy) going on inside the battery. Therefore,
              we can see that the voltage across the terminals of the battery is
              dependent on the current drawn by the load. The higher the current, the
              lower the voltage across the terminals, because the emf is constant. By
              the same reasoning, the voltage only equals the emf when the current is
-             very small.</p>
-
-		
-        </div></div><div class="exercise" data-class="entry">
-<div class="problem">
+             very small.</p></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="0d3be076-3445-5997-8ff3-e87660b8b4b6">
               
-<p>What is the internal resistance of a battery if its emf is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{6}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> and the potential difference across its terminals is <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{5,8}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> when a current of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{0,5}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{A}</annotation></semantics></math> flows in the circuit when it is connected across a load?</p>
+<p>What is the internal resistance of a battery if its emf is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>6</mtext>
+<annotation encoding="math/tex">\text{6}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>V</mtext>
+<annotation encoding="math/tex">\text{V}</annotation></semantics></math> and the potential difference across its terminals is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>5,8</mtext>
+<annotation encoding="math/tex">\text{5,8}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>V</mtext>
+<annotation encoding="math/tex">\text{V}</annotation></semantics></math> when a current of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>0,5</mtext>
+<annotation encoding="math/tex">\text{0,5}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>A</mtext>
+<annotation encoding="math/tex">\text{A}</annotation></semantics></math> flows in the circuit when it is connected across a load?</p>
 
-            </div><div class="solution"/></div><div class="exercise" data-class="entry">
-<div class="problem">
+            </div><div class="solution"></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="f6ed3bbf-8801-ad9a-2973-3b3be0162f29">
 
-<p>A <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{12,0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{V}</annotation></semantics></math> battery has an internal resistance of <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{7,0}</annotation></semantics></math>~<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\text{&#937;}</annotation></semantics></math>.</p>
+<p>A <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>12,0</mtext>
+<annotation encoding="math/tex">\text{12,0}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>V</mtext>
+<annotation encoding="math/tex">\text{V}</annotation></semantics></math> battery has an internal resistance of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>7,0</mtext>
+<annotation encoding="math/tex">\text{7,0}</annotation></semantics></math>~<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>Ω</mtext>
+<annotation encoding="math/tex">\text{Ω}</annotation></semantics></math>.</p>
 
 <ol data-class="ListEnumerated"><li>What is the maximum current this battery could supply?</li>
 <li>What is the potential difference across its terminals when it is supplying a current of 150.0 mA?</li>
@@ -327,26 +867,134 @@
 </ol></div><div class="solution">
 
 
-<p>What is the maximum current this battery could supply?</p>
 
 
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+
+
+
+
+
+
+
+
+
+<p>What is the maximum current this battery could supply?</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <msub>
+          <mi>I</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>m</mi>
+            <mi>a</mi>
+            <mi>x</mi>
+          </mrow>
+        </msub>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mfrac>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+          </mrow>
+          <mi>r</mi>
+        </mfrac>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mfrac>
+          <mtext>12,0</mtext>
+          <mtext>7,0</mtext>
+        </mfrac>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>1,71428</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>1,71</mtext>
+        <mtext>&nbsp;A</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 I_{max} &amp; =\frac{\mathcal{E}}{r} \\
  &amp; =\frac{\text{12,0}}{\text{7,0}} \\
  &amp; =\text{1,71428} \\
  &amp; =\text{1,71}\text{ A}
-\end{align*}</annotation></semantics></math><p>What is the potential difference across its terminals when it is supplying a current of 150.0 mA?</p>
-
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math><p>What is the potential difference across its terminals when it is supplying a current of 150.0 mA?</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>V</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>12,0</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>−<!-- − --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>1,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>1</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>7,0</mtext>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>10,95</mtext>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>10,95</mtext>
+        <mtext>&nbsp;V</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
  V   &amp; =\mathcal{E} - Ir \\
  &amp; =(\text{12,0})-  (\text{1,50} \times \text{10}^{-\text{1}})(\text{7,0}) \\
  &amp; =\text{10,95} \\
  &amp; =\text{10,95}\text{ V}
-\end{align*}</annotation></semantics></math><p>Draw a sketch graph to show how the terminal potential difference varies with the current supplied if the internal resistance remains constant. How could the internal resistance be obtained from the graph?</p>
-
-
-<figure class="figure"><div class="alternates"><img src="_plone_ignore_/cache/pspictures/8d13d1b2c6c48878d3ec3884a458200f.png"/><pre class="pspicture">&lt;code&gt;
+\end{align*}</annotation></semantics></math><p>Draw a sketch graph to show how the terminal potential difference varies with the current supplied if the internal resistance remains constant. How could the internal resistance be obtained from the graph?</p><figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="_plone_ignore_/cache/pspictures/8d13d1b2c6c48878d3ec3884a458200f.png"/><pre class="pspicture">&lt;code&gt;
 (-2,-2)(6,6)
 %\psgrid
 \def\mdata{
@@ -369,56 +1017,511 @@ I_{max} &amp; =\frac{\mathcal{E}}{r} \\
     \psdot[linecolor=purple](0,1.5)
     \rput[r](-.05,1.5){\textcolor{purple}{$\mathcal{E}$}}
 \end{psgraph}
-&lt;/code&gt;</pre></div></figure><p>The slope of the graph is the internal resistance.</p>
+&lt;/code&gt;</pre></div><figcaption></figcaption></figure><p>The slope of the graph is the internal resistance.</p></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="0de8221c-c657-cd30-0993-578a935d990a">
 
-
-</div></div><div class="exercise" data-class="entry">
-<div class="problem">
-
-<p>In a hearing aid a battery supplies a current of 25.0 mA through a resistance of 400 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math>. When the volume is increased, the resistance is changed to 100 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> and the current rises to 60 mA. What is the emf and internal resistance of the cell?</p>
+<p>In a hearing aid a battery supplies a current of 25.0 mA through a resistance of 400 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi mathvariant="normal">Ω<!-- Ω --></mi>
+<annotation encoding="math/tex">\Omega</annotation></semantics></math>. When the volume is increased, the resistance is changed to 100 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi mathvariant="normal">Ω<!-- Ω --></mi>
+<annotation encoding="math/tex">\Omega</annotation></semantics></math> and the current rises to 60 mA. What is the emf and internal resistance of the cell?</p>
 
 </div><div class="solution">
 
-<p>We have two unknowns but information for two different scenarios so we can solve simultaneously.</p>
 
 
-<p>In the first case:</p>
 
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+
+
+
+
+
+
+
+
+
+<p>We have two unknowns but information for two different scenarios so we can solve simultaneously.</p><p>In the first case:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>V</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>400</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>400</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
  V   &amp; =\mathcal{E} - Ir \\
 (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) =  &amp; =\mathcal{E} - (\text{2,50} \times \text{10}^{-\text{2}})r \\
 \mathcal{E}  &amp; = (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})r 
-\end{align*}</annotation></semantics></math><p>In the second case we will get:</p>
-
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math><p>In the second case we will get:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>V</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mi>I</mi>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mo stretchy="false">(</mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>100</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mo stretchy="false">(</mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>100</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
  V   &amp; =\mathcal{E} - Ir \\
 (\text{6,0} \times \text{10}^{-\text{2}})(\text{100}) =  &amp; =\mathcal{E} - (\text{6,0} \times \text{10}^{-\text{2}})r \\
 \mathcal{E}  &amp; = (\text{6,0} \times \text{10}^{-\text{2}})(\text{100}) +  (\text{6,0} \times \text{10}^{-\text{2}})r 
-\end{align*}</annotation></semantics></math><p>Subtracting the equation from the second case from the equation from the first case:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math><p>Subtracting the equation from the second case from the equation from the first case:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+        <mo>−<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>400</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+        <mo>−<!-- − --></mo>
+        <mo stretchy="false">(</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>100</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>0</mn>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mn>10</mn>
+        <mo>+</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mi>r</mi>
+        <mo>−<!-- − --></mo>
+        <mn>6</mn>
+        <mo>−<!-- − --></mo>
+        <mtext>6,0</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mo>−<!-- − --></mo>
+        <mtext>3,5</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mi>r</mi>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mn>4</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>r</mi>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mfrac>
+          <mn>4</mn>
+          <mrow>
+            <mtext>3,5</mtext>
+            <mo>×<!-- × --></mo>
+            <msup>
+              <mtext>10</mtext>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo>−<!-- − --></mo>
+                <mtext>2</mtext>
+              </mrow>
+            </msup>
+          </mrow>
+        </mfrac>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd></mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>1,1428</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 \mathcal{E}   - \mathcal{E}   &amp; = ((\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})r) - ((\text{6,0} \times \text{10}^{-\text{2}})(\text{100}) +  (\text{6,0} \times \text{10}^{-\text{2}})r)\\
 0 &amp;= 10 + \text{2,50} \times \text{10}^{-\text{2}}r -6 -\text{6,0} \times \text{10}^{-\text{2}}r \\
 -\text{3,5} \times \text{10}^{-\text{2}}r = -4 \\
 r &amp;= \frac{4}{\text{3,5} \times \text{10}^{-\text{2}}} \\
  &amp;=\text{1,1428} \times \text{10}^{-\text{2}}
-\end{align*}</annotation></semantics></math><p>We substitute this back into one of the equations to get <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\mathcal{E}</annotation></semantics></math>:</p>
-
-<math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\begin{align*}
+\end{align*}</annotation></semantics></math><p>We substitute this back into one of the equations to get <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mrow class="MJX-TeXAtom-ORD">
+    <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+  </mrow>
+<annotation encoding="math/tex">\mathcal{E}</annotation></semantics></math>:</p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em 2em 0.2777777777777778em" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>400</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mi>r</mi>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>400</mtext>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>2,50</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mtext>1,1428</mtext>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mtext>10</mtext>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mtext>2</mtext>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi class="MJX-tex-caligraphic" mathvariant="script">E</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mo>=</mo>
+        <mtext>10</mtext>
+      </mtd>
+    </mtr>
+  </mtable>
+<annotation encoding="math/tex">\begin{align*}
 \mathcal{E}  &amp; = (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})r \\
 \mathcal{E}  &amp; = (\text{2,50} \times \text{10}^{-\text{2}})(\text{400}) +  (\text{2,50} \times \text{10}^{-\text{2}})(\text{1,1428} \times \text{10}^{-\text{2}}) \\
 \mathcal{E}  &amp; = \text{10}
 \end{align*}</annotation></semantics></math></div></div><div class="exercise" data-class="entry">
-<div class="problem">
+<div class="problem" id="dd584989-9242-658a-d1ef-c5cfeefcc4f5">
 
-<p>A battery is connected in series with a rheostat and an ammeter. When the resistance of the resistor is 10 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> the current is 2.0 A. When the resistance is 5 <math><semantics><mtext>CLICKME</mtext><annotation encoding="TeX">\Omega</annotation></semantics></math> the current is 3.8 A. Find the emf and the internal resistance of the battery.</p>
+<p>A battery is connected in series with a rheostat and an ammeter. When the resistance of the resistor is 10 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi mathvariant="normal">Ω<!-- Ω --></mi>
+<annotation encoding="math/tex">\Omega</annotation></semantics></math> the current is 2.0 A. When the resistance is 5 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mi mathvariant="normal">Ω<!-- Ω --></mi>
+<annotation encoding="math/tex">\Omega</annotation></semantics></math> the current is 3.8 A. Find the emf and the internal resistance of the battery.</p>
 
-</div><div class="solution"/></div><div class="exercise" data-class="entry">
-<div class="problem">
+</div><div class="solution"></div></div><div class="exercise" data-class="entry">
+<div class="problem" id="5f3901c8-8ce4-7e4c-a6b8-a168b511b811">
 
 <p>When a cell is connected directly across a high resistance voltmeter the reading is 
 1.50 V. When the cell is shorted through a low resistance ammeter the current is 2.5 A. What is the emf and internal resistance of the cell?</p>
 
-</div><div class="solution"/></div></div></body>
+</div><div class="solution"></div></div></div></body>
 </html>
