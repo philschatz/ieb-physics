@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head><title>01 Vectors</title></head>
   <body><h1>Vectors</h1>
-<div class="teachers-guide" data-unknown="true">
+<div class="teachers-guide" data-unknown="true"><div class="title"></div>
 
 
 
@@ -20,7 +20,7 @@ as the original vectors acting together
 </li><li>
  Determine two perpendicular components of any vector (e.g. force at
 an angle, weight on an inclined plane)
-</li></ul></div><h2>Section title</h2><p><br></p><div class="note"><span class="title">Title</span><p>Some text and some math <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+</li></ul><figcaption></figcaption></div><h2>Section title</h2><p><br></p><div class="note"><span class="title">Title</span><p>Some text and some math <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mi>m</mi>
   <mi>a</mi>
   <mi>t</mi>
