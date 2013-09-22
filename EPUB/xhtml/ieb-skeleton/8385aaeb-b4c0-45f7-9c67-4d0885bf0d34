@@ -184,8 +184,11 @@ Diagram needed
 </p><p>
 Type 2: Ball has less inertia than surrounding liquid
 </p><p>
-Diagram needed
-</p>
+Diagram needed</p><div class="exercise">
+            <div class="problem" id="33bcdfdd-5a52-54e3-d484-91b7951657fc">Does this turn into the wrong thing on save and reload?</div>
+        <div class="solution">
+<p>I sure hope not.</p></div></div><p>
+<br></p>
 <div class="exercise">            
         <div class="problem" id="e4f43258-af82-1c4c-6efa-06ef560f2d64">If an object is at rest, can you conclude that there are no forces acting on it? (draw an appropriate free-body diagram)</div>
       </div>
