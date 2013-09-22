@@ -34,8 +34,8 @@
   <mi>m</mi>
 <annotation encoding="math/tex">m</annotation></semantics></math> is the mass of the object measured in kilograms (kg)</p><p class="" style=""><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <mi>g</mi>
-<annotation encoding="math/tex">g</annotation></semantics></math> is the acceleration due to gravity. On the surface of the Earth it has a&nbsp;value of approximately 9,8 m.s<sup>-2</sup></p><p class="">NOTE: Mass and Weight are different concepts and must not be confused.</p><p class=""></p><table id="a41b8b41-906a-b955-451c-b1bfd3ccfe7c"><caption>Table 1</caption><tbody><tr class=""><th class="">&nbsp;Mass</th><th class="">&nbsp;Weight</th></tr><tr class=""><td class="">&nbsp;Is a property of the object and is a measure of the amount of matter in an object</td><td class="">&nbsp;Is a measure of the force of attraction between the Earth and an object on or near the surface of the Earth</td></tr><tr class=""><td class="">&nbsp;Scalar quantity (Unit: kg)</td><td class="">&nbsp;Vector quantity (Unit: N)</td></tr><tr class=""><td class="">&nbsp;Constant throughout the universe</td><td class="">&nbsp;Changes depending on the situation</td></tr></tbody></table><h3>Normal Force</h3><p class="">The normal force (or N) is defined at the perpendicular force exerted by a surface on an object in contact with it.</p><p class="">Eg. If you place a book on a table, the table exerts an upward force on the book. If you tilt the table, the table still exerts a force perpendicular to the surface on the book. In both cases, the force is perpendicular to the surface.</p><p></p><p class=""></p><div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="_plone_ignore_/cache/pspictures/28e794a7fde4f13daf2f83a8c22fcec2.png"/><pre class="pspicture">&lt;code&gt;
-(-1.5,-2.5)(3.5,1.5)
+<annotation encoding="math/tex">g</annotation></semantics></math> is the acceleration due to gravity. On the surface of the Earth it has a&nbsp;value of approximately 9,8 m.s<sup>-2</sup></p><p class="">NOTE: Mass and Weight are different concepts and must not be confused.</p><p class=""></p><table id="a41b8b41-906a-b955-451c-b1bfd3ccfe7c"><caption>Table 1</caption><tbody><tr class=""><th class="">&nbsp;Mass</th><th class="">&nbsp;Weight</th></tr><tr class=""><td class="">&nbsp;Is a property of the object and is a measure of the amount of matter in an object</td><td class="">&nbsp;Is a measure of the force of attraction between the Earth and an object on or near the surface of the Earth</td></tr><tr class=""><td class="">&nbsp;Scalar quantity (Unit: kg)</td><td class="">&nbsp;Vector quantity (Unit: N)</td></tr><tr class=""><td class="">&nbsp;Constant throughout the universe</td><td class="">&nbsp;Changes depending on the situation</td></tr></tbody></table><h3>Normal Force</h3><p class="">The normal force (or N) is defined at the perpendicular force exerted by a surface on an object in contact with it.</p><p class="">Eg. If you place a book on a table, the table exerts an upward force on the book. If you tilt the table, the table still exerts a force perpendicular to the surface on the book. In both cases, the force is perpendicular to the surface.</p><p class=""></p><p class=""></p><figure class="figure" title=""><div class="title"></div><div class="alternates"><img draggable="false" src="../physics-11/_plone_ignore_/cache/pspictures/1f833593845dd4d1f56ea2e14d6eb99e.png"/><pre class="pspicture">&lt;code&gt;
+(-1.5,-2.5)(3.5,2)
 \pscircle(-0.5,0.9){0.4}
 \psline(-0.5,0.5)(-0.5,-1)
 \psline(0,0)(-1,0)
@@ -45,10 +45,8 @@
 \psline(0.5,-0.4)(3,-0.4)
 \psline(0.7,-0.4)(0.7,-2)
 \psline(2.8,-0.4)(2.8,-2)
-\psframe[](1,-0.4)(2,-0.2)
-\psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.5)
-\rput[l](1.6,.2){\color{purple}$\vec{N}$}
-            &lt;/code&gt;</pre><figcaption></figcaption></div><p class=""></p><div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="_plone_ignore_/cache/pspictures/dd900917b9dc2ae75e78f3830752e3ca.png"/><pre class="pspicture">&lt;code&gt;
+\psframe(1,-0.4)(2,-0.2)
+            &lt;/code&gt;</pre></div><figcaption></figcaption></figure><p class=""></p><div class="alternates" data-unknown="true"><div class="title"></div><img draggable="false" src="../physics-11/_plone_ignore_/cache/pspictures/dd900917b9dc2ae75e78f3830752e3ca.png"/><pre class="pspicture">&lt;code&gt;
 (-1.5,-2.5)(3.5,1.5)
 \pscircle(-0.5,0.9){0.4}
 \psline(-0.5,0.5)(-0.5,-1)
@@ -63,7 +61,7 @@
 \psframe[linecolor=red](1,-0.4)(2,-0.2)
 \psline[linecolor=purple]{-&amp;gt;}(1.5,-.4)(1.5,0.3)
 \rput[l](1.6,.2){\color{purple}$\vec{N}$}}
-            &lt;/code&gt;</pre><figcaption></figcaption></div><p class="">The origin of the word normal is due to mathematicians. Mathematicians call a line that is perpendicular to a surface a normal to the surface.</p><h3>Frictional Force</h3><p class="" style="">The frictional force (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+            &lt;/code&gt;</pre><figcaption></figcaption></div><p class="" style=""><br style=""></p><p></p><p class=""></p><p class="">The origin of the word normal is due to mathematicians. Mathematicians call a line that is perpendicular to a surface a normal to the surface.</p><h3>Frictional Force</h3><p class="" style="">The frictional force (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
   <msub>
     <mi>F</mi>
     <mi>f</mi>
