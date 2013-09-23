@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>undefined</head>
   <body><dl class="definition"><dt>New term</dt><dd><p>Stuff here</p></dd></dl>
-   <figure class="figure">
+   <figure class="figure" title=""><div class="title"></div>
       <div class="alternates">
-        <img src="_plone_ignore_/cache/pspictures/91a8eccc1a9b9c98cd36561afeb3e758.png"/><pre class="pspicture">&lt;code&gt;
+        <img draggable="false" src="_plone_ignore_/cache/pspictures/91a8eccc1a9b9c98cd36561afeb3e758.png"/><pre class="pspicture">&lt;code&gt;
           (-2,-.5)(11.5,5.5)
           %\psgrid
           \def\magfieldF{\multirput(0,0)(0.25,0){9}{\psline{}{1}{0}{30}}}
