@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>undefined</head>
-  <body><dl class="definition"><dt>New term</dt><dd><p>Stuff here</p></dd></dl>
+  <body><dl class="definition"><dt>New term</dt><dd><p>Stuff here</p><p><br></p></dd></dl>
    <figure class="figure" title=""><div class="title"></div>
       <div class="alternates">
         <img draggable="false" src="_plone_ignore_/cache/pspictures/91a8eccc1a9b9c98cd36561afeb3e758.png"/><pre class="pspicture">&lt;code&gt;
