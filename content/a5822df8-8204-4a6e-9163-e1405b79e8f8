@@ -2,47 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>undefined</head>
   <body><dl class="definition"><dt>New term</dt><dd><p>Stuff here</p><p><br></p></dd></dl>
-   <figure class="figure" title=""><div class="title"></div>
-      <div class="alternates">
-        <img draggable="false" src="_plone_ignore_/cache/pspictures/91a8eccc1a9b9c98cd36561afeb3e758.png"/><pre class="pspicture">&lt;code&gt;
-          (-2,-.5)(11.5,5.5)
-          %\psgrid
-          \def\magfieldF{\multirput(0,0)(0.25,0){9}{\psline{}{1}{0}{30}}}
-          \rput(0,3){\magfieldF\rput{0}(1,1){\frontview}}
-          \rput(0,0){\magfieldT\pscircle[linewidth=0.1cm](1,1){1}}
-          
-          \rput(3,0)
-          {
-          \rput(0,3){\magfieldF\rput{45}(1,1){\frontview}}
-          \rput(0,0){\magfieldT\psellipse[linewidth=0.1cm](1,1)(0.5,1)}
-          }
-          
-          \rput(6,0)
-          {
-          \rput(0,3){\magfieldF\rput{90}(1,1){\frontview}}
-          \rput(0,0){\magfieldT\rput(1,1){\psline[linewidth=0.1cm](1;270)(1;90)}}
-          }
-          
-          \rput(9,0)
-          {
-          \rput(0,3){\magfieldF\rput{135}(1,1){\frontview}}
-          \rput(0,0){\magfieldT\psellipse[linewidth=0.1cm](1,1)(0.5,1)}
-          }
-          
-          \uput[l](0,1){top view}
-          \uput[l](0,4){front view}
-          \rput(1,2.5){(a)}
-          \rput(4,2.5){(b)}
-          \rput(7,2.5){(c)}
-          \rput(10,2.5){(d)}
-          
-          &lt;/code&gt;
-        </pre>
-      </div>
-      <figcaption class="caption">
-        <p>Series of figures showing that the magnetic flux through a conductor is dependent on the angle that the plane of the conductor makes with the magnetic field. The greatest flux passes through the conductor when the plane of the conductor is perpendicular to the magnetic field lines as in (a). The number of field lines passing through the conductor decreases, as the conductor rotates until it is parallel to the magnetic field (c).</p>
-        
-      </figcaption>
-    </figure>
+  
   <div class="mystery-class" data-unknown="true"><div class="title"></div>Some mysterious content in a div.<figcaption></figcaption></div><figure class="figure" title=""><div class="title"></div><img draggable="false" alt="" class="aloha-image-uploading" src="../resources/5ddd97c36fbe303f4a7bb73dcff6d79df45663a9.png"/><figcaption></figcaption></figure></body>
 </html>
