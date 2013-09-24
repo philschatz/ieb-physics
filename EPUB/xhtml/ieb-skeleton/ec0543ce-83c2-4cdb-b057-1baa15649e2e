@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head><title>01 Vectors</title></head>
   <body><h1>Vectors</h1>
-<div class="teachers-guide" data-unknown="true"><div class="title"></div>
+<dl class="definition"><dt></dt><dd></dd></dl><div class="teachers-guide" data-unknown="true"><div class="title" id="5c4b33e9-522d-2525-6cf2-2465dff912cf"></div>
 
 
 
-<p>Notes</p><p>The following topics are covered in this chapter.</p><ul data-class="ListBulleted"><li>
+<p>Notes</p><figure class="figure" title=""><div class="title"></div><img draggable="false" src="../../../resources/bb8e6effb0e1b738cb6e57c9e1741aca79827c87.png" alt="Description" class="aloha-image-uploading"/><figcaption></figcaption></figure><p>The following topics are covered in this chapter.</p><p></p><p><br></p><ul data-class="ListBulleted"><li>
 Define a vector as a physical quantity that has both magnitude and
 direction and give examples
 </li><li>
@@ -20,7 +20,7 @@ as the original vectors acting together
 </li><li>
  Determine two perpendicular components of any vector (e.g. force at
 an angle, weight on an inclined plane)
-</li></ul><figcaption></figcaption></div><h2>Section title</h2><p><br></p><div class="note"><span class="title">Title</span><p>Some text and some math <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
+</li></ul><figcaption></figcaption></div><dl class="definition"><dt></dt><dd></dd></dl><h2>Section title</h2><p><br></p><div class="note"><span class="title">Title</span><p>Some text and some math <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow>
   <mi>m</mi>
   <mi>a</mi>
   <mi>t</mi>
