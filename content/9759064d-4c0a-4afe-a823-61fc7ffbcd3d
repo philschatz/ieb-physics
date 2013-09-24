@@ -6,7 +6,9 @@
     <div class="problemset">
         <div class="problemset">
             <div class="header" id="fa5ccd03-c190-6782-89c7-141b1df75273">
-                <p>An electrolytic cell consists of two electrodes in a silver chloride (\(\text{AgCl}\)) solution, connected to a source of current. A current is passed through the solution and \(\text{Ag}^{+}\) ions are reduced to a silver metal deposit on one of the electrodes.</p>
+                <p>An electrolytic cell consists of two electrodes in a silver chloride (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics>
+  <mtext>AgCl</mtext>
+<annotation encoding="math/tex">\text{AgCl}</annotation></semantics></math>) solution, connected to a source of current. A current is passed through the solution and ions are reduced to a silver metal deposit on one of the electrodes.</p>
             </div>
             <div class="exercise" data-class="entry">
                 <div class="problem" id="ffd6283b-779f-01ef-a901-65da91a81db0">
