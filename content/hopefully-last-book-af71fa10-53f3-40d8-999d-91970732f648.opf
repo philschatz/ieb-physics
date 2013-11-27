@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifer="uid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uid"/>
+    <dc:title>Hopefully Last book</dc:title>
+  </metadata>
+  <manifest><item href="hopefully-last-book-fb93d370-8dcf-4126-97f2-f4436575cd4c-nav.html" id="hopefully-last-book-fb93d370-8dcf-4126-97f2-f4436575cd4c-nav.html" media-type="application/xhtml+xml" properties="nav"/><item href="module1-910a8177-9a13-42b6-83ee-16c38471195e.html" id="module1-910a8177-9a13-42b6-83ee-16c38471195e.html" media-type="application/xhtml+xml"/></manifest>
+  <spine/>
+</package>
