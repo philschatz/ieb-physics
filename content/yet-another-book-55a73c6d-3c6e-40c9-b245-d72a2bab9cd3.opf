@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifer="uid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uid"/>
+    <dc:title>Yet another book</dc:title>
+  </metadata>
+  <manifest><item href="yet-another-book-1c687c5f-f32f-4e32-8704-6e32100ac5ea-nav.html" id="yet-another-book-1c687c5f-f32f-4e32-8704-6e32100ac5ea-nav.html" media-type="application/xhtml+xml" properties="nav"/><item href="module1-16a9e53e-8dd9-45d2-9221-a04f229a114f.html" id="module1-16a9e53e-8dd9-45d2-9221-a04f229a114f.html" media-type="application/xhtml+xml"/></manifest>
+  <spine/>
+</package>
