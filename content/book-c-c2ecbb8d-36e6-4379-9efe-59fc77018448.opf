@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifer="uid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uid"/>
+    <dc:title>Book C</dc:title>
+  </metadata>
+  <manifest><item href="book-c-3f6799d7-f79c-480b-81df-a7c66c8a71fa-nav.html" id="book-c-3f6799d7-f79c-480b-81df-a7c66c8a71fa-nav.html" media-type="application/xhtml+xml" properties="nav"/><item href="module1-8a7e1509-0f36-48c4-b482-7ea04e0f061d.html" id="module1-8a7e1509-0f36-48c4-b482-7ea04e0f061d.html" media-type="application/xhtml+xml"/></manifest>
+  <spine/>
+</package>
